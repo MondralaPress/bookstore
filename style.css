@@ -14,7 +14,10 @@ header {
   grid-template-columns: 1fr auto auto;
   align-items: center;
   gap: 22px;
-  padding: 24px clamp(160px, 16vw, 360px);
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 24px 40px;
+  box-sizing: border-box;
   border-bottom: 1px solid #e5e2dc;
 }
 
@@ -62,7 +65,10 @@ nav a:hover { text-decoration: underline; }
 
 .hero {
   text-align: center;
-  padding: 90px clamp(40px, 6vw, 80px) 55px;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 90px 40px 55px;
+  box-sizing: border-box;
 }
 
 .hero h1 {
@@ -78,12 +84,10 @@ nav a:hover { text-decoration: underline; }
 }
 
 .shelves-root {
-  padding: 10px clamp(160px, 16vw, 360px) 80px;
-}
-
-.shelf-section {
-  padding: 36px 0 10px;
-  border-top: 1px solid #e5e2dc;
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 10px 40px 80px;
+  box-sizing: border-box;
 }
 
 .shelf-head {
