@@ -14,7 +14,7 @@ header {
   grid-template-columns: 1fr auto auto;
   align-items: center;
   gap: 22px;
-  padding: 24px clamp(60px, 8vw, 160px);
+  padding: 24px clamp(90px, 10vw, 220px);
   border-bottom: 1px solid #e5e2dc;
 }
 
@@ -62,7 +62,7 @@ nav a:hover { text-decoration: underline; }
 
 .hero {
   text-align: center;
-  padding: 90px 20px 55px;
+  padding: 90px clamp(40px, 6vw, 80px) 55px;
 }
 
 .hero h1 {
@@ -78,7 +78,7 @@ nav a:hover { text-decoration: underline; }
 }
 
 .shelves-root {
-  padding: 10px clamp(60px, 8vw, 160px) 80px;
+  padding: 10px clamp(90px, 10vw, 220px) 80px;
 }
 
 .shelf-section {
@@ -225,6 +225,16 @@ nav a:hover { text-decoration: underline; }
 
 /* 3 visible */
 @media (max-width: 1100px) {
+  header {
+    padding-left: clamp(40px, 6vw, 80px);
+    padding-right: clamp(40px, 6vw, 80px);
+  }
+
+  .shelves-root {
+    padding-left: clamp(40px, 6vw, 80px);
+    padding-right: clamp(40px, 6vw, 80px);
+  }
+
   .row-carousel {
     grid-auto-columns: calc((100% - (var(--gap) * 2)) / 3);
   }
