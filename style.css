@@ -231,8 +231,8 @@ nav a:hover { text-decoration: underline; }
   }
 
   .shelves-root {
-    padding-left: clamp(40px, 6vw, 80px);
-    padding-right: clamp(40px, 6vw, 80px);
+    padding-left: clamp(60px, 7vw, 120px);
+    padding-right: clamp(60px, 7vw, 120px);
   }
 
   .row-carousel {
