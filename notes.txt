@@ -1,0 +1,10 @@
+I want some of my books to appear on several shelves. this probably means we need to hard code the subtitles of each shelf on the index page; then in the catalog make "shelf" a filed that 
+
+
+print catalog.json:  python make_catalog_json.py
+
+set up to run as website: python -m http.server 8000
+run as website: python -m http.server 8000
+
+reload: control + shift + r
+
