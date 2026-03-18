@@ -137,9 +137,30 @@ nav a:hover { text-decoration: underline; }
   -webkit-overflow-scrolling: touch;
 }
 
-.row-carousel::-webkit-scrollbar { height: 8px; }
-.row-carousel::-webkit-scrollbar-thumb { background: rgba(0,0,0,0.15); border-radius: 8px; }
-.row-carousel::-webkit-scrollbar-track { background: transparent; }
+.row-carousel {
+  --gap: 24px;
+
+  display: grid;
+  grid-auto-flow: column;
+  gap: var(--gap);
+
+  grid-auto-columns: calc((100% - (var(--gap) * 3)) / 4);
+
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: none;
+
+  padding: 6px 6px 14px;
+  border-radius: 6px;
+  -webkit-overflow-scrolling: touch;
+
+  scrollbar-width: none;      /* Firefox */
+  -ms-overflow-style: none;   /* old Edge/IE */
+}
+
+.row-carousel::-webkit-scrollbar {
+  display: none;              /* Chrome, Edge, Safari */
+}
 
 .carousel-btn {
   width: 36px;
