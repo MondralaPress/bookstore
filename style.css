@@ -14,7 +14,7 @@ header {
   grid-template-columns: 1fr auto auto;
   align-items: center;
   gap: 22px;
-  padding: 24px clamp(90px, 10vw, 220px);
+  padding: 24px clamp(110px, 12vw, 2260px);
   border-bottom: 1px solid #e5e2dc;
 }
 
@@ -78,7 +78,7 @@ nav a:hover { text-decoration: underline; }
 }
 
 .shelves-root {
-  padding: 10px clamp(90px, 10vw, 220px) 80px;
+  padding: 10px clamp(110px, 12vw, 260px) 80px;
 }
 
 .shelf-section {
