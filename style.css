@@ -14,7 +14,7 @@ header {
   grid-template-columns: 1fr auto auto;
   align-items: center;
   gap: 22px;
-  padding: 24px clamp(110px, 12vw, 2260px);
+  padding: 24px clamp(110px, 12vw, 260px);
   border-bottom: 1px solid #e5e2dc;
 }
 
