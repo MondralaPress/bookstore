@@ -22,8 +22,11 @@ header {
 }
 
 .top-banner {
+  .top-banner {
+  display: block;
   width: 100%;
-  background-color: #243FA1;
+  box-sizing: border-box;
+  background-color: #0b2a4a;
   color: #ffffff;
   text-align: center;
   font-size: 13px;
