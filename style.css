@@ -27,7 +27,8 @@ header {
   color: #ffffff;
   text-align: center;
   font-size: 13px;
-  padding: 8px 24px;
+  padding: 8px 40px;
+  line-height: 1.4;
   letter-spacing: 0.3px;
   text-transform: none;
   font-family: Arial, Helvetica, sans-serif;
