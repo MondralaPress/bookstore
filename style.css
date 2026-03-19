@@ -30,7 +30,10 @@ header {
   padding: 6px 10px;
   letter-spacing: 0.5px;
   text-transform: uppercase;
+  position: relative;
+  z-index: 1000;
 }
+
 .site-title {
   font-size: 20px;
   letter-spacing: 1px;
