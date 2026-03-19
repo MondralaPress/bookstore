@@ -9,8 +9,9 @@
 
 <body>
   <div class="top-banner">
-  Spend $75 or more and get free shipping in the US, UK and EU.
-</div>
+    Spend $75 or more and get free shipping in the US, UK and EU.
+  </div>
+
   <header>
     <div class="site-title">The Polish Atheneum</div>
 
@@ -18,8 +19,13 @@
       <a href="#">Shelves</a>
       <a href="#">Essays</a>
       <a href="#">About</a>
-    </nav>
 
+      <select id="currency-selector" aria-label="Select currency">
+        <option value="EUR">EUR</option>
+        <option value="USD">USD</option>
+        <option value="GBP">GBP</option>
+      </select>
+    </nav>
   </header>
 
   <section class="hero">
@@ -71,9 +77,10 @@
     }
 
     function applyCurrencyUI(cur) {
-      document.querySelectorAll(".currency-btn").forEach(btn => {
-        btn.classList.toggle("active", btn.dataset.cur === cur);
-      });
+      const selector = document.getElementById("currency-selector");
+      if (selector) {
+        selector.value = cur;
+      }
 
       document.querySelectorAll(".price").forEach(el => {
         const eur = el.getAttribute("data-price-eur") || "";
@@ -201,13 +208,14 @@
       });
     }
 
-    function wireCurrencyToggle() {
-      document.querySelectorAll(".currency-btn").forEach(btn => {
-        btn.addEventListener("click", () => {
-          const cur = btn.dataset.cur;
-          setCurrency(cur);
-          applyCurrencyUI(cur);
-        });
+    function wireCurrencySelector() {
+      const selector = document.getElementById("currency-selector");
+      if (!selector) return;
+
+      selector.addEventListener("change", () => {
+        const cur = selector.value;
+        setCurrency(cur);
+        applyCurrencyUI(cur);
       });
     }
 
@@ -237,7 +245,7 @@
 
         root.innerHTML = parts.join("");
         wireCarouselButtons();
-        wireCurrencyToggle();
+        wireCurrencySelector();
         applyCurrencyUI(cur);
       } catch (e) {
         console.error(e);
@@ -245,25 +253,5 @@
       }
     })();
   </script>
-
-  <script>
-  const selector = document.getElementById("currency-selector");
-
-  // Load saved preference
-  const savedCurrency = localStorage.getItem("currency");
-  if (savedCurrency) {
-    selector.value = savedCurrency;
-  }
-
-  // Save on change
-  selector.addEventListener("change", function () {
-    const currency = this.value;
-    localStorage.setItem("currency", currency);
-
-    // For now: reload page (later we can dynamically update prices)
-    location.reload();
-  });
-</script>
-  
 </body>
 </html>
