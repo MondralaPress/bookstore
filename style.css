@@ -301,6 +301,13 @@ footer {
     gap: 12px;
   }
 
+  @media (max-width: 600px) {
+  .top-banner {
+    padding: 8px 24px;
+    line-height: 1.4;
+  }
+}
+  
   nav { gap: 18px; }
 
   .hero { padding: 60px 18px 35px; }
