@@ -298,8 +298,8 @@ footer {
   .carousel-btn { display: none; }
 
   .row-carousel {
-    --gap: 18px;
-    grid-auto-columns: 85%;
+    --gap: 12px;
     gap: var(--gap);
+    grid-auto-columns: calc((100% - var(--gap)) / 2);
   }
 }
