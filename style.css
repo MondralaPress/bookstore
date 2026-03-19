@@ -21,6 +21,16 @@ header {
   border-bottom: 1px solid #e5e2dc;
 }
 
+.top-banner {
+  width: 100%;
+  background-color: #0b2a4a;
+  color: #ffffff;
+  text-align: center;
+  font-size: 13px;
+  padding: 6px 10px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
 .site-title {
   font-size: 20px;
   letter-spacing: 1px;
