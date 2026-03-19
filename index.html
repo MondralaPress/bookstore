@@ -20,11 +20,16 @@
       <a href="#">About</a>
     </nav>
 
-    <div class="currency-toggle" aria-label="Currency selector">
-      <button type="button" class="currency-btn" data-cur="EUR">EUR</button>
-      <button type="button" class="currency-btn" data-cur="USD">USD</button>
-      <button type="button" class="currency-btn" data-cur="GBP">GBP</button>
-    </div>
+#currency-selector {
+  background: transparent;
+  border: 1px solid #ccc;
+  padding: 6px 10px;
+  font-size: 14px;
+  border-radius: 6px;
+  color: inherit;
+  cursor: pointer;
+}
+    
   </header>
 
   <section class="hero">
@@ -250,5 +255,25 @@
       }
     })();
   </script>
+
+  <script>
+  const selector = document.getElementById("currency-selector");
+
+  // Load saved preference
+  const savedCurrency = localStorage.getItem("currency");
+  if (savedCurrency) {
+    selector.value = savedCurrency;
+  }
+
+  // Save on change
+  selector.addEventListener("change", function () {
+    const currency = this.value;
+    localStorage.setItem("currency", currency);
+
+    // For now: reload page (later we can dynamically update prices)
+    location.reload();
+  });
+</script>
+  
 </body>
 </html>
