@@ -616,14 +616,23 @@
         "price_eur": 24,
         "price_gbp": 20,
         "isbn": "97899987916710"
+      },
+      {
+        "format": "Paperback",
+        "price_usd": 17,
+        "price_eur": 16,
+        "price_gbp": 15,
+        "isbn": "97899987916640"
       }
     ],
     "praise": [
       {
-        "quote": "The best historical adventure series of the interwar period"
+        "quote": "The best historical adventure series of the interwar period",
+        "source": "Czesław Miłosz, Literature Nobel Prize 1980"
       },
       {
-        "quote": "This is literature how it should be written regardless of genre! I absolutely love it!"
+        "quote": "This is literature how it should be written regardless of genre! I absolutely love it!",
+        "source": "Michelle Jacqueline Miller, author of Fire in Erebus"
       }
     ]
   },
