@@ -1,927 +1,1152 @@
 [
   {
     "id": "chopin-in-paris",
-    "shelves": "Polish History; Books in Focus",
-    "shelf_order": 100,
     "title": "Chopin In Paris: The Life And Times Of The Romantic Composer",
     "author": "Tad Szulc",
-    "format_1": "Hardcover",
-    "isbn": "9780684812199",
-    "format_2": "Paperback",
-    "price_usd": 15.0,
-    "price_eur.1": 18.0,
-    "price_gbp.1": 15.0,
-    "isbn.1": 9780306809330.0,
-    "format_3": "Ebook",
-    "price_usd.1": 15.0,
-    "price_eur.2": 18.0,
-    "price_gbp.2": 15.0,
     "cover": "covers/ChopinInParis.jpg",
-    "supplier.3": "ingram",
+    "shelves": [
+      "Polish History",
+      "Books in Focus"
+    ],
+    "language_original": "English",
     "featured": "yes",
-    "active": "yes",
-    "language_original": "English"
+    "shelf_order": 100,
+    "editions": [
+      {
+        "format": "Hardcover",
+        "isbn": "97806848121990"
+      },
+      {
+        "format": "Paperback",
+        "price_usd": 15,
+        "price_eur": 18,
+        "price_gbp": 15,
+        "isbn": "97803068093300"
+      },
+      {
+        "format": "Ebook",
+        "price_usd": 15,
+        "price_eur": 18,
+        "price_gbp": 15
+      }
+    ]
   },
   {
     "id": "peasant-prince",
-    "shelves": "Polish History",
-    "shelf_order": 200,
     "title": "The Peasant Prince: Thaddeus Kosciuszko and the Age of Revolution",
     "author": "Alex Strozynski",
-    "format_1": "Hardcover",
-    "isbn": "9780312625924",
-    "format_2": "Paperback",
-    "price_usd": 18.0,
-    "price_eur.1": 18.0,
-    "price_gbp.1": 15.0,
-    "isbn.1": 9780312625948.0,
-    "format_3": "Ebook",
-    "price_usd.1": 18.0,
-    "price_eur.2": 18.0,
-    "price_gbp.2": 15.0,
-    "isbn.2": 9781429964395.0,
     "cover": "covers/PeasantPrince.jpg",
-    "supplier.3": "ingram",
+    "shelves": [
+      "Polish History"
+    ],
+    "language_original": "English",
     "featured": "yes",
-    "active": "yes",
-    "language_original": "English"
+    "shelf_order": 200,
+    "editions": [
+      {
+        "format": "Hardcover",
+        "isbn": "97803126259240"
+      },
+      {
+        "format": "Paperback",
+        "price_usd": 18,
+        "price_eur": 18,
+        "price_gbp": 15,
+        "isbn": "97803126259480"
+      },
+      {
+        "format": "Ebook",
+        "price_usd": 18,
+        "price_eur": 18,
+        "price_gbp": 15,
+        "isbn": "97814299643950"
+      }
+    ]
   },
   {
     "id": "izabela-the-valiant",
-    "shelves": "Polish History",
-    "shelf_order": 300,
     "title": "Izabela the Valiant: The Story of an Indomitable Polish Princess",
     "author": "Adam Zamoyski",
-    "format_1": "Hardcover",
-    "isbn": "9780008411251",
-    "format_2": "Paperback",
-    "price_usd": 20.0,
-    "price_eur.1": 20.0,
-    "price_gbp.1": 16.0,
-    "isbn.1": 9780008521684.0,
-    "format_3": "Ebook",
-    "price_usd.1": 20.0,
-    "price_eur.2": 20.0,
-    "price_gbp.2": 16.0,
-    "isbn.2": 9780008411275.0,
     "cover": "covers/IzabelaTheValiant.jpg",
-    "supplier.3": "ingram",
+    "shelves": [
+      "Polish History"
+    ],
+    "language_original": "English",
     "featured": "yes",
-    "active": "yes",
-    "language_original": "English"
+    "shelf_order": 300,
+    "editions": [
+      {
+        "format": "Hardcover",
+        "isbn": "97800084112510"
+      },
+      {
+        "format": "Paperback",
+        "price_usd": 20,
+        "price_eur": 20,
+        "price_gbp": 16,
+        "isbn": "97800085216840"
+      },
+      {
+        "format": "Ebook",
+        "price_usd": 20,
+        "price_eur": 20,
+        "price_gbp": 16,
+        "isbn": "97800084112750"
+      }
+    ]
   },
   {
     "id": "light-and-flame",
-    "shelves": "Polish History",
-    "shelf_order": 400,
     "title": "The Polish-Lithuanian Commonwealth, 1733-1795: Light and Flame",
     "author": "Richard Butterwick",
-    "format_1": "Hardcover",
-    "unnamed:_9": 44.0,
-    "price_eur": 45.0,
-    "price_gbp": 38.0,
-    "isbn": "9780300252200",
-    "isbn.1": 9780300252217.0,
-    "format_3": "Ebook",
-    "price_usd.1": 44.0,
-    "price_eur.2": 45.0,
-    "price_gbp.2": 38.0,
-    "isbn.2": 9780300252224.0,
     "cover": "covers/LightAndFlame.jpg",
-    "supplier.3": "ingram",
+    "shelves": [
+      "Polish History"
+    ],
+    "language_original": "English",
     "featured": "yes",
-    "active": "yes",
-    "language_original": "English"
+    "shelf_order": 400,
+    "editions": [
+      {
+        "format": "Hardcover",
+        "price_usd": 44,
+        "price_eur": 45,
+        "price_gbp": 38,
+        "isbn": "97803002522000"
+      },
+      {
+        "format": "Ebook",
+        "price_usd": 44,
+        "price_eur": 45,
+        "price_gbp": 38,
+        "isbn": "97803002522240"
+      }
+    ]
   },
   {
     "id": "trail-of-hope",
-    "shelves": "Polish History",
-    "shelf_order": 500,
     "title": "Trail of Hope: The Anders Army, An Odyssey Across Three Continents",
     "author": "Norman Davies",
-    "format_1": "Hardcover",
-    "unnamed:_9": 58.0,
-    "price_eur": 52.0,
-    "price_gbp": 44.0,
-    "isbn": "9781472816030",
-    "isbn.1": 9781472816047.0,
-    "format_3": "Ebook",
-    "price_usd.1": 58.0,
-    "price_eur.2": 52.0,
-    "price_gbp.2": 44.0,
     "cover": "covers/TrailOfHope.jpg",
-    "supplier.3": "ingram",
+    "shelves": [
+      "Polish History"
+    ],
+    "language_original": "English",
     "featured": "yes",
-    "active": "yes",
-    "language_original": "English"
+    "shelf_order": 500,
+    "editions": [
+      {
+        "format": "Hardcover",
+        "price_usd": 93,
+        "price_eur": 52,
+        "price_gbp": 44,
+        "isbn": "97814728160300"
+      },
+      {
+        "format": "Ebook",
+        "price_usd": 58,
+        "price_eur": 52,
+        "price_gbp": 44,
+        "isbn": "97814728160540"
+      }
+    ]
   },
   {
     "id": "303-squadron",
-    "shelves": "Polish History",
-    "shelf_order": 600,
     "title": "303 Squadron: The Legendary Battle of Britain Fighter Squadron",
     "author": "Arkady Fiedler",
     "translator": "Jarek Garlinski",
-    "format_1": "Hardcover",
-    "isbn": "9781607720041",
-    "format_2": "Paperback",
-    "price_usd": 23.0,
-    "price_eur.1": 20.0,
-    "price_gbp.1": 18.0,
-    "isbn.1": 9781607720058.0,
-    "format_3": "Ebook",
-    "price_usd.1": 23.0,
-    "price_eur.2": 20.0,
-    "price_gbp.2": 18.0,
     "cover": "covers/303squadron.jpg",
-    "supplier.3": "ingram",
+    "shelves": [
+      "Polish History"
+    ],
+    "language_original": "Polish",
     "featured": "yes",
-    "active": "yes",
-    "language_original": "Polish"
+    "shelf_order": 600,
+    "editions": [
+      {
+        "format": "Hardcover",
+        "isbn": "97816077200410"
+      },
+      {
+        "format": "Paperback",
+        "price_usd": 23,
+        "price_eur": 20,
+        "price_gbp": 18,
+        "isbn": "97816077200580"
+      }
+    ]
   },
   {
     "id": "the-doll",
-    "shelves": "Classics",
-    "shelf_order": 150,
     "title": "The Doll",
     "author": "Bolesław Prus",
     "translator": "David Welsh",
-    "format_1": "Hardcover",
-    "format_2": "Paperback",
-    "price_usd": 18.0,
-    "price_eur.1": 16.0,
-    "price_gbp.1": 14.0,
-    "isbn.1": 9781590173831.0,
-    "format_3": "Ebook",
-    "price_usd.1": 18.0,
-    "price_eur.2": 16.0,
-    "price_gbp.2": 14.0,
-    "isbn.2": 9781590173848.0,
     "cover": "covers/the-doll.jpg",
+    "shelves": [
+      "Classics"
+    ],
+    "language_original": "Polish",
     "featured": "yes",
-    "active": "yes",
-    "language_original": "Polish"
+    "shelf_order": 150,
+    "editions": [
+      {
+        "format": "Paperback",
+        "price_usd": 18,
+        "price_eur": 16,
+        "price_gbp": 14,
+        "isbn": "97815901738310"
+      },
+      {
+        "format": "Ebook",
+        "price_usd": 18,
+        "price_eur": 16,
+        "price_gbp": 14,
+        "isbn": "97815901738480"
+      }
+    ]
   },
   {
     "id": "the-peasants",
-    "shelves": "Classics",
-    "shelf_order": 250,
     "title": "The Peasants",
     "author": "Władysław Reymont",
     "translator": "Anna Zaranko",
-    "format_1": "Hardcover",
-    "format_2": "Paperback",
-    "price_usd": 19.5,
-    "price_eur.1": 18.0,
-    "price_gbp.1": 17.0,
-    "isbn.1": 9780241524244.0,
-    "format_3": "Ebook",
-    "price_usd.1": 19.5,
-    "price_eur.2": 18.0,
-    "price_gbp.2": 17.0,
     "cover": "covers/the-peasants.jpg",
+    "shelves": [
+      "Classics"
+    ],
+    "language_original": "Polish",
     "featured": "yes",
-    "active": "yes",
-    "language_original": "Polish"
+    "shelf_order": 250,
+    "editions": [
+      {
+        "format": "Paperback",
+        "price_usd": 19.5,
+        "price_eur": 18,
+        "price_gbp": 17,
+        "isbn": "97802415242440"
+      }
+    ]
   },
   {
     "id": "pan-tadeusz",
-    "shelves": "Classics",
-    "shelf_order": 350,
     "title": "Pan Tadeusz: The Last Foray in Lithuania",
     "author": "Adam Mickiewicz",
     "translator": "Bill Johnston",
-    "format_1": "Hardcover",
-    "format_2": "Paperback",
-    "price_usd": 16.96,
-    "price_eur.1": 15.0,
-    "price_gbp.1": 13.0,
-    "isbn.1": 9781939810007.0,
-    "format_3": "Ebook",
-    "price_usd.1": 16.96,
-    "price_eur.2": 15.0,
-    "price_gbp.2": 13.0,
     "cover": "covers/pan-tadeusz.jpg",
+    "shelves": [
+      "Classics"
+    ],
+    "language_original": "Polish",
     "featured": "yes",
-    "active": "yes",
-    "language_original": "Polish"
+    "shelf_order": 350,
+    "editions": [
+      {
+        "format": "Paperback",
+        "price_usd": 16.96,
+        "price_eur": 15,
+        "price_gbp": 13,
+        "isbn": "97819398100070"
+      }
+    ]
   },
   {
     "id": "choucas",
-    "shelves": "Classics; Books in Focus",
-    "shelf_order": 450,
     "title": "Choucas",
     "author": "Zofia Nałkowska",
     "translator": "Ursula Philips",
-    "format_1": "Hardcover",
-    "format_2": "Paperback",
-    "price_usd": 20.0,
-    "price_eur.1": 19.0,
-    "price_gbp.1": 17.0,
-    "isbn.1": 9780875807072.0,
-    "format_3": "Ebook",
-    "price_usd.1": 20.0,
-    "price_eur.2": 19.0,
-    "price_gbp.2": 17.0,
     "cover": "covers/choucas.jpg",
+    "shelves": [
+      "Classics",
+      "Books in Focus"
+    ],
+    "language_original": "Polish",
     "featured": "yes",
-    "active": "yes",
-    "language_original": "Polish"
+    "shelf_order": 450,
+    "editions": [
+      {
+        "format": "Paperback",
+        "price_usd": 20,
+        "price_eur": 19,
+        "price_gbp": 17,
+        "isbn": "97808758070720"
+      }
+    ]
   },
   {
     "id": "desert-wilderness",
-    "shelves": "Classics",
-    "shelf_order": 550,
     "title": "In desert and wilderness",
     "author": "Henryk Sienkiewicz",
     "translator": "Andrew Anzur Clement",
-    "format_1": "Hardcover",
-    "unnamed:_9": 17.99,
-    "price_eur": 15.0,
-    "price_gbp": 13.0,
-    "isbn": "9798325216770",
-    "format_3": "Ebook",
-    "price_usd.1": 17.99,
-    "price_eur.2": 15.0,
-    "price_gbp.2": 13.0,
     "cover": "covers/desert-wilderness.jpg",
+    "shelves": [
+      "Classics"
+    ],
+    "language_original": "Polish",
     "featured": "yes",
-    "active": "yes",
-    "language_original": "Polish"
+    "shelf_order": 550,
+    "editions": [
+      {
+        "format": "Hardcover",
+        "price_usd": 17.99,
+        "price_eur": 15,
+        "price_gbp": 13,
+        "isbn": "97983252167700"
+      }
+    ]
   },
   {
     "id": "forest-folk",
-    "shelves": "Classics; Young Adult",
-    "shelf_order": 650,
     "title": "A Summer of the Forest Folk",
     "author": "Maria Rodziewiczówna",
     "translator": "Tom Pinch",
-    "publisher": "Mondrala Press",
-    "format_1": "Hardcover",
-    "publisher.1": "Mondrala Press",
-    "unnamed:_9": 24.0,
-    "isbn": "9789998791732",
-    "format_2": "Paperback",
-    "format_3": "Ebook",
-    "price_usd.1": 24.0,
     "cover": "covers/forest-folk.jpg",
-    "featured": "yes",
-    "active": "yes",
-    "language_original": "Polish",
     "series": "The Wonderful World of Maria Ro",
-    "series_number": 1.0
+    "series_number": 1,
+    "shelves": [
+      "Classics",
+      "Young Adult"
+    ],
+    "language_original": "Polish",
+    "featured": "yes",
+    "shelf_order": 650,
+    "editions": [
+      {
+        "format": "Hardcover",
+        "publisher": "Mondrala Press",
+        "price_usd": 24,
+        "isbn": "97899987917320"
+      }
+    ]
   },
   {
     "id": "castorp",
-    "shelves": "Books in Focus; Fiction",
-    "shelf_order": 100,
     "title": "Castorp",
     "author": "Pawel Huelle",
     "translator": "Antonia Lloyd-Jones",
-    "format_1": "Hardcover",
-    "unnamed:_9": 15.0,
-    "price_eur": 12.0,
-    "price_gbp": 10.0,
-    "format_2": "Paperback",
-    "price_usd": 15.0,
-    "price_eur.1": 12.0,
-    "price_gbp.1": 10.0,
-    "isbn.1": 9781852429454.0,
-    "format_3": "Ebook",
-    "price_usd.1": 15.0,
-    "price_eur.2": 12.0,
-    "price_gbp.2": 10.0,
     "cover": "covers/castorp.jpg",
+    "shelves": [
+      "Books in Focus",
+      "Fiction"
+    ],
+    "language_original": "Polish",
     "featured": "yes",
-    "active": "yes",
-    "language_original": "Polish"
+    "shelf_order": 100,
+    "editions": [
+      {
+        "format": "Paperback",
+        "price_usd": 15,
+        "price_eur": 12,
+        "price_gbp": 10,
+        "isbn": "97818524294540"
+      }
+    ]
   },
   {
     "id": "shah-of-shahs",
-    "shelves": "Non-fiction",
-    "shelf_order": 100,
     "title": "Shah of Shahs",
     "author": "Ryszard Kapuścinski",
-    "format_1": "Hardcover",
-    "unnamed:_9": 14.0,
-    "price_eur": 14.0,
-    "price_gbp": 12.0,
-    "format_2": "Paperback",
-    "price_usd": 14.0,
-    "price_eur.1": 14.0,
-    "price_gbp.1": 12.0,
-    "isbn.1": 9780679738015.0,
-    "format_3": "Ebook",
-    "price_usd.1": 14.0,
-    "price_eur.2": 14.0,
-    "price_gbp.2": 12.0,
     "cover": "covers/shah-of-shahs.jpg",
+    "shelves": [
+      "Non-fiction"
+    ],
+    "language_original": "Polish",
     "featured": "yes",
-    "active": "yes",
-    "language_original": "Polish"
+    "shelf_order": 100,
+    "editions": [
+      {
+        "format": "Paperback",
+        "price_usd": 14,
+        "price_eur": 14,
+        "price_gbp": 12,
+        "isbn": "97806797380150"
+      }
+    ]
   },
   {
     "id": "the-emperor",
-    "shelves": "Non-fiction",
-    "shelf_order": 400,
     "title": "The Emperor: Downfall of an Autocrat",
     "author": "Ryszard Kapuścinski",
-    "format_1": "Hardcover",
-    "unnamed:_9": 14.0,
-    "price_eur": 14.0,
-    "price_gbp": 12.0,
-    "format_2": "Paperback",
-    "price_usd": 14.0,
-    "price_eur.1": 14.0,
-    "price_gbp.1": 12.0,
-    "isbn.1": 9780141188034.0,
-    "format_3": "Ebook",
-    "price_usd.1": 14.0,
-    "price_eur.2": 14.0,
-    "price_gbp.2": 12.0,
     "cover": "covers/the-emperor.jpg",
+    "shelves": [
+      "Non-fiction"
+    ],
+    "language_original": "Polish",
     "featured": "yes",
-    "active": "yes",
-    "language_original": "Polish"
+    "shelf_order": 400,
+    "editions": [
+      {
+        "format": "Paperback",
+        "price_usd": 14,
+        "price_eur": 14,
+        "price_gbp": 12,
+        "isbn": "97801411880340"
+      }
+    ]
   },
   {
     "id": "another-day-of-life",
-    "shelves": "Books in Focus",
-    "shelf_order": 400,
     "title": "Another Day of Life",
     "author": "Ryszard Kapuścinski",
-    "format_1": "Hardcover",
-    "unnamed:_9": 13.0,
-    "price_eur": 12.0,
-    "price_gbp": 11.0,
-    "format_2": "Paperback",
-    "price_usd": 13.0,
-    "price_eur.1": 12.0,
-    "price_gbp.1": 11.0,
-    "isbn.1": 9780375726293.0,
-    "format_3": "Ebook",
-    "price_usd.1": 13.0,
-    "price_eur.2": 12.0,
-    "price_gbp.2": 11.0,
     "cover": "covers/another-day.jpg",
+    "shelves": [
+      "Books in Focus"
+    ],
+    "language_original": "Polish",
     "featured": "yes",
-    "active": "yes",
-    "language_original": "Polish"
+    "shelf_order": 400,
+    "editions": [
+      {
+        "format": "Paperback",
+        "price_usd": 13,
+        "price_eur": 12,
+        "price_gbp": 11,
+        "isbn": "97803757262930"
+      }
+    ]
   },
   {
     "id": "meeting-in-oea",
-    "shelves": "Non-fiction",
-    "shelf_order": 600,
     "title": "A Meeting in Oea",
     "author": "Aleksander Krawczuk",
     "translator": "Tom Pinch",
-    "publisher": "Mondrala Press",
-    "format_1": "Hardcover",
-    "publisher.1": "Mondrala Press",
-    "unnamed:_9": 25.0,
-    "price_eur": 24.0,
-    "price_gbp": 22.0,
-    "isbn": "9782919820382",
-    "format_2": "Paperback",
-    "price_usd": 25.0,
-    "price_eur.1": 24.0,
-    "price_gbp.1": 22.0,
-    "format_3": "Ebook",
-    "price_usd.1": 25.0,
-    "price_eur.2": 24.0,
-    "price_gbp.2": 22.0,
     "cover": "covers/meeting-in-oea.jpg",
+    "shelves": [
+      "Non-fiction"
+    ],
+    "language_original": "Polish",
     "featured": "yes",
-    "active": "yes",
-    "language_original": "Polish"
+    "shelf_order": 600,
+    "editions": [
+      {
+        "format": "Hardcover",
+        "publisher": "Mondrala Press",
+        "price_usd": 25,
+        "price_eur": 24,
+        "price_gbp": 22,
+        "isbn": "97829198203820"
+      }
+    ]
   },
   {
     "id": "seven-against-thebes",
-    "shelves": "Non-fiction",
-    "shelf_order": 800,
     "title": "Seven Against Thebes",
     "author": "Aleksander Krawczuk",
     "translator": "Tom Pinch",
-    "publisher": "Mondrala Press",
-    "format_1": "Hardcover",
-    "publisher.1": "Mondrala Press",
-    "unnamed:_9": 25.0,
-    "price_eur": 24.0,
-    "price_gbp": 20.0,
-    "isbn": "9789998793729",
-    "format_2": "Paperback",
-    "price_usd": 25.0,
-    "price_eur.1": 24.0,
-    "price_gbp.1": 20.0,
-    "format_3": "Ebook",
-    "price_usd.1": 25.0,
-    "price_eur.2": 24.0,
-    "price_gbp.2": 20.0,
     "cover": "covers/seven-against.jpg",
+    "shelves": [
+      "Non-fiction"
+    ],
+    "language_original": "Polish",
     "featured": "yes",
-    "active": "yes",
-    "language_original": "Polish"
+    "shelf_order": 800,
+    "editions": [
+      {
+        "format": "Hardcover",
+        "publisher": "Mondrala Press",
+        "price_usd": 25,
+        "price_eur": 24,
+        "price_gbp": 20,
+        "isbn": "97899987937290"
+      }
+    ]
   },
   {
     "id": "emperor-julian",
-    "shelves": "Non-fiction",
-    "shelf_order": 900,
     "title": "Emperor Julian",
     "author": "Aleksander Krawczuk",
     "translator": "Tom Pinch",
-    "publisher": "Mondrala Press",
-    "format_1": "Hardcover",
-    "publisher.1": "Mondrala Press",
-    "unnamed:_9": 27.0,
-    "price_eur": 25.0,
-    "price_gbp": 22.0,
-    "isbn": "9782919840052",
-    "format_2": "Paperback",
-    "price_usd": 27.0,
-    "price_eur.1": 25.0,
-    "price_gbp.1": 22.0,
-    "format_3": "Ebook",
-    "price_usd.1": 27.0,
-    "price_eur.2": 25.0,
-    "price_gbp.2": 22.0,
     "cover": "covers/emperor-julian.jpg",
+    "shelves": [
+      "Non-fiction"
+    ],
+    "language_original": "Polish",
     "featured": "yes",
-    "active": "yes",
-    "language_original": "Polish"
+    "shelf_order": 900,
+    "editions": [
+      {
+        "format": "Hardcover",
+        "publisher": "Mondrala Press",
+        "price_usd": 27,
+        "price_eur": 25,
+        "price_gbp": 22,
+        "isbn": "97829198400520"
+      }
+    ]
   },
   {
     "id": "last-olympiad",
-    "shelves": "Non-fiction",
-    "shelf_order": 1000,
     "title": "The Last Olympiad",
     "author": "Aleksander Krawczuk",
     "translator": "Tom Pinch",
-    "publisher": "Mondrala Press",
-    "format_1": "Hardcover",
-    "publisher.1": "Mondrala Press",
-    "unnamed:_9": 25.0,
-    "price_eur": 24.0,
-    "price_gbp": 20.0,
-    "isbn": "9782919820290",
-    "format_2": "Paperback",
-    "price_usd": 25.0,
-    "price_eur.1": 24.0,
-    "price_gbp.1": 20.0,
-    "format_3": "Ebook",
-    "price_usd.1": 25.0,
-    "price_eur.2": 24.0,
-    "price_gbp.2": 20.0,
     "cover": "covers/last-olympiad.jpg",
+    "shelves": [
+      "Non-fiction"
+    ],
+    "language_original": "Polish",
     "featured": "yes",
-    "active": "yes",
-    "language_original": "Polish"
+    "shelf_order": 1000,
+    "editions": [
+      {
+        "format": "Hardcover",
+        "publisher": "Mondrala Press",
+        "price_usd": 25,
+        "price_eur": 24,
+        "price_gbp": 20,
+        "isbn": "97829198202900"
+      }
+    ]
   },
   {
     "id": "solaris",
-    "shelves": "Fiction",
-    "shelf_order": 600,
     "title": "Solaris",
     "author": "Stanisław Lem",
     "translator": "Joanna Kilmartin",
-    "format_1": "Hardcover",
-    "unnamed:_9": 10.0,
-    "price_eur": 9.0,
-    "price_gbp": 8.0,
-    "format_2": "Paperback",
-    "price_usd": 10.0,
-    "price_eur.1": 9.0,
-    "price_gbp.1": 8.0,
-    "isbn.1": 9780156027601.0,
-    "format_3": "Ebook",
-    "price_usd.1": 10.0,
-    "price_eur.2": 9.0,
-    "price_gbp.2": 8.0,
     "cover": "covers/solaris.jpg",
+    "shelves": [
+      "Fiction"
+    ],
+    "language_original": "Polish",
     "featured": "yes",
-    "active": "yes",
-    "language_original": "Polish"
+    "shelf_order": 600,
+    "editions": [
+      {
+        "format": "Paperback",
+        "price_usd": 10,
+        "price_eur": 9,
+        "price_gbp": 8,
+        "isbn": "97801560276010"
+      }
+    ]
   },
   {
     "id": "fiasco",
-    "shelves": "Fiction",
-    "shelf_order": 200,
     "title": "Fiasco",
     "author": "Stanisław Lem",
     "translator": "Michael Kandel",
-    "format_1": "Hardcover",
-    "unnamed:_9": 17.0,
-    "price_eur": 15.0,
-    "price_gbp": 12.0,
-    "format_2": "Paperback",
-    "price_usd": 17.0,
-    "price_eur.1": 15.0,
-    "price_gbp.1": 12.0,
-    "isbn.1": 9780156306300.0,
-    "format_3": "Ebook",
-    "price_usd.1": 17.0,
-    "price_eur.2": 15.0,
-    "price_gbp.2": 12.0,
     "cover": "covers/fiasco.jpg",
+    "shelves": [
+      "Fiction"
+    ],
+    "language_original": "Polish",
     "featured": "yes",
-    "active": "yes",
-    "language_original": "Polish"
+    "shelf_order": 200,
+    "editions": [
+      {
+        "format": "Paperback",
+        "price_usd": 17,
+        "price_eur": 15,
+        "price_gbp": 12,
+        "isbn": "97801563063000"
+      }
+    ]
   },
   {
     "id": "the-invincible",
-    "shelves": "Fiction",
-    "shelf_order": 600,
     "title": "The Invincible",
     "author": "Stanisław Lem",
     "translator": "Bill Johnston",
-    "format_1": "Hardcover",
-    "unnamed:_9": 17.0,
-    "price_eur": 16.0,
-    "price_gbp": 13.0,
-    "format_2": "Paperback",
-    "price_usd": 17.0,
-    "price_eur.1": 16.0,
-    "price_gbp.1": 13.0,
-    "isbn.1": 9780262357685.0,
-    "format_3": "Ebook",
-    "price_usd.1": 17.0,
-    "price_eur.2": 16.0,
-    "price_gbp.2": 13.0,
     "cover": "covers/the-invincible.jpg",
+    "shelves": [
+      "Fiction"
+    ],
+    "language_original": "Polish",
     "featured": "yes",
-    "active": "yes",
-    "language_original": "Polish"
+    "shelf_order": 600,
+    "editions": [
+      {
+        "format": "Paperback",
+        "price_usd": 17,
+        "price_eur": 16,
+        "price_gbp": 13,
+        "isbn": "97802623576850"
+      }
+    ]
   },
   {
     "id": "chahary",
-    "shelves": "Fiction; Books in Focus",
-    "shelf_order": 100,
     "title": "Chahary",
     "author": "Maria Rodziewiczówna",
     "translator": "Tom Pinch",
-    "publisher": "Mondrala Press",
-    "format_1": "Hardcover",
-    "publisher.1": "Mondrala Press",
-    "unnamed:_9": 17.0,
-    "price_eur": 16.0,
-    "price_gbp": 15.0,
-    "format_2": "Paperback",
-    "price_usd": 17.0,
-    "price_eur.1": 16.0,
-    "price_gbp.1": 15.0,
-    "isbn.1": 9782919840106.0,
-    "format_3": "Ebook",
-    "price_usd.1": 17.0,
-    "price_eur.2": 16.0,
-    "price_gbp.2": 15.0,
     "cover": "covers/chahary.jpg",
-    "featured": "yes",
-    "active": "yes",
-    "language_original": "Polish",
     "series": "The Wonderful World of Maria Ro",
-    "series_number": 4.0
+    "series_number": 4,
+    "shelves": [
+      "Fiction",
+      "Books in Focus"
+    ],
+    "language_original": "Polish",
+    "featured": "yes",
+    "shelf_order": 100,
+    "editions": [
+      {
+        "format": "Paperback",
+        "price_usd": 17,
+        "price_eur": 16,
+        "price_gbp": 15,
+        "isbn": "97829198401060"
+      }
+    ]
   },
   {
     "id": "melicles",
-    "shelves": "Fiction; Young Adult",
-    "shelf_order": 100,
     "title": "Melicles the Greek",
     "author": "Witold Makowiecki",
     "translator": "Tom Pinch",
-    "publisher": "Mondrala Press",
-    "format_1": "Hardcover",
-    "publisher.1": "Mondrala Press",
-    "unnamed:_9": 24.0,
-    "price_eur": 24.0,
-    "price_gbp": 20.0,
-    "isbn": "9789998791671",
-    "format_2": "Paperback",
-    "price_usd": 24.0,
-    "price_eur.1": 24.0,
-    "price_gbp.1": 20.0,
-    "format_3": "Ebook",
-    "price_usd.1": 24.0,
-    "price_eur.2": 24.0,
-    "price_gbp.2": 20.0,
     "cover": "covers/melicles.jpg",
+    "shelves": [
+      "Fiction",
+      "Young Adult"
+    ],
+    "language_original": "Polish",
+    "description_long": "A European Best-seller classic, continuously in print since 1946, now for the first time in English.\n\n570 B.C.\n\nThey slip their jailors in Carthage and rush across the Mediterranean pursued by enemy agents and assassins: a mysterious oriental priest and his Greek apprentice.\n\nTheir mission: to prevent the outbreak of a civil war in Egypt.\n\nTheir opponents: the Great Phoenician Council and the entire state apparatus of Eternal Egypt.\n\nTheir resources: the old man's wit and the young man's courage.\n\nA classic tale of high adventure, full of white-knuckle twists and turns, engaging characters, and sparkling humor.\n\nA European best-seller since 1946 now beautifully translated into English.\n\nIf you liked The Treasure Island and The Three Musketeers, you will love this.\n\nGet whisked off into the exotic, exciting world of classical antiquity! Pick up your copy today!",
     "featured": "yes",
-    "active": "yes",
-    "language_original": "Polish"
+    "shelf_order": 100,
+    "editions": [
+      {
+        "format": "Hardcover",
+        "publisher": "Mondrala Press",
+        "price_usd": 24,
+        "price_eur": 24,
+        "price_gbp": 20,
+        "isbn": "97899987916710"
+      }
+    ]
   },
   {
     "id": "diossos",
-    "shelves": "Fiction; Young Adult",
-    "shelf_order": 600,
     "title": "Diossos the Corinthian",
     "author": "Witold Makowiecki",
     "translator": "Tom Pinch",
-    "publisher": "Mondrala Press",
-    "format_1": "Hardcover",
-    "publisher.1": "Mondrala Press",
-    "unnamed:_9": 24.0,
-    "price_eur": 24.0,
-    "price_gbp": 20.0,
-    "isbn": "9789998791794",
-    "format_2": "Paperback",
-    "price_usd": 24.0,
-    "price_eur.1": 24.0,
-    "price_gbp.1": 20.0,
-    "format_3": "Ebook",
-    "price_usd.1": 24.0,
-    "price_eur.2": 24.0,
-    "price_gbp.2": 20.0,
     "cover": "covers/diossos.jpg",
+    "shelves": [
+      "Fiction",
+      "Young Adult"
+    ],
+    "language_original": "Polish",
     "featured": "yes",
-    "active": "yes",
-    "language_original": "Polish"
+    "shelf_order": 600,
+    "editions": [
+      {
+        "format": "Hardcover",
+        "publisher": "Mondrala Press",
+        "price_usd": 24,
+        "price_eur": 24,
+        "price_gbp": 20,
+        "isbn": "97899987917940"
+      }
+    ]
   },
   {
     "id": "white-jaguar-1",
-    "shelves": "Fiction; Young Adult",
-    "shelf_order": 100,
     "title": "The White Jaguar",
     "author": "Arkady Fiedler",
     "translator": "Tom Pinch",
-    "publisher": "Mondrala Press",
-    "format_1": "Hardcover",
-    "publisher.1": "Mondrala Press",
-    "unnamed:_9": 21.0,
-    "price_eur": 20.0,
-    "price_gbp": 18.0,
-    "isbn": "9782919820481",
-    "format_2": "Paperback",
-    "price_usd": 21.0,
-    "price_eur.1": 20.0,
-    "price_gbp.1": 18.0,
-    "format_3": "Ebook",
-    "price_usd.1": 21.0,
-    "price_eur.2": 20.0,
-    "price_gbp.2": 18.0,
     "cover": "covers/white-jaguar-1.jpg",
-    "featured": "yes",
-    "active": "yes",
-    "language_original": "Polish",
     "series": "The White Jaguar",
-    "series_number": 1.0
+    "series_number": 1,
+    "shelves": [
+      "Fiction",
+      "Young Adult"
+    ],
+    "language_original": "Polish",
+    "featured": "yes",
+    "shelf_order": 100,
+    "editions": [
+      {
+        "format": "Hardcover",
+        "publisher": "Mondrala Press",
+        "price_usd": 21,
+        "price_eur": 20,
+        "price_gbp": 18,
+        "isbn": "97829198204810"
+      }
+    ]
   },
   {
     "id": "ships-minos-1",
-    "shelves": "Fiction; Young Adult",
-    "shelf_order": 200,
     "title": "The Ships of Minos",
     "author": "The Ships of Minos",
     "translator": "Tom Pinch",
-    "publisher": "Mondrala Press",
-    "format_1": "Hardcover",
-    "publisher.1": "Mondrala Press",
-    "unnamed:_9": 21.0,
-    "price_eur": 20.0,
-    "price_gbp": 18.0,
-    "isbn": "9782919820153",
-    "format_2": "Paperback",
-    "price_usd": 21.0,
-    "price_eur.1": 20.0,
-    "price_gbp.1": 18.0,
-    "format_3": "Ebook",
-    "price_usd.1": 21.0,
-    "price_eur.2": 20.0,
-    "price_gbp.2": 18.0,
     "cover": "covers/ships-minos-1.jpg",
-    "featured": "yes",
-    "active": "yes",
-    "language_original": "Polish",
     "series": "The Ships of Minos",
-    "series_number": 1.0
+    "series_number": 1,
+    "shelves": [
+      "Fiction",
+      "Young Adult"
+    ],
+    "language_original": "Polish",
+    "featured": "yes",
+    "shelf_order": 200,
+    "editions": [
+      {
+        "format": "Hardcover",
+        "publisher": "Mondrala Press",
+        "price_usd": 21,
+        "price_eur": 20,
+        "price_gbp": 18,
+        "isbn": "97829198201530"
+      }
+    ]
   },
   {
     "id": "divine-julius",
-    "shelves": "Classics",
-    "shelf_order": 250,
     "title": "Divine Julius",
     "author": "Jacek Bocheński",
     "translator": "Tom Pinch",
-    "publisher": "Mondrala Press",
-    "format_1": "Hardcover",
-    "publisher.1": "Mondrala Press",
-    "unnamed:_9": 24.0,
-    "isbn": "9789998793781",
-    "format_2": "Paperback",
-    "format_3": "Ebook",
     "cover": "covers/divine-julius.jpg",
-    "featured": "yes",
-    "active": "yes",
-    "language_original": "Polish",
     "series": "The Roman Trilogy",
-    "series_number": 1.0
+    "series_number": 1,
+    "shelves": [
+      "Classics"
+    ],
+    "language_original": "Polish",
+    "featured": "yes",
+    "shelf_order": 250,
+    "editions": [
+      {
+        "format": "Hardcover",
+        "publisher": "Mondrala Press",
+        "price_usd": 24,
+        "isbn": "97899987937810"
+      },
+      {
+        "format": "Paperback",
+        "publisher": "Mondrala Press",
+        "price_usd": 16,
+        "isbn": "97899987937740"
+      },
+      {
+        "format": "Ebook",
+        "publisher": "Mondrala Press",
+        "price_usd": 10,
+        "isbn": "97899987937500"
+      }
+    ]
   },
   {
     "id": "naso-the-poet",
-    "shelves": "Classics",
-    "shelf_order": 450,
     "title": "Naso the Poet",
     "author": "Jacek Bocheński",
     "translator": "Tom Pinch",
-    "publisher": "Mondrala Press",
-    "format_1": "Hardcover",
-    "publisher.1": "Mondrala Press",
-    "unnamed:_9": 25.0,
-    "isbn": "9782919820047",
-    "format_2": "Paperback",
-    "format_3": "Ebook",
     "cover": "covers/naso-the-poet.jpg",
-    "featured": "yes",
-    "active": "yes",
-    "language_original": "Polish",
     "series": "The Roman Trilogy",
-    "series_number": 2.0
+    "series_number": 2,
+    "shelves": [
+      "Classics"
+    ],
+    "language_original": "Polish",
+    "featured": "yes",
+    "shelf_order": 450,
+    "editions": [
+      {
+        "format": "Hardcover",
+        "publisher": "Mondrala Press",
+        "price_usd": 25,
+        "isbn": "97829198200470"
+      },
+      {
+        "format": "Paperback",
+        "publisher": "Mondrala Press",
+        "price_usd": 17,
+        "isbn": "97829198200540"
+      },
+      {
+        "format": "Ebook",
+        "publisher": "Mondrala Press",
+        "price_usd": 10,
+        "isbn": "97829198200160"
+      }
+    ]
   },
   {
     "id": "tiberius-caesar",
-    "shelves": "Classics",
-    "shelf_order": 650,
     "title": "Tiberius Caesar",
     "author": "Jacek Bocheński",
     "translator": "Tom Pinch",
-    "publisher": "Mondrala Press",
-    "format_1": "Hardcover",
-    "publisher.1": "Mondrala Press",
-    "unnamed:_9": 32.0,
-    "isbn": "9782919820467",
-    "format_2": "Paperback",
-    "format_3": "Ebook",
     "cover": "covers/tiberius-caesar.jpg",
-    "featured": "yes",
-    "active": "yes",
-    "language_original": "Polish",
     "series": "The Roman Trilogy",
-    "series_number": 3.0
+    "series_number": 3,
+    "shelves": [
+      "Classics"
+    ],
+    "language_original": "Polish",
+    "featured": "yes",
+    "shelf_order": 650,
+    "editions": [
+      {
+        "format": "Hardcover",
+        "publisher": "Mondrala Press",
+        "price_usd": 32,
+        "isbn": "97829198204670"
+      },
+      {
+        "format": "Paperback",
+        "publisher": "Mondrala Press",
+        "price_usd": 18,
+        "isbn": "97829198204500"
+      }
+    ]
   },
   {
     "id": "milosz-selected-and-last-poems",
-    "shelves": "Poetry",
-    "shelf_order": 100,
     "title": "Selected and Last Poems: 1931-2004",
     "author": "Czesław Miłosz",
-    "publisher": "Ecco",
-    "format_1": "Hardcover",
-    "publisher.1": "Ecco",
-    "format_2": "Paperback",
-    "price_usd": 14.0,
-    "isbn.1": 9780062095886.0,
-    "format_3": "Ebook",
     "cover": "covers/milosz-selected-and-last-poems.jpg",
+    "shelves": [
+      "Poetry"
+    ],
+    "language_original": "Polish",
     "featured": "yes",
-    "active": "yes",
-    "language_original": "Polish"
+    "shelf_order": 100,
+    "editions": [
+      {
+        "format": "Paperback",
+        "publisher": "Ecco",
+        "price_usd": 14,
+        "isbn": "97800620958860"
+      }
+    ]
   },
   {
     "id": "poems-new-and-szymborska",
-    "shelves": "Poetry",
-    "shelf_order": 200,
     "title": "Poems New And Collected: 1957-1997",
     "author": "Wisława Szymborska",
-    "publisher": "Ecco",
-    "format_1": "Hardcover",
-    "publisher.1": "Harcourt",
-    "unnamed:_9": 38.0,
-    "isbn": "9780151003532",
-    "format_2": "Paperback",
-    "unnamed:_17": "Ecco",
-    "price_usd": 11.0,
-    "isbn.1": 9780156011464.0,
-    "format_3": "Ebook",
     "cover": "covers/poems-new-and-szymborska.jpg",
+    "shelves": [
+      "Poetry"
+    ],
+    "language_original": "Polish",
     "featured": "yes",
-    "active": "yes",
-    "language_original": "Polish"
+    "shelf_order": 200,
+    "editions": [
+      {
+        "format": "Hardcover",
+        "publisher": "Harcourt",
+        "price_usd": 38,
+        "isbn": "97801510035320"
+      },
+      {
+        "format": "Paperback",
+        "publisher": "Ecco",
+        "price_usd": 11,
+        "isbn": "97801560114640"
+      }
+    ]
   },
   {
     "id": "poems-herbert",
-    "shelves": "Poetry",
-    "shelf_order": 300,
     "title": "Poems",
     "author": "Zbigniew Herbert",
-    "format_1": "Hardcover",
-    "format_2": "Paperback",
-    "unnamed:_17": "Everyman's Library",
-    "price_usd": 18.0,
-    "isbn.1": 9781400043293.0,
-    "format_3": "Ebook",
     "cover": "covers/poems-herbert.jpg",
+    "shelves": [
+      "Poetry"
+    ],
+    "language_original": "Polish",
     "featured": "yes",
-    "active": "yes",
-    "language_original": "Polish"
+    "shelf_order": 300,
+    "editions": [
+      {
+        "format": "Paperback",
+        "publisher": "Everyman's Library",
+        "price_usd": 18,
+        "isbn": "97814000432930"
+      }
+    ]
   },
   {
     "id": "without-end",
-    "shelves": "Poetry",
-    "shelf_order": 400,
     "title": "Without End: New and Selected Poems",
     "author": "Adam Zagajewski",
-    "publisher": "Farrar, Straus and Giroux",
-    "format_1": "Hardcover",
-    "publisher.1": "Farrar, Straus and Giroux",
-    "format_2": "Paperback",
-    "unnamed:_17": "Farrar, Straus and Giroux",
-    "price_usd": 15.0,
-    "isbn.1": 9780374528614.0,
-    "format_3": "Ebook",
     "cover": "covers/without-end.jpg",
+    "shelves": [
+      "Poetry"
+    ],
+    "language_original": "Polish",
     "featured": "yes",
-    "active": "yes",
-    "language_original": "Polish"
+    "shelf_order": 400,
+    "editions": [
+      {
+        "format": "Paperback",
+        "publisher": "Farrar, Straus and Giroux",
+        "price_usd": 15,
+        "isbn": "97803745286140"
+      }
+    ]
   },
   {
     "id": "sobbing-superpower",
-    "shelves": "Poetry",
-    "shelf_order": 600,
     "title": "Sobbing Superpower",
     "author": "Tadeusz Różewicz",
     "translator": "Joanna Trzeciak",
-    "publisher": "W. W. Norton",
-    "format_1": "Hardcover",
-    "publisher.1": "W. W. Norton",
-    "unnamed:_9": 16.0,
-    "isbn": "9780393067798",
-    "format_2": "Paperback",
-    "price_usd": 19.0,
-    "isbn.1": 9780393345551.0,
-    "format_3": "Ebook",
     "cover": "covers/sobbing-superpower.jpg",
+    "shelves": [
+      "Poetry"
+    ],
+    "language_original": "Polish",
     "featured": "yes",
-    "active": "yes",
-    "language_original": "Polish"
+    "shelf_order": 600,
+    "editions": [
+      {
+        "format": "Hardcover",
+        "publisher": "W. W. Norton",
+        "price_usd": 16,
+        "isbn": "97803930677980"
+      },
+      {
+        "format": "Paperback",
+        "price_usd": 19,
+        "isbn": "97803933455510"
+      }
+    ]
   },
   {
     "id": "map-collected-and-last",
-    "shelves": "Poetry",
-    "shelf_order": 700,
     "title": "Map: Collected and Last Poems",
     "author": "Wisława Szymborska",
-    "publisher": "Mariner Books",
-    "format_1": "Hardcover",
-    "publisher.1": "Mariner Books",
-    "unnamed:_9": 30.0,
-    "isbn": "9780544126022",
-    "format_2": "Paperback",
-    "price_usd": 11.0,
-    "isbn.1": 9780544705159.0,
-    "format_3": "Ebook",
     "cover": "covers/map-collected-and-last.jpg",
+    "shelves": [
+      "Poetry"
+    ],
+    "language_original": "Polish",
     "featured": "yes",
-    "active": "yes",
-    "language_original": "Polish"
+    "shelf_order": 700,
+    "editions": [
+      {
+        "format": "Hardcover",
+        "publisher": "Mariner Books",
+        "price_usd": 30,
+        "isbn": "97805441260220"
+      },
+      {
+        "format": "Paperback",
+        "price_usd": 11,
+        "isbn": "97805447051590"
+      }
+    ]
   },
   {
     "id": "from-tree-of-knowledge",
-    "shelves": "Poetry",
-    "shelf_order": 800,
     "title": "From the Tree of Knowledge",
     "author": "Józef Wittlin",
     "translator": "Patrick John Corness",
-    "publisher": "Mondrala Press",
-    "format_1": "Hardcover",
-    "unnamed:_9": 25.0,
-    "isbn": "9788367602488",
-    "format_2": "Paperback",
-    "price_usd": 11.0,
-    "isbn.1": 9788367602471.0,
-    "format_3": "Ebook",
     "cover": "covers/from-the-tree-of-knowledge.jpg",
+    "shelves": [
+      "Poetry"
+    ],
+    "language_original": "Polish",
     "featured": "yes",
-    "active": "yes",
-    "language_original": "Polish"
+    "shelf_order": 800,
+    "editions": [
+      {
+        "format": "Hardcover",
+        "publisher": "Mondrala Press",
+        "price_usd": 25,
+        "isbn": "97883676024880"
+      },
+      {
+        "format": "Paperback",
+        "price_usd": 11,
+        "isbn": "97883676024710"
+      }
+    ]
   },
   {
     "id": "krzysztof-kamil-baczynski",
-    "shelves": "Poetry",
-    "shelf_order": 900,
     "title": "Krzysztof Kamil Baczyński Poet of the Warsaw Uprising 1944: Saved poetry, manuscripts, and drawings",
     "author": "Anna Mickiewicz, Tomasz Mickiewicz, Steve Rushton",
-    "format_1": "Hardcover",
-    "format_2": "Paperback",
-    "price_usd": 7.0,
-    "isbn.1": 9798802065853.0,
-    "format_3": "Ebook",
     "cover": "covers/krzysztof-kamil-baczynski.jpg",
+    "shelves": [
+      "Poetry"
+    ],
+    "language_original": "Polish",
     "featured": "yes",
-    "active": "yes",
-    "language_original": "Polish"
+    "shelf_order": 900,
+    "editions": [
+      {
+        "format": "Paperback",
+        "price_usd": 7,
+        "isbn": "97988020658530"
+      }
+    ]
   },
   {
     "id": "white-magic-baczynski",
-    "shelves": "Poetry",
-    "shelf_order": 1000,
     "title": "White Magic and Other Poems",
     "author": "Krzysztof Kamil Baczynski",
     "translator": "Bill Johnston",
-    "format_1": "Hardcover",
-    "format_2": "Paperback",
-    "price_usd": 14.0,
-    "isbn.1": 9781931243810.0,
-    "format_3": "Ebook",
     "cover": "covers/white-magic-baczynski.jpg",
+    "shelves": [
+      "Poetry"
+    ],
+    "language_original": "Polish",
     "featured": "yes",
-    "active": "yes",
-    "language_original": "Polish"
+    "shelf_order": 1000,
+    "editions": [
+      {
+        "format": "Paperback",
+        "price_usd": 14,
+        "isbn": "97819312438100"
+      }
+    ]
+  },
+  {
+    "id": "new-poems-ukr-po",
+    "title": "Encounters: New Poems from Ukraine and Poland",
+    "author": "various",
+    "translator": "various",
+    "cover": "covers/new-poems-ukr-po",
+    "shelves": [
+      "Poetry"
+    ],
+    "language_original": "Polish",
+    "description_long": "The anthology of poetry which we present here to readers of English bears witness to the enduring cultural community that has existed between Ukraine and Poland for centuries and which now has the occasion to grow even stronger. The book contains poetry from men and women of different generations and poetics. It is not an anthology of war poetry, although verse documenting the tragedy of Ukraine and her heroic defense occupy a special place within it. Different poetic idioms, creative personalities, life experiences, and perspectives on literature meet in this work to create a rich and many-colored picture of a literary world caught in the midst of some of the most important political events of our time.\n\nThe poets featured in this collection are among the most interesting and most important poets of recent decades.There are nine Poles:\n\n-Justyna Bargielska\n-Artur Grabowski,\n-Roman Honet\n-Wojciech Kass\n-Krzysztof Koehler\n-Jan Polkowski\n-Dariusz Suska\n-Janusz Szuber\n-Mirka Szychowiak\n\nand eight Ukrainians\n\n-Natalia Belchenko\n-Halyna Kruk\n-Myroslav Laiuk\n-Olesia Mamchych\n-Iryna Shuvalova\n-Yury Zavadsky\n-Serhiy Zhadan\n\nIt features translations by:\n-Patrick John Corness\n-Charles S. Kraszewski\n-Amelia Glaser and Yuliya Ilchuk\n-Yuliya Musakovska\n-Les Wicks\n\nWhile all have seen their work translated into foreign languages, all poems included in this collection appear in English for the first time.",
+    "featured": "yes",
+    "shelf_order": 1100,
+    "editions": [
+      {
+        "format": "Hardcover",
+        "publisher": "Mondrala Press",
+        "price_usd": 19,
+        "isbn": "97883676024260"
+      },
+      {
+        "format": "Paperback",
+        "price_usd": 9.99,
+        "isbn": "97883676024190"
+      }
+    ]
+  },
+  {
+    "id": "wheels-templars",
+    "title": "Mr. Wheels and the Templar Treasure",
+    "author": "Zbigniew Nienacki",
+    "translator": "Tom Pinch",
+    "cover": "covers/wheels-templars",
+    "shelves": [
+      "Fiction",
+      "Books in Focus"
+    ],
+    "language_original": "Polish",
+    "description_long": "Mr. Wheels has been a huge smash hit in Europe for decades. 160 volumes of fan fiction (!), three cinematic releases (including one in 2023), two TV series.\n\nBut never a peep in English!\n\nUntil now.\n\n(drum roll)\nVoice One, dramatic:\n\nIn 1310, King Philip the Fair of France, ever-short-of-cash, decided to rob the Sacred Order of the Knights Templar in order to steal their treasure. He accused them of devil worship and sodomy and burned them at the stake. But actually robbing them proved more difficult: sensing their impending doom, the crafty monks had buried their treasure. And really well, too: it has never been found. And it has been the object of dreams, obsessions, and treasure hunts ever since.\n\nAnd now... in a caste in Scotland, a document comes to light, according to which that treasure has been buried... in a Teutonic castle in Poland!\n\nVoice Two, calm and rational:\n\nUnlike the English Sherlock Holmes or the French inspector Maigret, the Polish Mr. Wheels does not deal with perverse monsters, or serial killers, or cannibals; instead, he tracks gentlemen (and gentlewomen) thieves, forgers, and smugglers of... art. His mysteries come with the sort of original settings, fast action, humor, and attractive characters you expect from a mystery best-seller but also feature something unique: each has its own fascinating historical tale in the background.\n\n\n\nTry it. It's just $2.99. We bet you will read the whole series.",
+    "featured": "yes",
+    "editions": [
+      {
+        "format": "Hardcover",
+        "publisher": "Mondrala Press",
+        "price_usd": 26,
+        "isbn": "97829198208630"
+      },
+      {
+        "format": "Paperback",
+        "price_usd": 13,
+        "isbn": "97829198208560"
+      },
+      {
+        "format": "Ebook",
+        "publisher": "Mondrala Press",
+        "price_usd": 2.99,
+        "isbn": "97829198208490"
+      }
+    ]
+  },
+  {
+    "id": "wheels-mysteries",
+    "title": "Mr. Wheels and the Mystery of Mysteries",
+    "author": "Zbigniew Nienacki",
+    "translator": "Tom Pinch",
+    "cover": "covers/wheels-mysteries",
+    "shelves": [
+      "Fiction",
+      "Young Adult"
+    ],
+    "language_original": "Polish",
+    "description_long": "Mr. Wheels has been a huge smash hit in Eastern Europe for decades. 160 volumes of fan fiction (!), three cinematic releases (including one in 2023), two TV series.\n\nBut never a peep in English!?\n\nUntil now.\n\n(drum roll)\n\nIn this installment, Mr. Wheels goes against a ring of icon smugglers and find himself in the magical city of Prague, pitted in a race against... the secret society of Rosicrucians trying to recover ancient jewels buried somewhere in the city by the accomplices of the English wizard, John Dee.\n\nDelve into the fascinating world of Renaissance magic, pick up your copy today.",
+    "featured": "yes",
+    "editions": [
+      {
+        "format": "Hardcover",
+        "publisher": "Mondrala Press",
+        "price_usd": 25,
+        "isbn": "97829198400140"
+      },
+      {
+        "format": "Paperback",
+        "price_usd": 17,
+        "isbn": "97829198400210"
+      },
+      {
+        "format": "Ebook",
+        "publisher": "Mondrala Press",
+        "price_usd": 9.99,
+        "isbn": "97829198400380"
+      }
+    ]
+  },
+  {
+    "id": "wheels-bandits",
+    "title": "Mr. Wheels and the Island of Bandits",
+    "author": "Zbigniew Nienacki",
+    "translator": "Tom Pinch",
+    "cover": "covers/wheels-bandits",
+    "shelves": [
+      "Fiction",
+      "Young Adult"
+    ],
+    "language_original": "Polish",
+    "description_long": "Mr. Wheels has been a huge smash hit in Eastern Europe for decades. 160 volumes of fan fiction (!), three cinematic releases (including one in 2023), two TV series.\n\nBut never a peep in English!?\n\nUntil now.\n\nA great fan franchise, comparable to the British Sherlock Holmes and the French Inspector Maigret, the Polish Mr. Wheels---the bumbling art detective with his iconic self-built car--has been solving art mysteries for sixty years. The humorous tales with a delightful procession of quirky characters concern theft and fraud in the art world and the villains are usually gentlemen (and gentlewomen) thieves. And usually, there is a great historical tale in the background.\n\nIn this, the third book in the series, we turn to the first adventure of the Intrepid Art Detective.\n\nIn 1961, fifteen years after the end of World War II, the wounds of war are still fresh, including those inflicted by a gang of marauders commanded by a bandit nicknamed Barabas. Following the fall of the Third Reich and taking advantage of the period of instability that existed for months afterwards, Barabas and his villains terrorized the countryside from a base of operations on an island on the Vistula, 70 miles north of Warsaw. They were eventually captured and imprisoned and this put an end to their robberies; but even from their prison cells, the gangsters' tentacles still reach back to their old base to guard the treasure they had buried somewhere in the area. And now, several mysterious agents compete to unearth the treasure and solve the mysteries of the Island of Bandits and--we are introduced to several characters who will become a permanent fixture in the series.\n\nTake a cruise on the shallows of the Vistula with a European classic, pick up your copy today.",
+    "featured": "yes",
+    "editions": [
+      {
+        "format": "Hardcover",
+        "publisher": "Mondrala Press",
+        "price_usd": 25,
+        "isbn": "97829198209550"
+      },
+      {
+        "format": "Paperback",
+        "price_usd": 15,
+        "isbn": "97829198209480"
+      },
+      {
+        "format": "Ebook",
+        "publisher": "Mondrala Press",
+        "price_usd": 9.99,
+        "isbn": "97829198209240"
+      }
+    ]
+  },
+  {
+    "id": "wheels-copernicus",
+    "title": "Mr. Wheels and the Mysteries of the City of Copernicus",
+    "author": "Zbigniew Nienacki",
+    "translator": "Tom Pinch",
+    "cover": "covers/wheels-copernicus",
+    "shelves": [
+      "Fiction",
+      "Young Adult"
+    ],
+    "language_original": "Polish",
+    "description_long": "Mr. Wheels has been a huge smash hit in Eastern Europe for decades. 160 volumes of fan fiction (!), three cinematic releases (including one in 2023), two TV series.\n\nBut never a peep in English!?\n\nUntil now.\n\nIn February 1945, the Soviet Front came suddenly to Frombork, the city of Copernicus on the Baltic. Too suddenly for SS Colonel Koenig to get away with his loot. In panic, the man in charge of robbing precious Polish art collections decided to hide away his loot, hoping to return to collect it after the war. Alas--he was killed by a stray bullet that very afternoon.\n\nWhen now, unexpectedly, his notebook comes to light, it sparks a race to discover his hidden treasure, a race between the detectives of the Polish Ministry of Culture and a gang of art thieves.\n\nWill Mr. Wheels beat the thieves to it? Or will his colleague, Dr. Parsley, PhD, get the prize? And who will break the detectives' heart this time, the mysterious brunette with an hour-glass figure and a red Ford Mustang? Or the petite blonde with a terrifying robot at her service?\n\nAnd who is Cagliostro Count Balsamo?\n\nFind out. Pick up your copy today!",
+    "featured": "yes",
+    "editions": [
+      {
+        "format": "Hardcover",
+        "publisher": "Mondrala Press",
+        "price_usd": 25,
+        "isbn": "97829198209170"
+      },
+      {
+        "format": "Paperback",
+        "price_usd": 13,
+        "isbn": "97829198209000"
+      },
+      {
+        "format": "Ebook",
+        "publisher": "Mondrala Press",
+        "price_usd": 9.99,
+        "isbn": "97829198208940"
+      }
+    ]
   }
 ]
