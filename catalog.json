@@ -3,7 +3,7 @@
     "id": "chopin-in-paris",
     "title": "Chopin In Paris: The Life And Times Of The Romantic Composer",
     "author": "Tad Szulc",
-    "cover": "covers/ChopinInParis.jpg",
+    "cover": "covers/chopin-in-paris.jpg",
     "shelves": [
       "Polish History",
       "Books in Focus"
@@ -35,7 +35,7 @@
     "id": "peasant-prince",
     "title": "The Peasant Prince: Thaddeus Kosciuszko and the Age of Revolution",
     "author": "Alex Strozynski",
-    "cover": "covers/PeasantPrince.jpg",
+    "cover": "covers/peasant-prince.jpg",
     "shelves": [
       "Polish History"
     ],
@@ -67,7 +67,7 @@
     "id": "izabela-the-valiant",
     "title": "Izabela the Valiant: The Story of an Indomitable Polish Princess",
     "author": "Adam Zamoyski",
-    "cover": "covers/IzabelaTheValiant.jpg",
+    "cover": "covers/izabela-the-valiant.jpg",
     "shelves": [
       "Polish History"
     ],
@@ -99,7 +99,7 @@
     "id": "light-and-flame",
     "title": "The Polish-Lithuanian Commonwealth, 1733-1795: Light and Flame",
     "author": "Richard Butterwick",
-    "cover": "covers/LightAndFlame.jpg",
+    "cover": "covers/light-and-flame.jpg",
     "shelves": [
       "Polish History"
     ],
@@ -127,7 +127,7 @@
     "id": "trail-of-hope",
     "title": "Trail of Hope: The Anders Army, An Odyssey Across Three Continents",
     "author": "Norman Davies",
-    "cover": "covers/TrailOfHope.jpg",
+    "cover": "covers/trail-of-hope.jpg",
     "shelves": [
       "Polish History"
     ],
@@ -156,7 +156,7 @@
     "title": "303 Squadron: The Legendary Battle of Britain Fighter Squadron",
     "author": "Arkady Fiedler",
     "translator": "Jarek Garlinski",
-    "cover": "covers/303squadron.jpg",
+    "cover": "covers/303-squadron.jpg",
     "shelves": [
       "Polish History"
     ],
@@ -388,7 +388,7 @@
     "id": "another-day-of-life",
     "title": "Another Day of Life",
     "author": "Ryszard Kapuścinski",
-    "cover": "covers/another-day.jpg",
+    "cover": "covers/another-day-of-life.jpg",
     "shelves": [
       "Books in Focus"
     ],
@@ -433,7 +433,7 @@
     "title": "Seven Against Thebes",
     "author": "Aleksander Krawczuk",
     "translator": "Tom Pinch",
-    "cover": "covers/seven-against.jpg",
+    "cover": "covers/seven-against-thebes.jpg",
     "shelves": [
       "Non-fiction"
     ],
@@ -930,7 +930,7 @@
     "title": "From the Tree of Knowledge",
     "author": "Józef Wittlin",
     "translator": "Patrick John Corness",
-    "cover": "covers/from-the-tree-of-knowledge.jpg",
+    "cover": "covers/from-tree-of-knowledge.jpg",
     "shelves": [
       "Poetry"
     ],
@@ -955,7 +955,7 @@
     "id": "krzysztof-kamil-baczynski",
     "title": "Krzysztof Kamil Baczyński Poet of the Warsaw Uprising 1944: Saved poetry, manuscripts, and drawings",
     "author": "Anna Mickiewicz, Tomasz Mickiewicz, Steve Rushton",
-    "cover": "covers/krzysztof-kamil-baczynski.jpg",
+    "cover": "covers/krzysztof-kamil-baczynski .jpg",
     "shelves": [
       "Poetry"
     ],
@@ -995,7 +995,7 @@
     "title": "Encounters: New Poems from Ukraine and Poland",
     "author": "various",
     "translator": "various",
-    "cover": "covers/new-poems-ukr-po",
+    "cover": "covers/new-poems-ukr-po.jpg",
     "shelves": [
       "Poetry"
     ],
@@ -1022,10 +1022,11 @@
     "title": "Mr. Wheels and the Templar Treasure",
     "author": "Zbigniew Nienacki",
     "translator": "Tom Pinch",
-    "cover": "covers/wheels-templars",
+    "cover": "covers/wheels-templars.jpg",
     "shelves": [
       "Fiction",
-      "Books in Focus"
+      "Books in Focus",
+      "Young Adult"
     ],
     "language_original": "Polish",
     "description_long": "Mr. Wheels has been a huge smash hit in Europe for decades. 160 volumes of fan fiction (!), three cinematic releases (including one in 2023), two TV series.\n\nBut never a peep in English!\n\nUntil now.\n\n(drum roll)\nVoice One, dramatic:\n\nIn 1310, King Philip the Fair of France, ever-short-of-cash, decided to rob the Sacred Order of the Knights Templar in order to steal their treasure. He accused them of devil worship and sodomy and burned them at the stake. But actually robbing them proved more difficult: sensing their impending doom, the crafty monks had buried their treasure. And really well, too: it has never been found. And it has been the object of dreams, obsessions, and treasure hunts ever since.\n\nAnd now... in a caste in Scotland, a document comes to light, according to which that treasure has been buried... in a Teutonic castle in Poland!\n\nVoice Two, calm and rational:\n\nUnlike the English Sherlock Holmes or the French inspector Maigret, the Polish Mr. Wheels does not deal with perverse monsters, or serial killers, or cannibals; instead, he tracks gentlemen (and gentlewomen) thieves, forgers, and smugglers of... art. His mysteries come with the sort of original settings, fast action, humor, and attractive characters you expect from a mystery best-seller but also feature something unique: each has its own fascinating historical tale in the background.\n\n\n\nTry it. It's just $2.99. We bet you will read the whole series.",
@@ -1055,7 +1056,7 @@
     "title": "Mr. Wheels and the Mystery of Mysteries",
     "author": "Zbigniew Nienacki",
     "translator": "Tom Pinch",
-    "cover": "covers/wheels-mysteries",
+    "cover": "covers/wheels-mysteries.jpg",
     "shelves": [
       "Fiction",
       "Young Adult"
@@ -1088,7 +1089,7 @@
     "title": "Mr. Wheels and the Island of Bandits",
     "author": "Zbigniew Nienacki",
     "translator": "Tom Pinch",
-    "cover": "covers/wheels-bandits",
+    "cover": "covers/wheels-bandits.jpg",
     "shelves": [
       "Fiction",
       "Young Adult"
@@ -1121,7 +1122,7 @@
     "title": "Mr. Wheels and the Mysteries of the City of Copernicus",
     "author": "Zbigniew Nienacki",
     "translator": "Tom Pinch",
-    "cover": "covers/wheels-copernicus",
+    "cover": "covers/wheels-copernicus.jpg",
     "shelves": [
       "Fiction",
       "Young Adult"
