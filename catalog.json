@@ -1176,5 +1176,32 @@
         "isbn": "97829198208940"
       }
     ]
+  },
+  {
+    "id": "cold-sea",
+    "title": "Cold Sea Stories",
+    "author": "Paweł Huelle",
+    "translator": "Antonia Lloyd-Jones",
+    "cover": "covers/cold-sea.jpg",
+    "shelves": [
+      "Fiction"
+    ],
+    "language_original": "Polish",
+    "description_long": "<p>A student pedals an old Ukraina bicycle between striking factories, delivering bulletins, in the tumultuous first days of the Solidarity movement...</p>\n\n\n<p>A shepherd watches, unseen, as a strange figure disembarks from a pirate ship anchored in the cove below, to bury a chest on the beach that later proves empty…</p>\n\n\n<p>A prisoner in a Berber dungeon recounts his life’s story – the failed pursuit of the world’s very first language – by scrawling in the sand on his cell floor…</p>\n\n\n<p>The characters in Pawel Huelle’s mesmerising stories find themselves, willingly or not, at the heart of epic narratives; legends and histories that stretch far beyond the limits of their own lives. Against the backdrop of the Baltic coast, mythology and meteorology mix with the inexorable tide of political change: Kashubian folklore, Chinese mysticism and mediaeval scholarship butt up against the war in Chechnya, 9-11, and the struggle for Polish independence.</p>\n\n<p>Central to Huelle’s imagery is the vision of the refugee – be it the Chechen woman carrying her newborn child across the Polish border (her face emblazoned on every TV screen), the survivor of the Gulag re-appearing on his friends’ doorstep, years after being presumed dead, or the stranger who befriends the sole resident of a ghostly Mennonite village in the final days of the Second World War. Each refugee carries a clue, it seems, or is in possession or pursuit of some mysterious text or book, knowing that only it – like the Chinese ‘Book of Changes’ – can decode their story.\nWhat we do with this text, this clue, Huelle seems to say, is up to us.</p>",
+    "featured": "yes",
+    "shelf_order": 525,
+    "editions": [
+      {
+        "format": "Paperback",
+        "price_usd": 19,
+        "isbn": "97819055833930"
+      },
+      {
+        "format": "eBook",
+        "publisher": "Comma Press",
+        "price_usd": 5.99,
+        "isbn": "97819055838290"
+      }
+    ]
   }
 ]
