@@ -161,10 +161,16 @@
       `;
     }
 
-    function shelfSectionHTML(title, books, cur) {
-      const total = books.length;
-      const shown = books.slice(0, MAX_ROW_ITEMS);
-      const showViewAll = total > shown.length;
+function shelfSectionHTML(title, books, cur) {
+  const sortedBooks = [...books].sort((a, b) => {
+    const ao = Number(a.shelf_order ?? 999999);
+    const bo = Number(b.shelf_order ?? 999999);
+    if (ao !== bo) return ao - bo;
+    return String(a.title || "").localeCompare(String(b.title || ""));
+  });
+
+  const total = sortedBooks.length;
+  const shown = sortedBooks.slice(0, MAX_ROW_ITEMS);
 
       const carouselId = `carousel-${encodeURIComponent(title).replace(/%/g, "")}`;
 
