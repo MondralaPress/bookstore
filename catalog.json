@@ -279,11 +279,12 @@
     "translator": "Andrew Anzur Clement",
     "cover": "covers/desert-wilderness.jpg",
     "shelves": [
-      "Classics"
+      "Classics",
+      "Young Adult"
     ],
     "language_original": "Polish",
     "featured": "yes",
-    "shelf_order": 550,
+    "shelf_order": 565,
     "editions": [
       {
         "format": "Hardcover",
