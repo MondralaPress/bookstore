@@ -187,7 +187,7 @@
     ],
     "language_original": "Polish",
     "featured": "yes",
-    "shelf_order": 650,
+    "shelf_order": 750,
     "editions": [
       {
         "format": "Paperback",
@@ -601,7 +601,6 @@
     "translator": "Tom Pinch",
     "cover": "covers/melicles.jpg",
     "shelves": [
-      "Fiction",
       "Young Adult"
     ],
     "language_original": "Polish",
@@ -643,7 +642,6 @@
     "translator": "Tom Pinch",
     "cover": "covers/diossos.jpg",
     "shelves": [
-      "Fiction",
       "Young Adult"
     ],
     "language_original": "Polish",
@@ -674,7 +672,7 @@
     ],
     "language_original": "Polish",
     "featured": "yes",
-    "shelf_order": 100,
+    "shelf_order": 220,
     "editions": [
       {
         "format": "Hardcover",
