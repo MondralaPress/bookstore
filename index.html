@@ -20,7 +20,7 @@
       <a href="#">Essays</a>
       <a href="#">About</a>
 
-      <select id="currency-selector" aria-label="Select currency">
+      <select id="currency-selector">
         <option value="EUR">EUR</option>
         <option value="USD">USD</option>
         <option value="GBP">GBP</option>
@@ -38,7 +38,6 @@
   <footer>© 2026 The Polish Atheneum</footer>
 
   <script>
-    // Home page shelf order (exact string match to catalog values)
     const SHELF_ORDER = [
       "Books in Focus",
       "Classics",
@@ -51,7 +50,6 @@
 
     const MAX_ROW_ITEMS = 14;
 
-    // ===== Currency =====
     const CURRENCY_KEY = "vistula_currency";
     const SYMBOL = { EUR: "€", USD: "$", GBP: "£" };
 
@@ -76,22 +74,6 @@
       return book.price_eur ?? "";
     }
 
-    function applyCurrencyUI(cur) {
-      const selector = document.getElementById("currency-selector");
-      if (selector) {
-        selector.value = cur;
-      }
-
-      document.querySelectorAll(".price").forEach(el => {
-        const eur = el.getAttribute("data-price-eur") || "";
-        const usd = el.getAttribute("data-price-usd") || "";
-        const gbp = el.getAttribute("data-price-gbp") || "";
-        const val = (cur === "USD") ? usd : (cur === "GBP") ? gbp : eur;
-        el.textContent = formatMoney(val, cur);
-      });
-    }
-
-    // ===== Links =====
     const categoryHref = name => `category.html?name=${encodeURIComponent(name)}`;
     const bookHref = id => `book.html?id=${encodeURIComponent(id)}`;
 
@@ -101,7 +83,6 @@
       return await res.json();
     }
 
-    // ===== Multi-shelf support (array OR "A; B; C" string OR old shelf/category) =====
     function normalizeShelves(b) {
       if (Array.isArray(b.shelves)) {
         return b.shelves.map(s => String(s).trim()).filter(Boolean);
@@ -131,7 +112,7 @@
     function bookCardHTML(b, cur) {
       const cover = b.cover
         ? `<img class="cover-img" src="${b.cover}" alt="${b.title} cover">`
-        : `<div class="cover" aria-hidden="true"></div>`;
+        : `<div class="cover"></div>`;
 
       const v = priceFor(b, cur);
 
@@ -140,19 +121,14 @@
           ${cover}
           <h3>${b.title}</h3>
           <p class="author">${b.author}</p>
-          <p class="price"
-             data-price-eur="${b.price_eur ?? ""}"
-             data-price-usd="${b.price_usd ?? ""}"
-             data-price-gbp="${b.price_gbp ?? ""}">
-             ${formatMoney(v, cur)}
-          </p>
+          <p class="price">${formatMoney(v, cur)}</p>
         </a>
       `;
     }
 
     function viewAllCardHTML(shelfName, total) {
       return `
-        <a class="book view-all-card" href="${categoryHref(shelfName)}" aria-label="View all in ${shelfName}">
+        <a class="book view-all-card" href="${categoryHref(shelfName)}">
           <div class="view-all-box">
             <div class="view-all-title">View all</div>
             <div class="view-all-sub">${total} titles</div>
@@ -161,16 +137,19 @@
       `;
     }
 
-function shelfSectionHTML(title, books, cur) {
-  const sortedBooks = [...books].sort((a, b) => {
-    const ao = Number(a.shelf_order ?? 999999);
-    const bo = Number(b.shelf_order ?? 999999);
-    if (ao !== bo) return ao - bo;
-    return String(a.title || "").localeCompare(String(b.title || ""));
-  });
+    function shelfSectionHTML(title, books, cur) {
 
-  const total = sortedBooks.length;
-  const shown = sortedBooks.slice(0, MAX_ROW_ITEMS);
+      // 🔥 SORTING FIX
+      const sortedBooks = [...books].sort((a, b) => {
+        const ao = Number(a.shelf_order ?? 999999);
+        const bo = Number(b.shelf_order ?? 999999);
+        if (ao !== bo) return ao - bo;
+        return String(a.title || "").localeCompare(String(b.title || ""));
+      });
+
+      const total = sortedBooks.length;
+      const shown = sortedBooks.slice(0, MAX_ROW_ITEMS);
+      const showViewAll = total > shown.length;
 
       const carouselId = `carousel-${encodeURIComponent(title).replace(/%/g, "")}`;
 
@@ -182,34 +161,27 @@ function shelfSectionHTML(title, books, cur) {
           </div>
 
           <div class="carousel-wrap">
-            <button class="carousel-btn prev" type="button" aria-label="Scroll left" data-target="${carouselId}">‹</button>
+            <button class="carousel-btn prev" data-target="${carouselId}">‹</button>
 
-            <div class="row-carousel" id="${carouselId}" tabindex="0" aria-label="${title} carousel">
+            <div class="row-carousel" id="${carouselId}">
               ${shown.map(b => bookCardHTML(b, cur)).join("")}
               ${showViewAll ? viewAllCardHTML(title, total) : ""}
             </div>
 
-            <button class="carousel-btn next" type="button" aria-label="Scroll right" data-target="${carouselId}">›</button>
+            <button class="carousel-btn next" data-target="${carouselId}">›</button>
           </div>
         </section>
       `;
     }
 
-    // ===== Simple Carousel (no looping) =====
-    function scrollCarousel(carouselEl, dir) {
-      const amount = carouselEl.clientWidth;
-      carouselEl.scrollBy({ left: dir * amount, behavior: "smooth" });
-    }
-
     function wireCarouselButtons() {
       document.querySelectorAll(".carousel-btn").forEach(btn => {
-        btn.addEventListener("click", (e) => {
-          e.preventDefault();
+        btn.addEventListener("click", () => {
           const id = btn.getAttribute("data-target");
           const el = document.getElementById(id);
           if (!el) return;
           const dir = btn.classList.contains("prev") ? -1 : 1;
-          scrollCarousel(el, dir);
+          el.scrollBy({ left: dir * el.clientWidth, behavior: "smooth" });
         });
       });
     }
@@ -218,15 +190,17 @@ function shelfSectionHTML(title, books, cur) {
       const selector = document.getElementById("currency-selector");
       if (!selector) return;
 
+      selector.value = getCurrency();
+
       selector.addEventListener("change", () => {
-        const cur = selector.value;
-        setCurrency(cur);
-        applyCurrencyUI(cur);
+        setCurrency(selector.value);
+        location.reload();
       });
     }
 
     (async () => {
       const root = document.getElementById("shelvesRoot");
+
       try {
         const cur = getCurrency();
         const books = await loadCatalog();
@@ -234,7 +208,6 @@ function shelfSectionHTML(title, books, cur) {
 
         const parts = [];
 
-        // Editorial order first
         for (const name of SHELF_ORDER) {
           const arr = grouped.get(name);
           if (arr && arr.length) {
@@ -243,7 +216,6 @@ function shelfSectionHTML(title, books, cur) {
           }
         }
 
-        // Remaining shelves alphabetically
         const remaining = Array.from(grouped.keys()).sort((a, b) => a.localeCompare(b));
         for (const name of remaining) {
           parts.push(shelfSectionHTML(name, grouped.get(name), cur));
@@ -252,10 +224,10 @@ function shelfSectionHTML(title, books, cur) {
         root.innerHTML = parts.join("");
         wireCarouselButtons();
         wireCurrencySelector();
-        applyCurrencyUI(cur);
+
       } catch (e) {
         console.error(e);
-        root.innerHTML = `<p style="color:#a00; padding: 0 18px;">Failed to load catalog. See console for details.</p>`;
+        root.innerHTML = `<p style="color:red;">Failed to load catalog.</p>`;
       }
     })();
   </script>
