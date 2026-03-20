@@ -955,7 +955,7 @@
     "id": "krzysztof-kamil-baczynski",
     "title": "Krzysztof Kamil Baczyński Poet of the Warsaw Uprising 1944: Saved poetry, manuscripts, and drawings",
     "author": "Anna Mickiewicz, Tomasz Mickiewicz, Steve Rushton",
-    "cover": "covers/krzysztof-kamil-baczynski .jpg",
+    "cover": "covers/krzysztof-kamil-baczynski.jpg",
     "shelves": [
       "Poetry"
     ],
@@ -1031,6 +1031,7 @@
     "language_original": "Polish",
     "description_long": "Mr. Wheels has been a huge smash hit in Europe for decades. 160 volumes of fan fiction (!), three cinematic releases (including one in 2023), two TV series.\n\nBut never a peep in English!\n\nUntil now.\n\n(drum roll)\nVoice One, dramatic:\n\nIn 1310, King Philip the Fair of France, ever-short-of-cash, decided to rob the Sacred Order of the Knights Templar in order to steal their treasure. He accused them of devil worship and sodomy and burned them at the stake. But actually robbing them proved more difficult: sensing their impending doom, the crafty monks had buried their treasure. And really well, too: it has never been found. And it has been the object of dreams, obsessions, and treasure hunts ever since.\n\nAnd now... in a caste in Scotland, a document comes to light, according to which that treasure has been buried... in a Teutonic castle in Poland!\n\nVoice Two, calm and rational:\n\nUnlike the English Sherlock Holmes or the French inspector Maigret, the Polish Mr. Wheels does not deal with perverse monsters, or serial killers, or cannibals; instead, he tracks gentlemen (and gentlewomen) thieves, forgers, and smugglers of... art. His mysteries come with the sort of original settings, fast action, humor, and attractive characters you expect from a mystery best-seller but also feature something unique: each has its own fascinating historical tale in the background.\n\n\n\nTry it. It's just $2.99. We bet you will read the whole series.",
     "featured": "yes",
+    "shelf_order": 1000,
     "editions": [
       {
         "format": "Hardcover",
@@ -1064,6 +1065,7 @@
     "language_original": "Polish",
     "description_long": "Mr. Wheels has been a huge smash hit in Eastern Europe for decades. 160 volumes of fan fiction (!), three cinematic releases (including one in 2023), two TV series.\n\nBut never a peep in English!?\n\nUntil now.\n\n(drum roll)\n\nIn this installment, Mr. Wheels goes against a ring of icon smugglers and find himself in the magical city of Prague, pitted in a race against... the secret society of Rosicrucians trying to recover ancient jewels buried somewhere in the city by the accomplices of the English wizard, John Dee.\n\nDelve into the fascinating world of Renaissance magic, pick up your copy today.",
     "featured": "yes",
+    "shelf_order": 1100,
     "editions": [
       {
         "format": "Hardcover",
@@ -1097,6 +1099,7 @@
     "language_original": "Polish",
     "description_long": "Mr. Wheels has been a huge smash hit in Eastern Europe for decades. 160 volumes of fan fiction (!), three cinematic releases (including one in 2023), two TV series.\n\nBut never a peep in English!?\n\nUntil now.\n\nA great fan franchise, comparable to the British Sherlock Holmes and the French Inspector Maigret, the Polish Mr. Wheels---the bumbling art detective with his iconic self-built car--has been solving art mysteries for sixty years. The humorous tales with a delightful procession of quirky characters concern theft and fraud in the art world and the villains are usually gentlemen (and gentlewomen) thieves. And usually, there is a great historical tale in the background.\n\nIn this, the third book in the series, we turn to the first adventure of the Intrepid Art Detective.\n\nIn 1961, fifteen years after the end of World War II, the wounds of war are still fresh, including those inflicted by a gang of marauders commanded by a bandit nicknamed Barabas. Following the fall of the Third Reich and taking advantage of the period of instability that existed for months afterwards, Barabas and his villains terrorized the countryside from a base of operations on an island on the Vistula, 70 miles north of Warsaw. They were eventually captured and imprisoned and this put an end to their robberies; but even from their prison cells, the gangsters' tentacles still reach back to their old base to guard the treasure they had buried somewhere in the area. And now, several mysterious agents compete to unearth the treasure and solve the mysteries of the Island of Bandits and--we are introduced to several characters who will become a permanent fixture in the series.\n\nTake a cruise on the shallows of the Vistula with a European classic, pick up your copy today.",
     "featured": "yes",
+    "shelf_order": 1200,
     "editions": [
       {
         "format": "Hardcover",
@@ -1130,6 +1133,7 @@
     "language_original": "Polish",
     "description_long": "Mr. Wheels has been a huge smash hit in Eastern Europe for decades. 160 volumes of fan fiction (!), three cinematic releases (including one in 2023), two TV series.\n\nBut never a peep in English!?\n\nUntil now.\n\nIn February 1945, the Soviet Front came suddenly to Frombork, the city of Copernicus on the Baltic. Too suddenly for SS Colonel Koenig to get away with his loot. In panic, the man in charge of robbing precious Polish art collections decided to hide away his loot, hoping to return to collect it after the war. Alas--he was killed by a stray bullet that very afternoon.\n\nWhen now, unexpectedly, his notebook comes to light, it sparks a race to discover his hidden treasure, a race between the detectives of the Polish Ministry of Culture and a gang of art thieves.\n\nWill Mr. Wheels beat the thieves to it? Or will his colleague, Dr. Parsley, PhD, get the prize? And who will break the detectives' heart this time, the mysterious brunette with an hour-glass figure and a red Ford Mustang? Or the petite blonde with a terrifying robot at her service?\n\nAnd who is Cagliostro Count Balsamo?\n\nFind out. Pick up your copy today!",
     "featured": "yes",
+    "shelf_order": 1300,
     "editions": [
       {
         "format": "Hardcover",
