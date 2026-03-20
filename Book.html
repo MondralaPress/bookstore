@@ -83,6 +83,7 @@
     .product-price {
       font-size: 24px;
       margin: 0 0 18px;
+      min-height: 1.2em;
     }
 
     .product-tags {
@@ -151,6 +152,12 @@
 
     .primary-button:hover {
       background: #333;
+    }
+
+    .primary-button.disabled {
+      background: #777;
+      cursor: default;
+      pointer-events: none;
     }
 
     .secondary-link {
@@ -282,13 +289,16 @@
     function formatMoney(value, cur) {
       if (value === null || value === undefined || value === "") return "";
       const num = Number(value);
-      return Number.isFinite(num) ? `${SYMBOL[cur] || ""}${num.toFixed(2)}` : `${SYMBOL[cur] || ""}${value}`;
+      return Number.isFinite(num)
+        ? `${SYMBOL[cur] || ""}${num.toFixed(2)}`
+        : `${SYMBOL[cur] || ""}${value}`;
     }
 
-    function priceFor(book, cur) {
-      if (cur === "USD") return book.price_usd ?? "";
-      if (cur === "GBP") return book.price_gbp ?? "";
-      return book.price_eur ?? "";
+    function getEditionPrice(edition, cur) {
+      if (!edition) return "";
+      if (cur === "USD") return edition.price_usd ?? "";
+      if (cur === "GBP") return edition.price_gbp ?? "";
+      return edition.price_eur ?? "";
     }
 
     function getQueryParam(name) {
@@ -313,19 +323,61 @@
       const tags = [];
       if (book.genre) tags.push(book.genre);
       if (book.category) tags.push(book.category);
-      if (book.format_note) tags.push(book.format_note);
+      if (book.series) tags.push(book.series);
       return tags;
     }
 
+    function normalizeEditions(book) {
+      if (!Array.isArray(book.editions)) return [];
+
+      return book.editions.filter(ed => {
+        if (!ed) return false;
+        const hasFormat = String(ed.format || "").trim() !== "";
+        const hasAnyOtherData =
+          String(ed.publisher || "").trim() !== "" ||
+          String(ed.supplier || "").trim() !== "" ||
+          String(ed.sku || "").trim() !== "" ||
+          String(ed.buy_link || "").trim() !== "" ||
+          String(ed.isbn || "").trim() !== "" ||
+          String(ed.price_eur ?? "").trim() !== "" ||
+          String(ed.price_usd ?? "").trim() !== "" ||
+          String(ed.price_gbp ?? "").trim() !== "";
+        return hasFormat && hasAnyOtherData;
+      });
+    }
+
+    function renderFormatOptions(editions) {
+      return editions.map((ed, index) =>
+        `<option value="${index}">${ed.format}</option>`
+      ).join("");
+    }
+
     function renderBook(book, cur) {
-      const price = formatMoney(priceFor(book, cur), cur);
+      const editions = normalizeEditions(book);
+      const firstEdition = editions[0] || null;
+      const price = firstEdition ? formatMoney(getEditionPrice(firstEdition, cur), cur) : "";
       const tags = tagList(book);
-      const description = book.description || book.blurb || "";
+      const description = book.description_long || book.description_short || book.description || book.blurb || "";
       const praise = Array.isArray(book.praise) ? book.praise : [];
+
+      const formatControl = editions.length
+        ? `
+          <div class="buy-row">
+            <label for="format-selector">Format</label>
+            <select id="format-selector">
+              ${renderFormatOptions(editions)}
+            </select>
+          </div>
+        `
+        : "";
+
+      const firstBuyLink = firstEdition && firstEdition.buy_link ? firstEdition.buy_link : "";
+      const buyLabel = firstBuyLink ? "Buy now" : "Unavailable";
+      const buyClass = firstBuyLink ? "primary-button" : "primary-button disabled";
 
       return `
         <nav class="breadcrumbs">
-          <a href="index.html">Home</a> / 
+          <a href="index.html">Home</a> /
           <a href="category.html?name=${encodeURIComponent(book.category || "Books")}">${book.category || "Books"}</a> /
           <span>${book.title}</span>
         </nav>
@@ -341,7 +393,7 @@
             ${book.series ? `<div class="product-series">${book.series}</div>` : ""}
             <h1 class="product-title">${book.title}</h1>
             ${contributorLine(book) ? `<p class="product-contributors">${contributorLine(book)}</p>` : ""}
-            <p class="product-price">${price}</p>
+            <p class="product-price" id="edition-price">${price}</p>
 
             ${tags.length ? `
               <ul class="product-tags">
@@ -350,13 +402,7 @@
             ` : ""}
 
             <div class="product-buybox">
-              <div class="buy-row">
-                <label for="format">Format</label>
-                <select id="format">
-                  <option>Paperback</option>
-                  <option>Ebook</option>
-                </select>
-              </div>
+              ${formatControl}
 
               <div class="buy-row">
                 <label for="qty">Quantity</label>
@@ -364,7 +410,7 @@
               </div>
 
               <div class="buy-actions">
-                <a href="#" class="primary-button">Add to cart</a>
+                <a href="${firstBuyLink || "#"}" class="${buyClass}" id="buy-button">${buyLabel}</a>
                 <a href="#" class="secondary-link">Request review copy</a>
               </div>
             </div>
@@ -378,10 +424,13 @@
             <h2>Additional Book Information</h2>
             <ul class="book-info-list">
               ${book.series ? `<li><strong>Series:</strong> ${book.series}</li>` : ""}
-              ${book.isbn ? `<li><strong>ISBN:</strong> ${book.isbn}</li>` : ""}
               ${book.pages ? `<li><strong>Pages:</strong> ${book.pages}</li>` : ""}
               ${book.pub_date ? `<li><strong>Publication Date:</strong> ${book.pub_date}</li>` : ""}
-              ${book.publisher ? `<li><strong>Publisher:</strong> ${book.publisher}</li>` : ""}
+              <li id="edition-format-row" style="display:none;"><strong>Format:</strong> <span id="edition-format"></span></li>
+              <li id="edition-publisher-row" style="display:none;"><strong>Publisher:</strong> <span id="edition-publisher"></span></li>
+              <li id="edition-supplier-row" style="display:none;"><strong>Supplier:</strong> <span id="edition-supplier"></span></li>
+              <li id="edition-sku-row" style="display:none;"><strong>SKU:</strong> <span id="edition-sku"></span></li>
+              <li id="edition-isbn-row" style="display:none;"><strong>ISBN:</strong> <span id="edition-isbn"></span></li>
             </ul>
           </div>
 
@@ -404,14 +453,70 @@
       `;
     }
 
+    function setRowValue(rowId, valueId, value) {
+      const row = document.getElementById(rowId);
+      const span = document.getElementById(valueId);
+      if (!row || !span) return;
+
+      if (value && String(value).trim() !== "") {
+        span.textContent = value;
+        row.style.display = "";
+      } else {
+        span.textContent = "";
+        row.style.display = "none";
+      }
+    }
+
+    function updateEditionUI(book) {
+      const editions = normalizeEditions(book);
+      const formatSelector = document.getElementById("format-selector");
+      const priceEl = document.getElementById("edition-price");
+      const buyButton = document.getElementById("buy-button");
+      const cur = getCurrency();
+
+      let selectedEdition = editions[0] || null;
+
+      if (formatSelector && editions.length) {
+        const idx = Number(formatSelector.value);
+        if (Number.isInteger(idx) && editions[idx]) {
+          selectedEdition = editions[idx];
+        }
+      }
+
+      if (priceEl) {
+        const price = selectedEdition ? formatMoney(getEditionPrice(selectedEdition, cur), cur) : "";
+        priceEl.textContent = price || "";
+      }
+
+      if (buyButton) {
+        const link = selectedEdition?.buy_link || "";
+        buyButton.href = link || "#";
+        buyButton.textContent = link ? "Buy now" : "Unavailable";
+        buyButton.classList.toggle("disabled", !link);
+      }
+
+      setRowValue("edition-format-row", "edition-format", selectedEdition?.format || "");
+      setRowValue("edition-publisher-row", "edition-publisher", selectedEdition?.publisher || "");
+      setRowValue("edition-supplier-row", "edition-supplier", selectedEdition?.supplier || "");
+      setRowValue("edition-sku-row", "edition-sku", selectedEdition?.sku || "");
+      setRowValue("edition-isbn-row", "edition-isbn", selectedEdition?.isbn || "");
+    }
+
     function wireCurrencySelector(book) {
       const selector = document.getElementById("currency-selector");
       if (!selector) return;
       selector.value = getCurrency();
       selector.addEventListener("change", () => {
         setCurrency(selector.value);
-        document.querySelector(".product-price").textContent =
-          formatMoney(priceFor(book, selector.value), selector.value);
+        updateEditionUI(book);
+      });
+    }
+
+    function wireFormatSelector(book) {
+      const selector = document.getElementById("format-selector");
+      if (!selector) return;
+      selector.addEventListener("change", () => {
+        updateEditionUI(book);
       });
     }
 
@@ -422,7 +527,6 @@
         const bookId = getQueryParam("id");
         const books = await loadCatalog();
         const book = books.find(b => String(b.id) === String(bookId));
-        const cur = getCurrency();
 
         if (!book) {
           root.innerHTML = "<p>Book not found.</p>";
@@ -430,8 +534,10 @@
         }
 
         document.title = `${book.title} – The Polish Atheneum`;
-        root.innerHTML = renderBook(book, cur);
+        root.innerHTML = renderBook(book, getCurrency());
         wireCurrencySelector(book);
+        wireFormatSelector(book);
+        updateEditionUI(book);
       } catch (err) {
         console.error(err);
         root.innerHTML = "<p>Failed to load book.</p>";
