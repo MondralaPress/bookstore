@@ -187,7 +187,7 @@
     ],
     "language_original": "Polish",
     "featured": "yes",
-    "shelf_order": 150,
+    "shelf_order": 650,
     "editions": [
       {
         "format": "Paperback",
@@ -279,12 +279,11 @@
     "translator": "Andrew Anzur Clement",
     "cover": "covers/desert-wilderness.jpg",
     "shelves": [
-      "Classics",
       "Young Adult"
     ],
     "language_original": "Polish",
     "featured": "yes",
-    "shelf_order": 565,
+    "shelf_order": 1050,
     "editions": [
       {
         "format": "Hardcover",
@@ -1048,7 +1047,6 @@
     "translator": "Tom Pinch",
     "cover": "covers/wheels-templars.jpg",
     "shelves": [
-      "Fiction",
       "Books in Focus",
       "Young Adult"
     ],
@@ -1083,7 +1081,6 @@
     "translator": "Tom Pinch",
     "cover": "covers/wheels-mysteries.jpg",
     "shelves": [
-      "Fiction",
       "Young Adult"
     ],
     "language_original": "Polish",
@@ -1117,7 +1114,6 @@
     "translator": "Tom Pinch",
     "cover": "covers/wheels-bandits.jpg",
     "shelves": [
-      "Fiction",
       "Young Adult"
     ],
     "language_original": "Polish",
@@ -1151,7 +1147,6 @@
     "translator": "Tom Pinch",
     "cover": "covers/wheels-copernicus.jpg",
     "shelves": [
-      "Fiction",
       "Young Adult"
     ],
     "language_original": "Polish",
