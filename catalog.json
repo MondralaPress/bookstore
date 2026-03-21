@@ -1191,10 +1191,259 @@
         "isbn": "97819055833930"
       },
       {
-        "format": "eBook",
-        "publisher": "Comma Press",
+        "format": "Ebook",
+        "publisher": "Mondrala Press",
         "price_usd": 5.99,
         "isbn": "97819055838290"
+      }
+    ]
+  },
+  {
+    "id": "saragossa",
+    "title": "The Manuscript Found in Saragossa",
+    "author": "Jan Potocki",
+    "translator": "Ian Maclean",
+    "cover": "covers/saragossa.jpg",
+    "shelves": [
+      "Classics"
+    ],
+    "language_original": "Polish",
+    "description_long": "<p>It is 1739 and Alphonse van Worden, a Walloon officer serving the King of Spain, spends the night in a haunted inn in the Sierra Morena where he is plunged into a series of adventures, by turns mysterious, erotic and nightmarish. Convinced that he is being hunted by the Inquisition, he joins a band of wanderers - including a gypsy chief, a geometer, a cabbalist and the Wandering Jew himself - who travel aimlessly while regaling their companions with a hundred and more stories, and stories within stories, told over the course of sixty-six 'days', each day as disorienting as a thousand and one nights.</p>\n<p>And this nest of stories frames yet more stories driving the reader ever deeper into a labyrinth of sadism, satanism, the cabbala and other phantoms brought forth by the sleep of eighteenth-century Reason. For as well as being one of the great masterpieces of subversion, The Manuscript Found in Saragossa is also an encyclopedia of the dark side of the European Enlightenment.</p>\n<p><em>The Manuscript Found in Saragossa</em> was written in French, probably between 1797 and 1815; this new translation makes the full text available in English for the first time.</p>",
+    "featured": "yes",
+    "shelf_order": 235,
+    "editions": [
+      {
+        "format": "Hardcover",
+        "publisher": "Viking Adult",
+        "price_usd": 47,
+        "isbn": "97806708342800"
+      },
+      {
+        "format": "Paperback",
+        "publisher": "Viking Adult",
+        "price_usd": 22,
+        "isbn": "97801404458000"
+      },
+      {
+        "format": "Ebook",
+        "publisher": "Viking Adult",
+        "price_usd": 13,
+        "isbn": "97801419141380"
+      }
+    ]
+  },
+  {
+    "id": "birch-grove",
+    "title": "The Birch Grove and Other Stories",
+    "author": "Jarosław Iwaszkiewicz",
+    "translator": "Antonia Lloyd-Jones",
+    "cover": "covers/birch-grove.jpg",
+    "shelves": [
+      "Classics"
+    ],
+    "language_original": "Polish",
+    "description_long": "Jaroslaw Iwaszkiewicz's work is familiar to every Polish reader, yet remains unknown to the outside world. The stories in this selection were all written in the 1930s, and provide an extraordinary evocation of Poland's first brief era of independence between the wars. They are also timeless sonatas of love and loss. In 'A New Love', Iwaszkiewicz uses masterful brevity to take a wry, comical look at the illusion of romance from the viewpoint of a jaded, cynical lover. One of his best-known works, 'The Wilko Girls', tells of a middle-aged man's quest to recover his lost youth in the aftermath of the First World War, which has left him psychologically scarred. He travels to the scene of his pre-war summer holidays in the eastern borderlands, where he renews his friendship with the fascinating sisters whom he knew when they were girls. But no one is the same and nothing can be as it was. 'The Birch Grove' is the moving story of a woodsman who, spiritually destroyed by the death of his wife, has buried himself away in an isolated forest. When his lively younger brother unexpectedly comes to stay, his self-centred peace is disrupted. But his brother has come home to die. The lives of two young men, one a deeply religious poet, the other a sceptical, worldly estate owner, are touchingly contrasted in 'The Mill on the River Utrata'. Confirming these stories' central place in Polish cultural history, 'The Wilko Girls' and 'The Birch Grove' were made into classic films by Andrzej Wajda, Poland's leading director.",
+    "featured": "yes",
+    "shelf_order": 450,
+    "editions": [
+      {
+        "format": "Paperback",
+        "publisher": "Central European University Press",
+        "price_usd": 28,
+        "isbn": "97896392414590"
+      }
+    ]
+  },
+  {
+    "id": "danton-thermidor",
+    "title": "The Danton Case and Thermidor: Two Plays",
+    "author": "Stanislawa Przybyszewska",
+    "translator": "Boleslaw Taborski",
+    "cover": "covers/danton-thermidor.jpg",
+    "shelves": [
+      "Classics"
+    ],
+    "language_original": "Polish",
+    "description_long": "Stanislawa Przybyszewska is recognized as a major twentieth-century playwright on the basis of her trilogy about the French Revolution, of which The Danton Case and Thermidor are the principal parts. The Danton Case depicts the battle for power between two exceptional individuals: the corrupt sentimental idealist, Danton, and the incorruptible genius of the Revolution, Robespierre. Thermidor shows the final playing out of this drama, as Robespierre, left alone with the heroic absolutist Saint-Just, foresees the ruin of himself and his cause, and in his despair predicts that hatred, war, and capitalism will steal the Revolution and corrupt nineteenth-century man.",
+    "featured": "yes",
+    "shelf_order": 750,
+    "editions": [
+      {
+        "format": "Paperback",
+        "publisher": "Northwestern University Press",
+        "price_usd": 22,
+        "isbn": "97808101080660"
+      }
+    ]
+  },
+  {
+    "id": "coming-spring",
+    "title": "Coming Spring",
+    "author": "Stefan Żeromski",
+    "translator": "Bill Johnston",
+    "cover": "covers/coming-spring.jpg",
+    "shelves": [
+      "Classics"
+    ],
+    "language_original": "Polish",
+    "description_long": "The Coming Spring (Przedwiosnie), Zeromski's last novel, tells the story of Cezary Baryka, a young Pole who finds himself in Baku, Azerbaijan, then a predominantly Armenian city, as the Russian Revolution breaks out. He becomes embroiled in the chaos caused by the revolution, and barely escapes with his life. Then, he and his father set off on a horrendous journey west to reach Poland. His father dies en route, but Cezary makes it to the newly independent Poland. Cezary sees the suffering of the poor, yet his experiences in the newly formed Soviet Union make him suspicious of socialist and communist solutions. He is an outsider among both the gentry and the working classes, and he cannot find where he belongs. Furthermore, he has unsuccessful and tragic love relations. The novel ends when, despite his profound misgivings, he takes up political action on behalf of the poor. Zeromski, whose vivid, assured style is instantly recognizable, was a writer with a strong social conscience, taking up the concerns of the poor and downtrodden.",
+    "featured": "yes",
+    "shelf_order": 800,
+    "editions": [
+      {
+        "format": "Paperback",
+        "publisher": "Central European University Press",
+        "price_usd": 39,
+        "isbn": "97896373268990"
+      }
+    ]
+  },
+  {
+    "id": "the-homless",
+    "title": "The Homeless",
+    "author": "Stefan Żeromski",
+    "translator": "Stefanie Kraft",
+    "cover": "covers/the-homless.jpg",
+    "shelves": [
+      "Classics"
+    ],
+    "language_original": "Polish",
+    "description_long": "<p><strong>“Although he was nominated for the Nobel Prize in literature four times, Stefan Żeromski’s work is not as widely known outside Poland as it should be. Thus this elegant translation is most welcome . . . A beautiful, prescient story.”\n—Celia Jeffries, author of Blue Desert</strong></p>\n\n<p><strong>The first contemporary English edition of a Polish masterpiece</strong></p>\n\n\n<p><strong>Beautifully translated by Stephanie Kraft, this new edition includes an Introduction by Jennifer Croft and Boris Dralyuk.</strong></p>\n\n\n<p>Tomasz Judym was born in a slum in Warsaw. Against all odds, he has become a doctor, and he finds that his driving motivation to treat disadvantaged people like those he grew up with is at odds with the expectations of his peers. He sees the unhealthy working and living conditions of the working class in twentieth-century Poland wearing on those around him, even as he strives to help them. As he battles alone to do the kind of work that boards of health and other agencies do today, Dr. Judym wrestles inwardly with feelings of inferiority and revulsion caused by his difficult childhood. His mission takes him out of the city and into the countryside, bringing him into conflict with his other desires, and the love that he feels for a sympathetic woman whose background differs fundamentally from his own.</p>\n\n<p>The Homeless combines concrete detail about social issues—the urgent need for public hygiene and access to medical treatment, the effects of industrialization on health and the landscape, and the disinterest that people in power have in the disadvantaged—with beautiful, artistic passages of prose that sensitively probe the characters’ inner lives. The title comes not from the obvious reference to the impoverished people Dr. Judym concerns himself with, but from the unmoored status of the protagonist, the woman he loves, a mysterious engineer friend of his, his brother, and many others who find themselves rootless—emotionally and physically alienated by class divides and the social upheaval of industrialization. The Homeless is a portrait of the time and place it was written—Poland on the precipice of the twentieth century—that speaks to our current time and place.</p>",
+    "featured": "yes",
+    "shelf_order": 900,
+    "editions": [
+      {
+        "format": "Paperback",
+        "publisher": "Paul Dry Books",
+        "price_usd": 24.99,
+        "isbn": "97815898818460"
+      },
+      {
+        "format": "Ebook",
+        "publisher": "Paul Dry Books",
+        "price_usd": 9.99,
+        "isbn": "97815898838020"
+      }
+    ]
+  },
+  {
+    "id": "beniowski",
+    "title": "The Intriguing Life and Ignominious Death of Maurice Benyovszky",
+    "author": "Andrew Drummond",
+    "cover": "covers/beniowski.jpg",
+    "shelves": [
+      "Polish History"
+    ],
+    "language_original": "English",
+    "description_long": "<p>Published in 1790, Maurice Benyovszky’s posthumous memoir was an instant sensation. A tale of exploration and adventure beginning with his daring escape from a Siberian prison and ending with his coronation as King of Madagascar, it was translated into several languages and adapted for the theatre and opera. This book explores the veracity of this memoir and, more broadly, the challenges faced by the explorers of the age and the brutality of colonisation.</p>\n\n\n<p>The self-styled Hungarian Baron Maurice Auguste Aladar Benyovszky, Counsellor to the Duke of Saxony and Colonel in the service of the Queen of Hungary, was in fact only confirmed to have been an officer in a regiment of the Polish Confederation of Bar. While he did escape from Russian captors and subsequently travel to Japan, Formosa, China and Madagascar, many of his exploits were wildly exaggerated or simply invented. Andrew Drummond reveals an alternative picture of events by looking at statements from Benyovszky’s travelling companions and sceptical officials as well as contemporary documents from the places he claimed to have visited, untangling the truth behind his stories and examining what these stories can nonetheless tell us about the era in which Benyovszky lived.</p>\n\n\n<p>Witty and engagingly written, this book is fascinating reading for anyone interested in eighteenth-century colonial history and the story of early European and Russian explorers.</p>",
+    "featured": "yes",
+    "shelf_order": 900,
+    "editions": [
+      {
+        "format": "Paperback",
+        "publisher": "Routledge",
+        "price_usd": 57.99,
+        "isbn": "97814128654320"
+      },
+      {
+        "format": "Ebook",
+        "publisher": "Routledge",
+        "price_usd": 44,
+        "isbn": "97813516236740"
+      }
+    ]
+  },
+  {
+    "id": "witcher-set",
+    "title": "The Witcher Boxed Set: Blood of Elves, The Time of Contempt, Baptism of Fire, The Tower of Swallows, The Lady of the Lake",
+    "author": "Andrzej Sapkowski",
+    "translator": "Danusia Stok, David French",
+    "cover": "covers/witcher-set.jpg",
+    "shelves": [
+      "Fiction"
+    ],
+    "language_original": "Polish",
+    "description_long": "<p>Andrzej Sapkowski created an international phenomenon with his New York Times bestselling epic fantasy series about Geralt of Rivia, which has gone on to inspire the hit Netflix show and the blockbuster video games. Now, for the first time in a single boxed set, and featuring stunning new cover designs, the five novels that comprise the Witcher Saga: Blood of Elves, The Time of Contempt, Baptism of Fire,The Tower of Swallows, and Lady of the Lake.</p>\n \n<p>★ The New York Times bestselling series</p>\n<p>★ Over Fifteen Million Copies Sold Worldwide</p>\n<p>★ World Fantasy Award Winning Author</p>\n<p>★ David Gemmell Legend Award Winning Author</p>\n<p>★ Named One of the Greatest Book Series of All Time by Forbes</p>\n\n<p>For over a century, humans, dwarves, gnomes, and elves have lived together in relative peace. But times have changed, the uneasy peace is over, and now the races are fighting once again. </p>\n\n<p>Geralt of Rivia, the hunter known as the Witcher, has been waiting for the birth of a prophesied child. This child has the power to change the world—for good, or for evil.</p>\n\n<p>As the threat of war hangs over the land the child, Ciri, is hunted for her extraordinary powers. Geralt and his allies, including the powerful sorceress Yennefer, must find a way to protect her, and to protect the world. And the Witcher never accepts defeat.</p>",
+    "featured": "yes",
+    "shelf_order": 600,
+    "editions": [
+      {
+        "format": "Paperback",
+        "publisher": "Orbit",
+        "price_usd": 50,
+        "isbn": "97803164988450"
+      }
+    ]
+  },
+  {
+    "id": "tower-fools",
+    "title": "The Tower of Fools",
+    "author": "Andrzej Sapkowski",
+    "translator": "David French",
+    "cover": "covers/tower-fools.jpg",
+    "series": "The Hussite Trilogy",
+    "series_number": 1,
+    "shelves": [
+      "Fiction"
+    ],
+    "language_original": "Polish",
+    "description_long": "\"A fantastic novel that any fan of The Witcher will instantly appreciate.\" —The Gamer</p>\n\n<p>Andrzej Sapkowski's Witcher series has become a fantasy phenomenon, finding millions of fans worldwide and inspiring the hit Netflix show and video games. Now the bestselling author introduces readers to a new hero on an epic journey in The Tower of Fools, the first book of the Hussite Trilogy.</p>\n\n<p>Reinmar of Bielawa, sometimes known as Reynevan, is a healer, a magician, and according to some, a charlatan. When a thoughtless indiscretion forces him to flee his home, he finds himself pursuednot only by brothers bent on vengeance but by the Holy  Inquisition.</p>\n\n<p>In a time when tensions between Hussite and Catholic countries are threatening to turn into war and mystical forces are gathering in the shadows, Reynevan's journey will lead him to the Narrenturm—the Tower of Fools.</p>\n\n<p>The Tower is an asylum for the mad...or for those who dare to think differently and challenge the prevailing order. And escaping it, avoiding the conflict around him, and keeping his own sanity will prove more difficult than he ever imagined</p>\n\n<p>\"A ripping yarn delivered with world-weary wit, bursting at the seams with sex, death, magic and madness.\" —Joe Abercrombie</p>\n\n<p>\"This is historical fantasy done right.\" —Publishers Weekly (starred review)</p>\n\n<p>\"A highly enjoyable historical fantasy.\" —Booklist</p>\n\n<p>The Tower of Fools is an historical novel set during the Hussite Wars in Bohemia during the 1400s, a period of religious conflict and persecution. Characters in the novel may express views that some readers might find offensive.</p>",
+    "featured": "yes",
+    "shelf_order": 850,
+    "editions": [
+      {
+        "format": "Paperback",
+        "publisher": "Orbit",
+        "price_usd": 18,
+        "isbn": "97803164236940"
+      }
+    ]
+  },
+  {
+    "id": "warrior-god",
+    "title": "Warriors of God",
+    "author": "Andrzej Sapkowski",
+    "translator": "David French",
+    "cover": "covers/warrior-god.jpg",
+    "series": "The Hussite Trilogy",
+    "series_number": 2,
+    "shelves": [
+      "Fiction"
+    ],
+    "language_original": "Polish",
+    "description_long": "<p>From the New York Times bestselling author of The Witcher: Reynevan—scoundrel, magician, possibly a fool—travels into the depths of war as he attempts to navigate the religious fervors of the fifteenth century.</p>\n\n<p>When the Hussite leaders entrust Reynevan with a dangerous secret mission, he is forced to come out of hiding in Bohemia and depart for Silesia. At the same time, he strives to avenge the death of his brother and discover the whereabouts of his beloved. Once again pursued by multiple enemies, he must contend with danger on every front. </p>\n \n<p>Full of gripping action replete with twists and mysteries, seasoned with magic and Sapkowski's ever-present wit, fans of the Witcher will appreciate this rich historical epic set during the Hussite Wars. </p>\n \n<p>Praise for the The Tower of Fools, book one of the Hussite Trilogy:</p>\n\"This is historical fantasy done right.\" —Publishers Weekly (starred review)</p>\n \n<p>“A fantastic novel that any fan of The Witcher will instantly appreciate.” —The Gamer</p>\n \n<p>“A ripping yarn delivered with world-weary wit, bursting at the seams with sex, death, magic and madness.” —Joe Abercrombie </p>\n \n<p>“Sapkowski's energetic and satirical prose as well as the unconventional setting makes this a highly enjoyable historical fantasy.” —Booklist</p>",
+    "featured": "yes",
+    "shelf_order": 860,
+    "editions": [
+      {
+        "format": "Paperback",
+        "publisher": "Orbit",
+        "price_usd": 9.99,
+        "isbn": "97803164237170"
+      }
+    ]
+  },
+  {
+    "id": "light-perpetua",
+    "title": "Light Perpetua",
+    "author": "Andrzej Sapkowski",
+    "translator": "David French",
+    "cover": "covers/light-perpetua.jpg",
+    "series": "The Hussite Trilogy",
+    "series_number": 3,
+    "shelves": [
+      "Fiction"
+    ],
+    "language_original": "Polish",
+    "description_long": "<p>From the globally bestselling author of The Witcher comes the final book in the rich historical epic, the Hussite trilogy. Join Reynevan—scoundrel, magician, possibly a fool—as he embarks on a last great adventure across the war-riddled landscape of 15th century Bohemia.</p>\n\n\n<p>After his adventures in The Tower of Fools and Warriors of God, Reynevan is on the run again, harried by enemies—some human, and some mystical—at every turn. These are cruel and dangerous times for a man such as Reynevan, and to survive, he must set aside his history as a peaceful healer and idealist and play the brutal role of Hussite spy as crusades sweep through Silesia and the Czech Republic, and the world around him is forever changed.</p>\n\n\n<p>Praise for the Hussite Trilogy:</p>\n\n<p>“A ripping yarn delivered with world-weary wit, bursting at the seams with sex, death, magic and madness.” —Joe Abercrombie </p>\n\n\n<p>\"This is historical fantasy done right.\" —Publishers Weekly (starred review)</p>\n\n \n<p>“A fantastic novel that any fan of The Witcher will instantly appreciate.” —The Gamer</p>\n\n  \n<p>“Sapkowski's energetic and satirical prose as well as the unconventional setting makes this a highly enjoyable historical fantasy.” —Booklist</p>",
+    "featured": "yes",
+    "shelf_order": 870,
+    "editions": [
+      {
+        "format": "Paperback",
+        "publisher": "Orbit",
+        "price_usd": 16,
+        "isbn": "97803164237550"
       }
     ]
   }
