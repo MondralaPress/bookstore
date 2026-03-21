@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Category – The Polish Atheneum</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    .category-page {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 32px 40px 80px;
+      box-sizing: border-box;
+    }
+
+    .breadcrumbs {
+      font-size: 13px;
+      color: #777;
+      margin-bottom: 18px;
+    }
+
+    .breadcrumbs a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .breadcrumbs a:hover {
+      text-decoration: underline;
+    }
+
+    .category-header {
+      margin-bottom: 34px;
+      border-bottom: 1px solid #e5e2dc;
+      padding-bottom: 18px;
+    }
+
+    .category-header h1 {
+      font-size: clamp(30px, 4vw, 44px);
+      line-height: 1.1;
+      margin: 0 0 8px;
+    }
+
+    .category-meta {
+      font-size: 15px;
+      color: #666;
+    }
+
+    .category-grid {
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 34px 24px;
+    }
+
+    .category-book {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .category-book:hover h2 {
+      text-decoration: underline;
+    }
+
+    .category-book .cover-img,
+    .category-book .cover {
+      margin-bottom: 14px;
+    }
+
+    .category-book h2 {
+      font-size: 16px;
+      line-height: 1.35;
+      margin: 0 0 4px;
+    }
+
+    .category-book .author {
+      margin: 0;
+      font-size: 14px;
+      color: #777;
+    }
+
+    .category-book .price {
+      display: block;
+      margin: 6px 0 0;
+      font-size: 14px;
+      color: #444;
+    }
+
+    .pagination {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      margin-top: 42px;
+      flex-wrap: wrap;
+    }
+
+    .page-link,
+    .page-current,
+    .page-nav {
+      min-width: 40px;
+      height: 40px;
+      border: 1px solid #e5e2dc;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0 12px;
+      box-sizing: border-box;
+      font-size: 14px;
+      border-radius: 6px;
+      background: #fff;
+    }
+
+    .page-link:hover,
+    .page-nav:hover {
+      border-color: #d6d1c9;
+    }
+
+    .page-current {
+      background: #f8f6f2;
+      color: #222;
+    }
+
+    .empty-state {
+      font-size: 16px;
+      color: #666;
+      padding: 20px 0 10px;
+    }
+
+    @media (max-width: 1100px) {
+      .category-page {
+        padding-left: clamp(60px, 7vw, 120px);
+        padding-right: clamp(60px, 7vw, 120px);
+      }
+
+      .category-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+      }
+    }
+
+    @media (max-width: 750px) {
+      .category-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+    }
+
+    @media (max-width: 600px) {
+      .category-page {
+        padding: 24px 18px 60px;
+      }
+
+      .category-grid {
+        gap: 24px 12px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="top-banner">
+    Spend $75 or more and get free shipping in the US, UK and EU.
+  </div>
+
+  <header>
+    <div class="site-title">The Polish Atheneum</div>
+
+    <nav>
+      <a href="index.html">Shelves</a>
+      <a href="#">Essays</a>
+      <a href="#">About</a>
+
+      <select id="currency-selector" aria-label="Select currency">
+        <option value="EUR">EUR</option>
+        <option value="USD">USD</option>
+        <option value="GBP">GBP</option>
+      </select>
+    </nav>
+  </header>
+
+  <main class="category-page" id="categoryRoot">
+    <p>Loading shelf…</p>
+  </main>
+
+  <footer>© 2026 The Polish Atheneum</footer>
+
+  <script>
+    const PER_PAGE = 20;
+    const CURRENCY_KEY = "vistula_currency";
+    const SYMBOL = { EUR: "€", USD: "$", GBP: "£" };
+
+    function getCurrency() {
+      return localStorage.getItem(CURRENCY_KEY) || "EUR";
+    }
+
+    function setCurrency(cur) {
+      localStorage.setItem(CURRENCY_KEY, cur);
+    }
+
+    function formatMoney(value, cur) {
+      if (value === null || value === undefined || value === "") return "";
+      const num = Number(value);
+      const formatted = Number.isFinite(num) ? num.toFixed(2) : String(value);
+      return `${SYMBOL[cur] || ""}${formatted}`;
+    }
+
+    function priceForEdition(edition, cur) {
+      if (!edition) return "";
+      if (cur === "USD") return edition.price_usd ?? "";
+      if (cur === "GBP") return edition.price_gbp ?? "";
+      return edition.price_eur ?? "";
+    }
+
+    function primaryEdition(book) {
+      if (!Array.isArray(book.editions)) return null;
+      const valid = book.editions.filter(Boolean);
+      if (!valid.length) return null;
+
+      const preferredOrder = ["Paperback", "Hardcover", "Ebook"];
+      for (const format of preferredOrder) {
+        const match = valid.find(ed => String(ed.format || "").toLowerCase() === format.toLowerCase());
+        if (match) return match;
+      }
+      return valid[0];
+    }
+
+    function bookPrice(book, cur) {
+      return priceForEdition(primaryEdition(book), cur);
+    }
+
+    function getQueryParam(name) {
+      return new URLSearchParams(window.location.search).get(name);
+    }
+
+    function escapeHtml(value) {
+      return String(value ?? "")
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/\"/g, "&quot;")
+        .replace(/'/g, "&#39;");
+    }
+
+    function normalizeShelves(book) {
+      if (Array.isArray(book.shelves)) {
+        return book.shelves.map(s => String(s).trim()).filter(Boolean);
+      }
+      if (typeof book.shelves === "string" && book.shelves.trim()) {
+        return book.shelves.split(";").map(s => s.trim()).filter(Boolean);
+      }
+      if (book.shelf) return [String(book.shelf).trim()];
+      if (book.category) return [String(book.category).trim()];
+      return [];
+    }
+
+    function canonicalShelfName(name) {
+      const map = {
+        "books in focus": "Books in Focus",
+        "classics": "Classics",
+        "poetry": "Poetry",
+        "polish history": "Polish History",
+        "fiction": "Fiction",
+        "young adult": "Young Adult",
+        "non-fiction": "Non-fiction",
+        "non fiction": "Non-fiction",
+        "nonfiction": "Non-fiction"
+      };
+      const key = String(name || "").trim().toLowerCase();
+      return map[key] || String(name || "").trim();
+    }
+
+    function categoryHref(name, page = 1) {
+      const params = new URLSearchParams();
+      params.set("name", name);
+      if (page > 1) params.set("page", page);
+      return `category.html?${params.toString()}`;
+    }
+
+    function bookHref(id) {
+      return `book.html?id=${encodeURIComponent(id)}`;
+    }
+
+    async function loadCatalog() {
+      const res = await fetch("catalog.json");
+      if (!res.ok) throw new Error("Could not load catalog.json");
+      return await res.json();
+    }
+
+    function sortedBooksForShelf(books, shelfName) {
+      return books
+        .filter(book => normalizeShelves(book).some(s => s.toLowerCase() === shelfName.toLowerCase()))
+        .sort((a, b) => {
+          const ao = Number(a.shelf_order ?? 999999);
+          const bo = Number(b.shelf_order ?? 999999);
+          if (ao !== bo) return ao - bo;
+          return String(a.title || "").localeCompare(String(b.title || ""));
+        });
+    }
+
+    function bookCardHTML(book, cur) {
+      const cover = book.cover
+        ? `<img class="cover-img" src="${escapeHtml(book.cover)}" alt="${escapeHtml(book.title)} cover">`
+        : `<div class="cover"></div>`;
+
+      const price = formatMoney(bookPrice(book, cur), cur);
+
+      return `
+        <a class="category-book" href="${bookHref(book.id)}">
+          ${cover}
+          <h2>${escapeHtml(book.title)}</h2>
+          <p class="author">${escapeHtml(book.author || "")}</p>
+          ${price ? `<p class="price">${price}</p>` : ""}
+        </a>
+      `;
+    }
+
+    function paginationHTML(currentPage, totalPages, shelfName) {
+      if (totalPages <= 1) return "";
+
+      const items = [];
+
+      if (currentPage > 1) {
+        items.push(`<a class="page-nav" href="${categoryHref(shelfName, currentPage - 1)}">‹</a>`);
+      }
+
+      for (let page = 1; page <= totalPages; page++) {
+        if (page === currentPage) {
+          items.push(`<span class="page-current">${page}</span>`);
+        } else {
+          items.push(`<a class="page-link" href="${categoryHref(shelfName, page)}">${page}</a>`);
+        }
+      }
+
+      if (currentPage < totalPages) {
+        items.push(`<a class="page-nav" href="${categoryHref(shelfName, currentPage + 1)}">›</a>`);
+      }
+
+      return `<nav class="pagination" aria-label="Pagination">${items.join("")}</nav>`;
+    }
+
+    function renderCategoryPage(shelfName, books, cur, page) {
+      const totalBooks = books.length;
+      const totalPages = Math.max(1, Math.ceil(totalBooks / PER_PAGE));
+      const safePage = Math.min(Math.max(1, page), totalPages);
+      const start = (safePage - 1) * PER_PAGE;
+      const visibleBooks = books.slice(start, start + PER_PAGE);
+      const rangeStart = totalBooks ? start + 1 : 0;
+      const rangeEnd = Math.min(start + PER_PAGE, totalBooks);
+
+      return `
+        <nav class="breadcrumbs">
+          <a href="index.html">Home</a> / <span>${escapeHtml(shelfName)}</span>
+        </nav>
+
+        <section class="category-header">
+          <h1>${escapeHtml(shelfName)}</h1>
+          <div class="category-meta">
+            ${totalBooks ? `Showing ${rangeStart}–${rangeEnd} of ${totalBooks} titles` : `0 titles`}
+          </div>
+        </section>
+
+        ${visibleBooks.length
+          ? `<section class="category-grid">${visibleBooks.map(book => bookCardHTML(book, cur)).join("")}</section>`
+          : `<p class="empty-state">No titles found in this category.</p>`}
+
+        ${paginationHTML(safePage, totalPages, shelfName)}
+      `;
+    }
+
+    function wireCurrencySelector() {
+      const selector = document.getElementById("currency-selector");
+      if (!selector) return;
+
+      selector.value = getCurrency();
+      selector.addEventListener("change", () => {
+        setCurrency(selector.value);
+        location.reload();
+      });
+    }
+
+    (async () => {
+      const root = document.getElementById("categoryRoot");
+
+      try {
+        const requestedShelf = getQueryParam("name") || "Books in Focus";
+        const shelfName = canonicalShelfName(requestedShelf);
+        const requestedPage = Number(getQueryParam("page") || "1");
+        const currentPage = Number.isFinite(requestedPage) && requestedPage > 0 ? Math.floor(requestedPage) : 1;
+        const cur = getCurrency();
+        const books = await loadCatalog();
+        const shelfBooks = sortedBooksForShelf(books, shelfName);
+
+        document.title = `${shelfName} – The Polish Atheneum`;
+        root.innerHTML = renderCategoryPage(shelfName, shelfBooks, cur, currentPage);
+        wireCurrencySelector();
+      } catch (err) {
+        console.error(err);
+        root.innerHTML = `<p style="color:red;">Failed to load category.</p>`;
+      }
+    })();
+  </script>
+</body>
+</html>
