@@ -16,6 +16,7 @@
       font-size: 13px;
       color: #777;
       margin-bottom: 22px;
+      line-height: 1.5;
     }
 
     .breadcrumbs a {
@@ -178,6 +179,14 @@
       max-width: 72ch;
     }
 
+    .product-description p {
+      margin: 0 0 1em;
+    }
+
+    .product-description p:last-child {
+      margin-bottom: 0;
+    }
+
     .product-sections {
       display: grid;
       grid-template-columns: 1.1fr 1fr;
@@ -311,6 +320,15 @@
       return await res.json();
     }
 
+    function escapeHtml(value) {
+      return String(value ?? "")
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/\"/g, "&quot;")
+        .replace(/'/g, "&#39;");
+    }
+
     function contributorLine(book) {
       const bits = [];
       if (book.author) bits.push(`by ${book.author}`);
@@ -319,12 +337,37 @@
       return bits.join(", ");
     }
 
+    function normalizeShelfName(name) {
+      const raw = String(name || "").trim();
+      if (!raw) return "";
+      const lowered = raw.toLowerCase();
+      if (lowered === "non-fiction" || lowered === "non fiction") return "Non-Fiction";
+      if (lowered === "books in focus") return "Books in Focus";
+      if (lowered === "young adult") return "Young Adult";
+      if (lowered === "polish history") return "Polish History";
+      return raw;
+    }
+
+    function getShelves(book) {
+      if (!Array.isArray(book.shelves)) return [];
+      return book.shelves
+        .map(normalizeShelfName)
+        .filter(Boolean);
+    }
+
+    function getPrimaryShelf(book) {
+      return getShelves(book)[0] || "Books";
+    }
+
     function tagList(book) {
       const tags = [];
+      const shelves = getShelves(book);
+
+      shelves.forEach(shelf => tags.push(shelf));
       if (book.genre) tags.push(book.genre);
-      if (book.category) tags.push(book.category);
       if (book.series) tags.push(book.series);
-      return tags;
+
+      return [...new Set(tags)];
     }
 
     function normalizeEditions(book) {
@@ -348,8 +391,43 @@
 
     function renderFormatOptions(editions) {
       return editions.map((ed, index) =>
-        `<option value="${index}">${ed.format}</option>`
+        `<option value="${index}">${escapeHtml(ed.format)}</option>`
       ).join("");
+    }
+
+    function normalizeDescription(raw) {
+      if (!raw) return "";
+      const text = String(raw).trim();
+      if (!text) return "";
+
+      const hasHtml = /<\/?[a-z][\s\S]*>/i.test(text);
+      if (hasHtml) return text;
+
+      return text
+        .split(/\n\s*\n/)
+        .map(paragraph => `<p>${escapeHtml(paragraph).replace(/\n/g, "<br>")}</p>`)
+        .join("");
+    }
+
+    function getPraise(book) {
+      if (Array.isArray(book.praise) && book.praise.length) {
+        return book.praise
+          .filter(item => item && (item.quote || item.source))
+          .map(item => ({
+            quote: item.quote || "",
+            source: item.source || ""
+          }));
+      }
+
+      const praise = [];
+      for (let i = 1; i <= 6; i += 1) {
+        const quote = book[`praise_${i}`];
+        const source = book[`praiser_${i}`] || book[`source_${i}`] || "";
+        if (quote || source) {
+          praise.push({ quote: quote || "", source });
+        }
+      }
+      return praise;
     }
 
     function renderBook(book, cur) {
@@ -357,8 +435,11 @@
       const firstEdition = editions[0] || null;
       const price = firstEdition ? formatMoney(getEditionPrice(firstEdition, cur), cur) : "";
       const tags = tagList(book);
-      const description = book.description_long || book.description_short || book.description || book.blurb || "";
-      const praise = Array.isArray(book.praise) ? book.praise : [];
+      const description = normalizeDescription(
+        book.description_long || book.description_short || book.description || book.blurb || ""
+      );
+      const praise = getPraise(book);
+      const primaryShelf = getPrimaryShelf(book);
 
       const formatControl = editions.length
         ? `
@@ -378,26 +459,26 @@
       return `
         <nav class="breadcrumbs">
           <a href="index.html">Home</a> /
-          <a href="category.html?name=${encodeURIComponent(book.category || "Books")}">${book.category || "Books"}</a> /
-          <span>${book.title}</span>
+          <a href="category.html?name=${encodeURIComponent(primaryShelf)}">${escapeHtml(primaryShelf)}</a> /
+          <span>${escapeHtml(book.title || "")}</span>
         </nav>
 
         <section class="product-top">
           <div class="product-cover-wrap">
             <div class="product-cover">
-              ${book.cover ? `<img src="${book.cover}" alt="${book.title} cover">` : `<span>No cover</span>`}
+              ${book.cover ? `<img src="${escapeHtml(book.cover)}" alt="${escapeHtml(book.title || "Book")} cover">` : `<span>No cover</span>`}
             </div>
           </div>
 
           <div class="product-meta">
-            ${book.series ? `<div class="product-series">${book.series}</div>` : ""}
-            <h1 class="product-title">${book.title}</h1>
-            ${contributorLine(book) ? `<p class="product-contributors">${contributorLine(book)}</p>` : ""}
-            <p class="product-price" id="edition-price">${price}</p>
+            ${book.series ? `<div class="product-series">${escapeHtml(book.series)}${book.series_number ? ` · ${escapeHtml(book.series_number)}` : ""}</div>` : ""}
+            <h1 class="product-title">${escapeHtml(book.title || "")}</h1>
+            ${contributorLine(book) ? `<p class="product-contributors">${escapeHtml(contributorLine(book))}</p>` : ""}
+            <p class="product-price" id="edition-price">${escapeHtml(price)}</p>
 
             ${tags.length ? `
               <ul class="product-tags">
-                ${tags.map(tag => `<li>${tag}</li>`).join("")}
+                ${tags.map(tag => `<li>${escapeHtml(tag)}</li>`).join("")}
               </ul>
             ` : ""}
 
@@ -423,9 +504,11 @@
           <div class="section-block">
             <h2>Additional Book Information</h2>
             <ul class="book-info-list">
-              ${book.series ? `<li><strong>Series:</strong> ${book.series}</li>` : ""}
-              ${book.pages ? `<li><strong>Pages:</strong> ${book.pages}</li>` : ""}
-              ${book.pub_date ? `<li><strong>Publication Date:</strong> ${book.pub_date}</li>` : ""}
+              ${book.series ? `<li><strong>Series:</strong> ${escapeHtml(book.series)}${book.series_number ? ` ${escapeHtml(book.series_number)}` : ""}</li>` : ""}
+              ${getShelves(book).length ? `<li><strong>Shelf:</strong> ${escapeHtml(getShelves(book).join(", "))}</li>` : ""}
+              ${book.language_original ? `<li><strong>Original Language:</strong> ${escapeHtml(book.language_original)}</li>` : ""}
+              ${book.pages ? `<li><strong>Pages:</strong> ${escapeHtml(book.pages)}</li>` : ""}
+              ${book.pub_date ? `<li><strong>Publication Date:</strong> ${escapeHtml(book.pub_date)}</li>` : ""}
               <li id="edition-format-row" style="display:none;"><strong>Format:</strong> <span id="edition-format"></span></li>
               <li id="edition-publisher-row" style="display:none;"><strong>Publisher:</strong> <span id="edition-publisher"></span></li>
               <li id="edition-supplier-row" style="display:none;"><strong>Supplier:</strong> <span id="edition-supplier"></span></li>
@@ -441,8 +524,8 @@
                 ? `<ul class="praise-list">
                     ${praise.map(item => `
                       <li>
-                        <p class="praise-quote">${item.quote || ""}</p>
-                        <div class="praise-source">${item.source || ""}</div>
+                        <p class="praise-quote">${escapeHtml(item.quote || "")}</p>
+                        <div class="praise-source">${escapeHtml(item.source || "")}</div>
                       </li>
                     `).join("")}
                   </ul>`
