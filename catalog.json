@@ -1478,5 +1478,176 @@
         "isbn": "97804650124730"
       }
     ]
+  },
+  {
+    "id": "adam-mickiewicz",
+    "title": "Adam Mickiewicz: The Life of a Romantic",
+    "author": "Roman Koropeckyj",
+    "cover": "covers/adam-mickiewicz.jpg",
+    "shelves": [
+      "Polish History"
+    ],
+    "language_original": "English",
+    "description_long": "<p>Adam Mickiewicz (1798–1855), Poland's national poet, was one of the extraordinary personalities of the age. In chronicling the events of his life-his travels, numerous loves, a troubled marriage, years spent as a member of a heterodox religious sect, and friendships with such luminaries of the time as Aleksandr Pushkin, James Fenimore Cooper, George Sand, Giuseppe Mazzini, Margaret Fuller, and Aleksandr Herzen-Roman Koropeckyj draws a portrait of the Polish poet as a quintessential European Romantic.</p>\n\n<p>Spanning five decades of one of the most turbulent periods in modern European history, Mickiewicz's life and works at once reflected and articulated the cultural and political upheavals marking post-Napoleonic Europe. After a poetic debut in his native Lithuania that transformed the face of Polish literature, he spent five years of exile in Russia for engaging in Polish \"patriotic\" activity. Subsequently, his grand tour of Europe was interrupted by his country's 1830 uprising against Russia; his failure to take part in it would haunt him for the rest of his life. For the next twenty years Mickiewicz shared the fate of other Polish émigrés in the West. It was here that he wrote Forefathers' Eve, part 3 (1832) and Pan Tadeusz (1834), arguably the two most influential works of modern Polish literature. His reputation as his country's most prominent poet secured him a position teaching Latin literature at the Academy of Lausanne and then the first chair of Slavic Literature at the Collége de France. In 1848 he organized a Polish legion in Italy and upon his return to Paris founded a radical French-language newspaper. His final days were devoted to forming a Polish legion in Istanbul.</p>\n\n<p>This richly illustrated biography-the first scholarly biography of the poet to be published in English since 1911-draws extensively on diaries, memoirs, correspondence, and the poet's literary texts to make sense of a life as sublime as it was tragic. It concludes with a description of the solemn transfer of Mickiewicz's remains in 1890 from Paris to Cracow, where he was interred in the Royal Cathedral alongside Poland's kings and military heroes.</p>",
+    "featured": "yes",
+    "shelf_order": 572,
+    "editions": [
+      {
+        "format": "Hardcover",
+        "publisher": "Cornell University Press",
+        "price_usd": 45,
+        "isbn": "97808014447150"
+      }
+    ]
+  },
+  {
+    "id": "forefathers-eve",
+    "title": "Forefathers' Eve",
+    "author": "Adam Mickiewicz",
+    "translator": "Charles S. Kraszewski",
+    "cover": "covers/forefathers-eve.jpg",
+    "shelves": [
+      "Poetry"
+    ],
+    "language_original": "Polish",
+    "description_long": "<p>Forefathers' Eve [Dziady] is a four-part dramatic work begun circa 1820 and completed in 1832 - with Part I published only after the poet's death, in 1860. The drama's title refers to Dziady, an ancient Slavic and Lithuanian feast commemorating the dead. This is the grand work of Polish literature, and it is one that elevates Mickiewicz to a position among the \"great Europeans\" such as Dante and Goethe.</p>\n\n<p>With its Christian background of the Communion of the Saints, revenant spirits, and the interpenetration of the worlds of time and eternity, Forefathers' Eve speaks to men and women of all times and places. While it is a truly Polish work - Polish actors covet the role of Gustaw/Konrad in the same way that Anglophone actors covet that of Hamlet - it is one of the most universal works of literature written during the nineteenth century. It has been compared to Goethe's Faust - and rightfully so. Forefathers' Eve initiated the great contribution of Poland to world theatre: Monumental Drama, which stretches from him through Stanislaw Wyspiański to Tadeusz Kantor in our own day and age.</p>\n\n<p>The present translation of Adam Mickiewicz's Forefathers' Eve is the first complete verse translation of the cycle published in English. It has been put to use in its entirety by the Teatr Polski in Wroclaw, and partially set to music by Arturas Bumsteinas in his contemporary orchestral work Different Trains (2014).</p>",
+    "featured": "yes",
+    "shelf_order": 832,
+    "editions": [
+      {
+        "format": "Hardcover",
+        "publisher": "Glagoslav Publications B.V.",
+        "price_usd": 31,
+        "isbn": "97819114140180"
+      }
+    ]
+  },
+  {
+    "id": "ballads-romances",
+    "title": "Ballads and Romances",
+    "author": "Adam Mickiewicz",
+    "translator": "Charles S. Kraszewski",
+    "cover": "covers/ballads-romances.jpg",
+    "shelves": [
+      "Poetry"
+    ],
+    "language_original": "Polish",
+    "description_long": "<p>An even two hundred years have passed since the first publication of Adam Mickiewicz's Ballads and Romances - a collection of lyrics which has the same significance for Polish literature as Wordsworth and Coleridge's Lyrical Ballads has for the English.</p>\n\n\n\n<p>Poems of love, the supernatural, and the exotic, Mickiewicz's first volume of poetry achieved a level of sublimity that immediately set him at the head of all Polish writers - a position he sustained throughout his life with his lyrical, narrative, dramatic, and epic poetry, and which he continues to hold today. In cooperation with the Polish Cultural Institute of London, Glagoslav brings out an anniversary edition of Mickiewicz's Ballads and Romances in the English translation of Charles S. Kraszewski.</p>\n\n\n\n<p>The collection includes all the poems of the 1822 edition, plus the ballads added shortly before the poet's death to the 1852, Leipzig edition.</p>",
+    "featured": "yes",
+    "shelf_order": 900,
+    "editions": [
+      {
+        "format": "Hardcover",
+        "publisher": "Glagoslav Publications B.V.",
+        "price_usd": 27,
+        "isbn": "97818048400160"
+      }
+    ]
+  },
+  {
+    "id": "native-realm",
+    "title": "Native Realm: A Search for Self-Definition",
+    "author": "Czesław Miłosz",
+    "translator": "Catherine S. Leach",
+    "cover": "covers/native-realm.jpg",
+    "shelves": [
+      "Non-fiction"
+    ],
+    "language_original": "Polish",
+    "description_long": "<p>The autobiography of the Nobel laureate</p>\n\n<p>Before he emigrated to the United States, Czeslaw Milosz lived through many of the social upheavals that defined the first half of the twentieth century. Here, in this compelling account of his early life, the author sketches his moral and intellectual history from childhood to the early fifties, providing the reader with a glimpse into a way of life that was radically different from anything an American or even a Western European could know.</p>\n\n<p>Using the events of his life as a starting point, Native Realm sets out to explore the consciousness of a writer and a man, examining the possibility of finding glimmers of meaning in the midst of chaos while remaining true to oneself.</p>\n\n<p>In this beautifully written and elegantly translated work, Milosz is at his very best.</p>",
+    "featured": "yes",
+    "shelf_order": 902,
+    "editions": [
+      {
+        "format": "Paperback",
+        "publisher": "Farrar, Straus and Giroux",
+        "price_usd": 16,
+        "isbn": "97803745283000"
+      }
+    ]
+  },
+  {
+    "id": "history-lit-milosz",
+    "title": "The History of Polish Literature",
+    "author": "Czesław Miłosz",
+    "cover": "covers/history-lit-milosz.jpg",
+    "shelves": [
+      "Polish History"
+    ],
+    "language_original": "Polish",
+    "description_long": "A survey of Polish letters and culture from its beginnings to modern times. Czeslaw Milosz updated this edition in 1983 and added an epilogue to bring the discussion up to date.",
+    "featured": "yes",
+    "shelf_order": 903,
+    "editions": [
+      {
+        "format": "Paperback",
+        "publisher": "University of California Press",
+        "price_usd": 41,
+        "isbn": "97805200447770"
+      }
+    ]
+  },
+  {
+    "id": "postwar-polish-poetry",
+    "title": "Postwar Polish Poetry",
+    "author": "Czesław Miłosz (ed.)",
+    "cover": "covers/postwar-polish-poetry.jpg",
+    "shelves": [
+      "Poery"
+    ],
+    "language_original": "Polish",
+    "description_long": "The 1980 edition of Postwar Polish Poetry (which was originally published in 1965) presents 125 poems by 25 poets, including Czeslaw Milosz and other Polish poets living outside Poland.",
+    "featured": "yes",
+    "shelf_order": 872,
+    "editions": [
+      {
+        "format": "Paperback",
+        "publisher": "University of California Press",
+        "price_usd": 22,
+        "isbn": "97805200447600"
+      }
+    ]
+  },
+  {
+    "id": "captive-mind",
+    "title": "The Captive Mind",
+    "author": "Czesław Miłosz",
+    "cover": "covers/captive-mind.jpg",
+    "shelves": [
+      "Non-fiction"
+    ],
+    "language_original": "Polish",
+    "description_long": "The best known prose work by the winner of the 1980 Nobel Prize for Literature examines the moral and intellectual conflicts faced by men and women living under totalitarianism of the left or right.",
+    "featured": "yes",
+    "shelf_order": 457,
+    "editions": [
+      {
+        "format": "Paperback",
+        "publisher": "Vintage",
+        "price_usd": 13,
+        "isbn": "97806797285660"
+      }
+    ]
+  },
+  {
+    "id": "selected-masterpieces",
+    "title": "Selected Masterpieces of Polish Poetry",
+    "author": "various",
+    "translator": "Jarek Zawadzki",
+    "cover": "covers/selected-masterpieces.jpg",
+    "shelves": [
+      "Poetry"
+    ],
+    "language_original": "Polish",
+    "description_long": "The best known prose work by the winner of the 1980 Nobel Prize for Literature examines the moral and intellectual conflicts faced by men and women living under totalitarianism of the left or right.",
+    "featured": "yes",
+    "shelf_order": 1100,
+    "editions": [
+      {
+        "format": "Paperback",
+        "price_usd": 14,
+        "isbn": "97814196799950"
+      }
+    ]
   }
 ]
