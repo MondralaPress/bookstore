@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>The Polish Atheneum</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    /* Homepage featured slider only */
+    .feature-slider {
+      max-width: 1180px;
+      margin: 0 auto 46px;
+      padding: 0 40px;
+      box-sizing: border-box;
+    }
+
+    .feature-stage {
+      position: relative;
+      overflow: hidden;
+      background: #f3f0ea;
+    }
+
+    .feature-track {
+      display: flex;
+      transition: transform 0.45s ease;
+      will-change: transform;
+    }
+
+    .feature-slide {
+      flex: 0 0 100%;
+      display: block;
+    }
+
+    .feature-slide img {
+      width: 100%;
+      aspect-ratio: 11 / 4;
+      object-fit: cover;
+      display: block;
+      background: #e7e2d8;
+    }
+
+    .feature-controls {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 18px;
+      margin-top: 14px;
+    }
+
+    .feature-dots {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .feature-dot {
+      width: 9px;
+      height: 9px;
+      border-radius: 50%;
+      border: none;
+      background: #c9c4bc;
+      cursor: pointer;
+      padding: 0;
+    }
+
+    .feature-dot.active {
+      background: #444;
+    }
+
+    .feature-arrow,
+    .feature-pause {
+      border: 1px solid #e5e2dc;
+      background: #fff;
+      color: #555;
+      cursor: pointer;
+      border-radius: 20px;
+      font-size: 13px;
+      line-height: 1;
+    }
+
+    .feature-arrow {
+      width: 34px;
+      height: 34px;
+      border-radius: 50%;
+      font-size: 18px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0;
+    }
+
+    .feature-pause {
+      padding: 8px 14px;
+    }
+
+    .feature-arrow:hover,
+    .feature-pause:hover {
+      border-color: #d6d1c9;
+    }
+
+    @media (max-width: 1100px) {
+      .feature-slider {
+        padding-left: clamp(60px, 7vw, 120px);
+        padding-right: clamp(60px, 7vw, 120px);
+      }
+    }
+
+    @media (max-width: 600px) {
+      .feature-slider {
+        padding: 0 18px;
+        margin-bottom: 34px;
+      }
+
+      .feature-controls {
+        gap: 12px;
+        flex-wrap: wrap;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="top-banner">
+    Spend $75 or more and get free shipping in the US, UK and EU.
+  </div>
+
+  <header>
+    <div class="site-title">The Polish Atheneum</div>
+
+    <nav>
+      <a href="#">Shelves</a>
+      <a href="#">Essays</a>
+      <a href="#">About</a>
+
+      <select id="currency-selector">
+        <option value="EUR">EUR</option>
+        <option value="USD">USD</option>
+        <option value="GBP">GBP</option>
+      </select>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Polish Books in English</h1>
+    <p>A curated library of literature, history, and thought — selected for serious readers.</p>
+  </section>
+
+  <section class="feature-slider" aria-label="Featured books and collections">
+    <div class="feature-stage">
+      <div class="feature-track" id="featureTrack"></div>
+    </div>
+
+    <div class="feature-controls">
+      <button class="feature-arrow" id="featurePrev" type="button" aria-label="Previous slide">&#8249;</button>
+      <div class="feature-dots" id="featureDots"></div>
+      <button class="feature-arrow" id="featureNext" type="button" aria-label="Next slide">&#8250;</button>
+      <button class="feature-pause" id="featurePause" type="button">Pause</button>
+    </div>
+  </section>
+
+  <main id="shelvesRoot" class="shelves-root"></main>
+
+  <footer>© 2026 The Polish Atheneum</footer>
+
+  <script>
+    const SHELF_ORDER = [
+      "Classics",
+      "Poetry",
+      "Polish History",
+      "Fiction",
+      "Genre Literature",
+      "Non-Fiction",
+      "Young Adult"
+    ];
+
+    const MAX_ROW_ITEMS = 14;
+
+    const CURRENCY_KEY = "vistula_currency";
+    const SYMBOL = { EUR: "€", USD: "$", GBP: "£" };
+
+    const FEATURE_SLIDES = [
+      { image: "slides/slide-1.jpg", link: "#", alt: "Featured slide 1" },
+      { image: "slides/slide-2.jpg", link: "#", alt: "Featured slide 2" },
+      { image: "slides/slide-3.jpg", link: "#", alt: "Featured slide 3" },
+      { image: "slides/slide-4.jpg", link: "#", alt: "Featured slide 4" },
+      { image: "slides/slide-5.jpg", link: "#", alt: "Featured slide 5" }
+    ];
+
+    const SHELF_ALIASES = {
+      "non-fiction": "Non-Fiction",
+      "non fiction": "Non-Fiction",
+      "genre literature": "Genre Literature",
+      "young adult": "Young Adult",
+      "polish history": "Polish History",
+      "books in focus": "Books in Focus"
+    };
+
+    let featureIndex = 0;
+    let featureTimer = null;
+    let featurePaused = false;
+    const FEATURE_INTERVAL = 5000;
+
+    function getCurrency() {
+      return localStorage.getItem(CURRENCY_KEY) || "EUR";
+    }
+
+    function setCurrency(cur) {
+      localStorage.setItem(CURRENCY_KEY, cur);
+    }
+
+    function formatMoney(value, cur) {
+      if (value === null || value === undefined || value === "") return "";
+      const num = Number(value);
+      const formatted = Number.isFinite(num) ? num.toFixed(2) : String(value);
+      return `${SYMBOL[cur] || ""}${formatted}`;
+    }
+
+    function priceFor(book, cur) {
+      if (cur === "USD") return book.price_usd ?? "";
+      if (cur === "GBP") return book.price_gbp ?? "";
+      return book.price_eur ?? "";
+    }
+
+    const categoryHref = name => `category.html?name=${encodeURIComponent(name)}`;
+    const bookHref = id => `book.html?id=${encodeURIComponent(id)}`;
+
+    async function loadCatalog() {
+      const res = await fetch("catalog.json");
+      if (!res.ok) throw new Error("Could not load catalog.json");
+      return await res.json();
+    }
+
+    function canonicalShelfName(name) {
+      const raw = String(name || "").trim();
+      if (!raw) return "";
+      const alias = SHELF_ALIASES[raw.toLowerCase()];
+      return alias || raw;
+    }
+
+    function normalizeShelves(b) {
+      if (Array.isArray(b.shelves)) {
+        return b.shelves.map(canonicalShelfName).filter(Boolean);
+      }
+      if (typeof b.shelves === "string" && b.shelves.trim()) {
+        return b.shelves.split(";").map(canonicalShelfName).filter(Boolean);
+      }
+      if (b.shelf) return [canonicalShelfName(b.shelf)].filter(Boolean);
+      if (b.category) return [canonicalShelfName(b.category)].filter(Boolean);
+      return ["More"];
+    }
+
+    function groupByShelf(books) {
+      const map = new Map();
+
+      for (const b of books) {
+        const shelves = normalizeShelves(b);
+        for (const shelf of shelves) {
+          if (!map.has(shelf)) map.set(shelf, []);
+          map.get(shelf).push(b);
+        }
+      }
+
+      return map;
+    }
+
+    function bookCardHTML(b, cur) {
+      const cover = b.cover
+        ? `<img class="cover-img" src="${b.cover}" alt="${b.title} cover">`
+        : `<div class="cover"></div>`;
+
+      const v = priceFor(b, cur);
+
+      return `
+        <a class="book" href="${bookHref(b.id)}">
+          ${cover}
+          <h3>${b.title}</h3>
+          <p class="author">${b.author}</p>
+          <p class="price">${formatMoney(v, cur)}</p>
+        </a>
+      `;
+    }
+
+    function viewAllCardHTML(shelfName, total) {
+      return `
+        <a class="book view-all-card" href="${categoryHref(shelfName)}">
+          <div class="view-all-box">
+            <div class="view-all-title">View all</div>
+            <div class="view-all-sub">${total} titles</div>
+          </div>
+        </a>
+      `;
+    }
+
+    function shelfSectionHTML(title, books, cur) {
+      const sortedBooks = [...books].sort((a, b) => {
+        const ao = Number(a.shelf_order ?? 999999);
+        const bo = Number(b.shelf_order ?? 999999);
+        if (ao !== bo) return ao - bo;
+        return String(a.title || "").localeCompare(String(b.title || ""));
+      });
+
+      const total = sortedBooks.length;
+      const shown = sortedBooks.slice(0, MAX_ROW_ITEMS);
+      const showViewAll = total > shown.length;
+
+      const carouselId = `carousel-${encodeURIComponent(title).replace(/%/g, "")}`;
+
+      return `
+        <section class="shelf-section">
+          <div class="shelf-head">
+            <h2><a class="shelf-title-link" href="${categoryHref(title)}">${title}</a></h2>
+            <a class="shelf-link" href="${categoryHref(title)}">View all</a>
+          </div>
+
+          <div class="carousel-wrap">
+            <button class="carousel-btn prev" data-target="${carouselId}">‹</button>
+
+            <div class="row-carousel" id="${carouselId}">
+              ${shown.map(b => bookCardHTML(b, cur)).join("")}
+              ${showViewAll ? viewAllCardHTML(title, total) : ""}
+            </div>
+
+            <button class="carousel-btn next" data-target="${carouselId}">›</button>
+          </div>
+        </section>
+      `;
+    }
+
+    function wireCarouselButtons() {
+      document.querySelectorAll(".carousel-btn").forEach(btn => {
+        btn.addEventListener("click", () => {
+          const id = btn.getAttribute("data-target");
+          const el = document.getElementById(id);
+          if (!el) return;
+          const dir = btn.classList.contains("prev") ? -1 : 1;
+          el.scrollBy({ left: dir * el.clientWidth, behavior: "smooth" });
+        });
+      });
+    }
+
+    function wireCurrencySelector() {
+      const selector = document.getElementById("currency-selector");
+      if (!selector) return;
+
+      selector.value = getCurrency();
+
+      selector.addEventListener("change", () => {
+        setCurrency(selector.value);
+        location.reload();
+      });
+    }
+
+    function renderFeatureSlider() {
+      const track = document.getElementById("featureTrack");
+      const dots = document.querySelectorAll(".feature-dot");
+      if (!track) return;
+      track.style.transform = `translateX(-${featureIndex * 100}%)`;
+      dots.forEach((dot, i) => dot.classList.toggle("active", i === featureIndex));
+    }
+
+    function goToFeature(index) {
+      featureIndex = (index + FEATURE_SLIDES.length) % FEATURE_SLIDES.length;
+      renderFeatureSlider();
+    }
+
+    function nextFeature() {
+      goToFeature(featureIndex + 1);
+    }
+
+    function prevFeature() {
+      goToFeature(featureIndex - 1);
+    }
+
+    function stopFeatureTimer() {
+      if (featureTimer) {
+        clearInterval(featureTimer);
+        featureTimer = null;
+      }
+    }
+
+    function startFeatureTimer() {
+      stopFeatureTimer();
+      if (!featurePaused && FEATURE_SLIDES.length > 1) {
+        featureTimer = setInterval(nextFeature, FEATURE_INTERVAL);
+      }
+    }
+
+    function buildFeatureSlider() {
+      const track = document.getElementById("featureTrack");
+      const dots = document.getElementById("featureDots");
+      const prevBtn = document.getElementById("featurePrev");
+      const nextBtn = document.getElementById("featureNext");
+      const pauseBtn = document.getElementById("featurePause");
+
+      if (!track || !dots || !prevBtn || !nextBtn || !pauseBtn) return;
+
+      track.innerHTML = FEATURE_SLIDES.map((slide, i) => `
+        <a class="feature-slide" href="${slide.link}">
+          <img src="${slide.image}" alt="${slide.alt || `Featured slide ${i + 1}`}">
+        </a>
+      `).join("");
+
+      dots.innerHTML = FEATURE_SLIDES.map((_, i) => `
+        <button class="feature-dot${i === 0 ? " active" : ""}" type="button" aria-label="Go to slide ${i + 1}" data-index="${i}"></button>
+      `).join("");
+
+      prevBtn.addEventListener("click", () => {
+        prevFeature();
+        startFeatureTimer();
+      });
+
+      nextBtn.addEventListener("click", () => {
+        nextFeature();
+        startFeatureTimer();
+      });
+
+      dots.addEventListener("click", (e) => {
+        const btn = e.target.closest(".feature-dot");
+        if (!btn) return;
+        goToFeature(Number(btn.dataset.index));
+        startFeatureTimer();
+      });
+
+      pauseBtn.addEventListener("click", () => {
+        featurePaused = !featurePaused;
+        pauseBtn.textContent = featurePaused ? "Play" : "Pause";
+        if (featurePaused) {
+          stopFeatureTimer();
+        } else {
+          startFeatureTimer();
+        }
+      });
+
+      renderFeatureSlider();
+      startFeatureTimer();
+    }
+
+    (async () => {
+      const root = document.getElementById("shelvesRoot");
+
+      try {
+        const cur = getCurrency();
+        const books = await loadCatalog();
+        const grouped = groupByShelf(books);
+
+        const parts = [];
+
+        for (const name of SHELF_ORDER) {
+          const arr = grouped.get(name);
+          if (arr && arr.length) {
+            parts.push(shelfSectionHTML(name, arr, cur));
+            grouped.delete(name);
+          }
+        }
+
+        const remaining = Array.from(grouped.keys())
+          .filter(name => canonicalShelfName(name) !== "Books in Focus")
+          .sort((a, b) => a.localeCompare(b));
+
+        for (const name of remaining) {
+          parts.push(shelfSectionHTML(name, grouped.get(name), cur));
+        }
+
+        root.innerHTML = parts.join("");
+        wireCarouselButtons();
+        wireCurrencySelector();
+        buildFeatureSlider();
+
+      } catch (e) {
+        console.error(e);
+        root.innerHTML = `<p style="color:red;">Failed to load catalog.</p>`;
+      }
+    })();
+  </script>
+</body>
+</html>
