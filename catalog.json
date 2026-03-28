@@ -256,8 +256,7 @@
     "translator": "Ursula Philips",
     "cover": "covers/choucas.jpg",
     "shelves": [
-      "Classics",
-      "Books in Focus"
+      "Classics"
     ],
     "language_original": "Polish",
     "featured": "yes",
@@ -332,7 +331,6 @@
     "translator": "Antonia Lloyd-Jones",
     "cover": "covers/castorp.jpg",
     "shelves": [
-      "Books in Focus",
       "Fiction"
     ],
     "language_original": "Polish",
@@ -341,6 +339,7 @@
     "editions": [
       {
         "format": "Paperback",
+        "publisher": "Serpent's Tail",
         "price_usd": 15,
         "price_eur": 12,
         "price_gbp": 10,
@@ -396,7 +395,7 @@
     "author": "Ryszard Kapuścinski",
     "cover": "covers/another-day-of-life.jpg",
     "shelves": [
-      "Books in Focus"
+      "Non-fiction"
     ],
     "language_original": "Polish",
     "featured": "yes",
@@ -578,8 +577,7 @@
     "series": "The Wonderful World of Maria Ro",
     "series_number": 4,
     "shelves": [
-      "Fiction",
-      "Books in Focus"
+      "Fiction"
     ],
     "language_original": "Polish",
     "featured": "yes",
@@ -1045,8 +1043,8 @@
     "translator": "Tom Pinch",
     "cover": "covers/wheels-templars.jpg",
     "shelves": [
-      "Books in Focus",
-      "Young Adult"
+      "Young Adult",
+      "Genre Fiction"
     ],
     "language_original": "Polish",
     "description_long": "Mr. Wheels has been a huge smash hit in Europe for decades. 160 volumes of fan fiction (!), three cinematic releases (including one in 2023), two TV series.\n\nBut never a peep in English!\n\nUntil now.\n\n(drum roll)\nVoice One, dramatic:\n\nIn 1310, King Philip the Fair of France, ever-short-of-cash, decided to rob the Sacred Order of the Knights Templar in order to steal their treasure. He accused them of devil worship and sodomy and burned them at the stake. But actually robbing them proved more difficult: sensing their impending doom, the crafty monks had buried their treasure. And really well, too: it has never been found. And it has been the object of dreams, obsessions, and treasure hunts ever since.\n\nAnd now... in a caste in Scotland, a document comes to light, according to which that treasure has been buried... in a Teutonic castle in Poland!\n\nVoice Two, calm and rational:\n\nUnlike the English Sherlock Holmes or the French inspector Maigret, the Polish Mr. Wheels does not deal with perverse monsters, or serial killers, or cannibals; instead, he tracks gentlemen (and gentlewomen) thieves, forgers, and smugglers of... art. His mysteries come with the sort of original settings, fast action, humor, and attractive characters you expect from a mystery best-seller but also feature something unique: each has its own fascinating historical tale in the background.\n\n\n\nTry it. It's just $2.99. We bet you will read the whole series.",
@@ -1295,34 +1293,6 @@
         "publisher": "Central European University Press",
         "price_usd": 39,
         "isbn": "97896373268990"
-      }
-    ]
-  },
-  {
-    "id": "the-homeless",
-    "title": "The Homeless",
-    "author": "Stefan Żeromski",
-    "translator": "Stefanie Kraft",
-    "cover": "covers/the-homeless.jpg",
-    "shelves": [
-      "Classics"
-    ],
-    "language_original": "Polish",
-    "description_long": "<p><strong>“Although he was nominated for the Nobel Prize in literature four times, Stefan Żeromski’s work is not as widely known outside Poland as it should be. Thus this elegant translation is most welcome . . . A beautiful, prescient story.”\n—Celia Jeffries, author of Blue Desert</strong></p>\n\n<p><strong>The first contemporary English edition of a Polish masterpiece</strong></p>\n\n\n<p><strong>Beautifully translated by Stephanie Kraft, this new edition includes an Introduction by Jennifer Croft and Boris Dralyuk.</strong></p>\n\n\n<p>Tomasz Judym was born in a slum in Warsaw. Against all odds, he has become a doctor, and he finds that his driving motivation to treat disadvantaged people like those he grew up with is at odds with the expectations of his peers. He sees the unhealthy working and living conditions of the working class in twentieth-century Poland wearing on those around him, even as he strives to help them. As he battles alone to do the kind of work that boards of health and other agencies do today, Dr. Judym wrestles inwardly with feelings of inferiority and revulsion caused by his difficult childhood. His mission takes him out of the city and into the countryside, bringing him into conflict with his other desires, and the love that he feels for a sympathetic woman whose background differs fundamentally from his own.</p>\n\n<p>The Homeless combines concrete detail about social issues—the urgent need for public hygiene and access to medical treatment, the effects of industrialization on health and the landscape, and the disinterest that people in power have in the disadvantaged—with beautiful, artistic passages of prose that sensitively probe the characters’ inner lives. The title comes not from the obvious reference to the impoverished people Dr. Judym concerns himself with, but from the unmoored status of the protagonist, the woman he loves, a mysterious engineer friend of his, his brother, and many others who find themselves rootless—emotionally and physically alienated by class divides and the social upheaval of industrialization. The Homeless is a portrait of the time and place it was written—Poland on the precipice of the twentieth century—that speaks to our current time and place.</p>",
-    "featured": "yes",
-    "shelf_order": 900,
-    "editions": [
-      {
-        "format": "Paperback",
-        "publisher": "Paul Dry Books",
-        "price_usd": 24.99,
-        "isbn": "97815898818460"
-      },
-      {
-        "format": "Ebook",
-        "publisher": "Paul Dry Books",
-        "price_usd": 9.99,
-        "isbn": "97815898838020"
       }
     ]
   },
@@ -1639,7 +1609,7 @@
       "Poetry"
     ],
     "language_original": "Polish",
-    "description_long": "The best known prose work by the winner of the 1980 Nobel Prize for Literature examines the moral and intellectual conflicts faced by men and women living under totalitarianism of the left or right.",
+    "description_long": "The selection of poems in this anthology may seem a bit unorthodox for Polish literature experts. I have no degree or expertise in any sort of literary research, which may well be the reason for my bizarre taste as presented here. I have tried my very best to include mainly those poems that are obligatory readings in Polish high schools, so that the English Reader can have the chance to get to know a portion of the choicest Polish poetry that an average Pole has willy-nilly come across in his life (one of the poems happens to be a well-known Christmas carol, even).",
     "featured": "yes",
     "shelf_order": 1100,
     "editions": [
@@ -1647,6 +1617,140 @@
         "format": "Paperback",
         "price_usd": 14,
         "isbn": "97814196799950"
+      }
+    ]
+  },
+  {
+    "id": "hyenas-lotuses",
+    "title": "Hyenas & Lotuses: A Novel from the Time of Ancient Egypt",
+    "author": "Andrzej Niwinski",
+    "cover": "covers/hyenas-lotuses.jpg",
+    "shelves": [
+      "Fiction"
+    ],
+    "language_original": "Polish",
+    "description_long": "Hyenas and Lotuses is a novel taking place in the 11th century BC, with the historical background of the authentic dramatic events of that era. The novel is a result of many years of research. All characters are well embedded in historical realities, similarly events of everyday life (the way of eating meals, the way of closing and opening the door, measures, etc…) correspond to reality. While writing, Professor Andrzej Niwinski tried to faithfully reproduce the atmosphere of a given scene: a chapter in which the action takes place in the Valley of the Kings, was written in the Valley of the Kings, and the chapter in which the hero is in the port of Aswan, was written in that place. The names of people and places are consistent with the period in which the novel was staged (11th century BC), but the words such as: Egypt, Nile or Thebes, were assigned much later. As a curiosity, the book was written on four continents: started it in New Zealand, then continued on the return journey through Asia (airport in Singapore), a significant part was created in Africa (Egypt), the rest in Europe.",
+    "featured": "yes",
+    "shelf_order": 1200,
+    "editions": [
+      {
+        "format": "Paperback",
+        "publisher": "Royal Hawaiian Press",
+        "price_usd": 30,
+        "isbn": "97817348606100"
+      },
+      {
+        "format": "Ebook",
+        "publisher": "Royal Hawaiian Press",
+        "price_usd": 9.99,
+        "isbn": "97813867450060"
+      }
+    ]
+  },
+  {
+    "id": "widow-queen",
+    "title": "Widow Queen",
+    "author": "Elzbieta Cherezińska",
+    "cover": "covers/widow-queen.jpg",
+    "series": "The Bold",
+    "series_number": 1,
+    "shelves": [
+      "Fiction"
+    ],
+    "language_original": "Polish",
+    "description_long": "<p>Elzbieta Cherezinska's The Widow Queen is the epic story of a Polish queen whose life and name were all but forgotten until now.</p>\n\n<p>The bold one, they call her- too bold for most. To her father, the great duke of Poland, Swietoslawa and her two sisters represent three chances for an alliance. Three marriages on which to build his empire. But Swietoslawa refuses to be simply a pawn in her father's schemes; she seeks a throne of her own, with no husband by her side. the gods may grant her wish, but crowns sit heavy, and power is a sword that cuts both ways.</p>",
+    "featured": "yes",
+    "shelf_order": 1300,
+    "editions": [
+      {
+        "format": "Paperback",
+        "publisher": "Forge Books",
+        "price_usd": 19,
+        "isbn": "97812502180180"
+      },
+      {
+        "format": "Ebook",
+        "publisher": "Forge Books",
+        "price_usd": 11.99,
+        "isbn": "97812502179810"
+      }
+    ],
+    "praise": [
+      {
+        "quote": "“Elzbieta Cherezinska writes with great depth and imagination, bringing to life seductive and detailed worlds.\"",
+        "source": "Olga Tokarczuk, Nobel Prize Laureate and Man Booker Prize winning author of Flights"
+      },
+      {
+        "quote": "\"Elzbieta Cherezinska brings epic history to life with her own unique and recognizable voice.\"",
+        "source": "Tomek Baginski, Executive Producer, The Witcher, Netflix"
+      }
+    ]
+  },
+  {
+    "id": "last-crown",
+    "title": "The Last Crown",
+    "author": "Elzbieta Cherezińska",
+    "translator": "Maya Zakrzewska-Pim",
+    "cover": "covers/last-crown.jpg",
+    "series": "The Bold",
+    "series_number": 2,
+    "shelves": [
+      "Fiction"
+    ],
+    "language_original": "Polish",
+    "description_long": "Across Baltic shores, English battlegrounds, and the land of Northern Lights, The Last Crown is the follow up to The Widow Queen, and the epic conclusion of Swietoslawa's journey from Polish princess to Queen of Denmark & Sweden and Queen Mother of England.\n\nThe web of love and lies is thicker than ever as we reunite with players spread across the board of Europe in this sequel to The Widow Queen. Our heroes and enemies alike are beholden to the hands of fate.\n\nWhile Olav Tryggvason reclaims the throne of Norway and baptizes the land by blood, King Sven in Denmark is filled with rage at his once comrade. Not only does Olav threaten Sven’s hold on Norway, but his hold on his own wife -- the woman with two crowns, three sons, and a heart long spoken for. Swietoslawa, the Bold One.\n\nMeanwhile, those Swietoslawa trusts most -- Astrid, her sister, Sigvald, her brother-in-law and head of the Jomsvikings, and even her own son, Olaf -- take shocking, selfish action, with consequences that will reverberate for years to come.\n\nFor the storm of unrequited love destroys all in its path.\n\nAt the Publisher's request, this title is being sold without Digital Rights Management Software (DRM) applied.",
+    "featured": "yes",
+    "shelf_order": 1350,
+    "editions": [
+      {
+        "format": "Hardcover",
+        "publisher": "Forge Books",
+        "price_usd": 28.99,
+        "isbn": "97812507757400"
+      },
+      {
+        "format": "Paperback",
+        "publisher": "Forge Books",
+        "price_usd": 20.99,
+        "isbn": "97812507757640"
+      }
+    ],
+    "praise": [
+      {
+        "quote": "“Elzbieta Cherezinska writes with great depth and imagination, bringing to life seductive and detailed worlds.\"",
+        "source": "Olga Tokarczuk, Nobel Prize Laureate and Man Booker Prize winning author of Flights"
+      },
+      {
+        "quote": "\"Elzbieta Cherezinska brings epic history to life with her own unique and recognizable voice.\"",
+        "source": "Tomek Baginski, Executive Producer, The Witcher, Netflix"
+      }
+    ]
+  },
+  {
+    "id": "the-homeless",
+    "title": "The Homeless",
+    "author": "Stefan Żeromski",
+    "translator": "Stefanie Kraft",
+    "cover": "covers/the-homeless.jpg",
+    "shelves": [
+      "Classics"
+    ],
+    "language_original": "Polish",
+    "description_long": "<p><strong>“Although he was nominated for the Nobel Prize in literature four times, Stefan Żeromski’s work is not as widely known outside Poland as it should be. Thus this elegant translation is most welcome . . . A beautiful, prescient story.”\n—Celia Jeffries, author of Blue Desert</strong></p>\n\n<p><strong>The first contemporary English edition of a Polish masterpiece</strong></p>\n\n\n<p><strong>Beautifully translated by Stephanie Kraft, this new edition includes an Introduction by Jennifer Croft and Boris Dralyuk.</strong></p>\n\n\n<p>Tomasz Judym was born in a slum in Warsaw. Against all odds, he has become a doctor, and he finds that his driving motivation to treat disadvantaged people like those he grew up with is at odds with the expectations of his peers. He sees the unhealthy working and living conditions of the working class in twentieth-century Poland wearing on those around him, even as he strives to help them. As he battles alone to do the kind of work that boards of health and other agencies do today, Dr. Judym wrestles inwardly with feelings of inferiority and revulsion caused by his difficult childhood. His mission takes him out of the city and into the countryside, bringing him into conflict with his other desires, and the love that he feels for a sympathetic woman whose background differs fundamentally from his own.</p>\n\n<p>The Homeless combines concrete detail about social issues—the urgent need for public hygiene and access to medical treatment, the effects of industrialization on health and the landscape, and the disinterest that people in power have in the disadvantaged—with beautiful, artistic passages of prose that sensitively probe the characters’ inner lives. The title comes not from the obvious reference to the impoverished people Dr. Judym concerns himself with, but from the unmoored status of the protagonist, the woman he loves, a mysterious engineer friend of his, his brother, and many others who find themselves rootless—emotionally and physically alienated by class divides and the social upheaval of industrialization. The Homeless is a portrait of the time and place it was written—Poland on the precipice of the twentieth century—that speaks to our current time and place.</p>",
+    "featured": "yes",
+    "shelf_order": 900,
+    "editions": [
+      {
+        "format": "Paperback",
+        "publisher": "Paul Dry Books",
+        "price_usd": 24.99,
+        "isbn": "97815898818460"
+      },
+      {
+        "format": "Ebook",
+        "publisher": "Paul Dry Books",
+        "price_usd": 9.99,
+        "isbn": "97815898838020"
       }
     ]
   }
