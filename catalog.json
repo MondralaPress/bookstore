@@ -30,7 +30,7 @@
         "price_usd": 15,
         "price_eur": 18,
         "price_gbp": 15,
-        "isbn": "97806848673800"
+        "isbn": "9780684867380"
       }
     ],
     "praise": [
@@ -74,7 +74,7 @@
         "price_usd": 18,
         "price_eur": 18,
         "price_gbp": 15,
-        "isbn": "97814299660780"
+        "isbn": "9781429966078"
       }
     ]
   },
@@ -103,7 +103,7 @@
         "price_usd": 20,
         "price_eur": 20,
         "price_gbp": 16,
-        "isbn": "97800085217070"
+        "isbn": "9780008521707"
       }
     ],
     "praise": [
@@ -169,7 +169,7 @@
         "price_usd": 58,
         "price_eur": 52,
         "price_gbp": 44,
-        "isbn": "97814728160540"
+        "isbn": "9781472816054"
       }
     ]
   },
@@ -232,7 +232,7 @@
         "price_usd": 18,
         "price_eur": 16,
         "price_gbp": 14,
-        "isbn": "97815901739780"
+        "isbn": "9781590173978"
       }
     ]
   },
@@ -845,7 +845,7 @@
         "format": "Ebook",
         "publisher": "Mondrala Press",
         "price_usd": 10,
-        "isbn": "97899987937500"
+        "isbn": "9789998793750"
       }
     ]
   },
@@ -881,7 +881,7 @@
         "format": "Ebook",
         "publisher": "Mondrala Press",
         "price_usd": 10,
-        "isbn": "97829198200160"
+        "isbn": "9782919820016"
       }
     ]
   },
@@ -1208,7 +1208,7 @@
         "format": "Ebook",
         "publisher": "Mondrala Press",
         "price_usd": 2.99,
-        "isbn": "97829198208490"
+        "isbn": "9782919820849"
       }
     ]
   },
@@ -1242,7 +1242,7 @@
         "format": "Ebook",
         "publisher": "Mondrala Press",
         "price_usd": 9.99,
-        "isbn": "97829198400380"
+        "isbn": "9782919840038"
       }
     ]
   },
@@ -1276,7 +1276,7 @@
         "format": "Ebook",
         "publisher": "Mondrala Press",
         "price_usd": 9.99,
-        "isbn": "97829198209240"
+        "isbn": "9782919820924"
       }
     ]
   },
@@ -1310,7 +1310,7 @@
         "format": "Ebook",
         "publisher": "Mondrala Press",
         "price_usd": 9.99,
-        "isbn": "97829198208940"
+        "isbn": "9782919820894"
       }
     ]
   },
@@ -1338,7 +1338,7 @@
         "format": "Ebook",
         "publisher": "Mondrala Press",
         "price_usd": 5.99,
-        "isbn": "97819055838290"
+        "isbn": "9781905583829"
       }
     ]
   },
@@ -1372,7 +1372,7 @@
         "format": "Ebook",
         "publisher": "Viking Adult",
         "price_usd": 13,
-        "isbn": "97801419141380"
+        "isbn": "9780141914138"
       }
     ]
   },
@@ -1465,7 +1465,7 @@
         "format": "Ebook",
         "publisher": "Routledge",
         "price_usd": 44,
-        "isbn": "97813516236740"
+        "isbn": "9781351623674"
       }
     ]
   },
@@ -1591,7 +1591,7 @@
       {
         "format": "Ebook",
         "price_usd": 8.99,
-        "isbn": "97804650124730"
+        "isbn": "9780465012473"
       }
     ]
   },
@@ -1789,7 +1789,7 @@
         "format": "Ebook",
         "publisher": "Royal Hawaiian Press",
         "price_usd": 9.99,
-        "isbn": "97813867450060"
+        "isbn": "9781386745006"
       }
     ]
   },
@@ -1818,7 +1818,7 @@
         "format": "Ebook",
         "publisher": "Forge Books",
         "price_usd": 11.99,
-        "isbn": "97812502179810"
+        "isbn": "9781250217981"
       }
     ],
     "praise": [
@@ -1896,7 +1896,7 @@
         "format": "Ebook",
         "publisher": "Paul Dry Books",
         "price_usd": 9.99,
-        "isbn": "97815898838020"
+        "isbn": "9781589883802"
       }
     ]
   },
@@ -2102,7 +2102,7 @@
         "format": "Ebook",
         "publisher": "Grove Press",
         "price_usd": 9.99,
-        "isbn": "97808021622360"
+        "isbn": "9780802162236"
       }
     ],
     "praise": [
@@ -2264,7 +2264,7 @@
         "format": "Ebook",
         "publisher": "Verso",
         "price_usd": 20,
-        "isbn": "97817816840610"
+        "isbn": "9781781684061"
       }
     ],
     "praise": [
@@ -2297,7 +2297,7 @@
         "format": "Ebook",
         "publisher": "Oxford University Press",
         "price_usd": 11,
-        "isbn": "97801926680800"
+        "isbn": "9780192668080"
       }
     ],
     "praise": [
@@ -2598,7 +2598,7 @@
         "format": "Ebook",
         "publisher": "New Vessel Press",
         "price_usd": 9.06,
-        "isbn": "97819399311840"
+        "isbn": "9781939931184"
       }
     ],
     "praise": [
@@ -2631,7 +2631,7 @@
         "format": "Ebook",
         "publisher": "Northern Illinois University Press",
         "price_usd": 17,
-        "isbn": "97816090909510"
+        "isbn": "9781609090951"
       }
     ],
     "praise": [
@@ -2663,7 +2663,7 @@
         "format": "Ebook",
         "publisher": "Seven Stories Press",
         "price_usd": 17,
-        "isbn": "97816442101780"
+        "isbn": "9781644210178"
       }
     ],
     "praise": [
@@ -2696,7 +2696,7 @@
         "format": "Ebook",
         "publisher": "Seven Stories Press",
         "price_usd": 12,
-        "isbn": "97816442137660"
+        "isbn": "9781644213766"
       }
     ],
     "praise": [
@@ -2729,7 +2729,7 @@
         "format": "Ebook",
         "publisher": "NYRB Classics",
         "price_usd": 10,
-        "isbn": "97816813725940"
+        "isbn": "9781681372594"
       }
     ],
     "praise": [
@@ -2762,7 +2762,7 @@
         "format": "Ebook",
         "publisher": "NYRB Classics",
         "price_usd": 11,
-        "isbn": "97816813748710"
+        "isbn": "9781681374871"
       }
     ],
     "praise": [
@@ -2801,7 +2801,7 @@
         "format": "Ebook",
         "publisher": "Farrar, Strauss and Giroux",
         "price_usd": 15,
-        "isbn": "97803747103230"
+        "isbn": "9780374710323"
       }
     ],
     "praise": [
@@ -2834,7 +2834,7 @@
         "format": "Ebook",
         "publisher": "NYRB Poets",
         "price_usd": 10,
-        "isbn": "97816813773150"
+        "isbn": "9781681377315"
       }
     ],
     "praise": [
@@ -2867,7 +2867,7 @@
         "format": "Ebook",
         "publisher": "NYRB Poets",
         "price_usd": 11,
-        "isbn": "97816813716100"
+        "isbn": "9781681371610"
       }
     ],
     "praise": [
@@ -2900,7 +2900,7 @@
         "format": "Ebook",
         "publisher": "Linden Editions",
         "price_usd": 9.5,
-        "isbn": "97810687404110"
+        "isbn": "9781068740411"
       }
     ]
   },
@@ -2928,7 +2928,7 @@
         "format": "Ebook",
         "publisher": "Oneworld Publications",
         "price_usd": 7,
-        "isbn": "97817860735940"
+        "isbn": "9781786073594"
       }
     ],
     "praise": [
@@ -2961,7 +2961,7 @@
         "format": "Ebook",
         "publisher": "Penguin Publishing Group",
         "price_usd": 6,
-        "isbn": "97811019933850"
+        "isbn": "9781101993385"
       }
     ],
     "praise": [
@@ -2994,7 +2994,7 @@
         "format": "Ebook",
         "publisher": "Amazon Crossing",
         "price_usd": 4,
-        "isbn": "97815039908690"
+        "isbn": "9781503990869"
       }
     ],
     "praise": [
@@ -3063,7 +3063,7 @@
         "format": "Ebook",
         "publisher": "Fitzcarraldo Editions",
         "price_usd": 9,
-        "isbn": "97819106955620"
+        "isbn": "9781910695562"
       }
     ]
   },
@@ -3097,7 +3097,7 @@
         "format": "Ebook",
         "publisher": "Riverhead Books",
         "price_usd": 8,
-        "isbn": "97805930874970"
+        "isbn": "9780593087497"
       }
     ],
     "praise": [
@@ -3136,7 +3136,7 @@
         "format": "Ebook",
         "publisher": "Fitzcarraldo Editions",
         "price_usd": 12.42,
-        "isbn": "97818042710940"
+        "isbn": "9781804271094"
       }
     ],
     "praise": [
@@ -3169,7 +3169,7 @@
         "format": "Ebook",
         "publisher": "Seven Stories Press",
         "price_usd": 14,
-        "isbn": "97816442144800"
+        "isbn": "9781644214480"
       }
     ]
   },
@@ -3197,7 +3197,7 @@
         "format": "Ebook",
         "publisher": "Seven Stories Press",
         "price_usd": 14,
-        "isbn": "97816442103520"
+        "isbn": "9781644210352"
       }
     ],
     "praise": [
@@ -3231,7 +3231,67 @@
         "format": "Ebook",
         "publisher": "Point Blank",
         "price_usd": 8.5,
-        "isbn": "97817860792820"
+        "isbn": "9781786079282"
+      }
+    ]
+  },
+  {
+    "id": "on-niemen",
+    "title": "On the Niemen",
+    "author": "Eliza Orzeszkowa",
+    "translator": "Michelle Granas",
+    "cover": "covers/on-niemen.jpg",
+    "shelves": [
+      "Classics"
+    ],
+    "language_original": "Polish",
+    "description_long": "In the early 1900s, Eliza Orzeszkowa was repeatedly a top contender, with Leo Tolstoy, for the Nobel Prize in literature. Neither won. Nevertheless, her novels have remained classics of Polish literature, and her most famous, On the Niemen, is not only an unusual love story, but is strikingly relevant today.\n\nUnhappy after being abandoned by her fiancé, Justyna, an impoverished young woman who lives in a manor house belonging to relatives, desires a life of greater usefulness. While being pursued by a wealthy aristocrat and by her former love – now married – she meets Jan, a man of lower social standing, who introduces her to a different world: one of closeness to nature, manual labor, and communal enjoyments. To leave the manor for a farmstead would be a very peculiar proceeding, however, and furthermore, the farming community is feuding with Justyna's uncle.\n\nSet in the 1880s among the Polish population in a part of what was once the Polish-Lithuanian Commonwealth, the story involves the consequences of the January Uprising, twenty years before, against Russian rule. The characters are drawn from a cross section of society and the novel's topics include love, social justice, egotism and materialism, the psychological effects of war, the emancipation of women, marriage as partnership, drug addiction, dignity, obligations to one's fellow humans, what it means to be civilized – and joy.",
+    "featured": "yes",
+    "shelf_order": 1543,
+    "editions": [
+      {
+        "format": "Paperback",
+        "publisher": "Michelle Granas",
+        "price_usd": 24,
+        "isbn": "97809888592960"
+      },
+      {
+        "format": "Ebook",
+        "publisher": "Michelle Granas",
+        "price_usd": 2.99,
+        "isbn": "00907"
+      }
+    ]
+  },
+  {
+    "id": "marta",
+    "title": "Marta",
+    "author": "Eliza Orzeszkowa",
+    "cover": "covers/marta.jpg",
+    "shelves": [
+      "Classics"
+    ],
+    "language_original": "Polish",
+    "description_long": "Eliza Orzeszkowa was a trailblazing Polish novelist who, alongside Leo Tolstoy and Henryk Sienkiewicz, was a finalist for the 1905 Nobel Prize in Literature. Of her many works of social realism, Marta (1873) is among the best known, but until now it has not been available in English. Easily a peer of The Awakening and A Doll’s House, the novel was well ahead of the English literature of its time in attacking the ways the labor market failed women.\n\n\nSuddenly widowed, the previously middle-class Marta Świcka is left penniless and launched into a grim battle for her survival and that of her small daughter. As she applies for job after job in Warsaw—portrayed here as an every-city, an unforgiving commercial landscape that could be any European metropolis of the time—she is told time after time that only men will be hired, that men need jobs because they are fathers and heads of families.\n\n\nMarta burns with Orzeszkowa’s feminist conviction that sexism was not just an annoyance but a threat to the survival of women and children. It anticipated the need for social safety nets whose existence we take for granted today, and could easily read as an indictment of current efforts to dismantle those very programs. Tightly plotted and exquisitely translated by Anna Gąsienica-Byrcyn and Stephanie Kraft, Marta resonates beyond its Polish setting to find its place in women’s studies, labor history, and among other works of nineteenth-century literature and literature of social change.",
+    "featured": "yes",
+    "shelf_order": 1570,
+    "editions": [
+      {
+        "format": "Hardcover",
+        "publisher": "Ohio Press University",
+        "price_usd": 25,
+        "isbn": "97808214231340"
+      },
+      {
+        "format": "Ebook",
+        "publisher": "Ohio Press University",
+        "price_usd": 24,
+        "isbn": "9780821446294"
+      }
+    ],
+    "praise": [
+      {
+        "quote": "“[Marta] reminds you, too, that it’s not just the hottest contemporary novels that are crying out to be translated – it’s also hidden gems like this, that give us a richer sense of a particular tradition’s literary history.”—Kasia Bartoszynska, Three Percent\n\n“This translation, the skilful work of Anna Gąsienica Byrcyn and Stephanie Kraft, well renders the simple, unadorned language of the original Polish version, and the book comes in John Bukowczyk’s Polish and Polish-American Studies Series that is already well established and well-known for choosing manuscripts in terms of excellence. Marta will find its reader among lovers of literature as well as academics studying women writers and the literature of the second half of the nineteenth century. It will provide important reading material for courses in literature at the university level—not only those with a focus on women’s writing, but also those concerned with ‘the other Europe’ and its women.\"—Bożena Karwowska, Polish Review"
       }
     ]
   }
