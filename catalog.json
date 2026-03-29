@@ -2059,7 +2059,7 @@
   },
   {
     "id": "stone-tablets",
-    "title": "Srone Tablets",
+    "title": "Stone Tablets",
     "author": "Wojciech Żukrowski",
     "translator": "Stefanie Kraft",
     "cover": "covers/stone-tablets.jpg",
@@ -2312,6 +2312,8 @@
     "author": "Maryla Szymiczkowa",
     "translator": "Antonia Lloyd-Jones",
     "cover": "covers/mohr-missing.jpg",
+    "series": "Zofia Turbotynska Mysteries",
+    "series_number": 1,
     "shelves": [
       "Genre Fiction"
     ],
@@ -3173,7 +3175,7 @@
   },
   {
     "id": "lost-soul",
-    "title": "Trhe Lost Soul",
+    "title": "The Lost Soul",
     "author": "Olga Tokarczuk",
     "translator": "Antonia Lloyd-Jones",
     "cover": "covers/lost-soul.jpg",
