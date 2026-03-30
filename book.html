@@ -505,6 +505,14 @@
         .join("");
     }
 
+    function normalizePraiseText(raw) {
+      if (!raw) return "";
+      const text = String(raw).trim();
+      if (!text) return "";
+
+      return escapeHtml(text).replace(/\n/g, "<br>");
+}
+    
     function getPraise(book) {
       if (Array.isArray(book.praise) && book.praise.length) {
         return book.praise
@@ -620,7 +628,7 @@
                 ? `<ul class="praise-list">
                     ${praise.map(item => `
                       <li>
-                        <p class="praise-quote">${escapeHtml(item.quote || "")}</p>
+                        <p class="praise-quote">${normalizePraiseText(item.quote || "")}</p>
                         <div class="praise-source">${escapeHtml(item.source || "")}</div>
                       </li>
                     `).join("")}
