@@ -256,11 +256,19 @@
      font-weight: 500;
     }
 
-    .video-feature {
+   .video-feature {
       display: grid;
-      grid-template-columns: minmax(320px, 560px) minmax(260px, 1fr);
+      grid-template-columns: 58% 1fr;
       gap: 32px;
       align-items: start;
+    }
+
+    .video-embed {
+      min-width: 0;
+    }
+
+    .video-copy {
+      min-width: 0;
     }
 
     .video-embed iframe,
