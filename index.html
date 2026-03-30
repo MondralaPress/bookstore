@@ -406,11 +406,16 @@
 
       if (!track || !dots || !prevBtn || !nextBtn || !pauseBtn) return;
 
-      track.innerHTML = FEATURE_SLIDES.map((slide, i) => `
-        <a class="feature-slide" href="${slide.link}">
-          <img src="${slide.image}" alt="${slide.alt || `Featured slide ${i + 1}`}">
-        </a>
-      `).join("");
+    track.innerHTML = FEATURE_SLIDES.map((slide, i) => `
+      <a class="feature-slide" href="${slide.link}">
+       <picture>
+         <source media="(max-width: 600px)" srcset="${slide.image.replace('.jpg', '_mobile.jpg')}">
+         <img src="${slide.image}" alt="${slide.alt || `Featured slide ${i + 1}`}">
+       </picture>
+     </a>
+    `).join("");
+
+      
 
       dots.innerHTML = FEATURE_SLIDES.map((_, i) => `
         <button class="feature-dot${i === 0 ? " active" : ""}" type="button" aria-label="Go to slide ${i + 1}" data-index="${i}"></button>
