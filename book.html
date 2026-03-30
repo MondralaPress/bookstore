@@ -555,8 +555,9 @@
         book.description_long || book.description_short || book.description || book.blurb || ""
       );
       const praise = getPraise(book);
+      
       const primaryShelf = getPrimaryShelf(book);
-
+      const videos = getVideos(book);
       const formatControl = editions.length
         ? `
           <div class="buy-row">
