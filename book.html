@@ -651,6 +651,38 @@
           </div>
         </section>
 
+                ${videos.length ? `
+          <section class="video-section">
+            <h2>Related Video</h2>
+            <div class="video-feature">
+              <div class="video-embed">
+                ${
+                  videos[0].embed
+                    ? `<iframe
+                        src="${escapeHtml(videos[0].embed)}"
+                        title="${escapeHtml(videos[0].title || "Related video")}"
+                        loading="lazy"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin"
+                        allowfullscreen>
+                      </iframe>`
+                    : videos[0].thumbnail
+                      ? `<a href="${escapeHtml(videos[0].url || "#")}" target="_blank" rel="noopener">
+                           <img src="${escapeHtml(videos[0].thumbnail)}" alt="${escapeHtml(videos[0].title || "Related video thumbnail")}">
+                         </a>`
+                      : ""
+                }
+              </div>
+
+              <div class="video-copy">
+                ${videos[0].title ? `<h3>${escapeHtml(videos[0].title)}</h3>` : ""}
+                ${videos[0].description ? `<p>${escapeHtml(videos[0].description)}</p>` : ""}
+                ${videos[0].url ? `<a class="secondary-link" href="${escapeHtml(videos[0].url)}" target="_blank" rel="noopener">Watch on source site</a>` : ""}
+              </div>
+            </div>
+          </section>
+        ` : ""}
+
 
         <section class="related-books-section">
           <h2>Related Books</h2>
