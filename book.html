@@ -534,6 +534,18 @@
       return praise;
     }
 
+    function getVideos(book) {
+      if (!Array.isArray(book.videos)) return [];
+
+      return book.videos.filter(video =>
+        video &&
+        (
+         String(video.embed || "").trim() !== "" ||
+         String(video.url || "").trim() !== ""
+        )
+      );
+    }
+
     function renderBook(book, cur) {
       const editions = normalizeEditions(book);
       const firstEdition = editions[0] || null;
