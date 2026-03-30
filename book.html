@@ -244,6 +244,88 @@
       color: #666;
     }
 
+    .related-books-section {
+      margin-top: 64px;
+    }
+
+    .related-books-section h2 {
+      font-size: 20px;
+      margin: 0 0 18px;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 10px;
+      font-weight: 500;
+    }
+
+    .related-carousel-wrap {
+      position: relative;
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+
+    .related-carousel {
+      display: flex;
+      gap: 22px;
+      overflow-x: auto;
+      scroll-behavior: smooth;
+      scrollbar-width: none;
+      width: 100%;
+    }
+
+    .related-carousel::-webkit-scrollbar {
+      display: none;
+    }
+
+    .related-carousel-btn {
+      width: 38px;
+      height: 46px;
+      border: 1px solid #ddd;
+      background: #fff;
+      cursor: pointer;
+      font-size: 22px;
+      line-height: 1;
+      flex: 0 0 auto;
+    }
+
+    .related-book-card {
+      text-decoration: none;
+      color: inherit;
+      flex: 0 0 180px;
+    }
+
+    .related-book-cover {
+      width: 100%;
+      aspect-ratio: 2 / 3;
+      background: #f4f4f4;
+      border: 1px solid #ddd;
+      margin-bottom: 12px;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .related-book-cover img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+
+    .related-book-title {
+      font-size: 15px;
+      line-height: 1.4;
+      margin-bottom: 6px;
+    }
+
+    .related-book-author,
+    .related-book-price {
+      font-size: 13px;
+      color: #666;
+      line-height: 1.4;
+    }
+
+
     @media (max-width: 900px) {
       .product-top,
       .product-sections {
@@ -254,6 +336,20 @@
       .product-cover-wrap {
         position: static;
         max-width: 420px;
+      }
+    }
+
+    @media (max-width: 700px) {
+      .related-carousel-wrap {
+        gap: 8px;
+      }
+
+      .related-book-card {
+        flex-basis: 140px;
+      }
+
+      .related-carousel-btn {
+        display: none;
       }
     }
   </style>
@@ -533,7 +629,130 @@
             }
           </div>
         </section>
+
+
+        <section class="related-books-section">
+          <h2>Related Books</h2>
+          <div class="related-carousel-wrap">
+            <button class="related-carousel-btn prev" type="button" aria-label="Scroll related books left">‹</button>
+            <div class="related-carousel" id="relatedBooks"></div>
+            <button class="related-carousel-btn next" type="button" aria-label="Scroll related books right">›</button>
+          </div>
+        </section>
       `;
+    }
+
+
+    function getRelatedBooks(currentBook, allBooks, limit = 8) {
+      const currentId = String(currentBook.id);
+      const currentShelves = getShelves(currentBook);
+      const primaryShelf = currentShelves[0] || "";
+      const currentSeries = String(currentBook.series || "").trim().toLowerCase();
+      const currentAuthor = String(currentBook.author || "").trim().toLowerCase();
+
+      const sameSeries = [];
+      const sameAuthor = [];
+      const sameShelf = [];
+      const seen = new Set();
+
+      for (const book of allBooks) {
+        const bookId = String(book.id);
+        if (bookId === currentId) continue;
+
+        const bookSeries = String(book.series || "").trim().toLowerCase();
+        const bookAuthor = String(book.author || "").trim().toLowerCase();
+        const bookShelves = getShelves(book);
+
+        if (currentSeries && bookSeries && bookSeries === currentSeries) {
+          if (!seen.has(bookId)) {
+            sameSeries.push(book);
+            seen.add(bookId);
+          }
+          continue;
+        }
+
+        if (currentAuthor && bookAuthor && bookAuthor === currentAuthor) {
+          if (!seen.has(bookId)) {
+            sameAuthor.push(book);
+            seen.add(bookId);
+          }
+          continue;
+        }
+
+        if (primaryShelf && bookShelves.includes(primaryShelf)) {
+          if (!seen.has(bookId)) {
+            sameShelf.push(book);
+            seen.add(bookId);
+          }
+        }
+      }
+
+      const sortByShelfOrder = (a, b) => {
+        const ao = Number(a.shelf_order ?? 9999);
+        const bo = Number(b.shelf_order ?? 9999);
+        return ao - bo;
+      };
+
+      sameSeries.sort(sortByShelfOrder);
+      sameAuthor.sort(sortByShelfOrder);
+      sameShelf.sort(sortByShelfOrder);
+
+      return [...sameSeries, ...sameAuthor, ...sameShelf].slice(0, limit);
+    }
+
+    function formatBookCardPrice(book, cur) {
+      const editions = normalizeEditions(book);
+      const firstEdition = editions[0] || null;
+      if (!firstEdition) return "";
+      return formatMoney(getEditionPrice(firstEdition, cur), cur);
+    }
+
+    function renderRelatedBooks(currentBook, allBooks) {
+      const container = document.getElementById("relatedBooks");
+      if (!container) return;
+
+      const related = getRelatedBooks(currentBook, allBooks);
+
+      if (!related.length) {
+        container.innerHTML = `<p>No related books yet.</p>`;
+        return;
+      }
+
+      const cur = getCurrency();
+
+      container.innerHTML = related.map(book => `
+        <a class="related-book-card" href="book.html?id=${encodeURIComponent(book.id)}">
+          <div class="related-book-cover">
+            ${book.cover
+              ? `<img src="${escapeHtml(book.cover)}" alt="${escapeHtml(book.title || "Book")} cover">`
+              : `<span>No cover</span>`}
+          </div>
+          <div class="related-book-title">${escapeHtml(book.title || "")}</div>
+          <div class="related-book-author">${escapeHtml(book.author || "")}</div>
+          <div class="related-book-price">${escapeHtml(formatBookCardPrice(book, cur))}</div>
+        </a>
+      `).join("");
+    }
+
+    function wireRelatedCarousel() {
+      const wrap = document.querySelector(".related-carousel-wrap");
+      if (!wrap) return;
+
+      const track = wrap.querySelector(".related-carousel");
+      const prev = wrap.querySelector(".related-carousel-btn.prev");
+      const next = wrap.querySelector(".related-carousel-btn.next");
+
+      if (!track || !prev || !next) return;
+
+      const scrollAmount = 260;
+
+      prev.addEventListener("click", () => {
+        track.scrollBy({ left: -scrollAmount, behavior: "smooth" });
+      });
+
+      next.addEventListener("click", () => {
+        track.scrollBy({ left: scrollAmount, behavior: "smooth" });
+      });
     }
 
     function setRowValue(rowId, valueId, value) {
@@ -621,6 +840,8 @@
         wireCurrencySelector(book);
         wireFormatSelector(book);
         updateEditionUI(book);
+        renderRelatedBooks(book, books);
+        wireRelatedCarousel();
       } catch (err) {
         console.error(err);
         root.innerHTML = "<p>Failed to load book.</p>";
