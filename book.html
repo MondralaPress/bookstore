@@ -244,6 +244,62 @@
       color: #666;
     }
 
+    .video-section {
+      margin-top: 56px;
+     }
+
+    .video-section h2 {
+      font-size: 20px;
+      margin: 0 0 18px;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 10px;
+     font-weight: 500;
+    }
+
+    .video-feature {
+      display: grid;
+      grid-template-columns: minmax(320px, 560px) minmax(260px, 1fr);
+      gap: 32px;
+      align-items: start;
+    }
+
+    .video-embed iframe,
+    .video-embed img {
+      width: 100%;
+      display: block;
+      border: 0;
+    }
+
+     .video-embed iframe {
+       aspect-ratio: 16 / 9;
+       background: #000;
+    }
+
+     .video-embed img {
+       border: 1px solid #ddd;
+     }
+
+    .video-copy h3 {
+      font-size: 20px;
+     line-height: 1.35;
+    margin: 0 0 12px;
+    font-weight: 500;
+    }
+
+    .video-copy p {
+      font-size: 16px;
+      line-height: 1.7;
+      color: #222;
+      margin: 0 0 16px;
+    }
+
+    @media (max-width: 900px) {
+      .video-feature {
+      grid-template-columns: 1fr;
+      gap: 22px;
+    }
+   }
+
     .related-books-section {
       margin-top: 64px;
     }
