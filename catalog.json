@@ -517,6 +517,24 @@
         "url": "https://www.youtube.com/watch?v=q7ASutCFetE",
         "embed": "https://www.youtube.com/embed/q7ASutCFetE",
         "thumbnail": "https://img.youtube.com/vi/q7ASutCFetE/hqdefault.jpg"
+      },
+      {
+        "title": "Another Day of Life Official Trailer",
+        "description": "",
+        "platform": "youtube",
+        "id": "A2WVFaVSZ3A",
+        "url": "https://www.youtube.com/watch?v=A2WVFaVSZ3A",
+        "embed": "https://www.youtube.com/embed/A2WVFaVSZ3A",
+        "thumbnail": "https://img.youtube.com/vi/A2WVFaVSZ3A/hqdefault.jpg"
+      },
+      {
+        "title": "\"Another Day of Life\" - trailer",
+        "description": "",
+        "platform": "youtube",
+        "id": "H0ujMbACCS0",
+        "url": "https://www.youtube.com/watch?v=H0ujMbACCS0",
+        "embed": "https://www.youtube.com/embed/H0ujMbACCS0",
+        "thumbnail": "https://img.youtube.com/vi/H0ujMbACCS0/hqdefault.jpg"
       }
     ],
     "editions": [
@@ -3435,6 +3453,26 @@
     "description_long": "The Dedalus Book of Polish Fantasy is a 1996 anthology of Polish speculative fiction, edited and translated by Wiesiek Powaga and published in the United Kingdom by Dedalus Books in their Dedalus Books of Fantasy series of European literary fantasy anthologies.\nThe anthology features twenty short stories spanning two centuries of Polish literature, written by authors including Witold Gombrowicz, Stefan Grabiński, Sławomir Mrożek, Władysław Reymont, Bruno Schulz, and Jacek Dukaj.\nThe collection's unifying theme is the exploration of evil, often personified in the devil or another demonic entity or entities. The genres include Gothic, surrealism, dystopian satire, even science fiction.\nThe anthology has been praised for its thematic coherence, its portrayal of \"the reality of evil\", and its demonstration of how the Polish literary tradition differs from Western European approaches to similar themes.",
     "featured": "yes",
     "shelf_order": 1600,
+    "videos": [
+      {
+        "title": "Mother Joan of the Angels (Modern Trailer)",
+        "description": "Mother Joanna of the Angels, one of the stories in this collection, was the basis for a highly acclaimed film.",
+        "platform": "youtube",
+        "id": "nfY_wtIyWuU",
+        "url": "https://www.youtube.com/watch?v=nfY_wtIyWuU",
+        "embed": "https://www.youtube.com/embed/nfY_wtIyWuU",
+        "thumbnail": "https://img.youtube.com/vi/nfY_wtIyWuU/hqdefault.jpg"
+      },
+      {
+        "title": "MOTHER JOAN OF THE ANGELS is better than The Devils | reaction & commentary",
+        "description": "Mother Joan of the Angels is a 1961 demonic possession film by Jerzy Kawalerowicz. \nBased on the Loudun possessions (later made famous by Ken Russell's The Devils), the film takes place after the burning of Father Grandier and the fallout with the convent of possessed nuns. Father Józef Suryn (Mieczyslaw Voit) is sent after many failed exorcisms, and comes head to head with Mother Joan (Lucyna Winnicka), who is simultaneously afflicted by and ecstatic in her possession. He delves deeper and deeper into the darkness to try to determine what the demon is, and how he may stop it. \n\nKawalerowicz was a seminal director to emerge in Polish cinema: he helmed the Polish Film School, and founded the KADR production company, lending to the production of films by himself, Andrej Wajda, Tadeusz Konwicki, and Andrej Munk, among others. He made films amidst the political turmoil of communist Poland, and aspects of that resistance to orthodoxy and control can be seen in this film.",
+        "platform": "youtube",
+        "id": "P-bxhbHsGVQ",
+        "url": "https://www.youtube.com/watch?v=P-bxhbHsGVQ",
+        "embed": "https://www.youtube.com/embed/P-bxhbHsGVQ",
+        "thumbnail": "https://img.youtube.com/vi/P-bxhbHsGVQ/hqdefault.jpg"
+      }
+    ],
     "editions": [
       {
         "format": "Ebook",
@@ -3482,9 +3520,13 @@
     "title": "The Mannequins' Ball",
     "author": "Daniel Gerould, Bruno Jaslenski",
     "cover": "covers/mannequins-ball.jpg",
+    "shelves": [
+      "Genre Fiction"
+    ],
     "language_original": "Polish",
     "description_long": "This play, by Futurist poet Bruno Jasienski, is an outstanding example of the joining of left-wing politics and avant-garde interest in human mechanization that characterized the experimental theatre of Poland in the inter-war years.\nStalinism and the purges cut short Jasienski's career and prevented productions of his play for many years - except for a brilliant constructivist staging in Prague in 1933. The Mannequins' Ball can now take its place along with Capek's R.U.R. as one of the major twentieth-century dramas making use of the themes and techniques of human automata.\nReproduced in this volume are the eight woodcuts by Moor which accompanied the original Moscow publication in 1931.",
     "featured": "yes",
+    "shelf_order": 1300,
     "editions": [
       {
         "format": "Ebook",
@@ -3526,6 +3568,10 @@
     "title": "A Polish Book of Monsters",
     "author": "various",
     "translator": "Michael Kandel",
+    "cover": "covers/polish-monsters.jpg",
+    "shelves": [
+      "Genre Fiction"
+    ],
     "language_original": "Polish",
     "description_long": "A Polish Book of Monsters contains five stories of speculative fiction edited and translated from the Polish by Michael Kandel, award-winning translator of the fiction of Stanislaw Lem. From dystopian science fiction to fabled fantasy, these dark tales grip us through the authors' ability to create utterly convincing alien worlds that nonetheless reflect our own.",
     "featured": "yes",
@@ -3536,6 +3582,770 @@
         "publisher": "PIASA Books",
         "price_gbp": 10,
         "isbn": "97809409627050"
+      }
+    ]
+  },
+  {
+    "id": "mass-arras",
+    "title": "A Mass for Arras",
+    "author": "Andrzej Szczypiorski",
+    "cover": "covers/mass-arras.jpg",
+    "shelves": [
+      "Fiction"
+    ],
+    "language_original": "Polish",
+    "description_long": "At the core of this novel is the true fifteenth-century tragedy of, first, plague and hunger and, later, the brutal persecution of Jews and witches in the small French town of Arras. A Mass for Arras explores the personal and political consequences of fear, fanaticism, and fascism in the story of Jan, a young member of the intelligentsia. Arrogantly pious and full of revolutionary zeal, Jan wholeheartedly participates in the torments inflicted on the \"outsiders\" in the name of moral and political righteousness. Yet when faced with escalating violence and, ultimately, his own downfall, he must choose between sincere commitment to the isolated village that adopted him and horror at a society gone mad. A Mass for Arras addresses themes of freedom and responsibility, individualism and conformity, and memory and loss. It is a moving account of a young man's coming-of-age in a time of disease and death, a profound political allegory of life in an emergent totalitarian state, a chilling indictment of government-sponsored repression and societal complicity, and a cautionary tale about the tendency of history to repeat itself, whether in fifteenth-century France, postwar Poland, or somewhere still closer to our own time and place.",
+    "featured": "yes",
+    "shelf_order": 1230,
+    "editions": [
+      {
+        "format": "Paperback",
+        "publisher": "Grove Press",
+        "price_usd": 12,
+        "isbn": "97808021340280"
+      },
+      {
+        "format": "Ebook",
+        "publisher": "Grove Press",
+        "price_usd": 12,
+        "isbn": "9780802162267"
+      }
+    ],
+    "praise": [
+      {
+        "quote": "\"In the spring of 1458, the town of Arras was visited by the disasters of plague and hunger. In the course of a month, nearly a fifth of the citizens lost their lives.\n\"For reasons that remain unclear, the famous Vauderie d'Arras took place in October of 1461. Jews and witches were subjected to cruel persecution; there were trials for supposed heresies, as well as an outbreak of looting and crime. It was three weeks before calm returned....\"\n\nWith this historical tragedy at its core, A Mass for Arras explores the personal and political consequences of fear, fanaticism, and fascism in the story of Jan, a young member of the intelligentsia. Arrogantly pious and full of revolutionary zeal, Jan wholeheartedly participates in the torments inflicted on the \"outsiders\" in the name of moral and political righteousness. Yet when faced with escalating violence and, ultimately, his own downfall, he must choose between sincere commitment to the isolated village that adopted him and horror at a society gone mad.\n\nA Mass for Arras addresses themes of freedom and responsibility, individualism and conformity, and memory and loss. It is a moving account of a young man's coming-of-age in a time of disease and death, a profound political allegory of life in an emergent totalitarian state, a chilling indictment of government-sponsored repression and societal complicity, and a cautionary tale about the tendency of history to repeat itself, whether in fifteenth-century France, postwar Poland, or somewhere still closer to our own time and place.\n\n\"Gripping and persuasive.... About the forces now raging in the former Yugoslavia and Soviet Union, Mr. Szczypiorski seems to have shown uncanny prescience.\"--The New York Times Book Review\n\n\"Haunting, direct, and technically masterful.\"--New York Newsday\n\n\"The novel's philosophical sophistication and historical verisimilitude makes it far greater than mere allegory.\"--Boston Sunday Globe\n\n\"[Szczypiorski's] breadth of experience, and of suffering, is distilled into this remarkable book which, although it is allegorical in form and brimming with abstract ideas, pulsates with a very human vitality.\"--Sunday Telegraph (London)\n\n\"A thought-provoking meditation on the human tendency to find meaning in suffering by blaming others and to pervert ideals to base means.... Simply, elegantly, and yet with great power, Szczypiorski lays out the dangers of a worldview clearly reminiscent of Eastern Europe before the fall of communism.\"--Library Journal\n\n\"[Szczypiorski's] resonant story is a timely meditation on crimes committed in the name of religion and on the misplaced faith the ruled place in their rulers. The translation preserves the pungent medieval atmosphere, evoking a mindset that, the author implies, is very much alive today.\"--Publishers Weekly\n\n\"A fascinating and well-written parable about the horrors of totalitarianism and the combination of hysteria and indifference that allow it to metastasize.\"--Booklist\n\nAndrzej Szczypiorski was born in Warsaw in 1924, where he lived at the time of his death in May 2000. He fought in the Resistance Movement during the German Occupation of Poland, took part in the Warsaw uprising of 1944, and survived time in a concentration camp. Under the postwar regime, he published many novels, plays, and essays in the underground press, joined the opposition movement, was interned during the government crackdown, and helped found the Solidarity Congress of Polish culture. He was the author of The Beautiful Mrs. Seidenman and the recipient of the PEN Club award for A Mass for Arras, which has been published to great international acclaim.\n\nRichard Lourie is the translator of Andrei Sakharov's Memoirs and Czeslaw Milosz's Visions from San Francisco Bay. His own works include the novels The Autobiography of Joseph Stalin, First Loyalty, Zero Gravity and the true-crime account of a Russian serial killer, Hunting the Devil. He has also written for The New York Times, The Washington Post, The New Republic, and The Nation."
+      }
+    ]
+  },
+  {
+    "id": "salt-earth",
+    "title": "The Salt of the Earth",
+    "author": "Józef Wittlin",
+    "translator": "Patrick John Corness",
+    "cover": "covers/salt-earth.jpg",
+    "shelves": [
+      "Fiction"
+    ],
+    "language_original": "Polish",
+    "description_long": "The classic pacifist novel by a major Polish writer, who was nominated for the Nobel Prize\nAt the beginning of the twentieth century the villagers of the Carpathian mountains lead a simple life, much as they have always done. The modern world has yet to reach the inhabitants of this remote region of the Habsburg Empire. Among them is Piotr, a bandy-legged peasant, who wants nothing more from life than an official railway cap, a cottage, and a bride with a dowry.\nBut then the First World War reaches the mountains and Piotr is drafted into the army. All the weight of imperial authority is used to mould him into an unthinking fighting machine, forced to fight a war he does not understand, for interests other than his own.\nThe Salt of the Earth is a classic war novel and a powerfully pacifist tale about the consequences of war for ordinary men.\nJózef Wittlin was born in 1896 and served in the Austro-Hungarian army during the First World War. His experiences inspired him to write The Salt of the Earth. Published in 1935 to great success, it received the Polish National Academy Prize, won Wittlin a nomination for the Nobel Prize, and has since been translated into 14 languages. Wittlin was also a translator and a poet, penning numerous essays including 'My Lwów', included in City of Lions, also published by Pushkin Press. With the outbreak of the Second World War he fled to France and then to New York, where he died in 1976.",
+    "featured": "yes",
+    "shelf_order": 1380,
+    "editions": [
+      {
+        "format": "Hardcover",
+        "publisher": "Pushkin Prress",
+        "price_usd": 48,
+        "isbn": "97817822747040"
+      },
+      {
+        "format": "Paperback",
+        "publisher": "Pushkin Prress",
+        "price_usd": 15,
+        "isbn": "97817822747280"
+      },
+      {
+        "format": "Ebook",
+        "publisher": "Pushkin Prress",
+        "price_usd": 11.14,
+        "isbn": "9781782274711"
+      }
+    ],
+    "praise": [
+      {
+        "quote": "One of the small number of contemporary works which extend into the sphere of the mythical and epical. --Thomas Mann"
+      }
+    ]
+  },
+  {
+    "id": "7-plays",
+    "title": "Witkiewicz: Seven Plays",
+    "author": "Stanisław Ignacy Witkiewicz",
+    "translator": "Daniel Gerould",
+    "cover": "covers/7-plays.jpg",
+    "shelves": [
+      "Drama"
+    ],
+    "language_original": "Polish",
+    "description_long": "One of Poland’s most important artists and writers of the 20th Century, this collection includes: The Pragmatists, Tumor Brainiowicz, Gyubal Wahazar, The Anonymous Work, The Cuttlefish, Dainty Shapes and Hairy Apes, and The Beelzebub Sonata. Also included is “A Few Words about the Role of the Actor in the Theatre of Pure Form,” a key section of his major theoretical treatise.",
+    "featured": "yes",
+    "shelf_order": 1450,
+    "editions": [
+      {
+        "format": "Paperback",
+        "publisher": "Martin E. Segal Theatre Center Publ.",
+        "price_usd": 20,
+        "isbn": "97809666152650"
+      }
+    ],
+    "praise": [
+      {
+        "quote": "Overflowing with hyper-vivid characters and precipitous actions, these dramas constitute Witkiewicz's \"portrait of the artist,\" offering a panorama of a demented era headed for disaster as well as a cracked mirror reflecting the author's own protean faces. Lucille Lortel Distinguished Professor of Theatre and Comparative Literature at the Graduate Center, City University of New York; Executive Director, Martin E. Segal Theatre Center; editor, Slavic and East European Performance; editor, Routledge Harwood Polish and East European Theatre Archive; author of Witkacy, Guillotine: Its Legend and Lore, Theatre/Theory/Theatre, and translations of Polish and Russian drama."
+      }
+    ]
+  },
+  {
+    "id": "self-woman",
+    "title": "Self-Portrait with Woman",
+    "author": "Andrzej Szczypiorski",
+    "cover": "covers/self-woman.jpg",
+    "shelves": [
+      "Fiction"
+    ],
+    "language_original": "Polish",
+    "description_long": "Kamil, a Warsaw sociologist, is summoned to Geneva to participate in an oral history project about the collapse of Eastern European communism and resolves to tell his own story through a gallery of portraits of the many women he has loved. These reminiscences emerge against the broader canvas of circumstances and events that have shaped the past sixty years of Poland’s turbulent, tragic history. Soon he finds himself inexorably drawn to his interrogator from the “free” world; the chronicler of his life, the keeper of his secrets, and his heart’s last hope for redemptive love. Self-Portrait with Woman is at once a haunting and lyrical portrait of a man, of a country, and of the twilight years of an era.",
+    "featured": "yes",
+    "shelf_order": 1115,
+    "editions": [
+      {
+        "format": "Hardcover",
+        "publisher": "Grove Press",
+        "price_usd": 10,
+        "isbn": "97808021156760"
+      },
+      {
+        "format": "Paperback",
+        "publisher": "Grove Press",
+        "price_usd": 12,
+        "isbn": "97808021348820"
+      },
+      {
+        "format": "Ebook",
+        "publisher": "Grove Press",
+        "price_usd": 12,
+        "isbn": "9780802162274"
+      }
+    ],
+    "praise": [
+      {
+        "quote": "From Library Journal\nSome authors present life under Communism as an end in itself. A few rare authors use this traumatic experience as a vehicle to explore broader human themes. In this novel, it is romantic love. Kamil is invited to Switzerland to participate in a project that seeks to document the experiences of ordinary people living, first, under Communism and, later, with its collapse. The protagonist tells his story by recounting some of the women he has loved, and although a bit about the state is revealed, mostly the novel explores his innermost feelings toward love and his vulnerability in romantic encounters?emotions not often revealed by men. Szczypiorski shows terrific flashes of wit, melancholy, and insight into the human and political conditions he recalls. His ability to build characters and establish a dialog with himself is outstanding; it is not exaggerating to rank him alongside Ivan Klima and Milan Kundera as a major East European writer. A necessary purchase for all solid fiction collections; libraries that did not purchase his Mass for Arras (LJ 6/1/93) and The Beautiful Mrs. Seidenman (LJ 11/15/89) may want to buy them now.?Olivia Opello, Onondaga Cty. P.L., Syracuse, N.Y.\nCopyright 1995 Reed Business Information, Inc.\nFrom Booklist\nKamil, an aging Polish intellectual, is summoned to Geneva, Switzerland, to take part in an oral history project that seeks to record ordinary Eastern Europeans' experiences of historical interest--concentration camps, war, postwar hopes and disillusionment, resistance, and the mixed blessings of liberation--in order to document the collapse of Communism in Eastern Europe. Met by his guide and interviewer, Kamil immediately embarks on a new relationship with this wealthy, attractive Swiss matron taping his recollections. He soon finds that his life can be explored only in terms of his relationships with women over his lifetime. Kamil ruminates on the complex realities of men and women, indifference and involvement, powerlessness and freedom, love and hate, tenderness and cruelty, life and death, relentless guilt and the eternal hope of redemption. Szczypiorski (whose Beautiful Mrs. Seidenman, 1990, first brought him to the attention of readers of English) turns one individual's history into a powerful portrait of recent--and timeless--human dilemmas. Mary Carroll"
+      }
+    ]
+  },
+  {
+    "id": "green-goose",
+    "title": "The Conspiracy of Feelings and The Little Theatre of the Green Goose",
+    "author": "Daniel Gerould",
+    "cover": "covers/green-goose.jpg",
+    "shelves": [
+      "Drama"
+    ],
+    "language_original": "Polish",
+    "description_long": "Two outstanding examples of socialist-themed plays are combined in this remarkable volume.\nThe Conspiracy of Feelings by Yurii Olesha (1899-1960) is based on his highly respected short novel Envy about the struggle between the old and new in Soviet society. The play, called The Conspiracy of Feelings, is not a simple adaptation, but an original work that reconceived the novel. The play explores the precarious position of the intelligentsia in the new collective state.\nThe Little Theatre of The Green Goose was written by Konstanty Ildefons Galczynski (1905-53) who was one of Poland's most beloved poets. After World War II, he began work as a playwright, inventing a colorful theatre troupe of performers (animal and human) and contributing a new instalment of The Little Theatre of the Green Goose each week to Przekroj, the Cracow literary magazine. Intended for reading only, The Green Goose went unperformed in Galczynski's life and was finally staged in 1955 and gained a permanent place in the theatre and became a force for the creation of the new Polish drama that flourished in the 1960s.",
+    "featured": "yes",
+    "shelf_order": 1200,
+    "editions": [
+      {
+        "format": "Hardcover",
+        "publisher": "Routledge",
+        "price_usd": 127,
+        "isbn": "97804152750400"
+      },
+      {
+        "format": "Paperback",
+        "publisher": "Routledge",
+        "price_usd": 37,
+        "isbn": "97804158663540"
+      },
+      {
+        "format": "Ebook",
+        "publisher": "Routledge",
+        "price_usd": 29,
+        "isbn": "9781136474781"
+      }
+    ]
+  },
+  {
+    "id": "mrozek-reader",
+    "title": "The Mrozek Reader",
+    "author": "Sławomir Mrożek",
+    "translator": "Daniel Gerould",
+    "cover": "covers/mrozek-reader.jpg",
+    "shelves": [
+      "Drama"
+    ],
+    "language_original": "Polish",
+    "description_long": "Sławomir Mrożek has reigned as the pre-eminent playwright and satirist of Eastern Europe for the past half-century. A sharp critic of all oppressive systems during the Cold War, he began his career as a young enthusiast for the new Communist regime in the early 1950s. It didn’t take long, however, until he was deemed such a threat that his work was banned not only in his native Poland, but also in all Eastern bloc countries. After the fall of Communism, he returned home from self imposed exile in the West and was recognized as a major literary figure. This reissue of fourteen plays and ten short stories, along with a sampling of his capricious cartoons, affirms Mrożek’s mastery of a wide spectrum of styles, and illustrates the development of his talent over the decades. From the vantage point of the twenty-first century, Mrożek’s questioning of authority, his razor-sharp sense of the comic, and his spirit of contradiction seem as fresh, and as relevant, as ever.",
+    "featured": "yes",
+    "shelf_order": 1210,
+    "editions": [
+      {
+        "format": "Paperback",
+        "publisher": "Grove Press",
+        "price_usd": 18,
+        "isbn": "97808021406610"
+      }
+    ]
+  },
+  {
+    "id": "witkacy-reader",
+    "title": "The Witkiewicz Reader",
+    "author": "Stanisław Ignacy Witkiewicz",
+    "translator": "Daniel Gerould",
+    "cover": "covers/witkacy-reader.jpg",
+    "shelves": [
+      "Drama"
+    ],
+    "language_original": "Polish",
+    "description_long": "Forgotten during the Stalin years, Stanislaw Witkiewicz (1885-1939) was rediscovered in his native Poland only after the liberalization of 1956, when his works came to play a major role in freeing the arts from socialist realism. This collection, the first anthology in English, presents Witkiewicz in the full range of his creative and intellectual activities. The Witkiewicz Reader includes excerpts from three novels; four complete plays; letters to Malinowski; and selections from aesthetic, social, and philosophical essays detailing Witkiewicz's theory of Pure Form, his metaphysical system, and his apocalyptic view of the fate of civilization.",
+    "featured": "yes",
+    "shelf_order": 1205,
+    "editions": [
+      {
+        "format": "Paperback",
+        "publisher": "Northwestern University Press",
+        "price_usd": 35,
+        "isbn": "97808101099400"
+      }
+    ]
+  },
+  {
+    "id": "borowski-letters",
+    "title": "Postal Indiscretions: The Correspondence of Tadeusz Borowski",
+    "author": "Tadeusz Borowski",
+    "translator": "Alicia Nitecki",
+    "cover": "covers/borowski-letters.jpg",
+    "shelves": [
+      "Non-fiction"
+    ],
+    "language_original": "Polish",
+    "description_long": "In a brief life deeply and traumatically disrupted by two years in concentration camps as a political prisoner, Tadeusz Borowski (1922–1951) was tragically destined to become one of the most eloquent witnesses to the Holocaust in Poland. His recollections and stories, the most famous of which is This Way for the Gas, Ladies and Gentlemen, document in stark historical, literary, and personal terms the experience of the camps and its cost to humanity.  ​\n\nThis correspondence in this volume expands on the insights of Borowski’s published work and extends to the less-documented aftermath of the Holocaust in postwar Poland and East Germany. The volume opens with Borowski’s letter to his mother from Pawiak Prison the day after his arrest and closes with an unsigned telegram informing his parents of his suicide. The letters to and from family members, friends, and literary figures offer an indispensable picture of the world in the wake of the Nazis—and of the indelible stain that experience left upon the literature, politics, and life of Eastern Europe, in particular upon one gifted and doomed writer.",
+    "featured": "yes",
+    "shelf_order": 1102,
+    "editions": [
+      {
+        "format": "Hardcover",
+        "publisher": "Northwestern University Press",
+        "price_usd": 60,
+        "isbn": "97808101220310"
+      },
+      {
+        "format": "Paperback",
+        "publisher": "Northwestern University Press",
+        "price_usd": 30,
+        "isbn": "97808101296030"
+      }
+    ]
+  },
+  {
+    "id": "ashes-diamonds",
+    "title": "Ashes and Diamonds",
+    "author": "Jerzy Andrzejewski",
+    "translator": "J. D. Welsh",
+    "cover": "covers/ashes-diamonds.jpg",
+    "shelves": [
+      "Fiction"
+    ],
+    "language_original": "Polish",
+    "description_long": "Originally published in Poland in 1948, and acclaimed as one of the finest postwar Polish novels, Ashes and Diamonds takes place in the spring of 1945, as the nation is in the throes of its transformation to People' Poland. Communists, socialists, and nationalists; thieves and black marketeers; servants and fading aristocrats; veteran terrorists and bands of murderous children bewitched by the lure of crime and adventure—all of these converge on a provincial town's chief hotel, a microcosm of an uprooted world.",
+    "featured": "yes",
+    "shelf_order": 1207,
+    "editions": [
+      {
+        "format": "Paperback",
+        "publisher": "Northwestern University Press",
+        "price_usd": 22,
+        "isbn": "97808101151940"
+      }
+    ]
+  },
+  {
+    "id": "holy-week",
+    "title": "Holy Week: A Novel of the Warsaw Ghetto Uprising",
+    "author": "Jerzy Andrzejewski",
+    "cover": "covers/holy-week.jpg",
+    "shelves": [
+      "Fiction"
+    ],
+    "language_original": "Polish",
+    "description_long": "At the height of the Nazi extermination campaign in the Warsaw Ghetto, a young Jewish woman, Irena, seeks the protection of her former lover, a young architect, Jan Malecki. By taking her in, he puts his own life and the safety of his family at risk. Over a four-day period, Tuesday through Friday of Holy Week 1943, as Irena becomes increasingly traumatized by her situation, Malecki questions his decision to shelter Irena in the apartment where Malecki, his pregnant wife, and his younger brother reside. Added to his dilemma is the broader context of Poles’ attitudes toward the “Jewish question” and the plight of the Jews locked in the ghetto during the final moments of its existence.\n\n\n\nFew fictional works dealing with the war have been written so close in time to the events that inspired them. No other Polish novel treats the range of Polish attitudes toward the Jews with such unflinching honesty.",
+    "featured": "yes",
+    "shelf_order": 1209,
+    "editions": [
+      {
+        "format": "Hardcover",
+        "publisher": "Ohio Press University",
+        "price_usd": 40,
+        "isbn": "97808214171570"
+      },
+      {
+        "format": "Paperback",
+        "publisher": "Ohio Press University",
+        "price_usd": 22,
+        "isbn": "97808214171640"
+      },
+      {
+        "format": "Ebook",
+        "publisher": "Ohio Press University",
+        "price_usd": 22,
+        "isbn": "9780821442203"
+      }
+    ],
+    "praise": [
+      {
+        "quote": "Review\n“The understated quality of this nominally realistic yet strangely allegorical short novel contributes to Holy Week’s mesmerizing power.”\n― Magill Book Reviews\n\n“A tight, dramatic novel.... If its immediacy proved off-putting to contemporary readers, today that urgency is its greatest strength.”\n― Nextbook\n\n“There is among people no greater or more absolutedividing line than between the happiness of some and the suffering of others. Affairs great and smalldivide people, yet none so sharply as the inequalityof fate.”\n― from Holy Week\n\n“With the first English edition of Holy Week― a tightly wound story that can be devoured in one long sitting ― we can at last discover a little-known work from one of Poland's leading 20th century novelists.... Holy Week― ably translated by a team of (University of Pittsburgh) students under the guidance of Oscar Swan ― has an immediacy and verisimilitude impossible for someone not on the scene.”\n― Los Angeles Times Book Review\n\n“Creates in one slim volume a vivid world peopled by believable and sympathetic characters whose lives depict with gripping accuracy an entire historical era.... Urgently recommended to all readers with an interest in world history.”\n― Library Journal, starred review\n\n“Andrzejewski here turns an unsparing eye on the ways in which professed Christians dealt with―or failed to address―the annihilation of their Jewish compatriots.... The world Andrzejewski conjures here may be relentlessly grim, but his tale is, as always, compelling.”\n― BookForum, Dec/Jan 2007\n\n“The relentless conflicts between and within these characters transform what appears to be a simple issue of national neglect into a hauntingly real drama of agonizing personal decisions and personal failures.”\n― Virginia Quarterly Review"
+      }
+    ]
+  },
+  {
+    "id": "witkacy-3-plays",
+    "title": "The Madman and the Nun and The Crazy Locomotive: Three Plays (including The Water Hen)",
+    "author": "Stanisław Ignacy Witkiewicz",
+    "cover": "covers/witkacy-3-plays.jpg",
+    "shelves": [
+      "Drama"
+    ],
+    "language_original": "Polish",
+    "description_long": "Startling discontinuities and surprises erupt throughout these avant-garde landscapes by Poland's outstanding modern dramatist where duchesses and policemen, gangsters and surrealist painters, psychiatrists and locomotive engineers wander in and out, kill one another, and carry on philosophical conversations at the same time.",
+    "featured": "yes",
+    "shelf_order": 1402,
+    "editions": [
+      {
+        "format": "Paperback",
+        "publisher": "Applause",
+        "price_usd": 15,
+        "isbn": "97809368398370"
+      },
+      {
+        "format": "Ebook",
+        "publisher": "Applause",
+        "price_usd": 14,
+        "isbn": "9781617745591"
+      }
+    ]
+  },
+  {
+    "id": "here-in-our",
+    "title": "Here in Our Auschwitz and Other Stories",
+    "author": "Tadeusz Borowski",
+    "translator": "Madeline G. Levine",
+    "cover": "covers/here-in-our.jpg",
+    "shelves": [
+      "Fiction"
+    ],
+    "language_original": "Polish",
+    "description_long": "The most complete English-language collection of the prose of Tadeusz Borowski, the most challenging chronicler of Auschwitz, with a foreword by Timothy Snyder, author of On Tyranny\n\n\nIn 1943, the twenty-year-old Polish poet Tadeusz Borowski was arrested and deported to Auschwitz as a political prisoner. What he experienced in the camp left him convinced that no one who survived Auschwitz was innocent.\n\n\nAll were complicit; the camp regime depended on this. Borowski’s tales present the horrors of the camp as reflections of basic human nature and impulse, stripped of the artificial boundaries of culture and custom. Inside the camp, the strongest of the prisoners form uneasy alliances with their captors and one another, watching unflinchingly as the weak scrabble and struggle against their inevitable fate. In the last analysis, suffering is never ennobling and goodness is tantamount to suicide.\n\n\nBringing together for the first time in English Borowski’s major writings and many previously uncollected works, this is the most complete collection of stories in a new, authoritative translation, with a substantial foreword by Timothy Snyder that speaks to its enduring relevance.",
+    "featured": "yes",
+    "shelf_order": 550,
+    "editions": [
+      {
+        "format": "Hardcover",
+        "publisher": "Yale University Press",
+        "price_usd": 26,
+        "isbn": "97803001169080"
+      },
+      {
+        "format": "Ebook",
+        "publisher": "Yale University Press",
+        "price_usd": 15,
+        "isbn": "9780300160208"
+      }
+    ],
+    "praise": [
+      {
+        "quote": "Borowski's sharp-edged descriptions of life in Nazi concentration camps shatter the limits of even Kafka's most surreal imaginings...conducting a conversation with darkness...in an icy style that cloaks hot rage.\n\n-- \"Wall Street Journal\""
+      }
+    ]
+  },
+  {
+    "id": "to-begin-where",
+    "title": "To Begin Where I Am: Selected Essays",
+    "author": "Czesław Miłosz",
+    "translator": "Madeline Levine",
+    "cover": "covers/to-begin-where.jpg",
+    "shelves": [
+      "Non-fiction"
+    ],
+    "language_original": "Polish",
+    "description_long": "A comprehensive selection of essays--some never before translated into English--by the Nobel Laureate.\n\nTo Begin Where I Am brings together a rich sampling of poet Czeslaw Milosz's prose writings. Spanning more than a half century, from an impassioned essay on human nature, wartime atrocities, and their challenge to ethical beliefs, written in 1942 in the form of a letter to his friend Jerzy Andrzejewski, to brief biographical sketches and poetic prose pieces from the late 1990s, this volume presents Milosz the prose writer in all his multiple, beguiling guises. The incisive, sardonic analyst of the seductive power of communism is also the author of tender, elegiac portraits of friends famous and obscure; the witty commentator on Polish complexes writes lyrically of the California landscape. Two great themes predominate in these essays, several of which have never appeared before in English: Milosz's personal struggle to sustain his religious faith, and his unswerving allegiance to a poetry that is \"on the side of man.\"",
+    "featured": "yes",
+    "shelf_order": 850,
+    "editions": [
+      {
+        "format": "Hardcover",
+        "publisher": "Farrar, Strauss and Giroux",
+        "price_usd": 23,
+        "isbn": "97803742589000"
+      },
+      {
+        "format": "Paperback",
+        "publisher": "Farrar, Strauss and Giroux",
+        "price_usd": 14,
+        "isbn": "97803745285910"
+      }
+    ],
+    "praise": [
+      {
+        "quote": "“To Begin Where I Am stands as the most complete one-volume edition of Milosz's prose writings available in English by \"arguably the greatest living poet.” ―Edward Hirsch, The New York Times Book Review\n\n“Milosz's vigorous and sinewy prose is that of a man of a particular historical moment...The reader will find, in both the expository essays and the incomparable portraits of his contemporaries, Milosz's characteristic intensity, momentum, and savage intelligence.” ―Helen Vendler, Harper's Magazine\n\n“Extraordinary...These 400 or so pages document the development, over seven decades, of a great mind.” ―The Economist\n\n“Beguiling...[Milosz] displays his genius for wedding palpable, personal loss to larger themes...[To Begin Where I Am] grants privileged access to a singular literary mind.” ―Carlin Romano, The Philadelphia Inquirer\n\n“[This collection] could not have come at a better time...A remarkable body of work...Enlightening.” ―Cynthia L. Haven, San Francisco Chronicle Book Review"
+      }
+    ]
+  },
+  {
+    "id": "melchior-w",
+    "title": "Melchior Wankowicz: Poland’s Master of the Written Word",
+    "author": "Aleksandra Ziólkowska-Boehm",
+    "cover": "covers/melchior-w.jpg",
+    "series": "Wańkowicz",
+    "series_number": 1,
+    "shelves": [
+      "Non-fiction"
+    ],
+    "language_original": "English",
+    "description_long": "In Melchior Wankowicz: Poland’s Master of the Written Word, Aleksandra Ziolkowska-Boehm examines the life and writing of famous Polish writer Melchior Wankowicz, author of legendary work “The Battle of Monte Cassino”.\n\nAcclaimed by his readers and critics alike, Melchior Wankowicz was famous for creating his theory of reportage, i.e. the “mosaic method” where the events of many people were implanted into the life of one person. Melchior Wankowicz put into words the beautiful, tragic and heroic events of Polish history that provided a form of sustenance for a people that thrive on patriotism and love of their country. Wankowicz’s books shaped national consciousness, glorified the heroism of the Polish soldier. Later in his life, Wankowicz personally set an example by standing up to the Communist party that brought him to trail for his work.\n\nIn this book, Ziolkowska-Boehm offers a critical examination of Wankowicz’s work informed by her experiences as his private secretary. Her access to the author’s personal archives shed new light on the life and work of the man considered by many to be “the father of Polish reportage.”",
+    "featured": "yes",
+    "shelf_order": 992,
+    "editions": [
+      {
+        "format": "Hardcover",
+        "publisher": "Lexington Books",
+        "price_usd": 100,
+        "isbn": "97807391759030"
+      },
+      {
+        "format": "Paperback",
+        "publisher": "Lexington Books",
+        "price_usd": 57,
+        "isbn": "97814985563300"
+      },
+      {
+        "format": "Ebook",
+        "publisher": "Lexington Books",
+        "price_usd": 54,
+        "isbn": "9780739175910"
+      }
+    ],
+    "praise": [
+      {
+        "quote": "“The book contains sources, eyewitnesses, interviews, and conversations Melchior Wankowicz had with his wife, friends and co-authors. . . She edited Melchior Wankowicz's selected works, providing extensive notes at the end of each chapter, in addition to the bibliography. His fascinating life will be of great interest to all writers.” ―Polish American Journal\n\n“Chapter 2, \"The Trial of Melchior Wankowicz -- 1964,\" is the most important and fascinating section of the book.... This book is a tribute to Wankowicz, the writer.” ―The Polish Review\n\n“Dr. Aleksandra Ziolkowska-Boehm has written an excellent book on her master and guru, Melchior Wankowicz (1892–1974). Generally recognized as an unsurpassed master of literary journalism, he had set high standards for that type of writing, distinguishing himself with his 3 volume study \"Monte Cassino\" (1945), dealing with a major victory of Polish troops in WW II. Serving as Wankowicz's associate for two plus years, she has become an expert on her subject, and aptly demonstrated how much she has learned from her master. The book, written with her elegant style, sparkled with anecdotes and humor, may very well serve as a perfect example of a modern Polish contribution to American literary studies.” ―Jerzy Krzyzanowski, Ohio State University\n\n“I found this book fascinating and delightful. Ziolkowska-Boehm recorded with freshness and directness her memories of one of Poland's greatest writers. This is clearly a great book.” ―Karl Maramorosch, Rutgers University\n\n“An intimate portrait of Wankowicz, the writer, public figure, family man, and one-time prisoner of the Communist regime. Important documents accompany the narrative.” ―Piotr Wandycz, Yale University\n\n“Wankowicz combined first class literary writing with outstanding reportage. He was a free spirit, going against the tide of émigré opinion by returning to then communist Poland for good in 1958. But he also protested publicly, with other writers, against communist repression of Polish culture in March 1964, after which he was briefly imprisoned and put on trial on rigged charges. Aleksandra Ziolkowska-Boehm, a prolific author herself, and Wankowicz’s secretary in the last years of his life, has written a fine, documented account of this extraordinary individual and his writings.” ―Anna M. Cienciala, University of Kansas\n\n“A wonderful sketch of the tension between the writer and the Party.” ―Bruce Johansen, University of Nebraska Omaha\n\n“Melchior Wankowicz: Poland’s Master of the Written Word . . . . is a captivating although somehow eclectic portrait of a great humanist with a pragmatic approach to life, a prolific hard working writer, bon vivant, thinker, husband, father and most of all a fabulous reporter and storyteller. ... Melchior Wankowicz: Poland’s Master of the Written Word comes at a good time. . . . I am convinced that thanks to Aleksandra Ziolkowska-Boehm latest book, Melchior Wankowicz will always have plenty of readers.” ―Cosmopolitan"
+      }
+    ]
+  },
+  {
+    "id": "monte-cassino",
+    "title": "The Battle of Monte Cassino",
+    "author": "Melchior Wankowicz",
+    "translator": "Charles S. Kraszewski",
+    "cover": "covers/monte-cassino.jpg",
+    "series": "Wańkowicz",
+    "series_number": 2,
+    "shelves": [
+      "Polish History"
+    ],
+    "language_original": "Polish",
+    "description_long": "Melchior Wankowicz’s The Battle of Monte Cassino is a unique contribution to the history of World War II, indeed the history of war in general. Composed by the Polish master of reportage, this book provides the reader with an exhaustive history of one of the greatest triumphs of Polish arms: the conquest of the German redoubt of Monte Cassino, after months of intense fighting, which provided the Allies with an open road for their progress through the Italian peninsula and, finally, to victory over the Nazis in Europe. The history of the Battle of Monte Cassino (17 January ― 19 May 1944), centered on the Benedictine cloister of the same name, which was a key sector of the Nazi Army’s ‘Gustav Line’ of defense. Besides the history of the long Allied siege and the eventual victory won through the efforts of General Anders’ II Polish Corps, Wankowicz provides an on-the-spot account of the battle, at which he was present, setting the reader in the very midst of operations by his thorough and lively interviews with the soldiers who took part in it.",
+    "featured": "yes",
+    "shelf_order": 903,
+    "editions": [
+      {
+        "format": "Hardcover",
+        "publisher": "Lexington Books",
+        "price_usd": 160,
+        "isbn": "97816669202150"
+      },
+      {
+        "format": "Ebook",
+        "publisher": "Lexington Books",
+        "price_usd": 144,
+        "isbn": "9781666920215"
+      }
+    ],
+    "praise": [
+      {
+        "quote": "“Melchior Wankowicz (1892-1974) was Poland’s greatest twentieth-century writer of factual narratives, who created an original model of literary reportage that later inspired outstanding Polish reporters such as Ryszard Kapuscinski and Hanna Krall. He traveled throughout Poland, Mexico, the Soviet Union, Palestine and the United States and wrote about the Bolshevik Revolution, interwar Poland and World War II. He also had an extraordinary life: he was a politician, journalist, publisher, soldier, emigrant, and, at the end of his life, an enemy of the authorities of the People’s Republic of Poland. The Battle of Monte Cassino (1945-47) is a monumental work concerning one of the largest and bloodiest battles of World War II. In May 1944, the Allies defeated the German army with the significant participation of Polish soldiers. Wankowicz speaks of this battle in a colorful and realistic way, emphasizing the modern nature of the struggle on the slopes of the Italian redoubt. He polemicizes against the Romantic view of war, underscoring the role of ordinary soldiers, each of whom has a separate biography and character. An integral element of the reportage are photos, maps and drawings, quotes from military reports and orders, as well as numerous conversations with participants in the battle. There are few such suggestive and moving accounts of war in world literature.” ―Maciej Urbanowski, Jagiellonian University\n\n“On May 20, 1944, Joseph Goebbels wrote in his diary: “The capture of Cassino is, of course, a great event for the enemy. It is deeply embarrassing for us that, together with the English, Poles also entered the ruined city.” Meanwhile, what was a shame for Goebbels was a source of glory for the Poles. To this day, the capture of Monte Cassino, which opened the route to Rome for the Allies, is a source of national pride. One of the central streets in Warsaw is named after General Wladyslaw Anders, the Polish commander. How did the Poles arrive at Monte Cassino? The path began with their defeat in the struggle in September 1939 against the invading Germans, invading Poland from the West, and the Soviets ― initially Hitler’s allies ― who occupied of the eastern lands of pre-war Poland. Then, following Hitler’s attack on the USSR, Stalin agreed to create a Polish army from among the Poles who had been exiled deep into his country, to send them out of his way. For he already had other plans for Poland, and did not need these soldiers either then or in the future. Following a long journey, they reached the Italian front, where General Anders undertook the attack on Monte Cassino, which was already underway. He knew that many soldiers would die. However, he hoped that any success they achieved would improve Poland’s chances in the eyes of the Allies ― despite their need to cooperate with Stalin in the fight against Hitler. The Poles won the victory at Monte Cassino, but little more. Those who died were buried in the cemetery in Cassino, and General Anders, who died in 1970 in London, was buried among them, according to his wishes. The victory did not tip the Allied political scales in Poland’s favor, and the country became a satellite of the USSR. During the Communist years, the story of this battle was hushed up. It was only after the fall of Communism in Poland in 1989 that a monument to the battle was erected in Warsaw, carved from Italian marble, the work of Gustaw Zemla and Wojciech Zablocki, 1999). A popular song was about the battle (“Czerwone maki na Monte Cassino” [The Red Poppies on Monte Cassino]), was composed by Alfred Schütz, to words by Feliks Konarski). This book, The Battle of Monte Cassino (1945-1947, published in Poland only in 1958) is the best-known work of reporter and war correspondent Melchior Wankowicz ― who was with the soldiers at that time.” ―Marcin Kula, University of Warsaw\n\n“In the private libraries of many Poles, The Battle of Monte Cassino is still a unique item. It is often venerated with an respect approaching that accorded to Pan Tadeusz, the national epic by poet Adam Mickiewicz ― treated like a true relic. From the very start, readers clearly understood that Melchior Wankowicz had created not only a wonderful battle reportage, but also an act of faith in a free Poland and free Poles. Throughout the difficult years of Communist rule, this great book, in praise of the armed deeds of Polish soldiers, gave their countrymen a reason for national pride, awakening that perhaps most beautiful, but also the most difficult love ― love of the homeland.” ―Krzysztof Maslon, author of The Curse of Contradiction\n\n“I belong to the generation that not only read, but also listened to and watched, Melchior Wankowicz on radio and television. Among his numerous public statements, the one that remains both in my heart and my memory was the moving story of the Battle of Monte Cassino, with its painful drama that inspired the collective imagination ― otherwise, perhaps, dominated by the image of the “Red Poppies on Monte Cassino,” that song which inevitably idealizes reality. Thanks to Wankowicz's account, we come to understand the soldier’s hardship, sweat, pain, and fear - in short, all the cruel truth of war. Thanks to its store of strategic and military details, the readers of Melchior Wankowicz’s most famous book, widely recognized as a work written with extraordinary skill, are able to explore it in depth. If a new generation of great war reporters have developed and matured in contemporary Poland, I am sure that its representatives look with gratitude upon their Master Wankowicz, gladly admitting 'we all come from him.'” ―Jan Miodek, University of Wroclaw"
+      }
+    ]
+  },
+  {
+    "id": "schulz-hijack",
+    "title": "Bruno Schulz: An Artist, a Murder, and the Hijacking of History",
+    "author": "Benjamin Balint",
+    "cover": "covers/schulz-hijack.jpg",
+    "series": "Schulz",
+    "series_number": 1,
+    "shelves": [
+      "Non-fiction"
+    ],
+    "language_original": "English",
+    "description_long": "Winner of the 73rd National Jewish Book Award for Biography\n\n\n\nA New York Times Book Review Editors' Choice\n\n\n\nA fresh portrait of the Polish-Jewish writer and artist, and a gripping account of the secret operation to rescue his last artworks.\n\n\nThe twentieth-century artist Bruno Schulz was born an Austrian, lived as a Pole, and died a Jew. First a citizen of the Habsburg monarchy, he would, without moving, become the subject of the West Ukrainian People’s Republic, the Second Polish Republic, the USSR, and, finally, the Third Reich.\n\n\nYet to use his own metaphor, Schulz remained throughout a citizen of the Republic of Dreams. He was a master of twentieth-century imaginative fiction who mapped the anxious perplexities of his time; Isaac Bashevis Singer called him “one of the most remarkable writers who ever lived.” Schulz was also a talented illustrator and graphic artist whose masochistic drawings would catch the eye of a sadistic Nazi officer. Schulz’s art became the currency in which he bought life.\n\n\nDrawing on extensive new reporting and archival research, Benjamin Balint chases the inventive murals Schulz painted on the walls of an SS villa—the last traces of his vanished world—into multiple dimensions of the artist’s life and afterlife. Sixty years after Schulz was murdered, those murals were miraculously rediscovered, only to be secretly smuggled by Israeli agents to Jerusalem. The ensuing international furor summoned broader perplexities, not just about who has the right to curate orphaned artworks and to construe their meanings, but about who can claim to stand guard over the legacy of Jews killed in the Nazi slaughter.\n\n\nBy re-creating the artist’s milieu at a crossroads not just of Jewish and Polish culture but of art, sex, and violence, Bruno Schulz itself stands as an act of belated restitution, offering a kaleidoscopic portrait of a life with all its paradoxes and curtailed possibilities.",
+    "featured": "yes",
+    "shelf_order": 1002,
+    "editions": [
+      {
+        "format": "Hardcover",
+        "publisher": "W. W. Norton and Company",
+        "price_usd": 22,
+        "isbn": "97803938665750"
+      },
+      {
+        "format": "Ebook",
+        "publisher": "W. W. Norton and Company",
+        "price_usd": 16,
+        "isbn": "9780393866582"
+      }
+    ],
+    "praise": [
+      {
+        "quote": "Winner of the Sami Rohr Prize for Jewish Literature\n\n“Dramatic and illuminating.… [R]aises momentous questions about nationality, religion, literature, and even the Holocaust.”\n―Adam Kirsch, The Atlantic\n\n“Fascinating and forensically scrupulous.”\n―John Banville, The Guardian\n\n“Thoughtful and provocative.”\n―Ruth Franklin, The Wall Street Journal\n\n“[Balint is] a gifted cultural historian with a scholarly sensibility.”\n―Lev Mendes, The New York Times Book Review\n\n“Absorbing.… Balint’s scrupulous and sardonic prose makes you love Kafka, and dread the law.”\n―The Economist\n\n“A tale pitting two Goliaths against one octogenarian David, untangled in exacting, riveting detail.… [A] must-read.”\n―Rebecca Schuman, Slate"
+      }
+    ]
+  },
+  {
+    "id": "cinnamon",
+    "title": "The Cinnamon Shops and Other Stories",
+    "author": "Bruno Schulz",
+    "translator": "John Curran Davis",
+    "cover": "covers/cinnamon.jpg",
+    "series": "Schulz",
+    "series_number": 2,
+    "shelves": [
+      "Fiction"
+    ],
+    "language_original": "Polish",
+    "description_long": "In The Cinnamon Shops and Other Stories, Bruno Schulz describes in fantastical, mythologised terms the cloth merchant's shop where he grew up and the bizarre antics of his father, such as turning the attic into an aviary and expounding strange theories on mannequins. Two sides of the Galician town of Drohobycz are seen: the old town full of ancient mystery is contrasted with newer districts that have sprung up in response to oil mining in the area. The language is poetic, heady and oneiric, employing a rich system of imagery incorporating books and labyrinths.",
+    "featured": "yes",
+    "shelf_order": 921,
+    "editions": [
+      {
+        "format": "Paperback",
+        "price_eur": 8,
+        "isbn": "97815175436550"
+      }
+    ]
+  },
+  {
+    "id": "to-the-gas",
+    "title": "This Way for the Gas, Ladies and Gentlemen",
+    "author": "Tadeusz Borowski",
+    "translator": "Barbara Vedder, Michael Kandel",
+    "cover": "covers/to-the-gas.jpg",
+    "shelves": [
+      "Fiction"
+    ],
+    "language_original": "Polish",
+    "description_long": "Tadeusz Borowski’s concentration camp stories were based on his own experiences surviving Auschwitz and Dachau. In spare, brutal prose he describes a world where where the will to survive overrides compassion and prisoners eat, work and sleep a few yards from where others are murdered; where the difference between human beings is reduced to a second bowl of soup, an extra blanket or the luxury of a pair of shoes with thick soles; and where the line between normality and abnormality vanishes. Published in Poland after the Second World War, these stories constitute a masterwork of world literature.\n\nFor more than seventy years, Penguin has been the leading publisher of classic literature in the English-speaking world. With more than 1,700 titles, Penguin Classics represents a global bookshelf of the best works throughout history and across genres and disciplines. Readers trust the series to provide authoritative texts enhanced by introductions and notes by distinguished scholars and contemporary authors, as well as up-to-date translations by award-winning translators.",
+    "featured": "yes",
+    "shelf_order": 932,
+    "editions": [
+      {
+        "format": "Paperback",
+        "price_eur": 12,
+        "isbn": "97801401862460"
+      }
+    ]
+  },
+  {
+    "id": "street-crocodiles",
+    "title": "The Street of Crocodiles and Other Stories",
+    "author": "Bruno Schulz",
+    "translator": "Celina Wieniewska",
+    "cover": "covers/street-crocodiles.jpg",
+    "shelves": [
+      "Fiction"
+    ],
+    "language_original": "Polish",
+    "description_long": "The collected fiction of \"one of the most original imaginations in modern Europe\" (Cynthia Ozick)\n\nThe untimely death of Polish writer Bruno Schulz at the hands of a Gestapo officer stands as one of the great losses to modern literature, but since his death, word of his extraordinary literary voice has won him an international readership. This volume brings together Schulz's complete fiction, including The Street of Crocodiles, praised by The New York Review of Books as \"a masterpiece . . . marvelously inventive\"; his final surviving work, Sanatorium Under the Sign of the Hourglass; and three short stories. Illustrated with Schulz's luminous original drawings, this edition beautifully showcases the distinctive surrealist vision of one of the twentieth century's most gifted and influential writers.\n\nFor more than seventy years, Penguin has been the leading publisher of classic literature in the English-speaking world. With more than 1,700 titles, Penguin Classics represents a global bookshelf of the best works throughout history and across genres and disciplines. Readers trust the series to provide authoritative texts enhanced by introductions and notes by distinguished scholars and contemporary authors, as well as up-to-date translations by award-winning translators.",
+    "featured": "yes",
+    "shelf_order": 944,
+    "editions": [
+      {
+        "format": "Paperback",
+        "price_eur": 17,
+        "isbn": "97801431051450"
+      }
+    ]
+  },
+  {
+    "id": "nocturnal-apparitions",
+    "title": "Nocturnal Apparitions: Essential Stories",
+    "author": "Bruno Schulz",
+    "translator": "Stanley Bill",
+    "cover": "covers/nocturnal-apparitions.jpg",
+    "shelves": [
+      "Fiction"
+    ],
+    "language_original": "Polish",
+    "description_long": "A stunning new collection featuring fresh translations of Bruno Schulz's 15 most captivating short stories, in a beautiful Pushkin Collection edition\n\nIncludes a new translation of a recently discovered story, believed to be the first-ever published work by this legendary cult writer\n\nThe stories in this collection are rich, tangled, and suffused with mystery and wonder. In the narrowing, winding city streets, strange figures roam. Great flocks of birds soar over rooftops, obscuring the sun. Cockroaches appear through cracks and scuttle across floorboards. Individuals careen from university buildings to dimly lit parlour rooms, through strange shops and endless storms.\n\nCrowded with moments of stunning beauty, the 15 stories in his collection showcases Schulz's darkly modern sensibility, and his essential status as one of the great transformers of the ordinary into the fantastical:\nAugust, A Visitation, Birds, Pan, Cinnamon Shops, The Street of Crocodiles, Cockroaches, The Gale, The Night of the Great Season (from Cinnamon Shops)\nThe Book, The Age of Genius, A July Night, My Father Joins the Firefighters, Father’s Final Escape (from Sanatorium under the Sign of the Hourglass)\nUndula--a new translation of Schulz's recently discovered first published story",
+    "featured": "yes",
+    "shelf_order": 945,
+    "editions": [
+      {
+        "format": "Paperback",
+        "price_eur": 11,
+        "isbn": "97817822778970"
+      },
+      {
+        "format": "Ebook",
+        "publisher": "Pushkin Prress",
+        "price_usd": 11,
+        "isbn": "9781782277903"
+      }
+    ],
+    "praise": [
+      {
+        "quote": "\"An accessible, exhilarating introduction to Schulz’s oeuvre.\"\n—The Washington Post\n\n“Stanley Bill’s translations come as an invigorating reminder of the uncanny verbal sorcery behind this unique voice and vision.... The results, hauntingly phrased, can be suitably weird—but never impenetrable... Bill catches the outrageous wit of Schulz’s nightmare tableaux.”\n—The Wall Street Journal\n\n\"The supreme virtuoso of Polish fiction... Genius\"\n—Jewish Chronicle"
+      }
+    ]
+  },
+  {
+    "id": "vahazar",
+    "title": "Vahazar: or On the Uplands of Absurdity",
+    "author": "Stanisław Ignacy Witkiewicz",
+    "translator": "Celina Wieniewska",
+    "cover": "covers/vahazar.jpg",
+    "shelves": [
+      "Fiction"
+    ],
+    "language_original": "Polish",
+    "description_long": "“Witkiewicz takes up and continues the vein of dream and grotesque fantasy exemplified by the late Strindberg or by Wedekind; his ideas are closely paralleled by those of the surrealists and Antonin Artaud which culminated in the masterpieces of the dramatists of the absurd—Beckett, Ionesco, Genet, Arrabal—of the late nineteen forties and the nineteen fifties.” -Martin Esslin Stanisław Ignacy Witkiewicz (pen name: Witkacy) was desperate to get out of revolutionary St. Petersburg after the Bolsheviks seized power. Back in Poland, eager to make money and a name for himself, Witkacy began to write plays in a style that he called “Pure Form,” which foreshadowed the Theatre of the Absurd. By the time that he wrote VAHAZAR (1921), Witkacy had achieved a dreamlike dramaturgy: centered on the paranoid and crazed despot, Vahazar, and spiraling outwards through an anthill society of automatons, religious cults, and quack scientific and social theories, this play is about being trapped in nothingness. This translation of the play by Celina Wieniewska was commissioned by Stefan Themerson in 1967, and later announced as a forthcoming title by the legendary Gaberbocchus Press. Somehow the project was sidetracked and has never appeared until this Black Scat Books publication. Paul Rosheim, publisher of Obscure Publications and scholar of Themersonia, provides an introduction with biographical information about Witkacy and the story of this translation. The book also includes an appendix featuring Franciszka Themerson’s “Vahazar: A Few Suggestions for Design.”",
+    "featured": "yes",
+    "shelf_order": 988,
+    "editions": [
+      {
+        "format": "Paperback",
+        "price_eur": 13,
+        "isbn": "97806925195540"
+      }
+    ]
+  },
+  {
+    "id": "women",
+    "title": "Women: A Novel about Polish Life",
+    "author": "Zofia Nałkowska",
+    "translator": "Michał Henryk Dziewicki",
+    "cover": "covers/women.jpg",
+    "shelves": [
+      "Fiction"
+    ],
+    "language_original": "Polish",
+    "description_long": "The turn of the twentieth century witnessed the emergence of a vibrant cultural and artistic movement in Poland known as Young Poland (Młoda Polska). Occur-ring at a time when Poland as a free nation had not existed for 100 years, it was characterized by a fervent de-sire for artistic renewal and societal transformation, giving rise to a multitude of talents across various disciplines. Among the prominent figures of this period was Zofia Nałkowska (1884-1954), a trailblazing Polish writer whose literary contributions played a crucial role in shaping the intellectual landscape of her time.\n\nWomen, one of Nałkowska’s earliest works--written when she was just twenty-two--is a profound exploration of female experience at a crucial juncture in history . Published early in the century against the backdrop of societal upheavals and the growing feminist movement, the novel stands as a poignant and complex portrayal of women’s lives, aspirations, and struggles.",
+    "featured": "yes",
+    "shelf_order": 989,
+    "editions": [
+      {
+        "format": "Paperback",
+        "price_eur": 12,
+        "isbn": "97809791236720"
+      },
+      {
+        "format": "Ebook",
+        "publisher": "Young Poland Revisited",
+        "price_usd": 4.5,
+        "isbn": "097"
+      }
+    ]
+  },
+  {
+    "id": "boundary",
+    "title": "Boundary",
+    "author": "Zofia Nałkowska",
+    "translator": "Ursula Phillips",
+    "cover": "covers/boundary.jpg",
+    "shelves": [
+      "Fiction"
+    ],
+    "language_original": "Polish",
+    "description_long": "Available for the first time in English, Zofia Nalkowska's Boundary was originally published as Granica in Poland in 1935. The modernist novel was widely discussed upon its publication and praised for its psychological realism and stylistic and compositional artistry. Over the years, it has been translated into several languages and made into a feature film, and remains a standard text in the Polish secondary school curriculum.\n\nNalkowska was a pioneer of feminist fiction in Central Europe. Her observation of inequality in the treatment of men and women is at the heart of Boundary, which explores a transgressive love affair and its repercussions. She perceived that men—especially of the upper and middle classes—felt free to have sexual relations with lower class women, whereas it was not socially acceptable for women of any class to have sexual relations outside of marriage, or even admit to enjoying sex. This meant that working class women were seduced and then abandoned when they became pregnant, leaving them with the stigma of illegitimate children and the problem of finding work. Meanwhile, the higher class wives found themselves betrayed. While Boundary can be interpreted as a novel about power and its abuses, it contains several dimensions—philosophical, emotional, existential, moral—that render it a consummate piece of social criticism. An elegantly composed work of imaginative fiction, it does not preach or offer solutions. Ursula Phillips's excellent translation will interest readers of early twentieth century novels and scholars and students of Polish literature, feminist studies, and European modernism.",
+    "featured": "yes",
+    "shelf_order": 1001,
+    "editions": [
+      {
+        "format": "Paperback",
+        "price_eur": 28,
+        "isbn": "97808758074090"
+      },
+      {
+        "format": "Ebook",
+        "publisher": "Northern Illinois University",
+        "price_usd": 17,
+        "isbn": "9781609092016"
+      }
+    ],
+    "praise": [
+      {
+        "quote": "Boundary impresses with its formal and stylistic artistry, which comes through in Ursula Phillips's translation, the first into English.\n\n― Times Literary Supplement\n\nZofia Nalkowska has written a first-class novel.... It is amazing that we have had to wait over eighty years to read it in English, and we should be grateful that we can now do so.\n\n― The Modern Novel"
+      }
+    ]
+  },
+  {
+    "id": "romance-teresa",
+    "title": "The Romance of Teresa Hennert",
+    "author": "Zofia Nałkowska",
+    "translator": "Megan Thomas, Ewa Malachowska-Pasek",
+    "cover": "covers/romance-teresa.jpg",
+    "series": "Nałkowska",
+    "series_number": 1,
+    "shelves": [
+      "Fiction"
+    ],
+    "language_original": "Polish",
+    "description_long": "The Romance of Teresa Hennert is a masterpiece of psychological realism and a still-shocking portrait of mixed motives and bad behavior. It renders a tragicomic vision of what happens when a society is suddenly deprived of the struggle that had defined it for more than a century. Written in 1922, just four years after Poland achieved independence from its neighboring empires, the novel focuses on a Warsaw community of officers, bureaucrats, intellectuals, wives, and lovers, all of them adrift in a hell of their own making―the long-sought freedom to shape their own destiny. At the center of this milieu is Teresa Hennert, whose youthful charm, modern habits, and apparent indifference to the emotional torment of those around her make her an inescapable object of their fascination and desire.\n\nTold in multiple voices and from numerous perspectives, Zofia Nalkowska's novel is a mosaic of dysfunction at all levels of the new Polish society, from a bumbling lieutenant who cannot stand his home life to a young Communist who believes his forebears have made a mess that only the next generation can clean up. In this world, ideological battles, personal animosity, postwar trauma, and infidelity become inextricably bound together, driving these colorful, increasingly confused characters toward corruption, suicide, and murder. Nalkowska (1884–1954), though long neglected in the West, was a central figure in the literary life of interwar Poland and was an early pioneer of feminist fiction in Central Europe. Her spare, witty prose will surprise contemporary readers with its frank sexuality and stark illustration of dreams gone horribly, humiliatingly, dramatically awry.",
+    "featured": "yes",
+    "shelf_order": 1003,
+    "editions": [
+      {
+        "format": "Paperback",
+        "price_eur": 12,
+        "isbn": "97808758071020"
+      }
+    ],
+    "praise": [
+      {
+        "quote": "The characters' differing points of view, with the narrator's ironic omniscience never far away, are exceptionally well rendered in this translation, which contains helpful historical footnotes and is part of a project to bring the modernist works of Nalkowska to the attention of English readers.\n\n― The Times Literary Supplement\n\nThe Romance of Teresa Hennert is a sometimes scathing, sometimes sardonically funny sketch of the affairs-commercial, political, amatory-of a very small segment of Warsaw society in the early years of the newly established Polish republic. It is a thoroughly accomplished translation.\n\n-- Madeline G. Levine, University of North Carolina"
+      }
+    ]
+  },
+  {
+    "id": "medalions",
+    "title": "Medallions",
+    "author": "Zofia Nałkowska",
+    "translator": "Diana Kuprel",
+    "cover": "covers/medalions.jpg",
+    "series": "Nałkowska",
+    "series_number": 2,
+    "shelves": [
+      "Fiction"
+    ],
+    "language_original": "Polish",
+    "description_long": "Medallions is a collection of eight documentary stories originally published in Poland in 1946 that recount Nazi war crimes under the German occupation of the country. The author, Zofia Nalkowska, was a member of a special committee for the investigation of Nazi crimes in Poland, and the stories reflect facts she learned from victims and witnesses to atrocities inflicted on Polish civilians.\n\nConsidered a masterpiece of antifascist world literature, Medallions stands as the culmination of Nalkowska's literary style, a style the Polish writer Witold Gombrowicz once described as \"the iron capital of her art and one of the very few exportables in our national literature.\" More than mere historical record, Medallions offers the reader startling immediacy, the repetition of an event as it persists in the testimonial present, in the scars on the consciousness and conscience of individuals.",
+    "featured": "yes",
+    "shelf_order": 1005,
+    "editions": [
+      {
+        "format": "Hardcover",
+        "publisher": "Northwestern University Press",
+        "price_usd": 45,
+        "isbn": "97808101174260"
+      },
+      {
+        "format": "Paperback",
+        "price_eur": 15,
+        "isbn": "97808101174330"
+      }
+    ],
+    "praise": [
+      {
+        "quote": "\"[A] powerful and important work.\" —Jewish Book World"
+      }
+    ]
+  },
+  {
+    "id": "corsets",
+    "title": "From Corsets to Communism: The Life and Times of Zofia Nalkowska",
+    "author": "Jenny Robertson",
+    "cover": "covers/corsets.jpg",
+    "series": "Nałkowska",
+    "series_number": 3,
+    "shelves": [
+      "Non-fiction"
+    ],
+    "language_original": "English",
+    "description_long": "‘I had only one eye, I was hungry and cold, yet I wanted to live… so that I could tell it all just as I’ve told you.’ - From Zofia Nalkowska’s Medallions (1947).\n\nWitness to two world wars and Poland’s struggle for independence, Zofia Nalkowska’s commitment to recording all is her gift to European literature. Her own story of love affairs, family loyalty and survival is remarkable in itself. Yet, her determination to record others’ truth, however painful, ties her fate to a nation whose battle for identity is both brutal and romantic. Her most renowned work, Medallions, a collection of short stories, exposes and restores dignity to people reduced, through Nazi occupation, to burnt out ghettos and guillotined heads heaped ‘like potatoes’. In contrast, as a keen and visionary observer of beauty, Nalkowska is innovative in exploring motherhood’s psychological imprint and the blurred boundaries of male and female relationships. Drawing on her own background as a poet and Polish Studies graduate, Jenny’s Robertson’s literary biography celebrates the achievements of a pioneering writer whose love of life not only propelled her to fame, but gave her the courage to witness atrocity. In doing so, Nalkowska’s life and writing reflect and inform Europe's cultural heritage.\n\nReport an issue with this produc",
+    "featured": "yes",
+    "shelf_order": 951,
+    "editions": [
+      {
+        "format": "Paperback",
+        "price_eur": 23,
+        "isbn": "97819108953200"
       }
     ]
   }
