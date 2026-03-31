@@ -1080,6 +1080,39 @@
     ]
   },
   {
+    "id": "anima-vilis",
+    "title": "An Expendable Soul: Life and Love In Siberian Exile 1870",
+    "author": "Maria Rodziewiczówna",
+    "translator": "Tom Pinch",
+    "cover": "covers/anima-vilis.jpg",
+    "series": "The Wonderful World of Maria Ro",
+    "series_number": 2,
+    "shelves": [
+      "Fiction"
+    ],
+    "language_original": "Polish",
+    "featured": "yes",
+    "shelf_order": 420,
+    "editions": [
+      {
+        "format": "Hardcover",
+        "publisher": "Mondrala Press",
+        "price_usd": 24,
+        "price_eur": 24,
+        "price_gbp": 21,
+        "isbn": "97829198201460"
+      },
+      {
+        "format": "Ebook",
+        "publisher": "Mondrala Press",
+        "price_usd": 10,
+        "price_eur": 10,
+        "price_gbp": 10,
+        "isbn": "9782919820078"
+      }
+    ]
+  },
+  {
     "id": "melicles",
     "title": "Melicles the Greek",
     "author": "Witold Makowiecki",
