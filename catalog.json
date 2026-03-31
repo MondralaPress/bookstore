@@ -333,6 +333,8 @@
     "author": "Zofia Nałkowska",
     "translator": "Ursula Philips",
     "cover": "covers/choucas.jpg",
+    "series": "Nałkowska",
+    "series_number": 4,
     "shelves": [
       "Classics"
     ],
@@ -445,6 +447,8 @@
     "author": "Ryszard Kapuścinski",
     "translator": "William R. Brand, Katarzyna Mroczkowska-Brand",
     "cover": "covers/shah-of-shahs.jpg",
+    "series": "Kapuścinski",
+    "series_number": 1,
     "shelves": [
       "Non-fiction"
     ],
@@ -473,13 +477,15 @@
     "author": "Ryszard Kapuścinski",
     "translator": "William R. Brand, Katarzyna Mroczkowska-Brand",
     "cover": "covers/the-emperor.jpg",
+    "series": "Kapuścinski",
+    "series_number": 2,
     "shelves": [
       "Non-fiction"
     ],
     "language_original": "Polish",
     "description_long": "This account of the rise and fall of Ethiopian emperor Haile Selassie is \"an unforgettable, fiercely comic, and finally compassionate book\" (Salman Rushdie, Man Booker Prize–winning author).\n \nAfter Haile Selassie was deposed in 1974, Ryszard Kapuściński—Poland's top foreign correspondent—went to Ethiopia to piece together a firsthand account of how the emperor governed his country, and why he finally fell from power. At great risk to himself, Kapuściński interviewed members of the imperial circle who had gone into hiding.\n \nThe result is this remarkable book, in which Selassie's servants and closest associates share accounts—humorous, frightening, sad, grotesque—of a man living amidst nearly unimaginable pomp and luxury while his people teetered between hunger and starvation. It is a classic portrait of authoritarianism, and a fascinating story of a forty-four-year reign that ended with a coup d'état in 1974.",
     "featured": "yes",
-    "shelf_order": 400,
+    "shelf_order": 978,
     "editions": [
       {
         "format": "Paperback",
@@ -501,13 +507,15 @@
     "author": "Ryszard Kapuścinski",
     "translator": "William R. Brand, Katarzyna Mroczkowska-Brand",
     "cover": "covers/another-day-of-life.jpg",
+    "series": "Kapuścinski",
+    "series_number": 3,
     "shelves": [
       "Non-fiction"
     ],
     "language_original": "Polish",
     "description_long": "In 1975, Angola was tumbling into pandemonium; everyone who could was packing crates, desperate to abandon the beleaguered colony. With his trademark bravura, Ryszard Kapuscinski went the other way, begging his was from Lisbon and comfort to Luanda—once famed as Africa's Rio de Janeiro—and chaos.Angola, a slave colony later given over to mining and plantations, was a promised land for generations of poor Portuguese. It had belonged to Portugal since before there were English-speakers in North America. After the collapse of the fascist dictatorship in Portugal in 1974, Angola was brusquely cut loose, spurring the catastrophe of a still-ongoing civil war. Kapuscinski plunged right into the middle of the drama, driving past thousands of haphazardly placed check-points, where using the wrong shibboleth was a matter of life and death; recording his imporessions of the young soldiers—from Cuba, Angola, South Africa, Portugal—fighting a nebulous war with global repercussions; and examining the peculiar brutality of a country surprised and divided by its newfound freedom.Translated from the Polish by William R. Brand and Katarzyna Mroczkowska-Brand.",
     "featured": "yes",
-    "shelf_order": 420,
+    "shelf_order": 200,
     "videos": [
       {
         "title": "ANOTHER DAY OF LIFE Official Trailer",
@@ -558,13 +566,15 @@
     "author": "Ryszard Kapuścinski",
     "translator": "Klara Glowczewska",
     "cover": "covers/shadow-of-sun.jpg",
+    "series": "Kapuścinski",
+    "series_number": 4,
     "shelves": [
       "Non-fiction"
     ],
     "language_original": "Polish",
     "description_long": "In 1957, Ryszard Kapuscinski arrived in Africa to witness the beginning of the end of colonial rule as the first African correspondent of Poland's state newspaper. From the early days of independence in Ghana to the ongoing ethnic genocide in Rwanda, Kapuscinski has crisscrossed vast distances pursuing the swift, and often violent, events that followed liberation. Kapuscinski hitchhikes with caravans, wanders the Sahara with nomads, and lives in the poverty-stricken slums of Nigeria. He wrestles a king cobra to the death and suffers through a bout of malaria. What emerges is an extraordinary depiction of Africa--not as a group of nations or geographic locations--but as a vibrant and frequently joyous montage of peoples, cultures, and encounters. Kapuscinski's trenchant observations, wry analysis and overwhelming humanity paint a remarkable portrait of the continent and its people. His unorthodox approach and profound respect for the people he meets challenge conventional understandings of the modern problems faced by Africa at the dawn of the twenty-first century.",
     "featured": "yes",
-    "shelf_order": 440,
+    "shelf_order": 1400,
     "editions": [
       {
         "format": "Paperback",
@@ -705,6 +715,7 @@
     "author": "Aleksander Krawczuk",
     "translator": "Tom Pinch",
     "cover": "covers/herod-king.jpg",
+    "series": "Aleksander's Antiquities",
     "series_number": 4,
     "shelves": [
       "Non-fiction"
@@ -745,6 +756,7 @@
     "author": "Aleksander Krawczuk",
     "translator": "Tom Pinch",
     "cover": "covers/titus-berenice.jpg",
+    "series": "Aleksander's Antiquities",
     "series_number": 5,
     "shelves": [
       "Non-fiction"
@@ -785,6 +797,7 @@
     "author": "Aleksander Krawczuk",
     "translator": "Tom Pinch",
     "cover": "covers/rome-jerusalem.jpg",
+    "series": "Aleksander's Antiquities",
     "series_number": 6,
     "shelves": [
       "Non-fiction"
@@ -825,6 +838,7 @@
     "author": "Aleksander Krawczuk",
     "translator": "Tom Pinch",
     "cover": "covers/constantine.jpg",
+    "series": "Aleksander's Antiquities",
     "series_number": 7,
     "shelves": [
       "Non-fiction"
@@ -865,6 +879,7 @@
     "author": "Aleksander Krawczuk",
     "translator": "Tom Pinch",
     "cover": "covers/devils-brood.jpg",
+    "series": "Aleksander's Antiquities",
     "series_number": 8,
     "shelves": [
       "Non-fiction"
@@ -953,7 +968,7 @@
     "language_original": "Polish",
     "description_long": "“A fantastic book.” —Steven Soderbergh\n \nWhen psychologist Kris Kelvin arrives at the planet Solaris to study the ocean that covers its surface, he finds himself confronting a painful memory embodied in the physical likeness of a past lover. Kelvin learns that he is not alone in this and that other crews examining the planet are plagued with their own repressed and newly real memories. Could it be, as Solaris scientists speculate, that the ocean may be a massive neural center creating these memories, for a reason no one can identify?\n \nLong considered a classic, Solaris asks the question: Can we understand the universe around us without first understanding what lies within?\n \n“A novel that makes you reevaluate the nat",
     "featured": "yes",
-    "shelf_order": 600,
+    "shelf_order": 1120,
     "videos": [
       {
         "title": "SOLARIS (1972) Trailer | Lem 2021: I've Seen the Future",
@@ -1028,7 +1043,7 @@
     "language_original": "Polish",
     "description_long": "A space cruiser, in search of its sister ship, encounters beings descended from self-replicating machines.\nIn the grand tradition of H. G. Wells and Jules Verne, Stanisław Lem's The Invincible tells the story of a space cruiser sent to an obscure planet to determine the fate of a sister spaceship whose communication with Earth has abruptly ceased. Landing on the planet Regis III, navigator Rohan and his crew discover a form of life that has apparently evolved from autonomous, self-replicating machines—perhaps the survivors of a “robot war.” Rohan and his men are forced to confront the classic quandary: what course of action can humanity take once it has reached the limits of its knowledge? In The Invincible, Lem has his characters confront the inexplicable and the bizarre: the problem that lies just beyond analytical reach.",
     "featured": "yes",
-    "shelf_order": 600,
+    "shelf_order": 806,
     "editions": [
       {
         "format": "Paperback",
@@ -1118,6 +1133,8 @@
     "author": "Witold Makowiecki",
     "translator": "Tom Pinch",
     "cover": "covers/melicles.jpg",
+    "series": "Makiwiecki",
+    "series_number": 1,
     "shelves": [
       "Young Reader"
     ],
@@ -1167,6 +1184,8 @@
     "author": "Witold Makowiecki",
     "translator": "Tom Pinch",
     "cover": "covers/diossos.jpg",
+    "series": "Makiwiecki",
+    "series_number": 2,
     "shelves": [
       "Young Reader"
     ],
@@ -1624,7 +1643,7 @@
     "language_original": "Polish",
     "description_long": "Mr. Wheels has been a huge smash hit in Europe for decades. 160 volumes of fan fiction (!), three cinematic releases (including one in 2023), two TV series.\n\nBut never a peep in English!\n\nUntil now.\n\n(drum roll)\nVoice One, dramatic:\n\nIn 1310, King Philip the Fair of France, ever-short-of-cash, decided to rob the Sacred Order of the Knights Templar in order to steal their treasure. He accused them of devil worship and sodomy and burned them at the stake. But actually robbing them proved more difficult: sensing their impending doom, the crafty monks had buried their treasure. And really well, too: it has never been found. And it has been the object of dreams, obsessions, and treasure hunts ever since.\n\nAnd now... in a caste in Scotland, a document comes to light, according to which that treasure has been buried... in a Teutonic castle in Poland!\n\nVoice Two, calm and rational:\n\nUnlike the English Sherlock Holmes or the French inspector Maigret, the Polish Mr. Wheels does not deal with perverse monsters, or serial killers, or cannibals; instead, he tracks gentlemen (and gentlewomen) thieves, forgers, and smugglers of... art. His mysteries come with the sort of original settings, fast action, humor, and attractive characters you expect from a mystery best-seller but also feature something unique: each has its own fascinating historical tale in the background.\n\n\n\nTry it. It's just $2.99. We bet you will read the whole series.",
     "featured": "yes",
-    "shelf_order": 1000,
+    "shelf_order": 602,
     "editions": [
       {
         "format": "Hardcover",
@@ -1871,12 +1890,12 @@
     "translator": "Boleslaw Taborski",
     "cover": "covers/danton-thermidor.jpg",
     "shelves": [
-      "Classics"
+      "Drama"
     ],
     "language_original": "Polish",
     "description_long": "Stanislawa Przybyszewska is recognized as a major twentieth-century playwright on the basis of her trilogy about the French Revolution, of which The Danton Case and Thermidor are the principal parts. The Danton Case depicts the battle for power between two exceptional individuals: the corrupt sentimental idealist, Danton, and the incorruptible genius of the Revolution, Robespierre. Thermidor shows the final playing out of this drama, as Robespierre, left alone with the heroic absolutist Saint-Just, foresees the ruin of himself and his cause, and in his despair predicts that hatred, war, and capitalism will steal the Revolution and corrupt nineteenth-century man.",
     "featured": "yes",
-    "shelf_order": 750,
+    "shelf_order": 320,
     "editions": [
       {
         "format": "Paperback",
@@ -1947,7 +1966,36 @@
     "language_original": "Polish",
     "description_long": "<p>Andrzej Sapkowski created an international phenomenon with his New York Times bestselling epic fantasy series about Geralt of Rivia, which has gone on to inspire the hit Netflix show and the blockbuster video games. Now, for the first time in a single boxed set, and featuring stunning new cover designs, the five novels that comprise the Witcher Saga: Blood of Elves, The Time of Contempt, Baptism of Fire,The Tower of Swallows, and Lady of the Lake.</p>\n \n<p>★ The New York Times bestselling series</p>\n<p>★ Over Fifteen Million Copies Sold Worldwide</p>\n<p>★ World Fantasy Award Winning Author</p>\n<p>★ David Gemmell Legend Award Winning Author</p>\n<p>★ Named One of the Greatest Book Series of All Time by Forbes</p>\n\n<p>For over a century, humans, dwarves, gnomes, and elves have lived together in relative peace. But times have changed, the uneasy peace is over, and now the races are fighting once again. </p>\n\n<p>Geralt of Rivia, the hunter known as the Witcher, has been waiting for the birth of a prophesied child. This child has the power to change the world—for good, or for evil.</p>\n\n<p>As the threat of war hangs over the land the child, Ciri, is hunted for her extraordinary powers. Geralt and his allies, including the powerful sorceress Yennefer, must find a way to protect her, and to protect the world. And the Witcher never accepts defeat.</p>",
     "featured": "yes",
-    "shelf_order": 600,
+    "shelf_order": 603,
+    "videos": [
+      {
+        "title": "David French & Peter Kenny on Translating the Witcher",
+        "description": "",
+        "platform": "youtube",
+        "id": "w2vQGGdtwYA",
+        "url": "https://www.youtube.com/watch?v=w2vQGGdtwYA",
+        "embed": "https://www.youtube.com/embed/w2vQGGdtwYA",
+        "thumbnail": "https://img.youtube.com/vi/w2vQGGdtwYA/hqdefault.jpg"
+      },
+      {
+        "title": "The Witcher Books - Should You Read Them?",
+        "description": "",
+        "platform": "youtube",
+        "id": "POrkp0NRrqc",
+        "url": "https://www.youtube.com/watch?v=POrkp0NRrqc",
+        "embed": "https://www.youtube.com/embed/POrkp0NRrqc",
+        "thumbnail": "https://img.youtube.com/vi/POrkp0NRrqc/hqdefault.jpg"
+      },
+      {
+        "title": "The Witcher - An Introduction",
+        "description": "",
+        "platform": "youtube",
+        "id": "-xwIqyfPTz4",
+        "url": "https://www.youtube.com/watch?v=-xwIqyfPTz4",
+        "embed": "https://www.youtube.com/embed/-xwIqyfPTz4",
+        "thumbnail": "https://img.youtube.com/vi/-xwIqyfPTz4/hqdefault.jpg"
+      }
+    ],
     "editions": [
       {
         "format": "Paperback",
@@ -1972,6 +2020,26 @@
     "description_long": "\"A fantastic novel that any fan of The Witcher will instantly appreciate.\" —The Gamer</p>\n\n<p>Andrzej Sapkowski's Witcher series has become a fantasy phenomenon, finding millions of fans worldwide and inspiring the hit Netflix show and video games. Now the bestselling author introduces readers to a new hero on an epic journey in The Tower of Fools, the first book of the Hussite Trilogy.</p>\n\n<p>Reinmar of Bielawa, sometimes known as Reynevan, is a healer, a magician, and according to some, a charlatan. When a thoughtless indiscretion forces him to flee his home, he finds himself pursuednot only by brothers bent on vengeance but by the Holy  Inquisition.</p>\n\n<p>In a time when tensions between Hussite and Catholic countries are threatening to turn into war and mystical forces are gathering in the shadows, Reynevan's journey will lead him to the Narrenturm—the Tower of Fools.</p>\n\n<p>The Tower is an asylum for the mad...or for those who dare to think differently and challenge the prevailing order. And escaping it, avoiding the conflict around him, and keeping his own sanity will prove more difficult than he ever imagined</p>\n\n<p>\"A ripping yarn delivered with world-weary wit, bursting at the seams with sex, death, magic and madness.\" —Joe Abercrombie</p>\n\n<p>\"This is historical fantasy done right.\" —Publishers Weekly (starred review)</p>\n\n<p>\"A highly enjoyable historical fantasy.\" —Booklist</p>\n\n<p>The Tower of Fools is an historical novel set during the Hussite Wars in Bohemia during the 1400s, a period of religious conflict and persecution. Characters in the novel may express views that some readers might find offensive.</p>",
     "featured": "yes",
     "shelf_order": 850,
+    "videos": [
+      {
+        "title": "The Hussite Trilogy by Andrzej Sapkowski",
+        "description": "",
+        "platform": "youtube",
+        "id": "KGbNYStMslc",
+        "url": "https://www.youtube.com/watch?v=KGbNYStMslc",
+        "embed": "https://www.youtube.com/embed/KGbNYStMslc",
+        "thumbnail": "https://img.youtube.com/vi/KGbNYStMslc/hqdefault.jpg"
+      },
+      {
+        "title": "The Tower of Fools (Hussite Trilogy, 1) by Andrzej Sapkowski",
+        "description": "",
+        "platform": "youtube",
+        "id": "EIhypFAoWhY",
+        "url": "https://www.youtube.com/watch?v=EIhypFAoWhY",
+        "embed": "https://www.youtube.com/embed/EIhypFAoWhY",
+        "thumbnail": "https://img.youtube.com/vi/EIhypFAoWhY/hqdefault.jpg"
+      }
+    ],
     "editions": [
       {
         "format": "Paperback",
@@ -1996,6 +2064,17 @@
     "description_long": "<p>From the New York Times bestselling author of The Witcher: Reynevan—scoundrel, magician, possibly a fool—travels into the depths of war as he attempts to navigate the religious fervors of the fifteenth century.</p>\n\n<p>When the Hussite leaders entrust Reynevan with a dangerous secret mission, he is forced to come out of hiding in Bohemia and depart for Silesia. At the same time, he strives to avenge the death of his brother and discover the whereabouts of his beloved. Once again pursued by multiple enemies, he must contend with danger on every front. </p>\n \n<p>Full of gripping action replete with twists and mysteries, seasoned with magic and Sapkowski's ever-present wit, fans of the Witcher will appreciate this rich historical epic set during the Hussite Wars. </p>\n \n<p>Praise for the The Tower of Fools, book one of the Hussite Trilogy:</p>\n\"This is historical fantasy done right.\" —Publishers Weekly (starred review)</p>\n \n<p>“A fantastic novel that any fan of The Witcher will instantly appreciate.” —The Gamer</p>\n \n<p>“A ripping yarn delivered with world-weary wit, bursting at the seams with sex, death, magic and madness.” —Joe Abercrombie </p>\n \n<p>“Sapkowski's energetic and satirical prose as well as the unconventional setting makes this a highly enjoyable historical fantasy.” —Booklist</p>",
     "featured": "yes",
     "shelf_order": 1045,
+    "videos": [
+      {
+        "title": "The Hussite Trilogy by Andrzej Sapkowski",
+        "description": "",
+        "platform": "youtube",
+        "id": "KGbNYStMslc",
+        "url": "https://www.youtube.com/watch?v=KGbNYStMslc",
+        "embed": "https://www.youtube.com/embed/KGbNYStMslc",
+        "thumbnail": "https://img.youtube.com/vi/KGbNYStMslc/hqdefault.jpg"
+      }
+    ],
     "editions": [
       {
         "format": "Paperback",
@@ -2020,6 +2099,17 @@
     "description_long": "<p>From the globally bestselling author of The Witcher comes the final book in the rich historical epic, the Hussite trilogy. Join Reynevan—scoundrel, magician, possibly a fool—as he embarks on a last great adventure across the war-riddled landscape of 15th century Bohemia.</p>\n\n\n<p>After his adventures in The Tower of Fools and Warriors of God, Reynevan is on the run again, harried by enemies—some human, and some mystical—at every turn. These are cruel and dangerous times for a man such as Reynevan, and to survive, he must set aside his history as a peaceful healer and idealist and play the brutal role of Hussite spy as crusades sweep through Silesia and the Czech Republic, and the world around him is forever changed.</p>\n\n\n<p>Praise for the Hussite Trilogy:</p>\n\n<p>“A ripping yarn delivered with world-weary wit, bursting at the seams with sex, death, magic and madness.” —Joe Abercrombie </p>\n\n\n<p>\"This is historical fantasy done right.\" —Publishers Weekly (starred review)</p>\n\n \n<p>“A fantastic novel that any fan of The Witcher will instantly appreciate.” —The Gamer</p>\n\n  \n<p>“Sapkowski's energetic and satirical prose as well as the unconventional setting makes this a highly enjoyable historical fantasy.” —Booklist</p>",
     "featured": "yes",
     "shelf_order": 1250,
+    "videos": [
+      {
+        "title": "The Hussite Trilogy by Andrzej Sapkowski",
+        "description": "",
+        "platform": "youtube",
+        "id": "KGbNYStMslc",
+        "url": "https://www.youtube.com/watch?v=KGbNYStMslc",
+        "embed": "https://www.youtube.com/embed/KGbNYStMslc",
+        "thumbnail": "https://img.youtube.com/vi/KGbNYStMslc/hqdefault.jpg"
+      }
+    ],
     "editions": [
       {
         "format": "Paperback",
@@ -2713,12 +2803,15 @@
     "author": "Artur Domosławski",
     "translator": "Antonia Lloyd-Jones",
     "cover": "covers/ryszard-k-a-life.jpg",
+    "series": "Kapuścinski",
+    "series_number": 6,
     "shelves": [
       "Non-fiction"
     ],
     "language_original": "Polish",
     "description_long": "The life and work of Ryszard Kapu?ci?ski was dangerously bold and deeply enigmatic. This controversial biography opens up the secrets and contradictions of this globally renowned Polish journalist and writer.\nArtur Domos?awski travels the globe, following in Kapu?ci?ski's footsteps, delving into his private conflicts and anxieties and discovering the relationships that were the catalyst for his unique style of 'literary reportage'. The result is a compelling and uncompromising portrait of a conflicted and brilliant individual.",
     "featured": "yes",
+    "shelf_order": 875,
     "editions": [
       {
         "format": "Paperback",
@@ -3988,6 +4081,8 @@
     "author": "Stanisław Ignacy Witkiewicz",
     "translator": "Daniel Gerould",
     "cover": "covers/7-plays.jpg",
+    "series": "Witkiewicz",
+    "series_number": 7,
     "shelves": [
       "Drama"
     ],
@@ -4468,6 +4563,8 @@
     "author": "Bruno Schulz",
     "translator": "Celina Wieniewska",
     "cover": "covers/street-crocodiles.jpg",
+    "series": "Schulz",
+    "series_number": 3,
     "shelves": [
       "Fiction"
     ],
@@ -4489,6 +4586,8 @@
     "author": "Bruno Schulz",
     "translator": "Stanley Bill",
     "cover": "covers/nocturnal-apparitions.jpg",
+    "series": "Schulz",
+    "series_number": 4,
     "shelves": [
       "Fiction"
     ],
@@ -4521,6 +4620,8 @@
     "author": "Stanisław Ignacy Witkiewicz",
     "translator": "Celina Wieniewska",
     "cover": "covers/vahazar.jpg",
+    "series": "Witkiewicz",
+    "series_number": 8,
     "shelves": [
       "Fiction"
     ],
@@ -4542,6 +4643,8 @@
     "author": "Zofia Nałkowska",
     "translator": "Michał Henryk Dziewicki",
     "cover": "covers/women.jpg",
+    "series": "Nałkowska",
+    "series_number": 5,
     "shelves": [
       "Fiction"
     ],
@@ -4822,6 +4925,8 @@
     "author": "Ryszard Kapuścinski",
     "translator": "Diana Kuprel, Marek Kusiba",
     "cover": "covers/wrote-stone.jpg",
+    "series": "Kapuścinski",
+    "series_number": 5,
     "shelves": [
       "Poetry"
     ],
@@ -5064,6 +5169,8 @@
     "author": "Stanisław Ignacy Witkiewicz",
     "translator": "D. Gerould",
     "cover": "covers/country-house.jpg",
+    "series": "Witkiewicz",
+    "series_number": 11,
     "shelves": [
       "Drama"
     ],
@@ -5650,6 +5757,171 @@
     "praise": [
       {
         "quote": "“Printed in English for the first time by Academic Studies Press, Palestine for the Third Time is an engaging, empathetic and often perceptive account of the Zionist project in the ancestral homeland of the Jews.” —Sheldon Kirshner, Times of Israel\n\n“[Pruszynski’s] analysis of the role of private capital is interesting and his discussion of the three major cities of Tel Aviv, Jerusalem, and Haifa is thought-provoking. It is a book rich in content and commentary.” —Shmuel Ben-Gad, Gelman Library, George Washington University,AJL Reviews\n\n“‘The Polish nation understands the struggle of Palestinian Jewry.’ Such was the opinion of a young Cracovian academic and journalist, who visited Mandated Palestine in 1933 and who described himself as ‘a neutral witness.’ Yet Ksawery Pruszyński was both well-informed and emotionally affected by the people with whom he talked. He took the trouble not only to hike across the country from sea to desert, but along the way to seek out individuals with differing points of view—Jews, Arabs and Christians, many enthusiastic, others disillusioned. He was conscious of the resonances between the Zionist experiment and the Fascist and Communist movements of his day, wanting to live life in a kibbutz for himself, and comparing it to a Soviet-style kolkhoz and a Christian monastery. Endowed with an open mind filled with imagination, he was a forerunner of his later compatriot, Ryszard Kapuściński, taking his readers with him on his journey not only into the recesses of the land but also into the mental worlds of its inhabitants. This short book, written in a fateful year, is prophetic. With great sureness of touch, it describes the human vibrations which would soon give rise, as its author foresaw, to the state of Israel.”  — Norman Davies, historian, author of God’s Playground \n\n“Pruszyński opens a [new] era of reportage […], reportage which not only describes the world but also tries to explain it.” — Ryszard Kapuściński, Lapidarium II, 1996"
+      }
+    ]
+  },
+  {
+    "id": "insatiability",
+    "title": "Insatiability",
+    "author": "Stanisław Ignacy Witkiewicz",
+    "translator": "Louis Iribarne",
+    "cover": "covers/insatiability.jpg",
+    "shelves": [
+      "Fiction"
+    ],
+    "language_original": "Polish",
+    "description_long": "Witkiewicz's 1927 masterpiece, made famous in Polish dissident and Nobel laureate Czesław Miłosz's The Captive Mind, is one of the most unforgettable depictions of the tensions and trade-offs between ideological loyalty and individual conscience in world literature. Futuristic, experimental, and remarkably prophetic, Insatiability traces the choices of a young Pole as his divided nation both opposes and welcomes a communitarian invasion from the east offering a narcotic that both removes anxieties and induces obedience. An anti-Utopian classic, it foretold the irresoluble and sometimes deadly choices that faced Eastern European thinkers, writers, and politicians during the years of Soviet domination.",
+    "featured": "yes",
+    "shelf_order": 1072,
+    "editions": [
+      {
+        "format": "Paperback",
+        "publisher": "Northwestern University Press",
+        "price_usd": 35,
+        "isbn": "97808101113490"
+      }
+    ],
+    "praise": [
+      {
+        "quote": "\"Magnificent.\" —Susan Sontag\n\n\"One of the key works of European literary modernism . . . an exhilarating amalgam of Swiftian satire, Dostoyevskian intensity, and (an acknowledged influence) Rabelaisian digressiveness. And one of the most exciting novels of its time.\" —Kirkus Reviews \n\n\"The translation is brilliant, smoothly finding perfect phrases and puns.\" —Publishers Weekly\n \n\n\"There were three of us; Witkiewicz, Bruno Schulz, and myself—he three muskateers of the Polish avant-garde between the wars. Only Witkiewicz remains to be discovered.\" —Witold Gombrowicz"
+      }
+    ]
+  },
+  {
+    "id": "pirx",
+    "title": "Tales Of Pirx The Pilot",
+    "author": "Stanisław Lem",
+    "translator": "Louis Iribarne",
+    "cover": "covers/pirx.jpg",
+    "shelves": [
+      "Genre Fiction"
+    ],
+    "language_original": "Polish",
+    "description_long": "In Pilot Pirx, Lem has created an irresistibly likable character: an astronaut who gives the impression of still navigating by the seat of his pants-a bumbler but an inspired one. By investing Pirx with a range of human foibles, Lem offers a wonderful vision of the audacity, childlike curiosity, and intuition that can give humans the courage to confront outer space. Translated by Louis Iribarne. A Helen and Kurt Wolff Book",
+    "featured": "yes",
+    "shelf_order": 575,
+    "editions": [
+      {
+        "format": "Paperback",
+        "publisher": "Harper Voyager",
+        "price_usd": 12,
+        "isbn": "97801568815000"
+      }
+    ]
+  },
+  {
+    "id": "chain-chance",
+    "title": "The Chain of Chance",
+    "author": "Stanisław Lem",
+    "translator": "Louis Iribarne",
+    "cover": "covers/chain-chance.jpg",
+    "shelves": [
+      "Genre Fiction"
+    ],
+    "language_original": "Polish",
+    "description_long": "A former astronaut turned private detective is dispatched to Naples to discover the pattern in a mysterious series of deaths and disappearances occurring at a seaside spa. A Helen and Kurt Wolff Book",
+    "featured": "yes",
+    "shelf_order": 1741,
+    "editions": [
+      {
+        "format": "Paperback",
+        "publisher": "Harper Voyager",
+        "price_usd": 11,
+        "isbn": "97801561650060"
+      }
+    ]
+  },
+  {
+    "id": "ulro",
+    "title": "The Land of Ulro",
+    "author": "Czesław Miłosz",
+    "translator": "Louis Iribarne",
+    "cover": "covers/ulro.jpg",
+    "shelves": [
+      "Non-fiction"
+    ],
+    "language_original": "Polish",
+    "description_long": "This major prose work, originally published in English in 1985, is both a moving spiritual self-portrait and an unflinching inquiry into the genesis of our modern afflictions. A man who was raised a Catholic in rural Lithuania, lived through the Nazi occupation of Poland, and emerged, first in Europe and then in America, as one of our most important men of letters, speaks here of the inherited dilemmas of our civilization in a voice recognizable for its honesty and passion.",
+    "featured": "yes",
+    "shelf_order": 874,
+    "editions": [
+      {
+        "format": "Paperback",
+        "publisher": "Farrar, Straus and Giroux",
+        "price_usd": 22,
+        "isbn": "97803745193770"
+      }
+    ],
+    "praise": [
+      {
+        "quote": "“The Land of Ulro reveals, among other things, the creative growth and workings of a brilliant poet.” ―Arthur Sabatini, The Philadelphia Inquirer"
+      }
+    ]
+  },
+  {
+    "id": "little-orphan-mary",
+    "title": "The Fair Folk and Little Orphan Mary: A Tale about Gnomes",
+    "author": "Maria Konopnicka",
+    "translator": "Christopher Adam Zakrzewski",
+    "cover": "covers/little-orphan-mary.jpg",
+    "shelves": [
+      "Young Reader"
+    ],
+    "language_original": "Polish",
+    "description_long": "A classic children’s tale about Gnomes, appealing equally, if not more so, to the adult child. Written in rich, lyrical prose, frequently shifting into the peasant dialect and interspersed with sundry verses and songs, the tale is replete with mytho-folkloric motifs, legends, superstitions, historical and biblical references, magical depictions of natural phenomena, the sunsets, the twilights, the dawns; the changing seasons, the shadows, the colors, the sounds and silences, Poland’s diverse landscape, her fields, forests and mountains, along with her flora and fauna, and realistic descriptions of late 19th-century Polish rural life. Not least among The Fair Folk’s charms is the author’s whimsical sense of humor—a humor that often rises to a level of high hilarity.",
+    "featured": "yes",
+    "shelf_order": 703,
+    "editions": [
+      {
+        "format": "Hardcover",
+        "publisher": "Cherry Orchard",
+        "price_usd": 58,
+        "isbn": "97988871968860"
+      },
+      {
+        "format": "Paperback",
+        "publisher": "Cherry Orchard",
+        "price_usd": 25,
+        "isbn": "97988871968930"
+      },
+      {
+        "format": "Ebook",
+        "publisher": "Cherry Orchard",
+        "price_usd": 24,
+        "isbn": "9798887196916"
+      }
+    ]
+  },
+  {
+    "id": "miracle-fair",
+    "title": "Miracle Fair: Selected Poems of Wislawa Szymborska",
+    "author": "Wisława Szymborska",
+    "translator": "Joanna Trzeciak",
+    "cover": "covers/miracle-fair.jpg",
+    "shelves": [
+      "Poetry"
+    ],
+    "language_original": "Polish",
+    "description_long": "\"Miracle Fair is Szymborska at her very best.\"―Harvard Book Review\n\nWinner of the Heldt Prize for Translation. A new translation of the Nobel Prize-winning Polish poet, with an introduction by Czeslaw Milosz. This long-awaited volume samples the full range of Wislawa Szymborska's major themes: the ironies of love, the wonders of nature's beauty, and the illusory character of art. Szymborska's voice emerges as that of a gentle subversive, self-deprecating in its wit, yet graced with a gift for coaxing the extraordinary out of the ordinary.",
+    "featured": "yes",
+    "shelf_order": 1670,
+    "editions": [
+      {
+        "format": "Hardcover",
+        "publisher": "W. W. Norton",
+        "price_usd": 42,
+        "isbn": "97803930493980"
+      },
+      {
+        "format": "Paperback",
+        "publisher": "W. W. Norton",
+        "price_usd": 20,
+        "isbn": "97803933238560"
+      }
+    ],
+    "praise": [
+      {
+        "quote": "Miracle Fair is Szymborska at her very best. -- Harvard Book Review\n\nWhat Szymborska calls 'the joy of writing' also becomes, in this book, the joy of reading. -- Edward Hirsch"
       }
     ]
   }
