@@ -1330,7 +1330,7 @@
     "translator": "Tom Pinch",
     "cover": "covers/wheels-mysteries.jpg",
     "shelves": [
-      "Young Adult"
+      "Young Adult, Genre Fiction"
     ],
     "language_original": "Polish",
     "description_long": "Mr. Wheels has been a huge smash hit in Eastern Europe for decades. 160 volumes of fan fiction (!), three cinematic releases (including one in 2023), two TV series.\n\nBut never a peep in English!?\n\nUntil now.\n\n(drum roll)\n\nIn this installment, Mr. Wheels goes against a ring of icon smugglers and find himself in the magical city of Prague, pitted in a race against... the secret society of Rosicrucians trying to recover ancient jewels buried somewhere in the city by the accomplices of the English wizard, John Dee.\n\nDelve into the fascinating world of Renaissance magic, pick up your copy today.",
@@ -1364,7 +1364,7 @@
     "translator": "Tom Pinch",
     "cover": "covers/wheels-bandits.jpg",
     "shelves": [
-      "Young Adult"
+      "Young Adult, Genre Fiction"
     ],
     "language_original": "Polish",
     "description_long": "Mr. Wheels has been a huge smash hit in Eastern Europe for decades. 160 volumes of fan fiction (!), three cinematic releases (including one in 2023), two TV series.\n\nBut never a peep in English!?\n\nUntil now.\n\nA great fan franchise, comparable to the British Sherlock Holmes and the French Inspector Maigret, the Polish Mr. Wheels---the bumbling art detective with his iconic self-built car--has been solving art mysteries for sixty years. The humorous tales with a delightful procession of quirky characters concern theft and fraud in the art world and the villains are usually gentlemen (and gentlewomen) thieves. And usually, there is a great historical tale in the background.\n\nIn this, the third book in the series, we turn to the first adventure of the Intrepid Art Detective.\n\nIn 1961, fifteen years after the end of World War II, the wounds of war are still fresh, including those inflicted by a gang of marauders commanded by a bandit nicknamed Barabas. Following the fall of the Third Reich and taking advantage of the period of instability that existed for months afterwards, Barabas and his villains terrorized the countryside from a base of operations on an island on the Vistula, 70 miles north of Warsaw. They were eventually captured and imprisoned and this put an end to their robberies; but even from their prison cells, the gangsters' tentacles still reach back to their old base to guard the treasure they had buried somewhere in the area. And now, several mysterious agents compete to unearth the treasure and solve the mysteries of the Island of Bandits and--we are introduced to several characters who will become a permanent fixture in the series.\n\nTake a cruise on the shallows of the Vistula with a European classic, pick up your copy today.",
@@ -1398,7 +1398,7 @@
     "translator": "Tom Pinch",
     "cover": "covers/wheels-copernicus.jpg",
     "shelves": [
-      "Young Adult"
+      "Young Adult, Genre Fiction"
     ],
     "language_original": "Polish",
     "description_long": "Mr. Wheels has been a huge smash hit in Eastern Europe for decades. 160 volumes of fan fiction (!), three cinematic releases (including one in 2023), two TV series.\n\nBut never a peep in English!?\n\nUntil now.\n\nIn February 1945, the Soviet Front came suddenly to Frombork, the city of Copernicus on the Baltic. Too suddenly for SS Colonel Koenig to get away with his loot. In panic, the man in charge of robbing precious Polish art collections decided to hide away his loot, hoping to return to collect it after the war. Alas--he was killed by a stray bullet that very afternoon.\n\nWhen now, unexpectedly, his notebook comes to light, it sparks a race to discover his hidden treasure, a race between the detectives of the Polish Ministry of Culture and a gang of art thieves.\n\nWill Mr. Wheels beat the thieves to it? Or will his colleague, Dr. Parsley, PhD, get the prize? And who will break the detectives' heart this time, the mysterious brunette with an hour-glass figure and a red Ford Mustang? Or the petite blonde with a terrifying robot at her service?\n\nAnd who is Cagliostro Count Balsamo?\n\nFind out. Pick up your copy today!",
@@ -3668,7 +3668,7 @@
     "language_original": "Polish",
     "description_long": "One of Poland’s most important artists and writers of the 20th Century, this collection includes: The Pragmatists, Tumor Brainiowicz, Gyubal Wahazar, The Anonymous Work, The Cuttlefish, Dainty Shapes and Hairy Apes, and The Beelzebub Sonata. Also included is “A Few Words about the Role of the Actor in the Theatre of Pure Form,” a key section of his major theoretical treatise.",
     "featured": "yes",
-    "shelf_order": 1450,
+    "shelf_order": 800,
     "editions": [
       {
         "format": "Paperback",
@@ -3782,6 +3782,8 @@
     "author": "Stanisław Ignacy Witkiewicz",
     "translator": "Daniel Gerould",
     "cover": "covers/witkacy-reader.jpg",
+    "series": "Witkiewicz",
+    "series_number": 3,
     "shelves": [
       "Drama"
     ],
@@ -3891,6 +3893,8 @@
     "title": "The Madman and the Nun and The Crazy Locomotive: Three Plays (including The Water Hen)",
     "author": "Stanisław Ignacy Witkiewicz",
     "cover": "covers/witkacy-3-plays.jpg",
+    "series": "Witkiewicz",
+    "series_number": 1,
     "shelves": [
       "Drama"
     ],
@@ -4346,6 +4350,908 @@
         "format": "Paperback",
         "price_eur": 23,
         "isbn": "97819108953200"
+      }
+    ]
+  },
+  {
+    "id": "phtanoms-breslau",
+    "title": "Phantoms of Breslau: An Inspector Mock Investigation",
+    "author": "Marek Krajewski",
+    "translator": "Danusia Stok",
+    "cover": "covers/phtanoms-breslau.jpg",
+    "shelves": [
+      "Genre Fiction"
+    ],
+    "language_original": "Polish",
+    "description_long": "Breslau, 1919: the hideously battered, naked bodies of four sailors are discovered on an island in the River Oder. As he pieces together the elements of this brutal crime, Criminal Assistant Mock combs the brothels and drinking dens of Breslau and is drawn into an insidious game: it seems that anyone he questions during the course of the investigation is destined to become the next victim. At the same time, he is haunted by appalling nightmares; only nights spent drinking and carousing can keep his demons at bay.\n\nDark, sophisticated and uncompromising, the distinctive Breslau series has already received broad critical acclaim. Phantoms of Breslau confirms Eberhard Mock as the most outrageous and original detective in crime fiction.",
+    "featured": "yes",
+    "shelf_order": 834,
+    "editions": [
+      {
+        "format": "Ebook",
+        "publisher": "MacLehose Press",
+        "price_usd": 3.3,
+        "isbn": "9781849168472"
+      }
+    ]
+  },
+  {
+    "id": "death-breslau",
+    "title": "Death in Breslau",
+    "author": "Marek Krajewski",
+    "translator": "Danusia Stok",
+    "cover": "covers/death-breslau.jpg",
+    "shelves": [
+      "Genre Fiction"
+    ],
+    "language_original": "Polish",
+    "description_long": "The butchered bodies of a young woman and her maid are discovered in a train-carriage. The dreadful slashes to their stomachs are rendered even more awful by the bizarre presence of scorpions, writhing inside the wounds.\n\nAssigned to the case, Criminal Counsellor Eberhard Mock and his assistant Herbert Anwaldt must search for the truth within a society in the malevolent grip of the Gestapo, where corrupt ministers torture Jewish merchants for false confessions and Freemasons protect their secrets with blackmail and violence.\n\nIn a city already drenched in fear, Mock and Anwaldt's hunt for the killer leads them to the time of the Crusades, an era when secret sects practised ritual murder.",
+    "featured": "yes",
+    "shelf_order": 835,
+    "editions": [
+      {
+        "format": "Ebook",
+        "publisher": "MacLehose Press",
+        "price_usd": 6,
+        "isbn": "9781849166591"
+      }
+    ],
+    "praise": [
+      {
+        "quote": "“Marek Krajewski goes far beyond the police procedural in a novel that confronts the infinitely more terrible crimes to come.” —The Barnes & Noble Review from the Editors’ Picks for Best Fiction of 2012\n\n\"This intelligent, atmospheric crime novel, which flashes forward to such events as the 1945 Dresden firebombing and the beginnings of the cold war, possesses a distinctly European, Kafkaesque sensibility.\"—Publishers Weekly (starred review)\n\n\"As noir as they get. This complex and atmospheric thriller will find many fans, who will eagerly await the rest of Krajewski's Breslau quartet.\" —The Independent\n\nIt ought to be inappropriate to enjoy reading about Nazis this much. But fascists make good foils... Characters who survived under such predatory conditions had to possess a cunning and guile.\"—The Boston Globe\n\n\"It promises to be a great quartet.\"—Globe and Mail\n\n\"Krajewski's wonderfully laconic style and his painterly descriptions of place and character tether even the most overwrought scenes to a palpable reality.\" — B&N Review\n\n\"Krajewski’s thriller...will intrigue and compel readers to its end.\" —New York Daily News\n\n\"Atmosphere and piquant period detail saturate the pages, and push these books into the upper echelons of literary crime ... Krajewski's lacerating narrative performs the key function of the skilful novelist: providing an entree into a world far from our own.\" —The Times\n\n\"Krajewski has Mankell's sharp eye for detail, but he has, too, a more sophisticated frame of reference that may intrigue fans of Umberto Eco and Boris Akunin...Death In Breslau is a stylish, intelligent and original addition to the canon.\" —Financial Times\n\n\"Reminiscent of Georg Grosz...Death In Breslau isn't just an exciting mystery, it's the story of lost Fatherland...wonderful.\" —The Guardian\n\n\"The city of Breslau is as much a character in this thriller as the parade of gothic loons that inhabit it...This addictive soup has an air of the burlesque about it.\" —The Daily Telegraph\n\n\"Krajewski relishes the period detail as takes us from bloody interrogation cells to Madame LeGoef's sweaty bordello ... above all you get the sense that Krajewski is enjoying teasing and tormenting us with numerous examples of the violent coming together of eroticism and the body-politic. In this respect, Death in Breslau is strongly reminiscent of Alain Robbe-Grillet's Repetition... What's haunting about Krajewski's book, however, is that the worst was yet to come.\" —Independent on Sunday\n\n\"Atmospheric and uncompromising, it is noir with its dark underbelly fully exposed\" —Criminal Element"
+      }
+    ]
+  },
+  {
+    "id": "end-breslau",
+    "title": "End of the World in Breslau",
+    "author": "Marek Krajewski",
+    "translator": "Danusia Stok",
+    "cover": "covers/end-breslau.jpg",
+    "shelves": [
+      "Genre Fiction"
+    ],
+    "language_original": "Polish",
+    "description_long": "The second installment in the darkly intelligent series that The Independent called “As noir as they get.”\n\n1927, Breslau, Poland: Two elaborate and sadistic murders are discovered within days of each other. The body of an unknown musician, bound and gagged, is found behind a false wall in a shoemaker’s workshop. The victim had been sealed in alive. Elsewhere in the city, the horrifically mutilated body of a locksmith is found. Next to each victim is a torn-out calendar page, with the day of the death marked in blood. Nothing else seems to connect the cases.\n\nIt falls to Criminal Councillor Eberhard Mock to solve the case, the mystery taking him still further into the Breslau underworld he knows only too well. Meanwhile, his hard-drinking nocturnal habits soon threaten his volatile marriage, and prompt some strange behavior from his wife ... and before long, Mock and his team will be investigating not only two of the grisliest murders in the city’s history, but the councillor’s own wife.",
+    "featured": "yes",
+    "shelf_order": 835,
+    "editions": [
+      {
+        "format": "Hardcover",
+        "publisher": "Melville House",
+        "price_usd": 25,
+        "isbn": "97816121917750"
+      },
+      {
+        "format": "Ebook",
+        "publisher": "MacLehose Press",
+        "price_usd": 3.3,
+        "isbn": "9781849166850"
+      }
+    ],
+    "praise": [
+      {
+        "quote": "Fans of Simenon’s stand-alone noirs will find much to like.\" —Publishers Weekly\n\n\"Krajewski focuses brilliantly on Mock’s psychological dissolution, but he also continues to offer fascinating glimpses of the city... bizarre and insightful.\" —ALA Booklist (starred review)\n\nPraise for Death in Breslau:\n\n“As noir as they get. This complex and atmospheric thriller will find many fans.” —The Independent\n\n“The city of Breslau is as much a character in this thriller as the parade of gothic loons that inhabit it … Addictive … ” —The Daily Telegraph\n\n“A stylish, intelligent and original addition to the canon.” —The Financial Times\n\n“Krajewski carved out a new niche, Polish noir. And what a neat niche it is: sweaty with decadent aristocrats, fleshy with prostitutes and pimps and corpulent with corpses … a bawdy, black-humoured and a unique police tale.” —RTE Guide\n\n“Rich and idiosyncratic … Atmosphere and piquant period detail saturate the pages, and push these books into the upper echelons of literary crime. Krajewski’s lacerating narrative performs the key function of the skilful novelist: providing an entre into a world far from our own.” —The Independent"
+      }
+    ]
+  },
+  {
+    "id": "minotaur",
+    "title": "The Minotaur's Head",
+    "author": "Marek Krajewski",
+    "translator": "Danusia Stok",
+    "cover": "covers/minotaur.jpg",
+    "shelves": [
+      "Genre Fiction"
+    ],
+    "language_original": "Polish",
+    "description_long": "When Abwehr Captain Eberhard Mock is called from his New Year's Eve revelries to attend a particularly grisly crime scene, his notoriously robust stomach is turned. A young girl - and suspected spy - who arrived by train from France just days before, has been found dead in her hotel room, the flesh torn from her cheek by her assailant's teeth.\n\nIll at ease with the increasingly open integration of S.S., Gestapo and police, Mock is partially relieved to be assigned to liaise with officers in Lvov, Poland, where a series of similar crimes - as yet unsolved - cast a long shadow over the town. In Lvov he joins the ongoing investigation conducted by Commissioner Popielksi, a fellow classicist who relies on a highly unorthodox method of deduction. Meanwhile, Popielski is worried by the behaviour of his only daughter, Rita. Her head has been turned by her charismatic drama teacher, and now, unbeknownst to her father, she has started receiving letters from an ardent secret admirer.",
+    "featured": "yes",
+    "shelf_order": 836,
+    "editions": [
+      {
+        "format": "Paperback",
+        "publisher": "MacLehose Press",
+        "price_usd": 17,
+        "isbn": "97818486629260"
+      }
+    ]
+  },
+  {
+    "id": "niko-dyzma",
+    "title": "The Career of Nicodemus Dyzma",
+    "author": "Tadeusz Dolega-Mostowicz",
+    "translator": "Ewa Malachowska-Pasek, Megan Thomas",
+    "cover": "covers/niko-dyzma.jpg",
+    "shelves": [
+      "Fiction"
+    ],
+    "language_original": "Polish",
+    "description_long": "Winner of the 2021 Found in Translation Award\n\nFirst published in Polish in 1932, The Career of Nicodemus Dyzma was Tadeusz Dołęga-Mostowicz’s breakout novel. Dyzma is an unemployed clerk who crashes a swanky party, where he makes an offhand crass remark that sets him on a new course. Soon high society—from government ministers to drug-fueled aristocrats—wants a piece of him. As Dyzma’s status grows, his vulgarity is interpreted as authenticity and strength. He is unable to comprehend complicated political matters, but his cryptic responses are celebrated as wise introspection. His willingness to do anything to hold on to power—flip-flopping on political positions, inventing xenophobic plots, even having enemies assaulted—only leads to greater success. \n\nDołęga-Mostowicz wrote his novel in a newly independent Poland rampant with political corruption and populist pandering. Jerzy Kosinski borrowed heavily from the novel when he wrote Being There, and readers of both books will recognize similarities between their plots. This biting political satire—by turns hilarious and disturbing, contemptuous and sympathetic—is an indictment of a system in which money and connections matter above all else, bluster and ignorance are valorized, and a deeply incompetent man rises to the highest spheres of government.",
+    "featured": "yes",
+    "shelf_order": 756,
+    "editions": [
+      {
+        "format": "Paperback",
+        "publisher": "Northwestern University Press",
+        "price_usd": 24,
+        "isbn": "97808101428790"
+      },
+      {
+        "format": "Ebook",
+        "publisher": "Northwestern University Press",
+        "price_usd": 24,
+        "isbn": "9780810142886"
+      }
+    ],
+    "praise": [
+      {
+        "quote": "“Those with knowledge of Polish letters have long awaited a translation of Dolega-Mostowicz’s classic satire, an all-too-timely tale of a boor’s rise to power, whose crudeness is understood as candor, whose ignorance is taken as wisdom, and whose ambition is unmatched. Thomas and Malachowska-Pasek have masterfully conveyed the absurd humor, rollicking story, and biting critique of the original.” —Daniel W. Pratt, contributor to Gombrowicz in Transnational Context: Translation, Affect, and Politics\n \n\n“The Career of Nicodemus Dyzma is still alive, not only as a good read but also as an essential historical document of 1930s Europe and as a trans-historical political satire with immense potential for contemporary readers . . . Cultural historians, political aficionados, and literature lovers will all find something very seductive about the book.” —Michal Pawel Markowski, author of Wars of Modern Tribes: Fighting for Reality in the Age of Populism\n \n\n“Very few books or characters become proverbial. But The Career of Nicodemus Dyzma is a byword in Polish culture for the accidental rise of an opportunistic swindler to the heights of society and politics. This entertaining novel from interwar Poland remains instructive beyond its context today.” —Stanley Bill, translator of The Mountains of Parnassus by Czeslaw Milosz"
+      }
+    ]
+  },
+  {
+    "id": "wrote-stone",
+    "title": "I Wrote Stone: The Selected Poetry of Ryszard Kapuścinski",
+    "author": "Ryszard Kapuścinski",
+    "translator": "Diana Kuprel, Marek Kusiba",
+    "cover": "covers/wrote-stone.jpg",
+    "shelves": [
+      "Poetry"
+    ],
+    "language_original": "Polish",
+    "description_long": "Bringing together for the first time in English a selection of poems from his two previously published collections, Kapuscinski offers up a thoughtful, philosophical verse, often aphoristic in tone and structure, that is engaged politically, morally, and viscerally with the world around him. Translated from the Polish.",
+    "featured": "yes",
+    "shelf_order": 820,
+    "editions": [
+      {
+        "format": "Paperback",
+        "publisher": "Biblioasis International Translation",
+        "price_usd": 17,
+        "isbn": "97818972313710"
+      }
+    ],
+    "praise": [
+      {
+        "quote": "\"Even faced with his oncoming death, a swift bout with cancer, Kapuscinski could not help but retain his tone or reportage. He touches upon the great fear of death with a surprisingly unbiased touch even as the lines are imbued with emotion by the reader, who knows the inevitability and is faced with a posthumous message from beyond.\"—Bookslut\n\n\"I Wrote Stone\" shows us a chronicler of chaos in one of those moments when he has turned off his journalistic processes and given himself up to something else.\"—LA Times\n\n\n\n\"Even faced with his oncoming death, a swift bout with cancer, Kapuscinski could not help but retain his tone or reportage. He touches upon the great fear of death with a surprisingly unbiased touch even as the lines are imbued with emotion by the reader, who knows the inevitability and is faced with a posthumous message from beyond.\"—Bookslut\n\n\"I Wrote Stone\" shows us a chronicler of chaos in one of those moments when he has turned off his journalistic processes and given himself up to something else.\"—LA Times"
+      }
+    ]
+  },
+  {
+    "id": "phoebe-hicks",
+    "title": "The Unfinished Life of Phoebe Hicks",
+    "author": "Agnieszka Taborska",
+    "translator": "Ursula Phillips",
+    "cover": "covers/phoebe-hicks.jpg",
+    "shelves": [
+      "Fiction"
+    ],
+    "language_original": "Polish",
+    "description_long": "Phoebe Hicks owes her unexpected career as a spiritualist to a photograph taken of her through her bedroom window after having eaten spoiled clams. What comes out of her mouth is taken to be ectoplasm, and word spreads that she is able to commune with the dead. As the prototype for the medium, she establishes the standard for how a séance should be conducted during the sessions held in her Providence, Rhode Island, home where a growing number of curious participants witness materializations of such figures as Ivan the Terrible, Harry Houdini, Catherine the Great, Hatshepsut, Elizabeth Báthory, and a host of others. Told as a compilation of episodes conjoined with Selena Kimball’s haunting collages, The Unfinished Life of Phoebe Hicks is a feminist surrealist exploration of the rise of Spiritualism and the role of the medium in 19th-century America alongside the expectations, and constraints, imposed on women.",
+    "featured": "yes",
+    "shelf_order": 975,
+    "editions": [
+      {
+        "format": "Hardcover",
+        "publisher": "Twisted Spoon Press",
+        "price_usd": 27,
+        "isbn": "97818048405110"
+      },
+      {
+        "format": "Paperback",
+        "publisher": "Twisted Spoon Press",
+        "price_usd": 20,
+        "isbn": "97880886280190"
+      },
+      {
+        "format": "Ebook",
+        "publisher": "Twisted Spoon Press",
+        "price_usd": 10,
+        "isbn": "9788088628347"
+      }
+    ],
+    "praise": [
+      {
+        "quote": "gnieszka Taborska, otherwise innocent, has, during her annual pilgrimage into “the murky back-streets of Providence,” shamelessly consorted with the spirits of such infamous locals as Poe, Lovecraft, and Hawkes, giving spiritual birth to the charmingly eerie nineteenth-century medium, Phoebe Hicks. Phoebe’s story, which, the author says, “seems to belong more to dream than reality,” is a delightful postmodernist mix of fiction and history, hovering delicately between parody and mystery. Taborska’s fictional character Leonora de la Cruz makes a guest appearance, Harry Houdini challenges Phoebe to a kind of duel, and Alain Resnais, we’re told, had intended to make Phoebe the heroine of his 20th-century film Providence, scared off perhaps by her “disturbing ambiguity.” Phoebe is by turns a genuine communicant with the spiritual world, a fraud, an artist, a feminist, a psychiatrist, a lunatic. She can also be, thanks to her ethereal deadpan humor, very funny. – Robert Coover\n\nAgnieszka Taborska and artist Selena Kimball’s fictional heroines are clairvoyant women whose internal visions are projected externally through art and are conditioned by the scientific contexts of their eras. – New Literature from Europe"
+      }
+    ]
+  },
+  {
+    "id": "roman-spring",
+    "title": "The Roman Spring",
+    "author": "Wacław Kubacki",
+    "translator": "Andrzej Zwaniecki, Ursula Phillips",
+    "cover": "covers/roman-spring.jpg",
+    "shelves": [
+      "Fiction"
+    ],
+    "language_original": "Polish",
+    "description_long": "Wacław Kubacki’s play, The Roman Spring (1955), captures the friendship between Poland’s great poet, Adam Mickiewicz (1798–1855), and America’s first feminist and foreign war correspondent, Margaret Fuller (1810–1850). The setting is Rome, Italy, in the period of Europe’s widespread revolutions known as the Spring of Nations. Kubacki’s play, translated for the first time into English, celebrates two prominent intellectuals of the 19th century who became intimate friends. It offers a new and rare addition to these writers’ archives.",
+    "featured": "yes",
+    "shelf_order": 980,
+    "editions": [
+      {
+        "format": "Paperback",
+        "publisher": "Bergamot Press",
+        "price_usd": 20,
+        "isbn": "97806920376900"
+      }
+    ]
+  },
+  {
+    "id": "kochanowski-selected",
+    "title": "Selected Works: Poetry, Drama, Prose",
+    "author": "Jan Kochanowski",
+    "translator": "Charles S. Kraszewski",
+    "cover": "covers/kochanowski-selected.jpg",
+    "shelves": [
+      "Poetry"
+    ],
+    "language_original": "Polish",
+    "description_long": "Jan Kochanowski (1530-1584) is not only the greatest Polish poet before Adam Mickiewicz, he is also one of the great figures of the European Renaissance. Over the space of his rather brief life, he excelled in every literary genre he attempted: secular lyric poetry and religious hymns, drama, pithy satires in the vein of Martial, and translations from both the Bible and classical literature. While being the first major voice to shape the modern idiom of Polish, he also wrote in Latin, for which he was recognised abroad by literary lights of the calibre of Pierre Ronsard.\n\nAlthough little known today outside his country, this anthology of his works translated by Charles S. Kraszewski brings the English reader a wide selection of his literary output in verse, drama, and prose. Generous selections from the Horatian Songs and satirical Trifles accompany the full text of his great humanist drama The Dismissal of the Grecian Envoys, which had its English premiere in 2019 on the boards of Shakespeare's Globe Theatre in London. Kochanowski is mostly famed for a work he wished he had never written.\n\nThese are the Threnodies, a cycle of poems mourning the loss of his little daughter Orszula. It has been said that in this cycle, in which a grieving father so eloquently gives vent to his sorrow at the loss of his child, Kochanowski re-invented the genre of lament, which by his time had become a pallid, formal exercise in writing, devoid of the heartbreaking emotions introduced here by the Polish master. The full cycle of the Threnodies, in Kraszewski's completely new translation, is here printed for the first time.",
+    "featured": "yes",
+    "shelf_order": 891,
+    "editions": [
+      {
+        "format": "Hardcover",
+        "publisher": "Glagoslav Publications B.V.",
+        "price_usd": 31
+      },
+      {
+        "format": "Paperback",
+        "publisher": "Glagoslav Publications B.V.",
+        "price_usd": 27,
+        "isbn": "97818048405040"
+      },
+      {
+        "format": "Ebook",
+        "publisher": "Glagoslav Publications B.V.",
+        "price_usd": 10,
+        "isbn": "9781804840528"
+      }
+    ],
+    "praise": [
+      {
+        "quote": "Jan Kochanowski (1530-1584) was one of the most eminent Polish Renaissance poets of the 16th century and is widely regarded as the most accomplished and the most significant representative of Polish literature until the 19th century. He is often referred to as the father of Polish literary language and is best known for his mastery of the Polish poetic language and forms.Born in 1530 into a noble family in Sycyna, Kochanowski studied at the Jagiellonian University in Kraków and later, between 1552 and 1559, at the University of Padua in Italy. His time in Italy exposed him to the great works of the Italian Renaissance, and he became fluent in Latin, Greek, and Italian, which significantly influenced his own work.Upon his return to Poland, Kochanowski served as a secretary at the royal court in Kraków. He was also a member of the Polish parliament, a courtier, and a landowner. Despite his duties, he dedicated his life to writing. His works covered a variety of genres and themes, including epigrams, epic poetry, lyrical poetry, and dramatic tragedy.Kochanowski's most renowned work is \"Treny\" (Threnodies, 1580), a series of elegies upon the death of his beloved daughter Urszula. It is considered a masterpiece of Renaissance literature, notable for its emotional depth and exploration of personal grief.Kochanowski's influence on Polish literature is immense. He elevated the Polish language to a high artistic level and set a precedent for the Polish literary culture. He died in 1584, leaving behind a legacy that continues to resonate in Polish literature and culture."
+      }
+    ]
+  },
+  {
+    "id": "sounds-feelings",
+    "title": "Sounds, Feelings, Thoughts",
+    "author": "Wislawa Szymborska",
+    "translator": "Magnus J. Krynski, Robert A. Maguire (",
+    "cover": "covers/sounds-feelings.jpg",
+    "shelves": [
+      "Poetry"
+    ],
+    "language_original": "Polish",
+    "description_long": "From Nobel Prize–winning poet Wisława Szymborska, a dazzling bilingual collection of verse that reveals her signature themes and techniques\n\nSounds, Feelings, and Thoughts is a superb introduction to the work of Nobel Prize–winning poet Wisława Szymborska (1923–2012), who is widely regarded as one of the greatest poets since World War II. Carefully selected and skillfully translated by Magnus Krynski and Robert Maguire, this book presents a broad and representative selection of Szymborska’s poetry and features the original Polish poems on pages facing the English translations. The book demonstrates the hallmarks of Szymborska’s verse—high seriousness, delightful inventiveness, a prodigal imagination, and enormous technical skill. Writing of the diversity, plenitude, and richness of the world, she takes delight in observing and naming its phenomena, looking on with wonder, astonishment, and amusement.",
+    "featured": "yes",
+    "shelf_order": 899,
+    "editions": [
+      {
+        "format": "Paperback",
+        "publisher": "Princeton University Press",
+        "price_usd": 21,
+        "isbn": "97806910138000"
+      },
+      {
+        "format": "Ebook",
+        "publisher": "Princeton University Press",
+        "price_usd": 16,
+        "isbn": "9780691213040"
+      }
+    ],
+    "praise": [
+      {
+        "quote": "\"This volume reveals a poet of startling originality and deep sympathy,\" said LJ's reviewer of this 1981 collection of 70 poems by the then relatively unknown Polish poet who has now won the Nobel Prize for Literature. Though the poems deal with loss, \"hers is not a voice of despair, but one capable of balancing loss with wonder\" (LJ 9/1/81).\nCopyright 1997 Reed Business Information, Inc."
+      }
+    ]
+  },
+  {
+    "id": "the-heathen",
+    "title": "The Heathen",
+    "author": "Narcyza Zmichowska",
+    "translator": "Ursula Phillips",
+    "cover": "covers/the-heathen.jpg",
+    "shelves": [
+      "Fiction"
+    ],
+    "language_original": "Polish",
+    "description_long": "arcyza Zmichowska (1819–76) was the most accomplished female writer to come out of Poland in the mid-nineteenth century. In terms of influence and popularity, she was the George Eliot of East European letters, but her fiction was written less in the realist style than in the Romantic one. Her novel The Heathen, rendered here in a crystalline English translation by Ursula Phillips, is the tale of a doomed love affair between Benjamin, a young man from a poor but patriotic rural family, and Aspasia, a femme fatale who is older, beautiful, worldlier, and more sexually liberated.\n\nAs the story unfolds, Benjamin falls in love with Aspasia, accompanies her to Warsaw, and under her influence achieves incredible intellectual and professional heights—until she tires of him and takes another lover. Jealous, Benjamin murders Aspasia's new paramour and flees to his mother in the countryside—where he realizes the full extent of what he has lost and betrayed. Hence the fundamental tension in this work, represented by the two women who compete for Benjamin's affection: the mother, who represents self-abnegation and redemption from sin, and Aspasia, who represents self-indulgence and sin itself.\n\nIn the end, The Heathen embodies a profound meditation on the limits of these typecasts: the novel not only explores the restrictions they placed on women during the nineteenth century, but on human happiness, and Poland's then tenuous impulse toward modernity.",
+    "featured": "yes",
+    "shelf_order": 945,
+    "editions": [
+      {
+        "format": "Paperback",
+        "publisher": "Northern Illinois University Press",
+        "price_usd": 20,
+        "isbn": "97808758068460"
+      },
+      {
+        "format": "Ebook",
+        "publisher": "Northern Illinois University Press",
+        "price_usd": 10,
+        "isbn": "9781609090692"
+      }
+    ]
+  },
+  {
+    "id": "malvina",
+    "title": "Malvina, or the Heart’s Intuition",
+    "author": "Maria Wirtemberska",
+    "translator": "Ursula Phillips",
+    "cover": "covers/malvina.jpg",
+    "shelves": [
+      "Fiction"
+    ],
+    "language_original": "Polish",
+    "description_long": "First published in Warsaw in 1816, Malvina, or the Heart's Intuition has been largely―and unjustly―ignored by the Polish literary canon. Ingeniously structured and vividly related by a Tristram Shandy-esque narrator, Maria Wirtemberska's psychologically complex work is often considered Poland's first modern novel. This splendid translation by Ursula Phillips should restore Wirtemberska to her rightful place in the literary pantheon while providing fertile new ground for the study of the international development of the novel.\n\nThe romantic story of the young widow Malvina and her mysterious lover Ludomir, Malvina combines several literary styles and influences―from the epistolary to the Gothic. Nobel laureate Czeslaw Milosz argues that Malvina is quintessentially a sentimental novel―a model of the genre whose chief aspiration is to promote a change in sensibility and inspire new forces of feeling and imagination. For this reason Wirtemberska may be compared to her English contemporary, Jane Austen. A work of genuine artistic daring and sophistication, Malvina, or the Heart's Intuition has been overlooked by critics for too long, and readers have been denied the pleasure of reading one of literature's major landmarks―until now.",
+    "featured": "yes",
+    "shelf_order": 947,
+    "editions": [
+      {
+        "format": "Paperback",
+        "publisher": "Northern Illinois University Press",
+        "price_usd": 18,
+        "isbn": "97808758045070"
+      }
+    ],
+    "praise": [
+      {
+        "quote": "\"The novel's freshness and verve are faithfully rendered in Ursula Phillips's excellent, seamless translation. Here the vocabulary of feeling hits its mark and helps make Malvina a contribution to a renewed forging of Polish identity.\"\n\n--Times Literary Supplement\n\n\"Wirtemberska [is] one of the first figures in a now rich tradition of Polish literature written by women. Indeed, Wirtemberska's book remains interesting to this day. . . . Phillips's exceptionally careful translation . . . is original and as graceful as any alternative that comes to mind. . . . [Anyone] with an interest in the novel taking root as a genre or in the early nineteenth-century novel will appreciate this book.\"\n\n--Slavic and East European Journal"
+      }
+    ]
+  },
+  {
+    "id": "bird-streets",
+    "title": "Bird Streets",
+    "author": "Piotr Paziński",
+    "translator": "Ursula Phillips",
+    "cover": "covers/bird-streets.jpg",
+    "shelves": [
+      "Fiction"
+    ],
+    "language_original": "Polish",
+    "description_long": "Set within the Warsaw ghetto, Bird Streets tells four connecting stories. The novel recaptures vestiges of a culture once abundantly present but now abjectly absent. This “post memory” sparks hidden remnants, echoes, and signs, and clings to underground whisperings. While not a Holocaust memoir, Bird Streets touches all four narrators intrigued by a world not quite lost. This world of generations past continues to speak. The book’s tone is not bleak though. It is wistful and reflective, with irony and gentle humor.\n\nPiotr Paziński is a journalist, philosopher, translator, and novelist of Jewish heritage who lives in Warsaw. He received the European Union Prize for Literature in 2012 for his first novel, The Boarding House.\n\nUrsula Phillips is a British translator of Polish literary and academic works. She most recently received the 2015 Found in Translation Award and the 2017 Polish Institute of Arts and Sciences of America Waclaw Lednicki Award.",
+    "featured": "yes",
+    "shelf_order": 923,
+    "editions": [
+      {
+        "format": "Paperback",
+        "publisher": "Independently published",
+        "price_usd": 15,
+        "isbn": "97983636294570"
+      },
+      {
+        "format": "Ebook",
+        "publisher": "Vine Editions",
+        "price_usd": 15,
+        "isbn": "01"
+      }
+    ]
+  },
+  {
+    "id": "country-house",
+    "title": "Country House: Polish Theatre Archive",
+    "author": "Stanisław Ignacy Witkiewicz",
+    "translator": "D. Gerould",
+    "cover": "covers/country-house.jpg",
+    "shelves": [
+      "Drama"
+    ],
+    "language_original": "Polish",
+    "description_long": "Country House, a ''comedy with corpses,'' is a wicked subversion of all those realistic psychological dramas of jealousy, adultery, murder and suicide that ask to be taken seriously. Witkacy's send-up assumes the form of a ghost story full of surprises, in the course of which an entire family of four is gleefully dispatched to the other world. When it was first performed in 1923 in Torun, Country House was judged unsuitable for the general public because it derided moral, social and dramatic convention. Three years later, as directed by the playwright himself in Lwów, the drama proved an unexpected success with audiences (although it only ran for four nights) and ever since has been among Witkacy's most frequently performed works.\nToday we can appreciate Country House not only as a systematic demolition of stage realism, but also as an anxious probing of the elusive boundaries between life and death, exposing the ''dark places'' of the human psyche that make us laugh nervously.",
+    "featured": "yes",
+    "shelf_order": 945,
+    "editions": [
+      {
+        "format": "Hardcover",
+        "publisher": "Routledge",
+        "price_usd": 200,
+        "isbn": "97890570200180"
+      },
+      {
+        "format": "Paperback",
+        "publisher": "Routledge",
+        "price_usd": 44,
+        "isbn": "97890570200250"
+      },
+      {
+        "format": "Ebook",
+        "publisher": "Routledge",
+        "price_usd": 42,
+        "isbn": "9781135299897"
+      }
+    ]
+  },
+  {
+    "id": "locomotive",
+    "title": "Locomotive",
+    "author": "Julian Tuwim",
+    "cover": "covers/locomotive.jpg",
+    "shelves": [
+      "Young Adult"
+    ],
+    "language_original": "Polish",
+    "description_long": "Three beautifully illustrated classic Polish tales that will enchant the young readers of today\n\nIn the late 1930s renowned Polish poet Julian Tuwim, was asked to write three poems for children. The publisher Przeworski connected the three poems into one book, Locomotive, and commissioned illustrations from celebrated Polish illustration duo Lewitt and Him. Locomotive was the beginning of a creative partnership that lasted many years.\n\nFeaturing the original three poems, Locomotive, The Turnip, and The Bird’s Broadcast, children learn what’s inside each train carriage as it chugs along, how many people, animals, and friends it takes to pull a turnip from the ground, and what happens when birds of all kinds gather for a meeting in the woods.\n\nAfter its original publication in 1939 in Polish, Locomotive was swiftly translated into French and English the next year, appearing at a time when it would have been a surprise and a joy to encounter bright colors and modernist-inflected imagery. Both classic and modern, its imaginative storytelling and appeal has endured and will delight children today as much as it did eighty years ago.\n\nIllustrated in color throughout",
+    "featured": "yes",
+    "shelf_order": 955,
+    "editions": [
+      {
+        "format": "Hardcover",
+        "publisher": "Thames and Hudson",
+        "price_usd": 17,
+        "isbn": "97805006509740"
+      }
+    ]
+  },
+  {
+    "id": "zofia-stry",
+    "title": "Zofia Stryjenska",
+    "author": "Swiatoslaw Lenartowicz",
+    "cover": "covers/zofia-stry.jpg",
+    "shelves": [
+      "Young Adult"
+    ],
+    "language_original": "Polish",
+    "description_long": "Multilingual edition in English and Polish\n\nZofia Stryjeńska (1891–1976) is one of the most popular Polish artists of the interwar period. She was mainly occupied with easel painting, but also with graphic design, book illustrations, fabric, poster and toy design. Her works brought her a number of awards. She was the author of the panneaux series inspired by Polish traditions and presenting “The Cultural Year in Poland”, and the series “Young Polish Countryside”, which praised the charms of rural life and youth. The album presents outstanding works by Zofia Stryjeńska characterised by dynamic depictions, colourfulness, or rhythmic and decorative elements. The introduction to the album was written by an expert on Zofia Stryjeńska’s work, Światosław Lenartowicz, and the graphic design was prepared by Prof. Lech Majewski.\n\nZofia Stryjeńska (1891–1976) należy do grona najpopularniejszych artystów okresu międzywojennego w Polsce. Uprawiała głównie malarstwo sztalugowe, zajmowała się także grafiką, ilustracją książkową, projektowaniem tkanin, plakatów i zabawek. Za swoją twórczość była wielokrotnie nagradzana i wyróżniana. Autorka nawiązującego do polskiej tradycji cyklu panneaux przedstawiającego „Rok obrzędowy w Polsce” oraz cyklu „Młoda wieś polska”, będącego pochwałą urody wiejskiego życia i młodości. Album pokazuje wspaniałą twórczość Zofii Stryjeńskiej z wyróżniającą ją dynamiką ujęć, wielobarwnością, zrytmizowaniem i dekoracyjnością elementów. Autorem wstępu do albumu jest – znawca twórczości Zofii Stryjeńskiej – Światosław Lenartowicz, natomiast za projekt graficzny odpowiada prof. Lech Majewski.",
+    "featured": "yes",
+    "shelf_order": 1005,
+    "editions": [
+      {
+        "format": "Hardcover",
+        "publisher": "Bosz Publishing House",
+        "price_usd": 110,
+        "isbn": "97883757634540"
+      }
+    ]
+  },
+  {
+    "id": "67-tales",
+    "title": "67 Tales from Poland",
+    "author": "Henryk Sienkiewicz, Władysław St. Reymont, Bolesław Prus, Adam Szymański, Stefan żeromski, Juliusz Kaden-Bandrowski, Zofia Rygier-Nałkowska, Wacław Sieroszewski",
+    "translator": "Nataliia Honcharenko",
+    "cover": "covers/67-tales.jpg",
+    "shelves": [
+      "Young Adult"
+    ],
+    "language_original": "Polish",
+    "description_long": "The book brings together classic Polish folk tales alongside short stories by some of Poland’s most renowned authors, including:\n\nHenryk Sienkiewicz,\nWładysław Stanisław Reymont,\nBolesław Prus,\nAdam Szymański,\nStefan Żeromski,\nJuliusz Kaden-Bandrowski,\nZofia Nałkowska,\nWacław Sieroszewski.\n\nThis carefully curated collection offers a rich introduction to Polish folklore and classic Polish short fiction, reflecting the cultural and literary heritage of Poland.\nIt is an ideal choice for readers interested in Polish folklore, classic European literature, and cultural heritage.",
+    "featured": "yes",
+    "shelf_order": 1007,
+    "editions": [
+      {
+        "format": "Hardcover",
+        "publisher": "Independently published",
+        "price_usd": 21,
+        "isbn": "97982421355050"
+      },
+      {
+        "format": "Paperback",
+        "publisher": "Independently published",
+        "price_usd": 21,
+        "isbn": "97815432409000"
+      },
+      {
+        "format": "Ebook",
+        "publisher": "Independently published",
+        "price_usd": 0.99,
+        "isbn": "0617"
+      }
+    ]
+  },
+  {
+    "id": "triumph-provocation",
+    "title": "The Triumph of Provocation",
+    "author": "Józef Mackiewicz",
+    "cover": "covers/triumph-provocation.jpg",
+    "shelves": [
+      "Non-fiction"
+    ],
+    "language_original": "Polish",
+    "description_long": "This masterful political treatise first published in 1962 examines the history and nature of Communism as it developed in the Soviet Union and in Poland. Józef Mackiewicz known for his relentless opposition to Communism argues that accommodation with the Communists simply helped them to impose their vision of the world and pursue their goal of global domination. He compares Communism to Nazism and insists that the former was the greater threat to the future of humanity. Now available in English for the first time The Triumph of Provocation will be compelling reading for those interested in Polish history Communism and Nazism. Mackiewicz's unique interpretation of the differences and similarities between Communism and Nazism is highly relevant to debates about these two systems and to major contemporary issues which are of particular importance to the U.S. and Europe including radical Islam and the necessity of war and the responsibility for war.",
+    "featured": "yes",
+    "shelf_order": 1008,
+    "editions": [
+      {
+        "format": "Hardcover",
+        "publisher": "Yale University Press",
+        "price_usd": 73,
+        "isbn": "97803001456940"
+      },
+      {
+        "format": "Ebook",
+        "publisher": "Yale University Press",
+        "price_usd": 48,
+        "isbn": "9780300145694"
+      }
+    ],
+    "praise": [
+      {
+        "quote": "“Mackiewicz’s controversial interpretation of Communism and its role in history is still hotly debated and relevant. Students of Communism and anti-Communism will find Mackiewicz’s thoughts provocative and worthy of examination.”―Jaroslaw Anders\n\n-- Jaroslaw Anders\n\n\"Mackiewicz, who knew the Nazi and Communist systems at first hand, retains a freshness and a directness that can aid historians and thinkers who today grapple with the problem of understanding Hitler and Stalin together.\"-Timothy Snyder, Yale University\n\n-- Timothy Snyder\n\n\"One hopes that Yale University Press will continue to bring out the numerous other books by this pugnacious reactionary liberal.\"--Marek Jan Chodakiewicz, The Samaritan Review -- Marek Jan Chodakiewicz ― The Samaritan Review"
+      }
+    ]
+  },
+  {
+    "id": "sindbad",
+    "title": "The Adventures of Sindbad the Seafarer",
+    "author": "Bolesław Leśmian",
+    "translator": "Mary Besemeres",
+    "cover": "covers/sindbad.jpg",
+    "shelves": [
+      "Young Adult"
+    ],
+    "language_original": "Polish",
+    "description_long": "The Adventures of Sindbad the Seafarer is a weird, wonderful and completely original version of the Arabian tale by Polish Jewish poet Bolesław Leśmian (1877-1937) - recently called “the greatest Polish poet ever”. It was first published in Warsaw in 1913. It tells the story of Sindbad’s seven adventures, in each of which he meets alarming monsters, bewitching princesses and bizarre situations. Unlike in the original, Sindbad is spurred into travel not by a desire to seek his fortune, but by a villainous fish, the Sea Devil. At home he lives with Uncle Tarabuk, an aspiring and dreadful poet, whom Sindbad secretly enjoys escaping. This book is the first English translation of Leśmian’s work, with illustrations. It will appeal to children and adults alike, as it’s a book to read, to be read to and supported by a narrative in pictures.",
+    "featured": "yes",
+    "shelf_order": 1009,
+    "editions": [
+      {
+        "format": "Hardcover",
+        "publisher": "Independently published",
+        "price_usd": 42,
+        "isbn": "97988629569000"
+      },
+      {
+        "format": "Paperback",
+        "publisher": "Independently published",
+        "price_usd": 19,
+        "isbn": "97883956122060"
+      }
+    ]
+  },
+  {
+    "id": "beyond-beyond",
+    "title": "Beyond the Beyond: Poems in Polish and English",
+    "author": "Bolesław Leśmian",
+    "translator": "Marian Polak-Chlabicz",
+    "cover": "covers/beyond-beyond.jpg",
+    "shelves": [
+      "Poetry"
+    ],
+    "language_original": "Polish",
+    "description_long": "This Special Edition of 10 poems by Boleslaw Lesmian and their excellent English versions, including such masterpieces as Djananda and Mister Glister [Pan Blyszczynski. The book has also 10 beautiful illustrations in full color.",
+    "featured": "yes",
+    "shelf_order": 1010,
+    "editions": [
+      {
+        "format": "Paperback",
+        "publisher": "Independently published",
+        "price_usd": 20,
+        "isbn": "97815467495540"
+      }
+    ]
+  },
+  {
+    "id": "marvellations",
+    "title": "Marvellations: The Best-loved Poems: By the most-read and best-selling Polish poet Boleslaw Lesmian, one of the greatest of all time",
+    "author": "Bolesław Leśmian",
+    "translator": "Marian Polak-Chlabicz",
+    "cover": "covers/marvellations.jpg",
+    "shelves": [
+      "Poetry"
+    ],
+    "language_original": "Polish",
+    "description_long": "This volume contains more than 50 of the best-loved and most-read, the best-selling and most-studied poems of Boleslaw Lesmian, one of Poland’s greatest poets of all time. His poetry is unique on a world scale: it is universal and profoundly humane; it is a quest to fathom out the unknowable, to express the inexpressible, to grasp all the states of being—between existence and nonexistence, including “under-being” and \"near-unbeing.” This poems are attempts to accustom oneself to nothingness, to “no-everything.” That is why, there is always something happening even in the void. Lesmian overcomes the absurdity and grotesqueness of human existence with love and humor. Not many poets in the world have expressed love so sensuously and sensually and, yet so subtly and simply. To achieve that goal, he invented his own poetic language and style. His coinages and strict metrics have constituted a notorious discouragement to translators, especially of non-Slavic languages for decades. Fortunately, Marian Polak-Chlabicz has undertaken the Herculean task of rendering Lesmian’s “untranslatable” poems into English, the result of which is this book, where “marvels reveal themselves in revelations and kindle up elation.” He has proven beyond all doubt that “a beautiful woman can be faithful,” as is his translation.",
+    "featured": "yes",
+    "shelf_order": 1020,
+    "editions": [
+      {
+        "format": "Paperback",
+        "publisher": "Independently published",
+        "price_usd": 29,
+        "isbn": "97806922013980"
+      }
+    ]
+  },
+  {
+    "id": "33-poems",
+    "title": "33 of the Most Beautiful Love Poems",
+    "author": "Bolesław Leśmian",
+    "translator": "Marian Polak-Chlabicz",
+    "cover": "covers/33-poems.jpg",
+    "shelves": [
+      "Poetry"
+    ],
+    "language_original": "Polish",
+    "description_long": "These 33 selected love poems (plus three self-contained poems)?translated by Marian Polak-Chlabicz, in original-language versions and translations set side by side, with eight very impressive drawings by Janusz Skowron, renowned artist from New York?constitute a unique book whose author Boleslaw Lesmian is regarded as the greatest Polish poet by many literary scholars?as the one who reached the highest verbal artistry in his mother-tongue verse. His masterpieces are virtually unknown outside Poland because of the lack of translations (especially into non-Slavic languages). His extremely idiosyncratic poetic diction full of neologisms, and strict metrical versification have made his poetry ?untranslatable? until now. Marian Polak-Chlabicz, a literary translator and poet himself, dared to do that which had been considered undoable. Not only has he conveyed the Lesmianian-ness of the original; he has created beautiful poems in English.",
+    "featured": "yes",
+    "shelf_order": 1030,
+    "editions": [
+      {
+        "format": "Paperback",
+        "publisher": "Independently published",
+        "price_usd": 16,
+        "isbn": "97814662202320"
+      }
+    ]
+  },
+  {
+    "id": "on-writing",
+    "title": "Polish Writers on Writing",
+    "author": "Adam Zagajewski (Editor), Edward Hirsch",
+    "cover": "covers/on-writing.jpg",
+    "shelves": [
+      "Non-fiction"
+    ],
+    "language_original": "English",
+    "description_long": "Featuring 20th-century writers, including Nobel Prize winners Czeslaw Milosz and Wislawa Szymborska, as well as celebrated poet Zbigniew Herbert and internationally renowned Bruno Schulz, this collection captures the brilliance and originality of a literary culture rightly considered one of the most important and influential of our time. These writers are branded by the political realities of their country  creating literature out of the brutality of the World War II, under the numbing and inhibiting Communist reign, and finally within a free society, but one freighted with the weight of its history.",
+    "featured": "yes",
+    "shelf_order": 1057,
+    "editions": [
+      {
+        "format": "Paperback",
+        "publisher": "Trinity University Press",
+        "price_usd": 25,
+        "isbn": "97815953403370"
+      }
+    ]
+  },
+  {
+    "id": "polish-lit-as-world",
+    "title": "Polish Literature as World Literature",
+    "author": "various",
+    "cover": "covers/polish-lit-as-world.jpg",
+    "shelves": [
+      "Non-fiction"
+    ],
+    "language_original": "Polish",
+    "description_long": "This carefully curated collection consists of 16 chapters by leading Polish and world literature scholars from the United States, Canada, Italy, and, of course, Poland. An historical approach gives readers a panoramic view of Polish authors and their explicit or implicit contributions to world literature. Indeed, the volume shows how Polish authors, from Jan Kochanowski in the 16th century to the 2018 Nobel laureate Olga Tokarczuk, have engaged with their foreign counterparts and other traditions, active participants in the global literary network and the conversations of their day.\n\nThe volume features views of Polish literature and culture within theories of world literature and literary systems, with a particular attention paid to the resurgence of the idea of the physical book as a cultural artifact. This perspective is especially important since so much of today's global literary output stems from Anglophone perceptions of what constitutes literary quality and tastes. The collection also sheds light on specific issues pertaining to Poland, such as the idea of Polishness, and global phenomena, including social and economic advancement as well as ecological degradation. Some of the authors discussed, like the Romantic poet Adam Mickiewicz or the 1980 Nobel laureate Czeslaw Milosz, were renowned far beyond the borders of their country, while others, like the contemporary travel writer and novelist Andrzej Stasiuk, embrace regionalism, seeing as they do in their immediate surroundings a synecdoche of the world at large. Nevertheless, the picture of Polish literature and Polish authors that emerges from these articles is that of a diverse, cosmopolitan cohort engaged in a mutually rewarding relationship with what the late French critic Pascale Casanova has called “the world republic of letters.”",
+    "featured": "yes",
+    "shelf_order": 1058,
+    "editions": [
+      {
+        "format": "Hardcover",
+        "publisher": "Bloomsbury Academic",
+        "price_usd": 130,
+        "isbn": "97815013871040"
+      },
+      {
+        "format": "Paperback",
+        "publisher": "Bloomsbury Academic",
+        "price_usd": 40,
+        "isbn": "97815013871420"
+      }
+    ],
+    "praise": [
+      {
+        "quote": "[Polish Literature as World Literature] offers a crucial and thought-provoking contribution to the ongoing debate about Polish literature within the nexus of intercultural configurations.” ―Slavonic & East European Review\n\n“Examining the role of Polish literature on the world scene in less than 240 pages is daunting. Rising to the challenge, the editors focus on the years 1772 through 2022; integrate theory, interpretation, and chronology case studies; and examine western Europe, the Anglo-American realm, and the Mediterranean world. ... The diversity and extraordinary staying power of the Polish literary diaspora is exemplified in every chapter of the book.” ―Alice-Catherine Carls, University of Tennessee at Martin, World Literature Today\n\n“One reason to study world literature is to escape the limitations of one's national literature, the more so if it is eternally preoccupied with its own role and character. Polish Literature as World Literature discloses the potential of Polish writing for the international reader and sheds light on the complex processes and phenomena responsible for the 'worlding' or 'nationalizing' of the Polish literary field.” ―Magdalena Heydel, Professor, Jagiellonian University, Poland\n\n“Polish national identity and literary canon ripe with new interpretive possibilities. As such, it is a welcome contribution to our field and a worthy addition to the growing body of scholarship exploring the global dimensions of national literatures.” ―The Polish Review\n\n“The book is full of new insights into the major authors and phenomena of modern and contemporary Polish literature and is a valuable source of inspiration for scholars of world literature and for scholars of Polish literature: for the former it provides synecdochs, for the latter metonyms; for the former a quantitative contribution, shedding light on a part of the world literature scene left so far in penumbra; for the latter qualitative insights, thinning out the national literature scene or reinterpreting authors and phenomena in a new key.” ―Andrea Ceccherelli, Professor of Polish Language and Literature, University of Bologna, Italy\n\n“In this very competently edited and thoroughly researched volume, Florczyk and Wisniewski have managed to pull together an impressive range of high-quality essays that explore the connection (and the tension) between the global and the local in Polish literary production and criticism ... A highly welcome and timely addition to the growing body of English-language books on Polish literature and culture, this collection will serve as an invaluable guide for any scholar and student interested in the transnational and global dynamics of Polish literature, from the early modern age up to the present moment, at the intersection of textual, contextual and comparative approaches.” ―Kris Van Heuckelom, Professor of Polish Studies and Cultural Studies, KU Leuven, Belgium"
+      }
+    ]
+  },
+  {
+    "id": "folding-star",
+    "title": "The Folding Star: and Other Poems",
+    "author": "Jacek Gutorow",
+    "translator": "Piotr Florczyk",
+    "cover": "covers/folding-star.jpg",
+    "shelves": [
+      "Poetry"
+    ],
+    "language_original": "Polish",
+    "description_long": "\"His poems are meditative and beautiful, his diction fragile and clear...In short, it is a lovely book, and BOA Editions has provided us with a fine candidate for torchbearer.\"--Hey Small Press!\n\n\"We are fortunate to now have them in English so that we who don't read Polish can now read these, and enjoy their insight and wry wit.\"Mary Jo Bang\n\n\n\"[Gutorow] has clearly mastered the ability to make metaphor seem distinct.”Kaitlin Dyer, The West Coast Translation Review\nIn his triumphant collection The Folding Star and Other Poems, poet of the imagination Jacek Gutorow offers thirty-one gems that that will help change our understanding of Polish poetry.\n\n\nJacek Gutorow has been nominated for the Nike Award, the Cogito Award, and the Gdynia Award. He teaches at the University of Opole.\n\n\nPiotr Florczyk has taught at the University of Delaware, Antioch University Los Angeles, and University of California-Riverside. He lives in Los Angeles, California.",
+    "featured": "yes",
+    "shelf_order": 1059,
+    "editions": [
+      {
+        "format": "Paperback",
+        "publisher": "Lannan Translations Selection Series",
+        "price_usd": 16,
+        "isbn": "97819344148800"
+      }
+    ]
+  },
+  {
+    "id": "world-shared",
+    "title": "The World Shared: Poems by Dariusz Sośnicki",
+    "author": "Dariusz Sośnicki",
+    "translator": "Piotr Florczyk",
+    "cover": "covers/world-shared.jpg",
+    "shelves": [
+      "Poetry"
+    ],
+    "language_original": "Polish",
+    "description_long": "Dariusz Sosnicki's poems open our eyes to the sublime just beneath the surface of the mundane: a train carrying children away from their parents for summer vacation turns into a ravenous monster; a meal at a Chinese restaurant inspires a surreal journey through the zodiac; a malfunctioning printer is a reminder of the ghosts that haunt us no matter where we find ourselves.\n\nAmong the perpetrators and victims,\nbuzzed or wasted to the bone,\ngliding without their blinkers on\nin the ruts of the national fate—they're not at home.\n\nDariusz Sosnicki is an award-winning poet, essayist, and editor in Poland.",
+    "featured": "yes",
+    "shelf_order": 1060,
+    "editions": [
+      {
+        "format": "Paperback",
+        "publisher": "Lannan Translations Selection Series",
+        "price_usd": 16,
+        "isbn": "97819381603490"
+      }
+    ]
+  },
+  {
+    "id": "poems-norwid",
+    "title": "Poems by Cyprian Norwid",
+    "author": "Cyprian Norwid",
+    "translator": "Danuta Borchardt",
+    "cover": "covers/poems-norwid.jpg",
+    "shelves": [
+      "Poetry"
+    ],
+    "language_original": "Polish",
+    "description_long": "Considered a \"Christian Socrates\" by one critic and a \"hieroglyph stylist\" by another, Cyprian Norwid was more unanimously recognized, however, as one of the most vital figures in Polish letters whose verse is as idiosyncratic as it is profound. Traveling against the currents of the philosophy of his day, Norwid was a historicist with deep insight into the codes and ripples in the society around him. This engaging bilingual collection, selected and translated from the Polish by Danuta Borchardt, includes many of Norwid's revered poems, including Vademecum. True to its Latin summons, \"go with me,\" the epic poem invites the reader to accompany Norwid on a journey though many lands and timeless question, seeking truth. We witness Norwid decrying the tight-fisted city folk of London, befriending Frédéric Chopin – whom he meets during his travels, and lamenting the death of a friend. Lyrical, moving and often biting, this collection gives an evocative glimpse into the world of an extraordinary poet.",
+    "featured": "yes",
+    "shelf_order": 1061,
+    "editions": [
+      {
+        "format": "Paperback",
+        "publisher": "Archipelago",
+        "price_usd": 16,
+        "isbn": "97819357440780"
+      },
+      {
+        "format": "Ebook",
+        "publisher": "Archipelago",
+        "isbn": "9781935744535"
+      }
+    ],
+    "praise": [
+      {
+        "quote": "One of the greatest world poets of the nineteenth century. —Roman Jakobson\n\nHe carried his soul around with him as if it were some kind of numismatic rarity, unknown to anyone, unwanted, useless . . . He resembled a stone salvaged from some marvelous edifice, which somewhere, sometime had burnt down completely. —Jósef Tokarzewicz\n\nHen ventures to describe what is indescribable, and . . . he succeeds —Joanna Janecka Of the things of this world only two will remain, Two only: poetry and goodness . . . and nothing else... —Cyprian Norwid\n\nPoignant . . . flows onto the page with a melodic rush, conveyed in Borchardt’s nuanced rhymes and assonances . . . Off the page leaps surprise after surprise. —The Arts Fuse\n\nOne of Europe's greatest poets and thinkers. We are all deeply indebted to him. . . . Norwid left an opus from which shines the light that lets us more deeply penetrate the truth of our being as human persons . . . He insistently reminds us that without heroism humanity ceases to be itself. Cyprian Norwid was the man of hope. —Pope John Paul II"
+      }
+    ]
+  },
+  {
+    "id": "sound-modern",
+    "title": "The Sound of Modern Polish Poetry: Performance and Recording after World War II",
+    "author": "Aleksandra Kremer",
+    "cover": "covers/sound-modern.jpg",
+    "shelves": [
+      "Poetry"
+    ],
+    "language_original": "English",
+    "description_long": "An illuminating new study of modern Polish verse in performance, offering a major reassessment of the roles of poets and poetry in twentieth-century Polish culture.\n\nWhat’s in a voice? Why record oneself reading a poem that also exists on paper? In recent decades, scholars have sought to answer these questions, giving due credit to the art of poetry performance in the anglophone world. Now Aleksandra Kremer trains a sharp ear on modern Polish poetry, assessing the rising importance of authorial sound recordings during the tumultuous twentieth century in Eastern Europe.\n\nKremer traces the adoption by key Polish poets of performance practices intimately tied to new media. In Polish hands, tape recording became something different from what it had been in the West, shaped by its distinctive origins behind the Iron Curtain. The Sound of Modern Polish Poetry reconstructs the historical conditions, audio technologies, and personal motivations that informed poetic performances by such luminaries as Czesław Miłosz, Wisława Szymborska, Aleksander Wat, Zbigniew Herbert, Miron Białoszewski, Anna Swir, and Tadeusz Różewicz. Through performances both public and private, prepared and improvised, professional and amateur, these poets tested the possibilities of the physical voice and introduced new poetic practices, reading styles, and genres to the Polish literary scene. Recording became, for these artists, a means of announcing their ambiguous place between worlds.\n\nKremer’s is a work of criticism as well as recovery, deploying speech-analysis software to shed light on forgotten audio experiments—from poetic “sound postcards,” to unusual home performances, to the final testaments of writer-performers. Collectively, their voices reveal new aesthetics of poetry reading and novel concepts of the poetic self.",
+    "featured": "yes",
+    "shelf_order": 1061,
+    "editions": [
+      {
+        "format": "Hardcover",
+        "publisher": "Harvard University Press",
+        "price_usd": 46,
+        "isbn": "97806742611120"
+      },
+      {
+        "format": "Ebook",
+        "publisher": "Harvard University Press",
+        "price_usd": 46,
+        "isbn": "9780674270190"
+      }
+    ],
+    "praise": [
+      {
+        "quote": "“Kremer shows…public poetry readings, especially in times of upheaval, were lofty, almost religious events…It is precisely through those authorial renditions, however, that we can glimpse the intricate relationships between the poet, the poem and the audience. Kremer investigates this rarely researched area using the recordings of several prominent Polish poets born in the first decades of the twentieth century. Her method is an odd but effective combination of machine-assisted, quantitative analysis of the poets’ pitch, stress and intonation with impressionistic digressions about their art, life and sociopolitical involvements…Kremer captures the moment when poetry ceases to be fixed on a page and enters time, with all its ephemerality and contingency.”―Jaroslaw Anders, Times Literary Supplement\n\n“Erudite, lively, and brilliant, this book examines Polish culture through an original point of entry: poetry performance. Exploring the audio practices of canonical modern poets within the context of history, Kremer achieves a true breakthrough in literary and performance studies.”―Irena Grudzińska-Gross, author of Czesław Miłosz and Joseph Brodsky: Fellowship of Poets\n\n“An exemplary study of poets’ sound recordings, public and private, in postwar Poland. Aleksandra Kremer reads poetic performance styles through history, aesthetics, national culture, ideology, and translation, often using machine-assisted prosodic analysis. Her close listenings reveal the many ways in which poets’ voicings exceed their texts.”―Charles Bernstein, author of Close Listening: Poetry and the Performed Word\n\n“Brilliant…The Sound of Modern Polish Poetry is an impressive work of scholarship…Given the dearth of scholarship on Polish literature in English, this is a wonderful addition to knowledge, and one that will delight any reader interested in Polish poetry, culture and history.”―E. M. Stańczyk, Slavonic and East European Review\n\n“Aleksandra Kremer makes a compelling case for modern Polish culture as a ‘laboratory of poetry performance’ in this original, masterfully researched study. It is a must-read not just for specialists, but for anyone interested in postwar Polish writing or indeed, in new ways of combining the humanities with technology while doing full justice to both.”―Clare Cavanagh, author of Lyric Poetry and Modern Politics: Russia, Poland, and the West\n\n“Excellent…Her analyses of the selected recordings create surprising constellations and shed light on the development of Polish poetry, as well as on the historical and cultural changes that affected the writers’ self-awareness and the reception of their recordings. Kremer’s book can therefore serve as a manual on the cultural and intellectual history of postwar Poland.”―Łukasz Tischner, Slavic Review\n\n“Listening closely to an audio archive of postwar Polish poets including Miłosz, Herbert, Różewicz, and Szymborska, Aleksandra Kremer shows how each one navigated the cultural and political pressure to embody the Polish people and country. These writers strove to recapture the singularity of everyday speech, wresting their voices from the state and the dramatic stage actors who often performed poetry. The paradox at the center of this rich account is how the strategic downsizing enabled by tape recording ultimately expanded Polish poets’ range of address.”―Lytle Shaw, author of Narrowcast: Poetry and Audio Research\n\n“An impeccably researched, well-argued, and original work of scholarship. It is also an erudite and highly readable history of twentieth-century Polish literature and the individuals who shaped it…The book’s unique approach will doubtless appeal to many readers and open new avenues of research on the intersection between literature, performance, and technology.”―Łukasz Wodzyński, Russian Review"
+      }
+    ]
+  },
+  {
+    "id": "pornografia",
+    "title": "Pornografia",
+    "author": "Witold Gombrowicz",
+    "translator": "Danuta Borchardt",
+    "cover": "covers/pornografia.jpg",
+    "shelves": [
+      "Fiction"
+    ],
+    "language_original": "Polish",
+    "description_long": "The place is Poland, in the early years of the German occupation. Pornografia's narrator, an author named Witold Gombrowicz, meets a swarthy and overly formal man named Fyderyk at a Warsaw house party, and the two soon become engaged in a business of a dubious (if not downright criminal) nature. When an acquaintance of theirs, a corpulent provincial landowner named Hipolit, requests that they come stay with him to discuss some of his city affairs, it is not hard to convince them to leave the claustrophobic city for the fresh air of the countryside. Once in the country, however, Fryderyk and Witold quickly bore of their surroundings -- all of their surroundings, that is, but the two teenagers who are staying on Hipolit's farm: Henia, Hipolit's daughter; and Karol, the son of one of the farmhands, who has just returned from a stint in the Polish resistance movement. Both sixteen years old, they have known each other all their lives, and interact as naturally and indifferently as siblings. Witold, however, begins to obsess over their budding sexuality, and imposes on their every interaction an erotic twist that leaves him half-crazed with voyeuristic lust. He is convinced that Karol and Henia must go to bed with each other, and it soon becomes apparent that Fryderyk has the same idea; as their time at the farm progresses, both men turn seemingly innocent interactions with the two teenagers into a sort of erotic chess game. Small pretenses for contact between the young folks -- pointing out that Karol's pant cuffs are dragging in the dirt, for instance, and asking Henia to roll them up for him -- become fantastic acts pregnant with innuendo and possibility. The fact that Henia is engaged to a respectable (if dandyish) older man only makes the game more interesting. Communicating his intentions to Witold through a series of letters left under a brick near the farm's edge, Fryderyk begins to slowly undermine Henia's engagement. He tells the teenagers that he is directing a play, and asks them to mimic a slightly suggestive scene for him -- and then arranges for Witold to bring Henia's fiance, Vaclav, nearby at the most provocative moment. Vaclav of course misinterprets what he sees, and begins to sink into paranoia and suspicion of his young bride-to-be. Two incidents of violence temporarily disrupt Witold and Fryderyk's games. First, Vaclav's mother is stabbed to death by a young thief in front of all the farm's residents. The tragedy leaves Vaclav even more unstable, and everyone involved shaken. The second situation arises when a senior commander in the resistance named Siemian comes to stay at the farm for a few days. Karol has served with him, and snaps to attention immediately. Not long after Siemian arrives, Hipolit receives a distressing order from the local underground authorities; Siemian has lost his nerve and wants to leave the resistance. His high position makes this simply too compromising, and Hipolit has been commanded to murder his houseguest. Hipolit enlists the help of his other male guests, but none of them -- Witold, Fryderyk, or Vaclav -- can bring themselves to kill the man. Then Fryderyk stumbles upon an outrageous idea: he will manipulate Karol and Henia, and get them to perform the murder themselves. Sure enough, the two teens are obedient, just as they have been when Henia rolled up Karol's pant cuffs or when they performed a scene from a nonexistent play. The men give the teens a knife (much like the one which killed Vaclav's mother), and instruct them to enter Siemian's room and finish him off. But something goes very wrong. Vaclav, who has been growing more and more unstable and disconsolate over what he thinks is a love affair between Henia and Karol, has entered Siemian's room before the two teenagers, and murdered the commander himself. He then darkened the room and waited. When the teens knock, Vaclav opens the door -- and Karol, mistaking Vaclav for Siemien, murders him. The narrator's frivolous...",
+    "featured": "yes",
+    "shelf_order": 1062,
+    "editions": [
+      {
+        "format": "Paperback",
+        "publisher": "Grove Press",
+        "price_usd": 20,
+        "isbn": "97808021451300"
+      },
+      {
+        "format": "Ebook",
+        "publisher": "Grove Press",
+        "price_usd": 9.99,
+        "isbn": "9780802195289"
+      }
+    ],
+    "praise": [
+      {
+        "quote": "\"Danuta Borchardt... is faithful to the substance of the original and gives the reader a good, zesty flavor of Gombrowicz's inspired idiosyncrasy.\" -- Eva Hoffman\n\n\"Probably the most important twentieth-century novelist most Western readers have never heard of.\" -- Benjamin Paloff"
+      }
+    ]
+  },
+  {
+    "id": "transatlantic",
+    "title": "Trans-Atlantyk: An Alternate Translation",
+    "author": "Witold Gombrowicz",
+    "translator": "Danuta Borchardt",
+    "cover": "covers/transatlantic.jpg",
+    "shelves": [
+      "Fiction"
+    ],
+    "language_original": "Polish",
+    "description_long": "Considered by many to be among the greatest writers of the past hundred years, Polish novelist Witold Gombrowicz explores the modern predicament of exile and displacement in a disintegrating world in his acclaimed classic Trans-Atlantyk. Gombrowicz’s most personal novel—and arguably his most iconoclastic—Trans-Atlantyk is written in the style of a gaweda, a tale told by the fireside in a language that originated in the seventeenth century. It recounts the often farcical adventures of a penniless young writer stranded in Argentina when the Nazis invade his homeland, and his subsequent “adoption” by the Polish embassy staff and émigré community.\n\n\n\nBased loosely on Gombrowicz’s own experiences as an expatriate, Trans-Atlantyk is steeped in humor and sharply pointed satire, interlaced with dark visions of war and its horrors, that entreats the individual and society in general to rise above the suffocating constraints of nationalistic, sexual, and patriotic mores. The novel's themes are universal and its execution ingenious—a masterwork of twentieth-century literary art from an author whom John Updike called “one of the profoundest of the late moderns.”",
+    "featured": "yes",
+    "shelf_order": 1063,
+    "editions": [
+      {
+        "format": "Paperback",
+        "publisher": "Yale University Press",
+        "price_usd": 17,
+        "isbn": "97803001753010"
+      },
+      {
+        "format": "Ebook",
+        "publisher": "Yale University Press",
+        "price_usd": 17,
+        "isbn": "9780300207019"
+      }
+    ],
+    "praise": [
+      {
+        "quote": "“Having this book in my hands, I felt a joy at the thought that strong personalities, like that of Gombrowicz, sooner or later find recognition thanks to the sheer intensity of their existence.”—Czeslaw Milosz, New York Times\n\n“If ever a life demanded a diary, this was one.”—Paul West, Washington Post\n\n“A heroic translation . . . English-speaking readers can finally experience the diary as Gombrowicz intended it—as a single, coherent work . . . his major creative endeavor.” —Ruth Franklin, New Yorker\n\n“A genuinely astonishing masterwork that is bound to last.”—Eva Hoffman, The New York Times Book Review\n\n‘Since 2000, Danuta Borchardt has been engaged with translating the four novels of Witold Gombrowicz published in his lifetime, and the process is now complete with Trans-Atlantyk. These masterly translations at last provide a satisfying, coherent survey of the author many consider to be among Polish literature’s most untranslatable stylists. . .While Borchardt brings a domesticating tendency, smoothing a few purposefully rough edges, her limpid prose is worth it. Gombrowicz’s arch humour now punches even harder.’—Scott Esposito, Times Literary Supplement\n\n“[A] masterpiece of European modernism. . . . Susan Sontag ushers this new translation into print with a strong and useful foreword, calling Gombrowicz’s tale ‘extravagant, brilliant, disturbing, brave, funny . . . wonderful.’ And it is.”—Publishers Weekly\n\n“The new complete version of Witold Gombrowicz’s Diary is one jubilant, gruesome, unsparing self-portrait.” —Adam Thirlwell, New Statesman\n\n“A wonderfully subversive, self-absorbed, hilarious book. Think Kafka translated by Groucho Marx, with commentaries.”—Kirkus Reviews\n\n\"Borchardt and Yale University Press are to be commended for giving us an unabridged, faithful, and very polished version of Gombrowicz’s masterpiece.\"—Gerard T. Kapolka, Polish Review\n\n“Trans-Atlantyk is indeed an uproarious book, but it is also deadly serious, exploring the dire straits into which blind allegiance to tradition can lead us.”—America magazine\n\n“Most of the book is written in a baroque Polish that flits merrily between tired clichéd phrases, contemporary slurs, and Gombrowiczian neologisms. This slippery, tricky style is offered to the reader in a slim novel that is a joy to read. For this particular joy, we can thank Danuta Borchardt, who is also known for her preeminent translation of Gombrowicz’s magnum opus, the “untranslatable” Ferdydurke, published by Yale University Press in 2000.” —Quarterly Conversation\n\n“The new translation is an improvement over the old, especially because it will be easier to use in teaching, or when introducing new readers to Gombrowicz in general, and also because of its faithful use of capitalization, adding to the interpretative capabilities of readers unable to read the original text.”—Daniel W. Pratt, Slavic and East European Journal\n\nLonglisted for the PEN Translation Prize: For a book-length translation of prose into English published in 2014, given by PEN American Center.\n\n“Ferdydurke, among its centrifugal charms, includes some of the truest and funniest literary satire in print.”—John Updike\n\nLonglisted for the  PEN Translation Prize : For a book-length translation of prose into English published in 2014, given by PEN American Center. -- Translation Prize ― PEN American Center Published On: 2015-03-17"
+      }
+    ]
+  },
+  {
+    "id": "angels-dust",
+    "title": "Angels in the Dust: A Novel of the First Crusade",
+    "author": "Zofia Kossak",
+    "cover": "covers/angels-dust.jpg",
+    "shelves": [
+      "Fiction"
+    ],
+    "language_original": "Polish",
+    "description_long": "This novel tells the story of the First Crusade through the eyes of a young woman who accompanies her husband to the Holy Land. As she witnesses the horrors of war and the clash of cultures, she must confront the contradictions and complexities of her faith, and struggle to find meaning and purpose in a world torn apart by violence and injustice. With its vivid and gripping narrative, Angels in the Dust is a powerful and moving work of historical fiction.\n\nThis work has been selected by scholars as being culturally important, and is part of the knowledge base of civilization as we know it.\n\nThis work is in the \"public domain in the United States of America, and possibly other nations. Within the United States, you may freely copy and distribute this work, as no entity (individual or corporate) has a copyright on the body of the work.\n\nScholars believe, and we concur, that this work is important enough to be preserved, reproduced, and made generally available to the public. We appreciate your support of the preservation process, and thank you for being an important part of keeping this knowledge alive and relevant.",
+    "featured": "yes",
+    "shelf_order": 1064,
+    "editions": [
+      {
+        "format": "Hardcover",
+        "publisher": "Legare Street Press",
+        "price_usd": 40,
+        "isbn": "97810194039070"
+      },
+      {
+        "format": "Paperback",
+        "publisher": "Legare Street Press",
+        "price_usd": 27,
+        "isbn": "97810211903140"
+      }
+    ]
+  },
+  {
+    "id": "burn-paris",
+    "title": "I Burn Paris",
+    "author": "Bruno Jasieński",
+    "translator": "Soren Gauger",
+    "cover": "covers/burn-paris.jpg",
+    "shelves": [
+      "Fiction"
+    ],
+    "language_original": "Polish",
+    "description_long": "I Burn Paris has remained one of Poland's most uncomfortable masterstrokes of literature since its initial and controversial serialization by Henri Barbusse in 1928 in L'Humanite (for which Jasienski was deported for disseminating subversive literature). It tells the story of a disgruntled factory worker who, finding himself on the streets, takes the opportunity to poison Paris's water supply. With the deaths piling up, we encounter Chinese communists, rabbis, disillusioned scientists, embittered Russian emigres, French communards and royalists, American millionaires and a host of others as the city sections off into ethnic enclaves and everyone plots their route of escape. At the heart of the cosmopolitan city is a deep-rooted xenophobia and hatred – the one thread that binds all these groups together. As Paris is brought to ruin, Jasienski issues a rallying cry to the downtrodden of the world, mixing strains of \"The Internationale\" with a broadcast of popular music.\n\nWith its montage strategies reminiscent of early avant-garde cinema and fist-to-the-gut metaphors, I Burn Paris has lost none of its vitality and vigor. Ruthlessly dissecting various utopian fantasies, Jasienski is out to disorient, and he has a seemingly limitless ability to transform the Parisian landscape into the product of disease-addled minds. An exquisite example of literary Futurism and Catastrophism, the novel presents a filthy, degenerated world where factories and machines have replaced the human and economic relationships have turned just about everyone into a prostitute. Yet rather than cliche and simplistic propaganda, there is an immediacy to the writing, and the modern metropolis is starkly depicted as only superficially cosmopolitan, as hostile and animalistic at its core.\n\nThis English translation of I Burn Paris fills a major gap in the availability of works from the interwar Polish avant-garde, an artistic phenomenon receiving growing attention of late.",
+    "featured": "yes",
+    "shelf_order": 1065,
+    "editions": [
+      {
+        "format": "Paperback",
+        "publisher": "Twister Spoon Press",
+        "price_usd": 18,
+        "isbn": "97880862643490"
+      },
+      {
+        "format": "Ebook",
+        "publisher": "Twister Spoon Press",
+        "price_usd": 9.5,
+        "isbn": "9788086264752"
+      }
+    ],
+    "praise": [
+      {
+        "quote": "\"Jasienski's I Burn Paris reveals a still largely forgotten moment: post-avant-garde and pre-Socialist Realist. Aesthetically, the moment was a fantastical one: quasi-Surrealist, hallucinogenic, and grotesque.\" ― Marci Shore, Times Literary Supplement\n\n\"It should be emphasized that I Burn Paris is not a programmatic novel. Yes, there's a message here, and an ideology on offer, but Jasienski's expressionistic instincts take over for wonderful long stretches...\" ― M.A. Orthofer, The Complete Review\n\n\"Jasienski's apocalyptic vanguardism sees catastrophe as clearing the way for organisation and the plan. ... [His] dialectic of rotting dispersion and tailored compactness traces a fantasy space in which, too often, we still dwell.\" ― Mute Magazine\n\n\"In Soren Gauger and Marcin Piekoszewski's translation, Jasienski's description of a contagion infecting, paralyzing, and eviscerating a large metropolis is vivid, and now feels darkly prophetic.\" ― Pasha Malla, The New Yorker"
       }
     ]
   }
