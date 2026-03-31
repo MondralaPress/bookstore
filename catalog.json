@@ -580,32 +580,6 @@
     ]
   },
   {
-    "id": "meeting-in-oea",
-    "title": "A Meeting in Oea",
-    "author": "Aleksander Krawczuk",
-    "translator": "Tom Pinch",
-    "cover": "covers/meeting-in-oea.jpg",
-    "series": "Aleksander's Antiquities",
-    "series_number": 3,
-    "shelves": [
-      "Non-fiction"
-    ],
-    "language_original": "Polish",
-    "description_long": "The quirkiest, zaniest, funniest - and wisest - book about Plato ever written by a scholar. Or anyone.\n\nMeet Apuleius, Rome's all-time best-selling author (of The Golden Ass, no less!), a Platonic scholar, a part-time magician, and a dowry-hunter, as he works on his treatise on Plato at night and schemes to marry a rich African widow by day.\n\nThis insightful overview of Plato's life and work as seen through the eyes of an engaging second-century AD Roman provincial, is written in a lively, conversational style with occasional flashes of literary beauty. It offers great insights into Plato the man, the talented writer, the aspiring politician who never got any traction, and into his vision of society and politics.\n\nAleksander Krawczuk's books on ancient Greece and Rome have shaped three generations of antique lovers in Eastern Europe.\n\nThey have been huge best-sellers because of their unassuming style: reading him feels like taking part in a pleasant, personable chat. His topics are important, sometimes profound, and could easily be made forbidding, but Krawczuk finds a way to talk about them in an accessible way, without dumbing them down in the process.\n\nMy personal favorite of all of Krawczuk's books. A feast.\n\nHave fun. Pick up your copy today.",
-    "featured": "yes",
-    "shelf_order": 600,
-    "editions": [
-      {
-        "format": "Hardcover",
-        "publisher": "Mondrala Press",
-        "price_usd": 25,
-        "price_eur": 24,
-        "price_gbp": 22,
-        "isbn": "97829198203820"
-      }
-    ]
-  },
-  {
     "id": "seven-against-thebes",
     "title": "Seven Against Thebes",
     "author": "Aleksander Krawczuk",
@@ -628,32 +602,18 @@
         "price_eur": 24,
         "price_gbp": 20,
         "isbn": "97899987937290"
-      }
-    ]
-  },
-  {
-    "id": "emperor-julian",
-    "title": "Emperor Julian",
-    "author": "Aleksander Krawczuk",
-    "translator": "Tom Pinch",
-    "cover": "covers/emperor-julian.jpg",
-    "series": "Aleksander's Antiquities",
-    "series_number": 9,
-    "shelves": [
-      "Non-fiction"
-    ],
-    "language_original": "Polish",
-    "description_long": "A personal, intimate account of Julian the Apostate. Watch the bookish student of philosophy grow into a military commander, seize imperial power, throw off his Christian disguise, return to the worship of the ancient gods, and initiate a series of bold reforms.\n\nOther biographers have focused on religious and political issues, but Krawczuk gives us Julian the man: the writer of thousands of letters, the lover of books, the earnest striver for virtue, the loyal friend of loyal friends.\n\nWe hear the voices of the age: the rhetors, scholars, philosophers, theologians, priests, and historians who knew Julian, witnessed the events firsthand, sometimes even shaped them; and above all, in Julian's own voice: his letters, essays, speeches, and edicts.\n\nWe get to know the man like a friend.\n\nGet to know this fascinating man, pick up your copy today.",
-    "featured": "yes",
-    "shelf_order": 900,
-    "editions": [
+      },
       {
-        "format": "Hardcover",
+        "format": "Paperback",
         "publisher": "Mondrala Press",
-        "price_usd": 27,
-        "price_eur": 25,
-        "price_gbp": 22,
-        "isbn": "97829198400520"
+        "isbn": "97899987952040"
+      },
+      {
+        "format": "Ebook",
+        "price_usd": 3,
+        "price_eur": 3,
+        "price_gbp": 3,
+        "isbn": "9789998793729"
       }
     ]
   },
@@ -680,6 +640,304 @@
         "price_eur": 24,
         "price_gbp": 20,
         "isbn": "97829198202900"
+      },
+      {
+        "format": "Paperback",
+        "publisher": "Mondrala Press",
+        "price_usd": 13,
+        "price_eur": 13,
+        "price_gbp": 11,
+        "isbn": "97829198203060"
+      },
+      {
+        "format": "Ebook",
+        "price_usd": 0.99,
+        "price_eur": 0.99,
+        "price_gbp": 0.99,
+        "isbn": "9782919820290"
+      }
+    ]
+  },
+  {
+    "id": "meeting-in-oea",
+    "title": "A Meeting in Oea",
+    "author": "Aleksander Krawczuk",
+    "translator": "Tom Pinch",
+    "cover": "covers/meeting-in-oea.jpg",
+    "series": "Aleksander's Antiquities",
+    "series_number": 3,
+    "shelves": [
+      "Non-fiction"
+    ],
+    "language_original": "Polish",
+    "description_long": "The quirkiest, zaniest, funniest - and wisest - book about Plato ever written by a scholar. Or anyone.\n\nMeet Apuleius, Rome's all-time best-selling author (of The Golden Ass, no less!), a Platonic scholar, a part-time magician, and a dowry-hunter, as he works on his treatise on Plato at night and schemes to marry a rich African widow by day.\n\nThis insightful overview of Plato's life and work as seen through the eyes of an engaging second-century AD Roman provincial, is written in a lively, conversational style with occasional flashes of literary beauty. It offers great insights into Plato the man, the talented writer, the aspiring politician who never got any traction, and into his vision of society and politics.\n\nAleksander Krawczuk's books on ancient Greece and Rome have shaped three generations of antique lovers in Eastern Europe.\n\nThey have been huge best-sellers because of their unassuming style: reading him feels like taking part in a pleasant, personable chat. His topics are important, sometimes profound, and could easily be made forbidding, but Krawczuk finds a way to talk about them in an accessible way, without dumbing them down in the process.\n\nMy personal favorite of all of Krawczuk's books. A feast.\n\nHave fun. Pick up your copy today.",
+    "featured": "yes",
+    "shelf_order": 600,
+    "editions": [
+      {
+        "format": "Hardcover",
+        "publisher": "Mondrala Press",
+        "price_usd": 25,
+        "price_eur": 24,
+        "price_gbp": 22,
+        "isbn": "97829198203820"
+      },
+      {
+        "format": "Paperback",
+        "publisher": "Mondrala Press",
+        "price_usd": 17,
+        "price_eur": 17,
+        "price_gbp": 15,
+        "isbn": "97829198203820"
+      },
+      {
+        "format": "Ebook",
+        "price_usd": 10,
+        "price_eur": 10,
+        "price_gbp": 9,
+        "isbn": "9782919820375"
+      }
+    ]
+  },
+  {
+    "id": "herod-king",
+    "title": "Herod, King of the Jews",
+    "author": "Aleksander Krawczuk",
+    "translator": "Tom Pinch",
+    "cover": "covers/herod-king.jpg",
+    "series_number": 4,
+    "shelves": [
+      "Non-fiction"
+    ],
+    "language_original": "Polish",
+    "description_long": "Herod was an Idumean, a half-Jew at best; a monster; a killer; a ruthless political operator. He was also his people's great benefactor and the last Jew to rule all of Palestine in antiquity.\nThere have been scores of books on the subject of Herod. Is there any reason to have another one?\n\nOh, yes! And how!\n\n\nFirst of all, no other biography of Herod situates him within the Graeco-Roman milieu like this book does. For whatever reason, all books on Herod are somehow near-sighted. Somewhere on the periphery of the action appear large-looming figures--Pompey, Caesar, Crassus, Antony, Cleopatra, the Parthians. Their motivations are unclear; why they should care for or interfere in Palestine and Judea is uncertain; how and why Herod has to maneuver is a mystery. This book gives us the global perspective we need to understand the man and his works. It also explains how and why what happened in provincial little Palestine impacted the grand politics of Rome.\n\nSecond, in beautiful and vivid language, this book evokes the harsh geographic and economic realities of Palestine. Why was Jericho important? Why did the separate national identity of Samaria matter? Who were the Nabateans? What was the significance of the port of Caesarea? What was it like to be there then?\n\nFinally, there is the old Krawczuk touch: an easygoing and yet profound reflection on the biography of a politician and his posthumous reputation; and the fate of a small nation buffeted by the ambitions of great empires and the seemingly irresistible force of globalization.\n\nNot an Italian, yet is Aleksander a master of the sprezzatura--the artful \"off-the-cuffness\" hiding surprising depths within a seemingly throwaway comment. As Rameau would have put it, hiding art with art.\n\nAnd then... then there is the prose. Just listen:\n\n\"THE SHADOWS OF TWILIGHT\nPROLOGUE TO THE TRAGEDY\nSpeaks Ecclesiastes\n\"I made me great works; I builded me houses; I planted me vineyards; I made me gardens and orchards, and I planted trees in them of all kind of fruits; I made me pools of water, to water therewith the wood that bringeth forth trees: I got me servants and maidens, and had servants born in my house; I had great possessions of great and small cattle above all that were in Jerusalem before me. I gathered me also silver and gold, and the peculiar treasure of kings and of the provinces. I gat me men singers and women singers, and the delights of the sons of men, as musical instruments, and that of all sorts. So I was great, and increased more than all that were before me in Jerusalem: also my wisdom remained with me. And whatsoever mine eyes desired I kept not from them, I withheld not my heart from any joy; for my heart rejoiced in all my labor: and this was my portion of all my labor.\n\nThen I looked on all the works that my hands had wrought, and on the labor that I had labored to do: and, behold, all was vanity and vexation of spirit, and there was no profit under the sun.\"[1]\n\nTradition ascribes these words to King Solomon. In reality, this book of sadness was composed no more than two centuries before Herod. Its Hebrew title is Kohelet, meaning “The Preacher.” It quickly gained popularity and is still one of the best-known books of the Bible, perhaps because in every person’s life, there comes a moment when she or he will agree with the words of The Preacher: “Oh, vanity of vanities! And all is vanity!”\n\nHerod probably heard this chapter often: it seemed written for him. Who knows if, upon hearing it, the king did not object: Why should I consider my deeds vain and futile? Here they are! They will last forever!\n\nAnd yet, his time was coming to an end.\"\n\nThis book is a delight. Pick up your copy today.",
+    "shelf_order": 621,
+    "editions": [
+      {
+        "format": "Hardcover",
+        "publisher": "Mondrala Press",
+        "price_usd": 25,
+        "price_eur": 24,
+        "price_gbp": 22,
+        "isbn": "97829198206650"
+      },
+      {
+        "format": "Paperback",
+        "publisher": "Mondrala Press",
+        "price_usd": 18,
+        "price_eur": 17,
+        "price_gbp": 15,
+        "isbn": "97829198206580"
+      },
+      {
+        "format": "Ebook",
+        "publisher": "Mondrala Press",
+        "price_usd": 10,
+        "price_eur": 10,
+        "price_gbp": 10,
+        "isbn": "9782919820641"
+      }
+    ]
+  },
+  {
+    "id": "titus-berenice",
+    "title": "Titus and Berenice",
+    "author": "Aleksander Krawczuk",
+    "translator": "Tom Pinch",
+    "cover": "covers/titus-berenice.jpg",
+    "series_number": 5,
+    "shelves": [
+      "Non-fiction"
+    ],
+    "language_original": "Polish",
+    "description_long": "For five years, the fate of the last Jewish polity of the ancient world hung on the outcome of a romance\n\nA romance between the middle-aged, thrice-divorced Jewish queen, Berenice, and the youthful son of the first emperor of the Flavian dynasty.\nThis volume, the first in a series of three on the subject of the Herodian Dynasty, describes the events of AD 66-69:\n--the outbreak of the First Jewish War\n--Nero's artistic tour of Greece\n--his overthrow and death by suicide\n--the outbreak of the Roman Civil War\n\nIt couches the narrative in a broad intellectual and spiritual panorama of the times featuring many fascinating developments:\n--the strange Jewish sect of the Essenes\n--another strange Jewish sect: Christians\n--its most dangerous opponent, the charismatic Simon the Magus whose followers worshipped a prostitute\n--the wonderfully zany erotic religious practices of the Middle East of the period\n--the pagan prophet Apollonius of Tyana--the \"pagan Jesus\"\n--the powerful temple of Aphrodite in Paphos, Cyprus--the main clearinghouse of secrets in the East and a \"business rival\" of the Temple of Jerusalem\netc.\n\nAnd among those events and within that milieu, the book situates the love between the middle-aged queen and her youthful Roman prince, the future destroyer of the Temple; a romance which will go on to inspire hundreds of dramatic, operatic, poetic, and graphic works in the European culture for the next two thousand years.\nGive yourself a thrilling sojourn to a strange, zany place. Pick up your copy today.\n\nAleksander Krawczuk (1922-2023), was a scholar, professor a the Jagiellonian University in Krakow, minister of culture of Poland (1986-1989), and author of over 30 immensely popular books on Graeco-Roman antiquity. His delightful books, written in an accessible, conversational, highly readable style, address complex topics in an approachable manner without ever dumbing them down. International best-sellers in Europe, his books have shaped three generations of antique lovers, but, as a consequence of Soviet cultural policies, they appear in English only now. We are publishing a new title every 4-6 weeks.",
+    "shelf_order": 622,
+    "editions": [
+      {
+        "format": "Hardcover",
+        "publisher": "Mondrala Press",
+        "price_usd": 28,
+        "price_eur": 27,
+        "price_gbp": 25,
+        "isbn": "97829198205350"
+      },
+      {
+        "format": "Paperback",
+        "publisher": "Mondrala Press",
+        "price_usd": 15,
+        "price_eur": 15,
+        "price_gbp": 13,
+        "isbn": "97829198205280"
+      },
+      {
+        "format": "Ebook",
+        "publisher": "Mondrala Press",
+        "price_usd": 5,
+        "price_eur": 5,
+        "price_gbp": 4,
+        "isbn": "9782919820511"
+      }
+    ]
+  },
+  {
+    "id": "rome-jerusalem",
+    "title": "Rome and Jerusalem",
+    "author": "Aleksander Krawczuk",
+    "translator": "Tom Pinch",
+    "cover": "covers/rome-jerusalem.jpg",
+    "series_number": 6,
+    "shelves": [
+      "Non-fiction"
+    ],
+    "language_original": "Polish",
+    "description_long": "From Europe's legendary scholar of antiquity, finally in English.\nThe great denouement of everything: nations fall, loves die.\nEcce terminus est: the conclusion of the Jewish Trilogy and of the story of Titus and Berenice.\n\nFollowing the Maccabee rebellion, one hundred years of wars reestablished the Kingdom of the Jews. Under Herod, it enjoyed thirty years of peace. Sixty years later--everything went up in flames. The Jewish Temple, the dream of national independence, the great love between the Jewish Queen and the Roman Imperial Prince. All things end.\n\nFrom Europe's legendary scholar-author, Aleksander Krawczuk (1926-2022) comes a beautifully written, highly erudite panorama of the Mediterranean world at the time of the fall of the Second Temple, with an occasional historiosophical reflection--profound and yet accessible to all readers.",
+    "shelf_order": 623,
+    "editions": [
+      {
+        "format": "Hardcover",
+        "publisher": "Mondrala Press",
+        "price_usd": 28,
+        "price_eur": 27,
+        "price_gbp": 22,
+        "isbn": "97829198206960"
+      },
+      {
+        "format": "Paperback",
+        "publisher": "Mondrala Press",
+        "price_usd": 17,
+        "price_eur": 17,
+        "price_gbp": 15,
+        "isbn": "97829198206890"
+      },
+      {
+        "format": "Ebook",
+        "publisher": "Mondrala Press",
+        "price_usd": 10,
+        "price_eur": 10,
+        "price_gbp": 8,
+        "isbn": "9782919820672"
+      }
+    ]
+  },
+  {
+    "id": "constantine",
+    "title": "The Thirteenth Apostle: Constantine the Great",
+    "author": "Aleksander Krawczuk",
+    "translator": "Tom Pinch",
+    "cover": "covers/constantine.jpg",
+    "series_number": 7,
+    "shelves": [
+      "Non-fiction"
+    ],
+    "language_original": "Polish",
+    "description_long": "A fast paced and highly readable account of the life and career of Constantine the Great--one of the most influential Roman Emperors--from one of the best-read European scholars of antiquity.\n\nThe book traces the emperor's political career as well as his religious development from a worshipper of Sol Invictus-Apollo to an avid Christian. It does so against a rich tapestry of the economic realities and intellectual trends of the age. Full of lively quotations--sometimes very moving--from ancient authors [see emperor Maximinus Daza's pean in praise of the pagan gods], inscriptions, imperial edicts which let you hear the voices of the emperors, and laudatory speeches, the story debunks many myths concerning the time of the emperor's conversion, the supposed Edict of Milan, and the relationship between the emperor and the early Christian Church; and it traces the roots of the feudalism of the Middle Ages.\n\nAuthor of forty international best-sellers behind the iron curtain, Aleksander Krawczuk remains almost completely unknown in the West, mainly as a result of Soviet Cultural policies which discouraged Polish books from being promoted in the West; but his success in the East was astonishing: supermarket sales clerks and bookkeepers talked about ancient Roman emperors. At one point, the good professor even ran an internationally syndicated TV program about Graeco-Roman antiquity.\n\nThis book, written in his signature breezy, conversational, and yet profound style is sure to delight the fan of antiquity in you.",
+    "shelf_order": 1075,
+    "editions": [
+      {
+        "format": "Hardcover",
+        "publisher": "Mondrala Press",
+        "price_usd": 28,
+        "price_eur": 27,
+        "price_gbp": 22,
+        "isbn": "97829198207570"
+      },
+      {
+        "format": "Paperback",
+        "publisher": "Mondrala Press",
+        "price_usd": 17,
+        "price_eur": 17,
+        "price_gbp": 15,
+        "isbn": "97829198207400"
+      },
+      {
+        "format": "Ebook",
+        "publisher": "Mondrala Press",
+        "price_usd": 10,
+        "price_eur": 10,
+        "price_gbp": 8,
+        "isbn": "9782919820733"
+      }
+    ]
+  },
+  {
+    "id": "devils-brood",
+    "title": "The Devil's Brood: The Sons of Constantine",
+    "author": "Aleksander Krawczuk",
+    "translator": "Tom Pinch",
+    "cover": "covers/devils-brood.jpg",
+    "series_number": 8,
+    "shelves": [
+      "Non-fiction"
+    ],
+    "language_original": "Polish",
+    "description_long": "Two stories in one: on the one hand, the horrifying tale of the reign of terror of the sons of Constantine the Great; and on the other--of Julian, an orphan prince, shy and retiring, a lover of nature and of books whom fate will one day raise to absolute power and whom posterity will call The Apostate.\n\n\"News of his father’s sudden, serious illness came too late. By the time Constantius, summoned all the way from Syria, but traveling with feverish haste, finally arrived on the Bosphorus in early June, the old emperor had been dead for two weeks. The embalmed corpse, adorned with a glittering diadem and covered with a purple mantle, rested in the palace’s grandest hall on a tall, golden catafalque, surrounded by the quivering glow of a thousand oil lamps and watched over by the palace bodyguard in full armor. The highest military and civilian dignitaries of the Roman Empire adored it ceremonially, observing all the requirements of court etiquette, just as they had done during the ruler’s lifetime. And slowly, the entire population of Constantinople—that’s what the former Byzantium was now called—filed past paying their last homage to the man who expanded the city, raised it to the dignity of an imperial residence, and gave it his name.\n\nConstantius approached the catafalque ceremonially, in mournful concentration. Driven by filial love, he carefully lifted the purple cloak to take one last look at his father’s face, clad in a white penitential robe—the same in which the emperor was baptized a few days before his death. And at that moment, the prince saw with astonishment that the dead man’s hand was clutching a papyrus scroll. He took it out gently and unrolled it. He quickly ran his eyes over the words that Constantine had scratched out with his trembling hand as he sensed the approach of inevitable death. By this means he conveyed his last will and his most secret instructions:\n\nI die poisoned by my brothers. Therefore, I name only you, my three sons, as my heirs. At the same time, I command you to avenge with my death inflicted on me so treacherously!\n\nThe massacre began that night.\"\n\nThis gorgeous, troubling, moving book is, on the one hand, the tale of the reign of Constantius, a moral zero who could neither rule nor defend his country but who knew how to stay in power by murdering everyone who could ever possibly challenge him; terror, purges, false accusations, show trials, witch hunts; the story of the murder of Gallus, slaughtered like a sacrificial lamb, will put you out of commission for an afternoon; and of the coming of age of the sweet prince Julian, the future Julian the Apostate.\n\nThis book, written in Krawczuk's signature breezy, conversational, and yet profound style, is sure to delight the fan of antiquity in you.\n\nTreat yourself to a thrilling, beautiful, delightful week; pick up your copy today.",
+    "shelf_order": 1076,
+    "editions": [
+      {
+        "format": "Hardcover",
+        "publisher": "Mondrala Press",
+        "price_usd": 28,
+        "price_eur": 27,
+        "price_gbp": 22,
+        "isbn": "97829198207880"
+      },
+      {
+        "format": "Paperback",
+        "publisher": "Mondrala Press",
+        "price_usd": 17,
+        "price_eur": 17,
+        "price_gbp": 15,
+        "isbn": "97829198207710"
+      },
+      {
+        "format": "Ebook",
+        "publisher": "Mondrala Press",
+        "price_usd": 10,
+        "price_eur": 10,
+        "price_gbp": 8,
+        "isbn": "9782919820764"
+      }
+    ]
+  },
+  {
+    "id": "enmperor-julian",
+    "title": "Emperor Julian",
+    "author": "Aleksander Krawczuk",
+    "translator": "Tom Pinch",
+    "cover": "covers/enmperor-julian.jpg",
+    "series": "Aleksander's Antiquities",
+    "series_number": 9,
+    "shelves": [
+      "Non-fiction"
+    ],
+    "language_original": "Polish",
+    "description_long": "A personal, intimate account of Julian the Apostate. Watch the bookish student of philosophy grow into a military commander, seize imperial power, throw off his Christian disguise, return to the worship of the ancient gods, and initiate a series of bold reforms.\n\nOther biographers have focused on religious and political issues, but Krawczuk gives us Julian the man: the writer of thousands of letters, the lover of books, the earnest striver for virtue, the loyal friend of loyal friends.\n\nWe hear the voices of the age: the rhetors, scholars, philosophers, theologians, priests, and historians who knew Julian, witnessed the events firsthand, sometimes even shaped them; and above all, in Julian's own voice: his letters, essays, speeches, and edicts.\n\nWe get to know the man like a friend.\n\nGet to know this fascinating man, pick up your copy today.",
+    "featured": "yes",
+    "shelf_order": 1077,
+    "editions": [
+      {
+        "format": "Hardcover",
+        "publisher": "Mondrala Press",
+        "price_usd": 28,
+        "price_eur": 27,
+        "price_gbp": 22,
+        "isbn": "97829198400520"
+      },
+      {
+        "format": "Paperback",
+        "publisher": "Mondrala Press",
+        "price_usd": 19,
+        "price_eur": 18,
+        "price_gbp": 16,
+        "isbn": "97829198400520"
+      },
+      {
+        "format": "Ebook",
+        "publisher": "Mondrala Press",
+        "price_usd": 10,
+        "price_eur": 10,
+        "price_gbp": 8,
+        "isbn": "9782919840069"
       }
     ]
   },
@@ -788,7 +1046,7 @@
     "translator": "Tom Pinch",
     "cover": "covers/chahary.jpg",
     "series": "The Wonderful World of Maria Ro",
-    "series_number": 4,
+    "series_number": 3,
     "shelves": [
       "Fiction"
     ],
@@ -797,11 +1055,27 @@
     "shelf_order": 100,
     "editions": [
       {
+        "format": "Hardcover",
+        "publisher": "Mondrala Press",
+        "price_usd": 24,
+        "price_eur": 24,
+        "price_gbp": 21,
+        "isbn": "97829198400900"
+      },
+      {
         "format": "Paperback",
         "price_usd": 17,
         "price_eur": 16,
         "price_gbp": 15,
         "isbn": "97829198401060"
+      },
+      {
+        "format": "Ebook",
+        "publisher": "Mondrala Press",
+        "price_usd": 10,
+        "price_eur": 10,
+        "price_gbp": 10,
+        "isbn": "9782919840083"
       }
     ]
   },
@@ -833,6 +1107,14 @@
         "price_eur": 16,
         "price_gbp": 15,
         "isbn": "97899987916640"
+      },
+      {
+        "format": "Ebook",
+        "publisher": "Mondrala Press",
+        "price_usd": 10,
+        "price_eur": 10,
+        "price_gbp": 10,
+        "isbn": "9789998791633"
       }
     ],
     "praise": [
@@ -867,6 +1149,14 @@
         "price_eur": 24,
         "price_gbp": 20,
         "isbn": "97899987917940"
+      },
+      {
+        "format": "Ebook",
+        "publisher": "Mondrala Press",
+        "price_usd": 10,
+        "price_eur": 10,
+        "price_gbp": 10,
+        "isbn": "9789998791695"
       }
     ]
   },
@@ -5252,6 +5542,78 @@
     "praise": [
       {
         "quote": "\"Jasienski's I Burn Paris reveals a still largely forgotten moment: post-avant-garde and pre-Socialist Realist. Aesthetically, the moment was a fantastical one: quasi-Surrealist, hallucinogenic, and grotesque.\" ― Marci Shore, Times Literary Supplement\n\n\"It should be emphasized that I Burn Paris is not a programmatic novel. Yes, there's a message here, and an ideology on offer, but Jasienski's expressionistic instincts take over for wonderful long stretches...\" ― M.A. Orthofer, The Complete Review\n\n\"Jasienski's apocalyptic vanguardism sees catastrophe as clearing the way for organisation and the plan. ... [His] dialectic of rotting dispersion and tailored compactness traces a fantasy space in which, too often, we still dwell.\" ― Mute Magazine\n\n\"In Soren Gauger and Marcin Piekoszewski's translation, Jasienski's description of a contagion infecting, paralyzing, and eviscerating a large metropolis is vivid, and now feels darkly prophetic.\" ― Pasha Malla, The New Yorker"
+      }
+    ]
+  },
+  {
+    "id": "killing-auntie",
+    "title": "Palestine for the Third Time",
+    "author": "Andrzej Bursa",
+    "translator": "Wiesiek Powaga",
+    "cover": "covers/killing-auntie.jpg",
+    "shelves": [
+      "Fiction"
+    ],
+    "language_original": "Polish",
+    "description_long": "Deliciously wicked  readers will also find plenty to enjoy (one sequence of unwitting cannibalism is particularly memorable).”Publishers Weekly\n\n\"Fast-moving and witty in style and tone, this novel is one not soon forgotten.\"World Literature Today\n\n\"There's considerable charm to Bursa's clever variation on the story of youth seeking purpose ... A nicely off-beat little novel.\"The Complete Review\n\n\"The Polish postwar firebrand Andrzej Bursa acquired a reputation as a quick-burning, existentially tormented rebel. . . . Yet Bursa's dark humor and deadpan satire . . . keep utter bleakness at bay.\"The Independent\n\n\"A revolution against the banality of everyday life.\"Gazeta Krakowska\n\nA young university student named Jurek, with no particular ambitions or talents, is adrift. After his doting aunt asks him to perform a small chore, he decides to kill her for no good reason other than, perhaps, boredom. Killing Auntie follows Jurek as he seeks to dispose of the corpsea task more difficult than one might imagineand then falls in love with a girl he meets on a train. Can he tell her what he's done? Will that ruin everything?\n\n\"I'm convincedsimplythat we are all guilty,\" says Jurek, and his adventures with nosy neighbors, false-toothed grandmothers, and love-making lynxes shed light on how an entire society becomes involved in the murder and disposal of dear old Auntie. This is a short comedic masterpiece combining elements of Fyodor Dostoevsky, Jean-Paul Sartre, Franz Kafka, and Joseph Heller, coming together in the end to produce an unforgettable tale of murder andjust mayberedemption.\n\nAndrzej Bursa was born in 1934 in Krakow, Poland, and died twenty-five years later. In his brief lifetime he composed some of the most original Polish writing of the twentieth century. Killing Auntie is his only novel. His brilliant career and tragic early death established him as a cult figure among restless and disenchanted youth.",
+    "featured": "yes",
+    "shelf_order": 1070,
+    "editions": [
+      {
+        "format": "Paperback",
+        "publisher": "New Vessel",
+        "price_usd": 13,
+        "isbn": "97819399312140"
+      },
+      {
+        "format": "Ebook",
+        "publisher": "New Vessel",
+        "price_usd": 10,
+        "isbn": "9781939931238"
+      }
+    ],
+    "praise": [
+      {
+        "quote": "“Deliciously wicked … readers will also find plenty to enjoy (one sequence of unwitting cannibalism is particularly memorable).”―Publishers Weekly\n\n\"Fast-moving and witty in style and tone, this novel is one not soon forgotten.\"―World Literature Today\n\n\"There's considerable charm to Bursa's clever variation on the story of youth seeking purpose ... A nicely off-beat little novel.\"―The Complete Review\n\n\"The haunting theme of the novel may bring to mind Dostoevsky, but its macabre originality is strictly that of the author ... Andrzej Bursa emerges from the pages ... as a provocative, interesting, original and highly talented though always angry young man.\"―World Literature Today\n\n“Dead at 25 in 1957, the Polish postwar firebrand Andrzej Bursa acquired a reputation as a quick-burning, existentially tormented rebel … Yet Bursa’s dark humor and deadpan satire – finely captured here by translator Wiesiek Powaga – keep utter bleakness at bay.”―The Independent\n\n“A revolution against the banality of everyday life.”―Gazeta Krakowska"
+      }
+    ]
+  },
+  {
+    "id": "palestine-3rd",
+    "title": "Killing Auntie",
+    "author": "Ksawery Pruszyński",
+    "translator": "Wiesiek Powaga",
+    "cover": "covers/palestine-3rd.jpg",
+    "shelves": [
+      "Non-fiction"
+    ],
+    "language_original": "Polish",
+    "description_long": "Palestine for the Third Time is a book of reportage originally published in Poland in 1933 by Ksawery Pruszyński, a young reporter working for a Polish newspaper, who went to Mandate Palestine to see for himself whether the Zionist dream of returning to Eretz Yisrael had a chance of turning into reality. Travelling widely and talking to people he happened to meet on his way—Jews, Arabs, committed dreamers and the disaffected—he was trying to explain to his readers what he was seeing. This book is a unique firsthand account of the early stages in formation of the state and nation of Israel. But it's not just a nostalgic vignette. It resonates powerfully today, linking Tony Judt, Edward Said, and Amos Oz, illuminating the hotly debated questions of modern Israel.",
+    "featured": "yes",
+    "shelf_order": 1071,
+    "editions": [
+      {
+        "format": "Hardcover",
+        "publisher": "Academic Studies Press",
+        "price_usd": 119,
+        "isbn": "97816446947700"
+      },
+      {
+        "format": "Paperback",
+        "publisher": "Academic Studies Press",
+        "price_usd": 23,
+        "isbn": "97816446956540"
+      },
+      {
+        "format": "Ebook",
+        "publisher": "Academic Studies Press",
+        "price_usd": 23,
+        "isbn": "9781644694794"
+      }
+    ],
+    "praise": [
+      {
+        "quote": "“Printed in English for the first time by Academic Studies Press, Palestine for the Third Time is an engaging, empathetic and often perceptive account of the Zionist project in the ancestral homeland of the Jews.” —Sheldon Kirshner, Times of Israel\n\n“[Pruszynski’s] analysis of the role of private capital is interesting and his discussion of the three major cities of Tel Aviv, Jerusalem, and Haifa is thought-provoking. It is a book rich in content and commentary.” —Shmuel Ben-Gad, Gelman Library, George Washington University,AJL Reviews\n\n“‘The Polish nation understands the struggle of Palestinian Jewry.’ Such was the opinion of a young Cracovian academic and journalist, who visited Mandated Palestine in 1933 and who described himself as ‘a neutral witness.’ Yet Ksawery Pruszyński was both well-informed and emotionally affected by the people with whom he talked. He took the trouble not only to hike across the country from sea to desert, but along the way to seek out individuals with differing points of view—Jews, Arabs and Christians, many enthusiastic, others disillusioned. He was conscious of the resonances between the Zionist experiment and the Fascist and Communist movements of his day, wanting to live life in a kibbutz for himself, and comparing it to a Soviet-style kolkhoz and a Christian monastery. Endowed with an open mind filled with imagination, he was a forerunner of his later compatriot, Ryszard Kapuściński, taking his readers with him on his journey not only into the recesses of the land but also into the mental worlds of its inhabitants. This short book, written in a fateful year, is prophetic. With great sureness of touch, it describes the human vibrations which would soon give rise, as its author foresaw, to the state of Israel.”  — Norman Davies, historian, author of God’s Playground \n\n“Pruszyński opens a [new] era of reportage […], reportage which not only describes the world but also tries to explain it.” — Ryszard Kapuściński, Lapidarium II, 1996"
       }
     ]
   }
